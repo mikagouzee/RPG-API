@@ -1,0 +1,507 @@
+18/04/2017 14:36:47 : Inside Character constructor with a character sheet
+18/04/2017 14:36:47 : Character name : Azazel
+18/04/2017 14:36:47 : player name : Mulhouse
+18/04/2017 14:41:13 : Inside characterDto.controller
+18/04/2017 14:42:04 : Inside characterDto.controller
+18/04/2017 14:42:14 : Inside character repository.Create ultimate.
+18/04/2017 14:42:14 : Game : RPG_API.Models.Games.CallOfCthulhu, characterName: Tom Tom, playerName : Luc le perdant
+18/04/2017 14:42:14 : Path : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\
+18/04/2017 14:42:14 : Inside ultimate character constructor : game RPG_API.Models.Games.CallOfCthulhu, characterName Tom Tom and playerName Luc le perdant
+18/04/2017 14:42:14 : Inside CoCRules.setBaseAttr
+18/04/2017 14:42:14 : Inside CoCrules setStats
+18/04/2017 14:42:14 : Inside CocRules setSpendablePoints
+18/04/2017 14:42:14 : Inside CoCRules.setSkills : nothing to do
+18/04/2017 14:42:14 : Inside sheetMaker.makeSheet
+18/04/2017 14:42:14 : Inside SheetWriter.CreateSheet.
+18/04/2017 14:42:14 : game : RPG_API.Models.Games.CallOfCthulhu , path : CallOfCthulhu_character_sheet
+18/04/2017 14:42:14 : base attribute : appearance
+18/04/2017 14:42:14 : base attribute : constitution
+18/04/2017 14:42:14 : base attribute : strength
+18/04/2017 14:42:14 : base attribute : dexterity
+18/04/2017 14:42:14 : base attribute : power
+18/04/2017 14:42:14 : base attribute : size
+18/04/2017 14:42:14 : base attribute : intelligence
+18/04/2017 14:42:14 : base attribute : education
+18/04/2017 14:42:14 : Stat : prestance
+18/04/2017 14:42:14 : Stat : endurance
+18/04/2017 14:42:14 : Stat : agility
+18/04/2017 14:42:14 : Stat : brawl power
+18/04/2017 14:42:14 : Stat : height
+18/04/2017 14:42:14 : Stat : knowledge
+18/04/2017 14:42:14 : Stat : idea
+18/04/2017 14:42:14 : Stat : will power
+18/04/2017 14:42:14 : Stat : sanity
+18/04/2017 14:42:14 : SpendPoint : health points
+18/04/2017 14:42:14 : SpendPoint : wound limit
+18/04/2017 14:42:14 : SpendPoint : magic points
+18/04/2017 14:42:14 : SpendPoint : Occupation skill points
+18/04/2017 14:42:14 : SpendPoint : Personal interest skill points
+18/04/2017 14:42:14 : skill : art
+18/04/2017 14:42:14 : skill : artisanat
+18/04/2017 14:42:14 : skill : baratin
+18/04/2017 14:42:14 : skill : bibliotheque
+18/04/2017 14:42:14 : skill : comptabilite
+18/04/2017 14:42:14 : skill : concocter potion
+18/04/2017 14:42:14 : skill : conduire attelage
+18/04/2017 14:42:14 : skill : coup de pied
+18/04/2017 14:42:14 : skill : coup de poing
+18/04/2017 14:42:14 : skill : coup de tete
+18/04/2017 14:42:14 : skill : discretion
+18/04/2017 14:42:14 : skill : dissimulation
+18/04/2017 14:42:14 : skill : ecouter
+18/04/2017 14:42:14 : skill : ecrire une langue
+18/04/2017 14:42:14 : skill : esquiver
+18/04/2017 14:42:14 : skill : grimper
+18/04/2017 14:42:14 : skill : lancer
+18/04/2017 14:42:14 : skill : langue etrangere
+18/04/2017 14:42:14 : skill : langue natale
+18/04/2017 14:42:14 : skill : lutte
+18/04/2017 14:42:14 : skill : marchandage
+18/04/2017 14:42:14 : skill : monde naturel
+18/04/2017 14:42:14 : skill : monter a cheval
+18/04/2017 14:42:14 : skill : mythe de Cthulhu
+18/04/2017 14:42:14 : skill : nager
+18/04/2017 14:42:14 : skill : navigation
+18/04/2017 14:42:14 : skill : occultisme
+18/04/2017 14:42:14 : skill : persuasion
+18/04/2017 14:42:14 : skill : piloter bateau
+18/04/2017 14:42:14 : skill : premiers soins
+18/04/2017 14:42:14 : skill : reparer concevoir
+18/04/2017 14:42:14 : skill : royaume natal
+18/04/2017 14:42:14 : skill : royaumes etrangers
+18/04/2017 14:42:14 : skill : sagacite
+18/04/2017 14:42:14 : skill : sauter
+18/04/2017 14:42:14 : skill : science
+18/04/2017 14:42:14 : skill : se cacher
+18/04/2017 14:42:14 : skill : statut
+18/04/2017 14:42:14 : skill : suivre une piste
+18/04/2017 14:42:14 : skill : trouver objet cache
+18/04/2017 14:42:14 : Ending document.
+18/04/2017 14:51:27 : Inside characterDto.controller
+18/04/2017 14:51:36 : Inside character repository.Create ultimate.
+18/04/2017 14:51:36 : Game : RPG_API.Models.Games.CallOfCthulhu, characterName: Tom Tom, playerName : Luc le perdant
+18/04/2017 14:51:36 : Path : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\
+18/04/2017 14:51:36 : Inside ultimate character constructor : game RPG_API.Models.Games.CallOfCthulhu, characterName Tom Tom and playerName Luc le perdant
+18/04/2017 14:51:36 : Inside CoCRules.setBaseAttr
+18/04/2017 14:51:36 : Inside CoCrules setStats
+18/04/2017 14:51:36 : Inside CocRules setSpendablePoints
+18/04/2017 14:51:36 : Inside CoCRules.setSkills : nothing to do
+18/04/2017 14:51:36 : Inside sheetMaker.makeSheet
+18/04/2017 14:51:36 : Inside SheetWriter.CreateSheet.
+18/04/2017 14:51:36 : game : RPG_API.Models.Games.CallOfCthulhu , path : CallOfCthulhu_character_sheet
+18/04/2017 14:51:36 : base attribute : appearance
+18/04/2017 14:51:36 : base attribute : constitution
+18/04/2017 14:51:36 : base attribute : strength
+18/04/2017 14:51:36 : base attribute : dexterity
+18/04/2017 14:51:36 : base attribute : power
+18/04/2017 14:51:36 : base attribute : size
+18/04/2017 14:51:36 : base attribute : intelligence
+18/04/2017 14:51:36 : base attribute : education
+18/04/2017 14:51:36 : Stat : prestance
+18/04/2017 14:51:36 : Stat : endurance
+18/04/2017 14:51:36 : Stat : agility
+18/04/2017 14:51:36 : Stat : brawl power
+18/04/2017 14:51:36 : Stat : height
+18/04/2017 14:51:36 : Stat : knowledge
+18/04/2017 14:51:36 : Stat : idea
+18/04/2017 14:51:36 : Stat : will power
+18/04/2017 14:51:36 : Stat : sanity
+18/04/2017 14:51:36 : SpendPoint : health points
+18/04/2017 14:51:36 : SpendPoint : wound limit
+18/04/2017 14:51:36 : SpendPoint : magic points
+18/04/2017 14:51:36 : SpendPoint : Occupation skill points
+18/04/2017 14:51:36 : SpendPoint : Personal interest skill points
+18/04/2017 14:51:36 : skill : art
+18/04/2017 14:51:36 : skill : artisanat
+18/04/2017 14:51:36 : skill : baratin
+18/04/2017 14:51:36 : skill : bibliotheque
+18/04/2017 14:51:36 : skill : comptabilite
+18/04/2017 14:51:36 : skill : concocter potion
+18/04/2017 14:51:36 : skill : conduire attelage
+18/04/2017 14:51:36 : skill : coup de pied
+18/04/2017 14:51:36 : skill : coup de poing
+18/04/2017 14:51:36 : skill : coup de tete
+18/04/2017 14:51:36 : skill : discretion
+18/04/2017 14:51:36 : skill : dissimulation
+18/04/2017 14:51:36 : skill : ecouter
+18/04/2017 14:51:36 : skill : ecrire une langue
+18/04/2017 14:51:36 : skill : esquiver
+18/04/2017 14:51:36 : skill : grimper
+18/04/2017 14:51:36 : skill : lancer
+18/04/2017 14:51:36 : skill : langue etrangere
+18/04/2017 14:51:36 : skill : langue natale
+18/04/2017 14:51:36 : skill : lutte
+18/04/2017 14:51:36 : skill : marchandage
+18/04/2017 14:51:36 : skill : monde naturel
+18/04/2017 14:51:36 : skill : monter a cheval
+18/04/2017 14:51:36 : skill : mythe de Cthulhu
+18/04/2017 14:51:36 : skill : nager
+18/04/2017 14:51:36 : skill : navigation
+18/04/2017 14:51:36 : skill : occultisme
+18/04/2017 14:51:36 : skill : persuasion
+18/04/2017 14:51:36 : skill : piloter bateau
+18/04/2017 14:51:36 : skill : premiers soins
+18/04/2017 14:51:36 : skill : reparer concevoir
+18/04/2017 14:51:36 : skill : royaume natal
+18/04/2017 14:51:36 : skill : royaumes etrangers
+18/04/2017 14:51:36 : skill : sagacite
+18/04/2017 14:51:36 : skill : sauter
+18/04/2017 14:51:36 : skill : science
+18/04/2017 14:51:36 : skill : se cacher
+18/04/2017 14:51:36 : skill : statut
+18/04/2017 14:51:36 : skill : suivre une piste
+18/04/2017 14:51:36 : skill : trouver objet cache
+18/04/2017 14:51:36 : Ending document.
+18/04/2017 14:51:36 : Inside fill Infos
+18/04/2017 14:51:36 : Inside FindSheet for character Tom Tom
+18/04/2017 14:51:36 : Inside Check If Charac Exists
+18/04/2017 14:59:51 : Inside characterDto.controller
+18/04/2017 14:59:57 : Inside character repository.Create ultimate.
+18/04/2017 14:59:57 : Game : RPG_API.Models.Games.CallOfCthulhu, characterName: Tom Tom, playerName : Luc le perdant
+18/04/2017 14:59:57 : Path : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\
+18/04/2017 14:59:57 : Inside ultimate character constructor : game RPG_API.Models.Games.CallOfCthulhu, characterName Tom Tom and playerName Luc le perdant
+18/04/2017 14:59:57 : Inside CoCRules.setBaseAttr
+18/04/2017 14:59:57 : Inside CoCrules setStats
+18/04/2017 14:59:57 : Inside CocRules setSpendablePoints
+18/04/2017 14:59:57 : Inside CoCRules.setSkills : nothing to do
+18/04/2017 14:59:57 : Inside sheetMaker.makeSheet
+18/04/2017 14:59:57 : Inside SheetWriter.CreateSheet.
+18/04/2017 14:59:57 : game : RPG_API.Models.Games.CallOfCthulhu , path : Call_Of_Cthulhu_character_sheet
+18/04/2017 14:59:57 : The sheet will be written at : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\Call_Of_Cthulhu_character_sheet
+18/04/2017 14:59:57 : base attribute : appearance
+18/04/2017 14:59:57 : base attribute : constitution
+18/04/2017 14:59:57 : base attribute : strength
+18/04/2017 14:59:57 : base attribute : dexterity
+18/04/2017 14:59:57 : base attribute : power
+18/04/2017 14:59:57 : base attribute : size
+18/04/2017 14:59:57 : base attribute : intelligence
+18/04/2017 14:59:57 : base attribute : education
+18/04/2017 14:59:57 : Stat : prestance
+18/04/2017 14:59:57 : Stat : endurance
+18/04/2017 14:59:57 : Stat : agility
+18/04/2017 14:59:57 : Stat : brawl power
+18/04/2017 14:59:57 : Stat : height
+18/04/2017 14:59:57 : Stat : knowledge
+18/04/2017 14:59:57 : Stat : idea
+18/04/2017 14:59:57 : Stat : will power
+18/04/2017 14:59:57 : Stat : sanity
+18/04/2017 14:59:57 : SpendPoint : health points
+18/04/2017 14:59:57 : SpendPoint : wound limit
+18/04/2017 14:59:57 : SpendPoint : magic points
+18/04/2017 14:59:57 : SpendPoint : Occupation skill points
+18/04/2017 14:59:57 : SpendPoint : Personal interest skill points
+18/04/2017 14:59:57 : skill : art
+18/04/2017 14:59:57 : skill : artisanat
+18/04/2017 14:59:57 : skill : baratin
+18/04/2017 14:59:57 : skill : bibliotheque
+18/04/2017 14:59:57 : skill : comptabilite
+18/04/2017 14:59:57 : skill : concocter potion
+18/04/2017 14:59:57 : skill : conduire attelage
+18/04/2017 14:59:57 : skill : coup de pied
+18/04/2017 14:59:57 : skill : coup de poing
+18/04/2017 14:59:57 : skill : coup de tete
+18/04/2017 14:59:57 : skill : discretion
+18/04/2017 14:59:58 : skill : dissimulation
+18/04/2017 14:59:58 : skill : ecouter
+18/04/2017 14:59:58 : skill : ecrire une langue
+18/04/2017 14:59:58 : skill : esquiver
+18/04/2017 14:59:58 : skill : grimper
+18/04/2017 14:59:58 : skill : lancer
+18/04/2017 14:59:58 : skill : langue etrangere
+18/04/2017 14:59:58 : skill : langue natale
+18/04/2017 14:59:58 : skill : lutte
+18/04/2017 14:59:58 : skill : marchandage
+18/04/2017 14:59:58 : skill : monde naturel
+18/04/2017 14:59:58 : skill : monter a cheval
+18/04/2017 14:59:58 : skill : mythe de Cthulhu
+18/04/2017 14:59:58 : skill : nager
+18/04/2017 14:59:58 : skill : navigation
+18/04/2017 14:59:58 : skill : occultisme
+18/04/2017 14:59:58 : skill : persuasion
+18/04/2017 14:59:58 : skill : piloter bateau
+18/04/2017 14:59:58 : skill : premiers soins
+18/04/2017 14:59:58 : skill : reparer concevoir
+18/04/2017 14:59:58 : skill : royaume natal
+18/04/2017 14:59:58 : skill : royaumes etrangers
+18/04/2017 14:59:58 : skill : sagacite
+18/04/2017 14:59:58 : skill : sauter
+18/04/2017 14:59:58 : skill : science
+18/04/2017 14:59:58 : skill : se cacher
+18/04/2017 14:59:58 : skill : statut
+18/04/2017 14:59:58 : skill : suivre une piste
+18/04/2017 14:59:58 : skill : trouver objet cache
+18/04/2017 14:59:58 : Ending document.
+18/04/2017 14:59:58 : Inside fill Infos
+18/04/2017 14:59:58 : Inside FindSheet for character Tom Tom
+18/04/2017 14:59:58 : Inside Check If Charac Exists
+18/04/2017 15:12:23 : Inside characterDto.controller
+18/04/2017 15:12:23 : Inside character repository.Create ultimate.
+18/04/2017 15:12:23 : Game : RPG_API.Models.Games.CallOfCthulhu, characterName: Tom Tom, playerName : Luc le perdant
+18/04/2017 15:12:23 : Path : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\
+18/04/2017 15:12:23 : Inside ultimate character constructor : game RPG_API.Models.Games.CallOfCthulhu, characterName Tom Tom and playerName Luc le perdant
+18/04/2017 15:12:23 : Inside CoCRules.setBaseAttr
+18/04/2017 15:12:23 : Inside CoCrules setStats
+18/04/2017 15:12:23 : Inside CocRules setSpendablePoints
+18/04/2017 15:12:23 : Inside CoCRules.setSkills : nothing to do
+18/04/2017 15:12:23 : Inside sheetMaker.makeSheet with path C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\
+18/04/2017 15:12:23 : Inside SheetWriter.CreateSheet.
+18/04/2017 15:12:23 : game : RPG_API.Models.Games.CallOfCthulhu , path : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\
+18/04/2017 15:12:23 : The sheet will be written at : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\
+18/04/2017 15:29:37 : Inside characterDto.controller
+18/04/2017 15:29:38 : Inside character repository.Create ultimate.
+18/04/2017 15:29:38 : Game : RPG_API.Models.Games.CallOfCthulhu, characterName: Tom Tom, playerName : Luc le perdant
+18/04/2017 15:29:38 : Inside ultimate character constructor : game RPG_API.Models.Games.CallOfCthulhu, characterName Tom Tom and playerName Luc le perdant
+18/04/2017 15:29:38 : Inside CoCRules.setBaseAttr
+18/04/2017 15:29:38 : Inside CoCrules setStats
+18/04/2017 15:29:38 : Inside CocRules setSpendablePoints
+18/04/2017 15:29:38 : Inside CoCRules.setSkills : nothing to do
+18/04/2017 15:29:38 : Inside sheetMaker.makeSheet with path C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\
+18/04/2017 15:29:38 : Inside SheetWriter.CreateSheet.
+18/04/2017 15:29:38 : game : RPG_API.Models.Games.CallOfCthulhu
+18/04/2017 15:29:38 : The sheet will be written at : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\Call Of Cthulhu.xml
+18/04/2017 15:29:38 : base attribute : appearance
+18/04/2017 15:29:38 : base attribute : constitution
+18/04/2017 15:29:38 : base attribute : strength
+18/04/2017 15:29:38 : base attribute : dexterity
+18/04/2017 15:29:38 : base attribute : power
+18/04/2017 15:29:38 : base attribute : size
+18/04/2017 15:29:38 : base attribute : intelligence
+18/04/2017 15:29:38 : base attribute : education
+18/04/2017 15:29:38 : Stat : prestance
+18/04/2017 15:29:38 : Stat : endurance
+18/04/2017 15:29:38 : Stat : agility
+18/04/2017 15:29:38 : Stat : brawl power
+18/04/2017 15:29:38 : Stat : height
+18/04/2017 15:29:38 : Stat : knowledge
+18/04/2017 15:29:38 : Stat : idea
+18/04/2017 15:29:38 : Stat : will power
+18/04/2017 15:29:38 : Stat : sanity
+18/04/2017 15:29:38 : SpendPoint : health points
+18/04/2017 15:29:38 : SpendPoint : wound limit
+18/04/2017 15:29:38 : SpendPoint : magic points
+18/04/2017 15:29:38 : SpendPoint : Occupation skill points
+18/04/2017 15:29:38 : SpendPoint : Personal interest skill points
+18/04/2017 15:29:38 : skill : art
+18/04/2017 15:29:38 : skill : artisanat
+18/04/2017 15:29:38 : skill : baratin
+18/04/2017 15:29:38 : skill : bibliotheque
+18/04/2017 15:29:38 : skill : comptabilite
+18/04/2017 15:29:38 : skill : concocter potion
+18/04/2017 15:29:38 : skill : conduire attelage
+18/04/2017 15:29:38 : skill : coup de pied
+18/04/2017 15:29:38 : skill : coup de poing
+18/04/2017 15:29:38 : skill : coup de tete
+18/04/2017 15:29:38 : skill : discretion
+18/04/2017 15:29:38 : skill : dissimulation
+18/04/2017 15:29:38 : skill : ecouter
+18/04/2017 15:29:38 : skill : ecrire une langue
+18/04/2017 15:29:38 : skill : esquiver
+18/04/2017 15:29:38 : skill : grimper
+18/04/2017 15:29:38 : skill : lancer
+18/04/2017 15:29:38 : skill : langue etrangere
+18/04/2017 15:29:38 : skill : langue natale
+18/04/2017 15:29:38 : skill : lutte
+18/04/2017 15:29:38 : skill : marchandage
+18/04/2017 15:29:38 : skill : monde naturel
+18/04/2017 15:29:38 : skill : monter a cheval
+18/04/2017 15:29:38 : skill : mythe de Cthulhu
+18/04/2017 15:29:38 : skill : nager
+18/04/2017 15:29:38 : skill : navigation
+18/04/2017 15:29:38 : skill : occultisme
+18/04/2017 15:29:38 : skill : persuasion
+18/04/2017 15:29:38 : skill : piloter bateau
+18/04/2017 15:29:38 : skill : premiers soins
+18/04/2017 15:29:38 : skill : reparer concevoir
+18/04/2017 15:29:38 : skill : royaume natal
+18/04/2017 15:29:38 : skill : royaumes etrangers
+18/04/2017 15:29:38 : skill : sagacite
+18/04/2017 15:29:38 : skill : sauter
+18/04/2017 15:29:38 : skill : science
+18/04/2017 15:29:38 : skill : se cacher
+18/04/2017 15:29:38 : skill : statut
+18/04/2017 15:29:38 : skill : suivre une piste
+18/04/2017 15:29:38 : skill : trouver objet cache
+18/04/2017 15:29:38 : Ending document.
+18/04/2017 15:29:38 : Inside fill Infos withs args : character RPG_API.Models.Character , path C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\
+18/04/2017 15:29:38 : Inside FindSheet for character Tom Tom
+18/04/2017 15:29:38 : Inside Check If Charac Exists
+18/04/2017 15:29:38 : Exiting findsheet
+18/04/2017 15:29:38 : Exiting fill infos
+18/04/2017 15:29:38 : Inside save file
+18/04/2017 15:29:38 : file saved
+18/04/2017 15:29:38 : Inside fill base attr
+18/04/2017 15:29:38 : Inside FindSheet for character Tom Tom
+18/04/2017 15:29:38 : Inside Check If Charac Exists
+18/04/2017 15:29:38 : Character Found!
+18/04/2017 15:29:38 : Exiting findsheet
+18/04/2017 15:29:38 : Exiting fill base attr
+18/04/2017 15:29:38 : Inside save file
+18/04/2017 15:29:38 : file saved
+18/04/2017 15:29:43 : Inside Fill Stat
+18/04/2017 15:29:43 : Inside FindSheet for character Tom Tom
+18/04/2017 15:29:43 : Inside Check If Charac Exists
+18/04/2017 15:29:43 : Character Found!
+18/04/2017 15:29:43 : Exiting findsheet
+18/04/2017 15:29:43 : Exiting fill Stat
+18/04/2017 15:29:43 : Inside save file
+18/04/2017 15:29:43 : file saved
+18/04/2017 15:29:43 : Inside fill Spendable points
+18/04/2017 15:29:43 : Inside FindSheet for character Tom Tom
+18/04/2017 15:29:43 : Inside Check If Charac Exists
+18/04/2017 15:29:43 : Character Found!
+18/04/2017 15:29:43 : Exiting findsheet
+18/04/2017 15:29:43 : Exiting fill spendable points
+18/04/2017 15:29:43 : Inside save file
+18/04/2017 15:29:43 : file saved
+18/04/2017 15:29:43 : Inside fillSkills
+18/04/2017 15:29:43 : Inside FindSheet for character Tom Tom
+18/04/2017 15:29:43 : Inside Check If Charac Exists
+18/04/2017 15:29:43 : Character Found!
+18/04/2017 15:29:43 : Exiting findsheet
+18/04/2017 15:29:43 : Exiting fillSkills
+18/04/2017 15:29:43 : Inside save file
+18/04/2017 15:29:43 : file saved
+18/04/2017 15:29:43 : MakeSheet finished
+18/04/2017 15:29:45 : Inside character repository.Get.
+18/04/2017 15:29:45 : Inside default character constructor
+18/04/2017 15:29:45 : CharacterRepository.get : file c:\users\mgouzee\desktop\github folder of mika\rpg-api\rpg-api\rpg-api\app_data\characters\call of cthulhu.xml
+18/04/2017 15:29:45 : CharacterRepository.get : file c:\users\mgouzee\desktop\github folder of mika\rpg-api\rpg-api\rpg-api\app_data\characters\callofcthulhu_character_sheet
+18/04/2017 15:29:45 : CharacterRepository.get : file c:\users\mgouzee\desktop\github folder of mika\rpg-api\rpg-api\rpg-api\app_data\characters\call_of_cthulhu_character_sheet
+18/04/2017 15:29:45 : CharacterRepository.get : file c:\users\mgouzee\desktop\github folder of mika\rpg-api\rpg-api\rpg-api\app_data\characters\tom tom.xml
+18/04/2017 15:29:45 : Inside Character constructor with a character sheet
+18/04/2017 15:29:45 : Character name : Tom Tom
+18/04/2017 15:29:45 : player name : Luc le perdant
+18/04/2017 15:29:45 : Base Attr appearance with value 4
+18/04/2017 15:29:45 : Base Attr constitution with value 11
+18/04/2017 15:29:45 : Base Attr strength with value 10
+18/04/2017 15:29:45 : Base Attr dexterity with value 16
+18/04/2017 15:29:45 : Base Attr power with value 15
+18/04/2017 15:29:45 : Base Attr size with value 12
+18/04/2017 15:29:45 : Base Attr intelligence with value 15
+18/04/2017 15:29:45 : Base Attr education with value 18
+18/04/2017 15:29:45 : Skill art with value 5
+18/04/2017 15:29:45 : Skill artisanat with value 5
+18/04/2017 15:29:45 : Skill baratin with value 5
+18/04/2017 15:29:45 : Skill bibliotheque with value 5
+18/04/2017 15:29:45 : Skill comptabilite with value 10
+18/04/2017 15:29:45 : Skill concocter potion with value 1
+18/04/2017 15:29:45 : Skill conduire attelage with value 20
+18/04/2017 15:29:45 : Skill coup de pied with value 25
+18/04/2017 15:29:45 : Skill coup de poing with value 50
+18/04/2017 15:29:45 : Skill coup de tete with value 10
+18/04/2017 15:29:45 : Skill discretion with value 10
+18/04/2017 15:29:45 : Skill dissimulation with value 15
+18/04/2017 15:29:45 : Skill ecouter with value 25
+18/04/2017 15:29:45 : Skill ecrire une langue with value 1
+18/04/2017 15:29:45 : Skill esquiver with value 5
+18/04/2017 15:29:45 : Skill grimper with value 40
+18/04/2017 15:29:45 : Skill lancer with value 25
+18/04/2017 15:29:45 : Skill langue etrangere with value 1
+18/04/2017 15:29:45 : Skill langue natale with value 5
+18/04/2017 15:29:45 : Skill lutte with value 25
+18/04/2017 15:29:45 : Skill marchandage with value 5
+18/04/2017 15:29:45 : Skill monde naturel with value 10
+18/04/2017 15:29:45 : Skill monter a cheval with value 5
+18/04/2017 15:29:45 : Skill mythe de Cthulhu with value 0
+18/04/2017 15:29:45 : Skill nager with value 25
+18/04/2017 15:29:45 : Skill navigation with value 10
+18/04/2017 15:29:45 : Skill occultisme with value 5
+18/04/2017 15:29:45 : Skill persuasion with value 15
+18/04/2017 15:29:45 : Skill piloter bateau with value 1
+18/04/2017 15:29:45 : Skill premiers soins with value 30
+18/04/2017 15:29:45 : Skill reparer concevoir with value 20
+18/04/2017 15:29:45 : Skill royaume natal with value 20
+18/04/2017 15:29:45 : Skill royaumes etrangers with value 1
+18/04/2017 15:29:45 : Skill sagacite with value 5
+18/04/2017 15:29:45 : Skill sauter with value 25
+18/04/2017 15:29:45 : Skill science with value 1
+18/04/2017 15:29:45 : Skill se cacher with value 10
+18/04/2017 15:29:45 : Skill statut with value 15
+18/04/2017 15:29:45 : Skill suivre une piste with value 10
+18/04/2017 15:29:45 : Skill trouver objet cache with value 25
+18/04/2017 15:29:45 : Stat prestance with value 20
+18/04/2017 15:29:45 : Stat endurance with value 55
+18/04/2017 15:29:45 : Stat agility with value 80
+18/04/2017 15:29:45 : Stat brawl power with value 50
+18/04/2017 15:29:45 : Stat height with value 60
+18/04/2017 15:29:45 : Stat knowledge with value 90
+18/04/2017 15:29:45 : Stat idea with value 75
+18/04/2017 15:29:45 : Stat will power with value 75
+18/04/2017 15:29:45 : Stat sanity with value 75
+18/04/2017 15:29:45 : spendpoint health points with value 11
+18/04/2017 15:29:45 : spendpoint wound limit with value 5
+18/04/2017 15:29:45 : spendpoint magic points with value 15
+18/04/2017 15:29:45 : spendpoint Occupation skill points with value 360
+18/04/2017 15:29:45 : spendpoint Personal interest skill points with value 150
+18/04/2017 15:29:45 : Exiting characterDto.Controller
+19/04/2017 9:46:42 : Inside character repository.Get.
+19/04/2017 9:46:42 : Inside default character constructor
+19/04/2017 9:46:42 : CharacterRepository.get : file c:\users\mgouzee\desktop\github folder of mika\rpg-api\rpg-api\rpg-api\app_data\characters\call of cthulhu.xml
+19/04/2017 9:46:42 : CharacterRepository.get : file c:\users\mgouzee\desktop\github folder of mika\rpg-api\rpg-api\rpg-api\app_data\characters\callofcthulhu_character_sheet
+19/04/2017 9:46:42 : CharacterRepository.get : file c:\users\mgouzee\desktop\github folder of mika\rpg-api\rpg-api\rpg-api\app_data\characters\call_of_cthulhu_character_sheet
+19/04/2017 9:46:42 : CharacterRepository.get : file c:\users\mgouzee\desktop\github folder of mika\rpg-api\rpg-api\rpg-api\app_data\characters\tom tom.xml
+19/04/2017 9:46:42 : Inside Character constructor with a character sheet
+19/04/2017 9:46:42 : Character name : Tom Tom
+19/04/2017 9:46:42 : player name : Luc le perdant
+19/04/2017 9:46:42 : Base Attr appearance with value 4
+19/04/2017 9:46:42 : Base Attr constitution with value 11
+19/04/2017 9:46:42 : Base Attr strength with value 10
+19/04/2017 9:46:42 : Base Attr dexterity with value 16
+19/04/2017 9:46:42 : Base Attr power with value 15
+19/04/2017 9:46:42 : Base Attr size with value 12
+19/04/2017 9:46:42 : Base Attr intelligence with value 15
+19/04/2017 9:46:42 : Base Attr education with value 18
+19/04/2017 9:46:42 : Skill art with value 5
+19/04/2017 9:46:42 : Skill artisanat with value 5
+19/04/2017 9:46:42 : Skill baratin with value 5
+19/04/2017 9:46:42 : Skill bibliotheque with value 5
+19/04/2017 9:46:42 : Skill comptabilite with value 10
+19/04/2017 9:46:42 : Skill concocter potion with value 1
+19/04/2017 9:46:42 : Skill conduire attelage with value 20
+19/04/2017 9:46:42 : Skill coup de pied with value 25
+19/04/2017 9:46:42 : Skill coup de poing with value 50
+19/04/2017 9:46:42 : Skill coup de tete with value 10
+19/04/2017 9:46:42 : Skill discretion with value 10
+19/04/2017 9:46:42 : Skill dissimulation with value 15
+19/04/2017 9:46:42 : Skill ecouter with value 25
+19/04/2017 9:46:42 : Skill ecrire une langue with value 1
+19/04/2017 9:46:42 : Skill esquiver with value 5
+19/04/2017 9:46:42 : Skill grimper with value 40
+19/04/2017 9:46:42 : Skill lancer with value 25
+19/04/2017 9:46:42 : Skill langue etrangere with value 1
+19/04/2017 9:46:42 : Skill langue natale with value 5
+19/04/2017 9:46:42 : Skill lutte with value 25
+19/04/2017 9:46:42 : Skill marchandage with value 5
+19/04/2017 9:46:42 : Skill monde naturel with value 10
+19/04/2017 9:46:42 : Skill monter a cheval with value 5
+19/04/2017 9:46:42 : Skill mythe de Cthulhu with value 0
+19/04/2017 9:46:42 : Skill nager with value 25
+19/04/2017 9:46:42 : Skill navigation with value 10
+19/04/2017 9:46:42 : Skill occultisme with value 5
+19/04/2017 9:46:42 : Skill persuasion with value 15
+19/04/2017 9:46:43 : Skill piloter bateau with value 1
+19/04/2017 9:46:43 : Skill premiers soins with value 30
+19/04/2017 9:46:43 : Skill reparer concevoir with value 20
+19/04/2017 9:46:43 : Skill royaume natal with value 20
+19/04/2017 9:46:43 : Skill royaumes etrangers with value 1
+19/04/2017 9:46:43 : Skill sagacite with value 5
+19/04/2017 9:46:43 : Skill sauter with value 25
+19/04/2017 9:46:43 : Skill science with value 1
+19/04/2017 9:46:43 : Skill se cacher with value 10
+19/04/2017 9:46:43 : Skill statut with value 15
+19/04/2017 9:46:43 : Skill suivre une piste with value 10
+19/04/2017 9:46:43 : Skill trouver objet cache with value 25
+19/04/2017 9:46:43 : Stat prestance with value 20
+19/04/2017 9:46:43 : Stat endurance with value 55
+19/04/2017 9:46:43 : Stat agility with value 80
+19/04/2017 9:46:43 : Stat brawl power with value 50
+19/04/2017 9:46:43 : Stat height with value 60
+19/04/2017 9:46:43 : Stat knowledge with value 90
+19/04/2017 9:46:43 : Stat idea with value 75
+19/04/2017 9:46:43 : Stat will power with value 75
+19/04/2017 9:46:43 : Stat sanity with value 75
+19/04/2017 9:46:43 : spendpoint health points with value 11
+19/04/2017 9:46:43 : spendpoint wound limit with value 5
+19/04/2017 9:46:43 : spendpoint magic points with value 15
+19/04/2017 9:46:43 : spendpoint Occupation skill points with value 360
+19/04/2017 9:46:43 : spendpoint Personal interest skill points with value 150

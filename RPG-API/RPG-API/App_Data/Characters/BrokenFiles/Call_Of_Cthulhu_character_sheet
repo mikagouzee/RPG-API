@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<character_sheet>
+  <infos>
+    <name />
+    <player_name />
+    <career />
+    <campaign />
+    <game />
+  </infos>
+  <base_attributes>
+    <appearance />
+    <constitution />
+    <strength />
+    <dexterity />
+    <power />
+    <size />
+    <intelligence />
+    <education />
+  </base_attributes>
+  <stats>
+    <prestance />
+    <endurance />
+    <agility />
+    <brawl_power />
+    <height />
+    <knowledge />
+    <idea />
+    <will_power />
+    <sanity />
+  </stats>
+  <spendable_points>
+    <health_points />
+    <wound_limit />
+    <magic_points />
+    <occupation_skill_points />
+    <personal_interest_skill_points />
+  </spendable_points>
+  <skills>
+    <art />
+    <artisanat />
+    <baratin />
+    <bibliotheque />
+    <comptabilite />
+    <concocter_potion />
+    <conduire_attelage />
+    <coup_de_pied />
+    <coup_de_poing />
+    <coup_de_tete />
+    <discretion />
+    <dissimulation />
+    <ecouter />
+    <ecrire_une_langue />
+    <esquiver />
+    <grimper />
+    <lancer />
+    <langue_etrangere />
+    <langue_natale />
+    <lutte />
+    <marchandage />
+    <monde_naturel />
+    <monter_a_cheval />
+    <mythe_de_cthulhu />
+    <nager />
+    <navigation />
+    <occultisme />
+    <persuasion />
+    <piloter_bateau />
+    <premiers_soins />
+    <reparer_concevoir />
+    <royaume_natal />
+    <royaumes_etrangers />
+    <sagacite />
+    <sauter />
+    <science />
+    <se_cacher />
+    <statut />
+    <suivre_une_piste />
+    <trouver_objet_cache />
+  </skills>
+</character_sheet>

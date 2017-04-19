@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<character_sheet>
+  <infos>
+    <name>Tom Tom</name>
+    <player_name>Luc le perdant</player_name>
+    <career>mendiant</career>
+    <campaign />
+    <game>Call Of Cthulhu</game>
+  </infos>
+  <base_attributes>
+    <appearance>4</appearance>
+    <constitution>11</constitution>
+    <strength>10</strength>
+    <dexterity>16</dexterity>
+    <power>15</power>
+    <size>12</size>
+    <intelligence>15</intelligence>
+    <education>18</education>
+  </base_attributes>
+  <stats>
+    <prestance>20</prestance>
+    <endurance>55</endurance>
+    <agility>80</agility>
+    <brawl_power>50</brawl_power>
+    <height>60</height>
+    <knowledge>90</knowledge>
+    <idea>75</idea>
+    <will_power>75</will_power>
+    <sanity>75</sanity>
+  </stats>
+  <spendable_points>
+    <health_points>11</health_points>
+    <wound_limit>5</wound_limit>
+    <magic_points>15</magic_points>
+    <occupation_skill_points>360</occupation_skill_points>
+    <personal_interest_skill_points>150</personal_interest_skill_points>
+  </spendable_points>
+  <skills>
+    <art>5</art>
+    <artisanat>5</artisanat>
+    <baratin>5</baratin>
+    <bibliotheque>5</bibliotheque>
+    <comptabilite>10</comptabilite>
+    <concocter_potion>1</concocter_potion>
+    <conduire_attelage>20</conduire_attelage>
+    <coup_de_pied>25</coup_de_pied>
+    <coup_de_poing>50</coup_de_poing>
+    <coup_de_tete>10</coup_de_tete>
+    <discretion>10</discretion>
+    <dissimulation>15</dissimulation>
+    <ecouter>25</ecouter>
+    <ecrire_une_langue>1</ecrire_une_langue>
+    <esquiver>5</esquiver>
+    <grimper>40</grimper>
+    <lancer>25</lancer>
+    <langue_etrangere>1</langue_etrangere>
+    <langue_natale>5</langue_natale>
+    <lutte>25</lutte>
+    <marchandage>5</marchandage>
+    <monde_naturel>10</monde_naturel>
+    <monter_a_cheval>5</monter_a_cheval>
+    <mythe_de_cthulhu>0</mythe_de_cthulhu>
+    <nager>25</nager>
+    <navigation>10</navigation>
+    <occultisme>5</occultisme>
+    <persuasion>15</persuasion>
+    <piloter_bateau>1</piloter_bateau>
+    <premiers_soins>30</premiers_soins>
+    <reparer_concevoir>20</reparer_concevoir>
+    <royaume_natal>20</royaume_natal>
+    <royaumes_etrangers>1</royaumes_etrangers>
+    <sagacite>5</sagacite>
+    <sauter>25</sauter>
+    <science>1</science>
+    <se_cacher>10</se_cacher>
+    <statut>15</statut>
+    <suivre_une_piste>10</suivre_une_piste>
+    <trouver_objet_cache>25</trouver_objet_cache>
+  </skills>
+</character_sheet>
