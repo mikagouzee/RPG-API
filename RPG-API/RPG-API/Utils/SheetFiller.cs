@@ -42,7 +42,7 @@ namespace RPG_API.Utils
             if (CheckIfCharacterAlreadyExists(myCharac.characterName.ToLower()))
                 myDoc.Load(myPath + myCharac.characterName.ToLower() + ".xml");
             else
-                myDoc.Load(myPath + myCharac.game.name.Replace(" ", "_").ToLower() + "_character_sheet");
+                myDoc.Load(myPath + myCharac.game.name.Replace(" ", "_").ToLower() + "_character_sheet.xml");
 
             logger.Log("Exiting findsheet");
             return myDoc;
@@ -59,13 +59,15 @@ namespace RPG_API.Utils
 
             foreach (string file in Directory.GetFiles(directory, mask))
             {
+                logger.Log(String.Format("Treating file : {0}", file));
+
                 if (file == nameModified)
                 {
                     logger.Log("Character Found!");
                     return true;
                 }
             }
-
+            logger.Log("Exiting Check If Charac Exists");
             return false;
         }
 

@@ -22,9 +22,9 @@ namespace RPG_API.Utils
 
             XmlWriterSettings settings = new XmlWriterSettings();
             settings.Indent = true;
-            logger.Log(String.Format("The sheet will be written at : {0}", @fold + myGame.name+".xml"));
+            logger.Log(String.Format("The sheet will be written at : {0}", @fold + myGame.name.ToLower().Replace(" ", "_") + "_character_sheet.xml"));
 
-            myWriter = XmlWriter.Create(@fold + myGame.name + ".xml", settings);
+            myWriter = XmlWriter.Create(@fold + myGame.name.ToLower().Replace(" ","_") + "_character_sheet.xml", settings);
             myWriter.WriteStartDocument();
 
             myWriter.WriteStartElement("character_sheet");

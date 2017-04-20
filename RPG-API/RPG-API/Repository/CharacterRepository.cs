@@ -17,6 +17,7 @@ namespace RPG_API.Repository
         //GET ALL
         public IEnumerable<Character> Get()
         {
+            logger.Log("Inside Repo Character Get All method");
             List<Character> myCharacs = new List<Character>();
 
             // This might be reworked.
@@ -30,9 +31,10 @@ namespace RPG_API.Repository
                 foreach (var file in myFiles)
                 {
                     // The empty character sheet are saved in the same folder, so we filter them out:
-                    if (file.ToLower() != path.ToLower() + "call_of_cthulhu_character_sheet" &&
-                        file.ToLower() != path.ToLower() + "fallout_character_sheet")
+                    if (file.ToLower() != path.ToLower() + "call_of_cthulhu_character_sheet.xml" &&
+                        file.ToLower() != path.ToLower() + "fallout_character_sheet.xml")
                     {
+                        logger.Log(String.Format("Treating file : {0}", file));
                         Character charac = new Character(file);
                         myCharacs.Add(charac);
                     }
@@ -41,6 +43,7 @@ namespace RPG_API.Repository
             }
             catch (Exception ex)
             {
+                logger.Log(String.Format("Error in Get All method from Character Repo : {0}", ex.Message));
                 throw ex;
             }
 
@@ -65,8 +68,11 @@ namespace RPG_API.Repository
                     if (file == path + name.ToLower() + ".xml")
                     {
                         searched_character = new Character(file);
+                        logger.Log(String.Format("Character Found! Expected {1}, found {0}", searched_character.characterName, name));
+                        return searched_character;
                     }
                 }
+                logger.Log("Nothing found...");
                 return searched_character;
             }
             catch(Exception ex)

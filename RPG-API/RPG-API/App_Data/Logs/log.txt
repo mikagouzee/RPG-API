@@ -1,507 +1,2553 @@
-18/04/2017 14:36:47 : Inside Character constructor with a character sheet
-18/04/2017 14:36:47 : Character name : Azazel
-18/04/2017 14:36:47 : player name : Mulhouse
-18/04/2017 14:41:13 : Inside characterDto.controller
-18/04/2017 14:42:04 : Inside characterDto.controller
-18/04/2017 14:42:14 : Inside character repository.Create ultimate.
-18/04/2017 14:42:14 : Game : RPG_API.Models.Games.CallOfCthulhu, characterName: Tom Tom, playerName : Luc le perdant
-18/04/2017 14:42:14 : Path : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\
-18/04/2017 14:42:14 : Inside ultimate character constructor : game RPG_API.Models.Games.CallOfCthulhu, characterName Tom Tom and playerName Luc le perdant
-18/04/2017 14:42:14 : Inside CoCRules.setBaseAttr
-18/04/2017 14:42:14 : Inside CoCrules setStats
-18/04/2017 14:42:14 : Inside CocRules setSpendablePoints
-18/04/2017 14:42:14 : Inside CoCRules.setSkills : nothing to do
-18/04/2017 14:42:14 : Inside sheetMaker.makeSheet
-18/04/2017 14:42:14 : Inside SheetWriter.CreateSheet.
-18/04/2017 14:42:14 : game : RPG_API.Models.Games.CallOfCthulhu , path : CallOfCthulhu_character_sheet
-18/04/2017 14:42:14 : base attribute : appearance
-18/04/2017 14:42:14 : base attribute : constitution
-18/04/2017 14:42:14 : base attribute : strength
-18/04/2017 14:42:14 : base attribute : dexterity
-18/04/2017 14:42:14 : base attribute : power
-18/04/2017 14:42:14 : base attribute : size
-18/04/2017 14:42:14 : base attribute : intelligence
-18/04/2017 14:42:14 : base attribute : education
-18/04/2017 14:42:14 : Stat : prestance
-18/04/2017 14:42:14 : Stat : endurance
-18/04/2017 14:42:14 : Stat : agility
-18/04/2017 14:42:14 : Stat : brawl power
-18/04/2017 14:42:14 : Stat : height
-18/04/2017 14:42:14 : Stat : knowledge
-18/04/2017 14:42:14 : Stat : idea
-18/04/2017 14:42:14 : Stat : will power
-18/04/2017 14:42:14 : Stat : sanity
-18/04/2017 14:42:14 : SpendPoint : health points
-18/04/2017 14:42:14 : SpendPoint : wound limit
-18/04/2017 14:42:14 : SpendPoint : magic points
-18/04/2017 14:42:14 : SpendPoint : Occupation skill points
-18/04/2017 14:42:14 : SpendPoint : Personal interest skill points
-18/04/2017 14:42:14 : skill : art
-18/04/2017 14:42:14 : skill : artisanat
-18/04/2017 14:42:14 : skill : baratin
-18/04/2017 14:42:14 : skill : bibliotheque
-18/04/2017 14:42:14 : skill : comptabilite
-18/04/2017 14:42:14 : skill : concocter potion
-18/04/2017 14:42:14 : skill : conduire attelage
-18/04/2017 14:42:14 : skill : coup de pied
-18/04/2017 14:42:14 : skill : coup de poing
-18/04/2017 14:42:14 : skill : coup de tete
-18/04/2017 14:42:14 : skill : discretion
-18/04/2017 14:42:14 : skill : dissimulation
-18/04/2017 14:42:14 : skill : ecouter
-18/04/2017 14:42:14 : skill : ecrire une langue
-18/04/2017 14:42:14 : skill : esquiver
-18/04/2017 14:42:14 : skill : grimper
-18/04/2017 14:42:14 : skill : lancer
-18/04/2017 14:42:14 : skill : langue etrangere
-18/04/2017 14:42:14 : skill : langue natale
-18/04/2017 14:42:14 : skill : lutte
-18/04/2017 14:42:14 : skill : marchandage
-18/04/2017 14:42:14 : skill : monde naturel
-18/04/2017 14:42:14 : skill : monter a cheval
-18/04/2017 14:42:14 : skill : mythe de Cthulhu
-18/04/2017 14:42:14 : skill : nager
-18/04/2017 14:42:14 : skill : navigation
-18/04/2017 14:42:14 : skill : occultisme
-18/04/2017 14:42:14 : skill : persuasion
-18/04/2017 14:42:14 : skill : piloter bateau
-18/04/2017 14:42:14 : skill : premiers soins
-18/04/2017 14:42:14 : skill : reparer concevoir
-18/04/2017 14:42:14 : skill : royaume natal
-18/04/2017 14:42:14 : skill : royaumes etrangers
-18/04/2017 14:42:14 : skill : sagacite
-18/04/2017 14:42:14 : skill : sauter
-18/04/2017 14:42:14 : skill : science
-18/04/2017 14:42:14 : skill : se cacher
-18/04/2017 14:42:14 : skill : statut
-18/04/2017 14:42:14 : skill : suivre une piste
-18/04/2017 14:42:14 : skill : trouver objet cache
-18/04/2017 14:42:14 : Ending document.
-18/04/2017 14:51:27 : Inside characterDto.controller
-18/04/2017 14:51:36 : Inside character repository.Create ultimate.
-18/04/2017 14:51:36 : Game : RPG_API.Models.Games.CallOfCthulhu, characterName: Tom Tom, playerName : Luc le perdant
-18/04/2017 14:51:36 : Path : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\
-18/04/2017 14:51:36 : Inside ultimate character constructor : game RPG_API.Models.Games.CallOfCthulhu, characterName Tom Tom and playerName Luc le perdant
-18/04/2017 14:51:36 : Inside CoCRules.setBaseAttr
-18/04/2017 14:51:36 : Inside CoCrules setStats
-18/04/2017 14:51:36 : Inside CocRules setSpendablePoints
-18/04/2017 14:51:36 : Inside CoCRules.setSkills : nothing to do
-18/04/2017 14:51:36 : Inside sheetMaker.makeSheet
-18/04/2017 14:51:36 : Inside SheetWriter.CreateSheet.
-18/04/2017 14:51:36 : game : RPG_API.Models.Games.CallOfCthulhu , path : CallOfCthulhu_character_sheet
-18/04/2017 14:51:36 : base attribute : appearance
-18/04/2017 14:51:36 : base attribute : constitution
-18/04/2017 14:51:36 : base attribute : strength
-18/04/2017 14:51:36 : base attribute : dexterity
-18/04/2017 14:51:36 : base attribute : power
-18/04/2017 14:51:36 : base attribute : size
-18/04/2017 14:51:36 : base attribute : intelligence
-18/04/2017 14:51:36 : base attribute : education
-18/04/2017 14:51:36 : Stat : prestance
-18/04/2017 14:51:36 : Stat : endurance
-18/04/2017 14:51:36 : Stat : agility
-18/04/2017 14:51:36 : Stat : brawl power
-18/04/2017 14:51:36 : Stat : height
-18/04/2017 14:51:36 : Stat : knowledge
-18/04/2017 14:51:36 : Stat : idea
-18/04/2017 14:51:36 : Stat : will power
-18/04/2017 14:51:36 : Stat : sanity
-18/04/2017 14:51:36 : SpendPoint : health points
-18/04/2017 14:51:36 : SpendPoint : wound limit
-18/04/2017 14:51:36 : SpendPoint : magic points
-18/04/2017 14:51:36 : SpendPoint : Occupation skill points
-18/04/2017 14:51:36 : SpendPoint : Personal interest skill points
-18/04/2017 14:51:36 : skill : art
-18/04/2017 14:51:36 : skill : artisanat
-18/04/2017 14:51:36 : skill : baratin
-18/04/2017 14:51:36 : skill : bibliotheque
-18/04/2017 14:51:36 : skill : comptabilite
-18/04/2017 14:51:36 : skill : concocter potion
-18/04/2017 14:51:36 : skill : conduire attelage
-18/04/2017 14:51:36 : skill : coup de pied
-18/04/2017 14:51:36 : skill : coup de poing
-18/04/2017 14:51:36 : skill : coup de tete
-18/04/2017 14:51:36 : skill : discretion
-18/04/2017 14:51:36 : skill : dissimulation
-18/04/2017 14:51:36 : skill : ecouter
-18/04/2017 14:51:36 : skill : ecrire une langue
-18/04/2017 14:51:36 : skill : esquiver
-18/04/2017 14:51:36 : skill : grimper
-18/04/2017 14:51:36 : skill : lancer
-18/04/2017 14:51:36 : skill : langue etrangere
-18/04/2017 14:51:36 : skill : langue natale
-18/04/2017 14:51:36 : skill : lutte
-18/04/2017 14:51:36 : skill : marchandage
-18/04/2017 14:51:36 : skill : monde naturel
-18/04/2017 14:51:36 : skill : monter a cheval
-18/04/2017 14:51:36 : skill : mythe de Cthulhu
-18/04/2017 14:51:36 : skill : nager
-18/04/2017 14:51:36 : skill : navigation
-18/04/2017 14:51:36 : skill : occultisme
-18/04/2017 14:51:36 : skill : persuasion
-18/04/2017 14:51:36 : skill : piloter bateau
-18/04/2017 14:51:36 : skill : premiers soins
-18/04/2017 14:51:36 : skill : reparer concevoir
-18/04/2017 14:51:36 : skill : royaume natal
-18/04/2017 14:51:36 : skill : royaumes etrangers
-18/04/2017 14:51:36 : skill : sagacite
-18/04/2017 14:51:36 : skill : sauter
-18/04/2017 14:51:36 : skill : science
-18/04/2017 14:51:36 : skill : se cacher
-18/04/2017 14:51:36 : skill : statut
-18/04/2017 14:51:36 : skill : suivre une piste
-18/04/2017 14:51:36 : skill : trouver objet cache
-18/04/2017 14:51:36 : Ending document.
-18/04/2017 14:51:36 : Inside fill Infos
-18/04/2017 14:51:36 : Inside FindSheet for character Tom Tom
-18/04/2017 14:51:36 : Inside Check If Charac Exists
-18/04/2017 14:59:51 : Inside characterDto.controller
-18/04/2017 14:59:57 : Inside character repository.Create ultimate.
-18/04/2017 14:59:57 : Game : RPG_API.Models.Games.CallOfCthulhu, characterName: Tom Tom, playerName : Luc le perdant
-18/04/2017 14:59:57 : Path : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\
-18/04/2017 14:59:57 : Inside ultimate character constructor : game RPG_API.Models.Games.CallOfCthulhu, characterName Tom Tom and playerName Luc le perdant
-18/04/2017 14:59:57 : Inside CoCRules.setBaseAttr
-18/04/2017 14:59:57 : Inside CoCrules setStats
-18/04/2017 14:59:57 : Inside CocRules setSpendablePoints
-18/04/2017 14:59:57 : Inside CoCRules.setSkills : nothing to do
-18/04/2017 14:59:57 : Inside sheetMaker.makeSheet
-18/04/2017 14:59:57 : Inside SheetWriter.CreateSheet.
-18/04/2017 14:59:57 : game : RPG_API.Models.Games.CallOfCthulhu , path : Call_Of_Cthulhu_character_sheet
-18/04/2017 14:59:57 : The sheet will be written at : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\Call_Of_Cthulhu_character_sheet
-18/04/2017 14:59:57 : base attribute : appearance
-18/04/2017 14:59:57 : base attribute : constitution
-18/04/2017 14:59:57 : base attribute : strength
-18/04/2017 14:59:57 : base attribute : dexterity
-18/04/2017 14:59:57 : base attribute : power
-18/04/2017 14:59:57 : base attribute : size
-18/04/2017 14:59:57 : base attribute : intelligence
-18/04/2017 14:59:57 : base attribute : education
-18/04/2017 14:59:57 : Stat : prestance
-18/04/2017 14:59:57 : Stat : endurance
-18/04/2017 14:59:57 : Stat : agility
-18/04/2017 14:59:57 : Stat : brawl power
-18/04/2017 14:59:57 : Stat : height
-18/04/2017 14:59:57 : Stat : knowledge
-18/04/2017 14:59:57 : Stat : idea
-18/04/2017 14:59:57 : Stat : will power
-18/04/2017 14:59:57 : Stat : sanity
-18/04/2017 14:59:57 : SpendPoint : health points
-18/04/2017 14:59:57 : SpendPoint : wound limit
-18/04/2017 14:59:57 : SpendPoint : magic points
-18/04/2017 14:59:57 : SpendPoint : Occupation skill points
-18/04/2017 14:59:57 : SpendPoint : Personal interest skill points
-18/04/2017 14:59:57 : skill : art
-18/04/2017 14:59:57 : skill : artisanat
-18/04/2017 14:59:57 : skill : baratin
-18/04/2017 14:59:57 : skill : bibliotheque
-18/04/2017 14:59:57 : skill : comptabilite
-18/04/2017 14:59:57 : skill : concocter potion
-18/04/2017 14:59:57 : skill : conduire attelage
-18/04/2017 14:59:57 : skill : coup de pied
-18/04/2017 14:59:57 : skill : coup de poing
-18/04/2017 14:59:57 : skill : coup de tete
-18/04/2017 14:59:57 : skill : discretion
-18/04/2017 14:59:58 : skill : dissimulation
-18/04/2017 14:59:58 : skill : ecouter
-18/04/2017 14:59:58 : skill : ecrire une langue
-18/04/2017 14:59:58 : skill : esquiver
-18/04/2017 14:59:58 : skill : grimper
-18/04/2017 14:59:58 : skill : lancer
-18/04/2017 14:59:58 : skill : langue etrangere
-18/04/2017 14:59:58 : skill : langue natale
-18/04/2017 14:59:58 : skill : lutte
-18/04/2017 14:59:58 : skill : marchandage
-18/04/2017 14:59:58 : skill : monde naturel
-18/04/2017 14:59:58 : skill : monter a cheval
-18/04/2017 14:59:58 : skill : mythe de Cthulhu
-18/04/2017 14:59:58 : skill : nager
-18/04/2017 14:59:58 : skill : navigation
-18/04/2017 14:59:58 : skill : occultisme
-18/04/2017 14:59:58 : skill : persuasion
-18/04/2017 14:59:58 : skill : piloter bateau
-18/04/2017 14:59:58 : skill : premiers soins
-18/04/2017 14:59:58 : skill : reparer concevoir
-18/04/2017 14:59:58 : skill : royaume natal
-18/04/2017 14:59:58 : skill : royaumes etrangers
-18/04/2017 14:59:58 : skill : sagacite
-18/04/2017 14:59:58 : skill : sauter
-18/04/2017 14:59:58 : skill : science
-18/04/2017 14:59:58 : skill : se cacher
-18/04/2017 14:59:58 : skill : statut
-18/04/2017 14:59:58 : skill : suivre une piste
-18/04/2017 14:59:58 : skill : trouver objet cache
-18/04/2017 14:59:58 : Ending document.
-18/04/2017 14:59:58 : Inside fill Infos
-18/04/2017 14:59:58 : Inside FindSheet for character Tom Tom
-18/04/2017 14:59:58 : Inside Check If Charac Exists
-18/04/2017 15:12:23 : Inside characterDto.controller
-18/04/2017 15:12:23 : Inside character repository.Create ultimate.
-18/04/2017 15:12:23 : Game : RPG_API.Models.Games.CallOfCthulhu, characterName: Tom Tom, playerName : Luc le perdant
-18/04/2017 15:12:23 : Path : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\
-18/04/2017 15:12:23 : Inside ultimate character constructor : game RPG_API.Models.Games.CallOfCthulhu, characterName Tom Tom and playerName Luc le perdant
-18/04/2017 15:12:23 : Inside CoCRules.setBaseAttr
-18/04/2017 15:12:23 : Inside CoCrules setStats
-18/04/2017 15:12:23 : Inside CocRules setSpendablePoints
-18/04/2017 15:12:23 : Inside CoCRules.setSkills : nothing to do
-18/04/2017 15:12:23 : Inside sheetMaker.makeSheet with path C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\
-18/04/2017 15:12:23 : Inside SheetWriter.CreateSheet.
-18/04/2017 15:12:23 : game : RPG_API.Models.Games.CallOfCthulhu , path : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\
-18/04/2017 15:12:23 : The sheet will be written at : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\
-18/04/2017 15:29:37 : Inside characterDto.controller
-18/04/2017 15:29:38 : Inside character repository.Create ultimate.
-18/04/2017 15:29:38 : Game : RPG_API.Models.Games.CallOfCthulhu, characterName: Tom Tom, playerName : Luc le perdant
-18/04/2017 15:29:38 : Inside ultimate character constructor : game RPG_API.Models.Games.CallOfCthulhu, characterName Tom Tom and playerName Luc le perdant
-18/04/2017 15:29:38 : Inside CoCRules.setBaseAttr
-18/04/2017 15:29:38 : Inside CoCrules setStats
-18/04/2017 15:29:38 : Inside CocRules setSpendablePoints
-18/04/2017 15:29:38 : Inside CoCRules.setSkills : nothing to do
-18/04/2017 15:29:38 : Inside sheetMaker.makeSheet with path C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\
-18/04/2017 15:29:38 : Inside SheetWriter.CreateSheet.
-18/04/2017 15:29:38 : game : RPG_API.Models.Games.CallOfCthulhu
-18/04/2017 15:29:38 : The sheet will be written at : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\Call Of Cthulhu.xml
-18/04/2017 15:29:38 : base attribute : appearance
-18/04/2017 15:29:38 : base attribute : constitution
-18/04/2017 15:29:38 : base attribute : strength
-18/04/2017 15:29:38 : base attribute : dexterity
-18/04/2017 15:29:38 : base attribute : power
-18/04/2017 15:29:38 : base attribute : size
-18/04/2017 15:29:38 : base attribute : intelligence
-18/04/2017 15:29:38 : base attribute : education
-18/04/2017 15:29:38 : Stat : prestance
-18/04/2017 15:29:38 : Stat : endurance
-18/04/2017 15:29:38 : Stat : agility
-18/04/2017 15:29:38 : Stat : brawl power
-18/04/2017 15:29:38 : Stat : height
-18/04/2017 15:29:38 : Stat : knowledge
-18/04/2017 15:29:38 : Stat : idea
-18/04/2017 15:29:38 : Stat : will power
-18/04/2017 15:29:38 : Stat : sanity
-18/04/2017 15:29:38 : SpendPoint : health points
-18/04/2017 15:29:38 : SpendPoint : wound limit
-18/04/2017 15:29:38 : SpendPoint : magic points
-18/04/2017 15:29:38 : SpendPoint : Occupation skill points
-18/04/2017 15:29:38 : SpendPoint : Personal interest skill points
-18/04/2017 15:29:38 : skill : art
-18/04/2017 15:29:38 : skill : artisanat
-18/04/2017 15:29:38 : skill : baratin
-18/04/2017 15:29:38 : skill : bibliotheque
-18/04/2017 15:29:38 : skill : comptabilite
-18/04/2017 15:29:38 : skill : concocter potion
-18/04/2017 15:29:38 : skill : conduire attelage
-18/04/2017 15:29:38 : skill : coup de pied
-18/04/2017 15:29:38 : skill : coup de poing
-18/04/2017 15:29:38 : skill : coup de tete
-18/04/2017 15:29:38 : skill : discretion
-18/04/2017 15:29:38 : skill : dissimulation
-18/04/2017 15:29:38 : skill : ecouter
-18/04/2017 15:29:38 : skill : ecrire une langue
-18/04/2017 15:29:38 : skill : esquiver
-18/04/2017 15:29:38 : skill : grimper
-18/04/2017 15:29:38 : skill : lancer
-18/04/2017 15:29:38 : skill : langue etrangere
-18/04/2017 15:29:38 : skill : langue natale
-18/04/2017 15:29:38 : skill : lutte
-18/04/2017 15:29:38 : skill : marchandage
-18/04/2017 15:29:38 : skill : monde naturel
-18/04/2017 15:29:38 : skill : monter a cheval
-18/04/2017 15:29:38 : skill : mythe de Cthulhu
-18/04/2017 15:29:38 : skill : nager
-18/04/2017 15:29:38 : skill : navigation
-18/04/2017 15:29:38 : skill : occultisme
-18/04/2017 15:29:38 : skill : persuasion
-18/04/2017 15:29:38 : skill : piloter bateau
-18/04/2017 15:29:38 : skill : premiers soins
-18/04/2017 15:29:38 : skill : reparer concevoir
-18/04/2017 15:29:38 : skill : royaume natal
-18/04/2017 15:29:38 : skill : royaumes etrangers
-18/04/2017 15:29:38 : skill : sagacite
-18/04/2017 15:29:38 : skill : sauter
-18/04/2017 15:29:38 : skill : science
-18/04/2017 15:29:38 : skill : se cacher
-18/04/2017 15:29:38 : skill : statut
-18/04/2017 15:29:38 : skill : suivre une piste
-18/04/2017 15:29:38 : skill : trouver objet cache
-18/04/2017 15:29:38 : Ending document.
-18/04/2017 15:29:38 : Inside fill Infos withs args : character RPG_API.Models.Character , path C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\
-18/04/2017 15:29:38 : Inside FindSheet for character Tom Tom
-18/04/2017 15:29:38 : Inside Check If Charac Exists
-18/04/2017 15:29:38 : Exiting findsheet
-18/04/2017 15:29:38 : Exiting fill infos
-18/04/2017 15:29:38 : Inside save file
-18/04/2017 15:29:38 : file saved
-18/04/2017 15:29:38 : Inside fill base attr
-18/04/2017 15:29:38 : Inside FindSheet for character Tom Tom
-18/04/2017 15:29:38 : Inside Check If Charac Exists
-18/04/2017 15:29:38 : Character Found!
-18/04/2017 15:29:38 : Exiting findsheet
-18/04/2017 15:29:38 : Exiting fill base attr
-18/04/2017 15:29:38 : Inside save file
-18/04/2017 15:29:38 : file saved
-18/04/2017 15:29:43 : Inside Fill Stat
-18/04/2017 15:29:43 : Inside FindSheet for character Tom Tom
-18/04/2017 15:29:43 : Inside Check If Charac Exists
-18/04/2017 15:29:43 : Character Found!
-18/04/2017 15:29:43 : Exiting findsheet
-18/04/2017 15:29:43 : Exiting fill Stat
-18/04/2017 15:29:43 : Inside save file
-18/04/2017 15:29:43 : file saved
-18/04/2017 15:29:43 : Inside fill Spendable points
-18/04/2017 15:29:43 : Inside FindSheet for character Tom Tom
-18/04/2017 15:29:43 : Inside Check If Charac Exists
-18/04/2017 15:29:43 : Character Found!
-18/04/2017 15:29:43 : Exiting findsheet
-18/04/2017 15:29:43 : Exiting fill spendable points
-18/04/2017 15:29:43 : Inside save file
-18/04/2017 15:29:43 : file saved
-18/04/2017 15:29:43 : Inside fillSkills
-18/04/2017 15:29:43 : Inside FindSheet for character Tom Tom
-18/04/2017 15:29:43 : Inside Check If Charac Exists
-18/04/2017 15:29:43 : Character Found!
-18/04/2017 15:29:43 : Exiting findsheet
-18/04/2017 15:29:43 : Exiting fillSkills
-18/04/2017 15:29:43 : Inside save file
-18/04/2017 15:29:43 : file saved
-18/04/2017 15:29:43 : MakeSheet finished
-18/04/2017 15:29:45 : Inside character repository.Get.
-18/04/2017 15:29:45 : Inside default character constructor
-18/04/2017 15:29:45 : CharacterRepository.get : file c:\users\mgouzee\desktop\github folder of mika\rpg-api\rpg-api\rpg-api\app_data\characters\call of cthulhu.xml
-18/04/2017 15:29:45 : CharacterRepository.get : file c:\users\mgouzee\desktop\github folder of mika\rpg-api\rpg-api\rpg-api\app_data\characters\callofcthulhu_character_sheet
-18/04/2017 15:29:45 : CharacterRepository.get : file c:\users\mgouzee\desktop\github folder of mika\rpg-api\rpg-api\rpg-api\app_data\characters\call_of_cthulhu_character_sheet
-18/04/2017 15:29:45 : CharacterRepository.get : file c:\users\mgouzee\desktop\github folder of mika\rpg-api\rpg-api\rpg-api\app_data\characters\tom tom.xml
-18/04/2017 15:29:45 : Inside Character constructor with a character sheet
-18/04/2017 15:29:45 : Character name : Tom Tom
-18/04/2017 15:29:45 : player name : Luc le perdant
-18/04/2017 15:29:45 : Base Attr appearance with value 4
-18/04/2017 15:29:45 : Base Attr constitution with value 11
-18/04/2017 15:29:45 : Base Attr strength with value 10
-18/04/2017 15:29:45 : Base Attr dexterity with value 16
-18/04/2017 15:29:45 : Base Attr power with value 15
-18/04/2017 15:29:45 : Base Attr size with value 12
-18/04/2017 15:29:45 : Base Attr intelligence with value 15
-18/04/2017 15:29:45 : Base Attr education with value 18
-18/04/2017 15:29:45 : Skill art with value 5
-18/04/2017 15:29:45 : Skill artisanat with value 5
-18/04/2017 15:29:45 : Skill baratin with value 5
-18/04/2017 15:29:45 : Skill bibliotheque with value 5
-18/04/2017 15:29:45 : Skill comptabilite with value 10
-18/04/2017 15:29:45 : Skill concocter potion with value 1
-18/04/2017 15:29:45 : Skill conduire attelage with value 20
-18/04/2017 15:29:45 : Skill coup de pied with value 25
-18/04/2017 15:29:45 : Skill coup de poing with value 50
-18/04/2017 15:29:45 : Skill coup de tete with value 10
-18/04/2017 15:29:45 : Skill discretion with value 10
-18/04/2017 15:29:45 : Skill dissimulation with value 15
-18/04/2017 15:29:45 : Skill ecouter with value 25
-18/04/2017 15:29:45 : Skill ecrire une langue with value 1
-18/04/2017 15:29:45 : Skill esquiver with value 5
-18/04/2017 15:29:45 : Skill grimper with value 40
-18/04/2017 15:29:45 : Skill lancer with value 25
-18/04/2017 15:29:45 : Skill langue etrangere with value 1
-18/04/2017 15:29:45 : Skill langue natale with value 5
-18/04/2017 15:29:45 : Skill lutte with value 25
-18/04/2017 15:29:45 : Skill marchandage with value 5
-18/04/2017 15:29:45 : Skill monde naturel with value 10
-18/04/2017 15:29:45 : Skill monter a cheval with value 5
-18/04/2017 15:29:45 : Skill mythe de Cthulhu with value 0
-18/04/2017 15:29:45 : Skill nager with value 25
-18/04/2017 15:29:45 : Skill navigation with value 10
-18/04/2017 15:29:45 : Skill occultisme with value 5
-18/04/2017 15:29:45 : Skill persuasion with value 15
-18/04/2017 15:29:45 : Skill piloter bateau with value 1
-18/04/2017 15:29:45 : Skill premiers soins with value 30
-18/04/2017 15:29:45 : Skill reparer concevoir with value 20
-18/04/2017 15:29:45 : Skill royaume natal with value 20
-18/04/2017 15:29:45 : Skill royaumes etrangers with value 1
-18/04/2017 15:29:45 : Skill sagacite with value 5
-18/04/2017 15:29:45 : Skill sauter with value 25
-18/04/2017 15:29:45 : Skill science with value 1
-18/04/2017 15:29:45 : Skill se cacher with value 10
-18/04/2017 15:29:45 : Skill statut with value 15
-18/04/2017 15:29:45 : Skill suivre une piste with value 10
-18/04/2017 15:29:45 : Skill trouver objet cache with value 25
-18/04/2017 15:29:45 : Stat prestance with value 20
-18/04/2017 15:29:45 : Stat endurance with value 55
-18/04/2017 15:29:45 : Stat agility with value 80
-18/04/2017 15:29:45 : Stat brawl power with value 50
-18/04/2017 15:29:45 : Stat height with value 60
-18/04/2017 15:29:45 : Stat knowledge with value 90
-18/04/2017 15:29:45 : Stat idea with value 75
-18/04/2017 15:29:45 : Stat will power with value 75
-18/04/2017 15:29:45 : Stat sanity with value 75
-18/04/2017 15:29:45 : spendpoint health points with value 11
-18/04/2017 15:29:45 : spendpoint wound limit with value 5
-18/04/2017 15:29:45 : spendpoint magic points with value 15
-18/04/2017 15:29:45 : spendpoint Occupation skill points with value 360
-18/04/2017 15:29:45 : spendpoint Personal interest skill points with value 150
-18/04/2017 15:29:45 : Exiting characterDto.Controller
-19/04/2017 9:46:42 : Inside character repository.Get.
-19/04/2017 9:46:42 : Inside default character constructor
-19/04/2017 9:46:42 : CharacterRepository.get : file c:\users\mgouzee\desktop\github folder of mika\rpg-api\rpg-api\rpg-api\app_data\characters\call of cthulhu.xml
-19/04/2017 9:46:42 : CharacterRepository.get : file c:\users\mgouzee\desktop\github folder of mika\rpg-api\rpg-api\rpg-api\app_data\characters\callofcthulhu_character_sheet
-19/04/2017 9:46:42 : CharacterRepository.get : file c:\users\mgouzee\desktop\github folder of mika\rpg-api\rpg-api\rpg-api\app_data\characters\call_of_cthulhu_character_sheet
-19/04/2017 9:46:42 : CharacterRepository.get : file c:\users\mgouzee\desktop\github folder of mika\rpg-api\rpg-api\rpg-api\app_data\characters\tom tom.xml
-19/04/2017 9:46:42 : Inside Character constructor with a character sheet
-19/04/2017 9:46:42 : Character name : Tom Tom
-19/04/2017 9:46:42 : player name : Luc le perdant
-19/04/2017 9:46:42 : Base Attr appearance with value 4
-19/04/2017 9:46:42 : Base Attr constitution with value 11
-19/04/2017 9:46:42 : Base Attr strength with value 10
-19/04/2017 9:46:42 : Base Attr dexterity with value 16
-19/04/2017 9:46:42 : Base Attr power with value 15
-19/04/2017 9:46:42 : Base Attr size with value 12
-19/04/2017 9:46:42 : Base Attr intelligence with value 15
-19/04/2017 9:46:42 : Base Attr education with value 18
-19/04/2017 9:46:42 : Skill art with value 5
-19/04/2017 9:46:42 : Skill artisanat with value 5
-19/04/2017 9:46:42 : Skill baratin with value 5
-19/04/2017 9:46:42 : Skill bibliotheque with value 5
-19/04/2017 9:46:42 : Skill comptabilite with value 10
-19/04/2017 9:46:42 : Skill concocter potion with value 1
-19/04/2017 9:46:42 : Skill conduire attelage with value 20
-19/04/2017 9:46:42 : Skill coup de pied with value 25
-19/04/2017 9:46:42 : Skill coup de poing with value 50
-19/04/2017 9:46:42 : Skill coup de tete with value 10
-19/04/2017 9:46:42 : Skill discretion with value 10
-19/04/2017 9:46:42 : Skill dissimulation with value 15
-19/04/2017 9:46:42 : Skill ecouter with value 25
-19/04/2017 9:46:42 : Skill ecrire une langue with value 1
-19/04/2017 9:46:42 : Skill esquiver with value 5
-19/04/2017 9:46:42 : Skill grimper with value 40
-19/04/2017 9:46:42 : Skill lancer with value 25
-19/04/2017 9:46:42 : Skill langue etrangere with value 1
-19/04/2017 9:46:42 : Skill langue natale with value 5
-19/04/2017 9:46:42 : Skill lutte with value 25
-19/04/2017 9:46:42 : Skill marchandage with value 5
-19/04/2017 9:46:42 : Skill monde naturel with value 10
-19/04/2017 9:46:42 : Skill monter a cheval with value 5
-19/04/2017 9:46:42 : Skill mythe de Cthulhu with value 0
-19/04/2017 9:46:42 : Skill nager with value 25
-19/04/2017 9:46:42 : Skill navigation with value 10
-19/04/2017 9:46:42 : Skill occultisme with value 5
-19/04/2017 9:46:42 : Skill persuasion with value 15
-19/04/2017 9:46:43 : Skill piloter bateau with value 1
-19/04/2017 9:46:43 : Skill premiers soins with value 30
-19/04/2017 9:46:43 : Skill reparer concevoir with value 20
-19/04/2017 9:46:43 : Skill royaume natal with value 20
-19/04/2017 9:46:43 : Skill royaumes etrangers with value 1
-19/04/2017 9:46:43 : Skill sagacite with value 5
-19/04/2017 9:46:43 : Skill sauter with value 25
-19/04/2017 9:46:43 : Skill science with value 1
-19/04/2017 9:46:43 : Skill se cacher with value 10
-19/04/2017 9:46:43 : Skill statut with value 15
-19/04/2017 9:46:43 : Skill suivre une piste with value 10
-19/04/2017 9:46:43 : Skill trouver objet cache with value 25
-19/04/2017 9:46:43 : Stat prestance with value 20
-19/04/2017 9:46:43 : Stat endurance with value 55
-19/04/2017 9:46:43 : Stat agility with value 80
-19/04/2017 9:46:43 : Stat brawl power with value 50
-19/04/2017 9:46:43 : Stat height with value 60
-19/04/2017 9:46:43 : Stat knowledge with value 90
-19/04/2017 9:46:43 : Stat idea with value 75
-19/04/2017 9:46:43 : Stat will power with value 75
-19/04/2017 9:46:43 : Stat sanity with value 75
-19/04/2017 9:46:43 : spendpoint health points with value 11
-19/04/2017 9:46:43 : spendpoint wound limit with value 5
-19/04/2017 9:46:43 : spendpoint magic points with value 15
-19/04/2017 9:46:43 : spendpoint Occupation skill points with value 360
-19/04/2017 9:46:43 : spendpoint Personal interest skill points with value 150
+19/04/2017 15:10:32 : Inside character repository.Get.
+19/04/2017 15:10:32 : Inside default character constructor
+19/04/2017 15:10:32 : CharacterRepository.get : file c:\users\mgouzee\desktop\github folder of mika\rpg-api\rpg-api\rpg-api\app_data\characters\call_of_cthulhu_character_sheet.xml
+19/04/2017 15:10:32 : CharacterRepository.get : file c:\users\mgouzee\desktop\github folder of mika\rpg-api\rpg-api\rpg-api\app_data\characters\falloutcharacter.xml
+19/04/2017 15:10:32 : Inside Character constructor with a character sheet
+19/04/2017 15:10:32 : Character name : FalloutCharacter
+19/04/2017 15:10:32 : player name : FOP
+19/04/2017 15:10:32 : Base Attr strength with value 0
+19/04/2017 15:10:32 : Base Attr perception with value 0
+19/04/2017 15:10:32 : Base Attr endurance with value 0
+19/04/2017 15:10:32 : Base Attr charism with value 1
+19/04/2017 15:10:32 : Base Attr intelligence with value 3
+19/04/2017 15:10:32 : Base Attr agility with value 1
+19/04/2017 15:10:32 : Base Attr luck with value 0
+19/04/2017 15:10:32 : Skill small guns with value 9
+19/04/2017 15:10:32 : Skill big guns with value 2
+19/04/2017 15:10:32 : Skill energy weapons with value 2
+19/04/2017 15:10:32 : Skill unarmed with value 32
+19/04/2017 15:10:32 : Skill melee weapons with value 22
+19/04/2017 15:10:32 : Skill throwing with value 4
+19/04/2017 15:10:32 : Skill first aid with value 0
+19/04/2017 15:10:32 : Skill doctor with value 8
+19/04/2017 15:10:32 : Skill sneak with value 8
+19/04/2017 15:10:32 : Skill lockpick with value 11
+19/04/2017 15:10:32 : Skill steal with value 3
+19/04/2017 15:10:32 : Skill traps with value 11
+19/04/2017 15:10:32 : Skill science with value 12
+19/04/2017 15:10:32 : Skill repair with value 9
+19/04/2017 15:10:32 : Skill pilot with value 2
+19/04/2017 15:10:32 : Skill speech with value 5
+19/04/2017 15:10:32 : Skill barter with value 4
+19/04/2017 15:10:32 : Skill gambling with value 0
+19/04/2017 15:10:32 : Skill outdoorsman with value 6
+19/04/2017 15:10:32 : Skill radiation resistance with value 0
+19/04/2017 15:10:32 : Skill poison resistance with value 0
+19/04/2017 15:10:32 : Skill damage resistance with value 0
+19/04/2017 15:10:32 : Skill electric resistance with value 0
+19/04/2017 15:10:32 : Stat action points with value 5
+19/04/2017 15:10:32 : Stat karma with value 0
+19/04/2017 15:10:32 : Stat armor class with value 1
+19/04/2017 15:10:32 : Stat carry weight with value 25
+19/04/2017 15:10:32 : Stat melee damage with value 1
+19/04/2017 15:10:32 : Stat sequence with value 0
+19/04/2017 15:10:32 : Stat healing rate with value 4
+19/04/2017 15:10:32 : spendpoint health points with value 15
+19/04/2017 15:10:32 : spendpoint wound limit with value 0
+19/04/2017 15:10:32 : spendpoint skill points with value 0
+19/04/2017 15:10:32 : spendpoint creation points with value 5
+19/04/2017 15:10:32 : Character Found! Expected FalloutCharacter, found FalloutCharacter
+19/04/2017 15:23:19 : Inside Game Controller Get All.
+19/04/2017 15:23:19 : Exiting Controller
+19/04/2017 15:23:33 : Inside Game Controller Get All.
+19/04/2017 15:23:33 : Exiting Controller
+19/04/2017 15:24:50 : Inside Character Dto Empty Builder
+19/04/2017 15:24:50 : Inside characterDto.controller
+19/04/2017 15:24:50 : Inside character repository.Create ultimate.
+19/04/2017 15:24:50 : Game : RPG_API.Models.Games.Fallout, characterName: AsecondOne, playerName : FOPlayer2
+19/04/2017 15:24:50 : Inside ultimate character constructor : game RPG_API.Models.Games.Fallout, characterName AsecondOne and playerName FOPlayer2
+19/04/2017 15:24:50 : Inside FalloutRules.setBaseAttr
+19/04/2017 15:24:50 : Accessing baseAttr endurance with current value 0. Remaining 5 points to use.
+19/04/2017 15:24:50 : Accessing baseAttr luck with current value 0. Remaining 4 points to use.
+19/04/2017 15:24:50 : Accessing baseAttr charism with current value 0. Remaining 3 points to use.
+19/04/2017 15:24:50 : Accessing baseAttr endurance with current value 1. Remaining 2 points to use.
+19/04/2017 15:24:50 : Accessing baseAttr endurance with current value 2. Remaining 1 points to use.
+19/04/2017 15:24:50 : Exiting setBaseAttr
+19/04/2017 15:24:50 : Inside FalloutRules.SetStat.
+19/04/2017 15:24:50 : Setting AP on base of agi 0
+19/04/2017 15:24:50 : AP : 1
+19/04/2017 15:24:50 : Armor Class set up
+19/04/2017 15:24:50 : Carry Weight set up
+19/04/2017 15:24:50 : Melee Damage set up
+19/04/2017 15:24:50 : Sequence set up
+19/04/2017 15:24:50 : Setting HR on base of endu 3
+19/04/2017 15:24:50 : HR : 1
+19/04/2017 15:24:50 : Exiting setStats
+19/04/2017 15:24:50 : Inside FalloutRules.setSpendablePoints
+19/04/2017 15:24:50 : Exiting setSpendablePoints
+19/04/2017 15:24:50 : Inside FalloutRules.setSkills
+19/04/2017 15:24:50 : Exiting setSkills
+19/04/2017 15:24:50 : Inside sheetMaker.makeSheet with path C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\
+19/04/2017 15:24:50 : Inside SheetWriter.CreateSheet.
+19/04/2017 15:24:50 : game : RPG_API.Models.Games.Fallout
+19/04/2017 15:24:50 : The sheet will be written at : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\fallout_character_sheet.xml
+19/04/2017 15:24:50 : base attribute : strength
+19/04/2017 15:24:50 : base attribute : perception
+19/04/2017 15:24:50 : base attribute : endurance
+19/04/2017 15:24:50 : base attribute : charism
+19/04/2017 15:24:50 : base attribute : intelligence
+19/04/2017 15:24:50 : base attribute : agility
+19/04/2017 15:24:50 : base attribute : luck
+19/04/2017 15:24:50 : Stat : action points
+19/04/2017 15:24:50 : Stat : karma
+19/04/2017 15:24:50 : Stat : armor class
+19/04/2017 15:24:50 : Stat : carry weight
+19/04/2017 15:24:50 : Stat : melee damage
+19/04/2017 15:24:50 : Stat : sequence
+19/04/2017 15:24:50 : Stat : healing rate
+19/04/2017 15:24:50 : SpendPoint : health points
+19/04/2017 15:24:51 : SpendPoint : wound limit
+19/04/2017 15:24:51 : SpendPoint : skill points
+19/04/2017 15:24:51 : SpendPoint : creation points
+19/04/2017 15:24:51 : skill : small guns
+19/04/2017 15:24:51 : skill : big guns
+19/04/2017 15:24:51 : skill : energy weapons
+19/04/2017 15:24:51 : skill : unarmed
+19/04/2017 15:24:51 : skill : melee weapons
+19/04/2017 15:24:51 : skill : throwing
+19/04/2017 15:24:51 : skill : first aid
+19/04/2017 15:24:51 : skill : doctor
+19/04/2017 15:24:51 : skill : sneak
+19/04/2017 15:24:51 : skill : lockpick
+19/04/2017 15:24:51 : skill : steal
+19/04/2017 15:24:51 : skill : traps
+19/04/2017 15:24:51 : skill : science
+19/04/2017 15:24:51 : skill : repair
+19/04/2017 15:24:51 : skill : pilot
+19/04/2017 15:24:51 : skill : speech
+19/04/2017 15:24:51 : skill : barter
+19/04/2017 15:24:51 : skill : gambling
+19/04/2017 15:24:51 : skill : outdoorsman
+19/04/2017 15:24:51 : skill : radiation resistance
+19/04/2017 15:24:51 : skill : poison resistance
+19/04/2017 15:24:51 : skill : damage resistance
+19/04/2017 15:24:51 : skill : electric resistance
+19/04/2017 15:24:51 : Ending document.
+19/04/2017 15:24:51 : Inside fill Infos withs args : character RPG_API.Models.Character , path C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\
+19/04/2017 15:24:51 : Inside FindSheet for character AsecondOne
+19/04/2017 15:24:51 : Inside Check If Charac Exists
+19/04/2017 15:24:51 : Treating file : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\call_of_cthulhu_character_sheet.xml
+19/04/2017 15:24:51 : Treating file : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\falloutcharacter.xml
+19/04/2017 15:24:51 : Treating file : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\fallout_character_sheet.xml
+19/04/2017 15:24:51 : Treating file : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\testvalue.xml
+19/04/2017 15:24:51 : Treating file : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\tom tom.xml
+19/04/2017 15:24:51 : Exiting Check If Charac Exists
+19/04/2017 15:24:51 : Exiting findsheet
+19/04/2017 15:24:51 : Exiting fill infos
+19/04/2017 15:24:51 : Inside save file
+19/04/2017 15:24:51 : file saved
+19/04/2017 15:24:51 : Inside fill base attr
+19/04/2017 15:24:51 : Inside FindSheet for character AsecondOne
+19/04/2017 15:24:51 : Inside Check If Charac Exists
+19/04/2017 15:24:51 : Treating file : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\asecondone.xml
+19/04/2017 15:24:51 : Character Found!
+19/04/2017 15:24:51 : Exiting findsheet
+19/04/2017 15:24:51 : Exiting fill base attr
+19/04/2017 15:24:51 : Inside save file
+19/04/2017 15:24:51 : file saved
+19/04/2017 15:24:51 : Inside Fill Stat
+19/04/2017 15:24:51 : Inside FindSheet for character AsecondOne
+19/04/2017 15:24:51 : Inside Check If Charac Exists
+19/04/2017 15:24:51 : Treating file : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\asecondone.xml
+19/04/2017 15:24:51 : Character Found!
+19/04/2017 15:24:51 : Exiting findsheet
+19/04/2017 15:24:51 : Exiting fill Stat
+19/04/2017 15:24:51 : Inside save file
+19/04/2017 15:24:51 : file saved
+19/04/2017 15:24:51 : Inside fill Spendable points
+19/04/2017 15:24:51 : Inside FindSheet for character AsecondOne
+19/04/2017 15:24:51 : Inside Check If Charac Exists
+19/04/2017 15:24:51 : Treating file : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\asecondone.xml
+19/04/2017 15:24:51 : Character Found!
+19/04/2017 15:24:51 : Exiting findsheet
+19/04/2017 15:24:51 : Exiting fill spendable points
+19/04/2017 15:24:51 : Inside save file
+19/04/2017 15:24:51 : file saved
+19/04/2017 15:24:51 : Inside fillSkills
+19/04/2017 15:24:51 : Inside FindSheet for character AsecondOne
+19/04/2017 15:24:51 : Inside Check If Charac Exists
+19/04/2017 15:24:51 : Treating file : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\asecondone.xml
+19/04/2017 15:24:51 : Character Found!
+19/04/2017 15:24:51 : Exiting findsheet
+19/04/2017 15:24:51 : Exiting fillSkills
+19/04/2017 15:24:51 : Inside save file
+19/04/2017 15:24:51 : file saved
+19/04/2017 15:24:51 : MakeSheet finished
+19/04/2017 15:24:51 : Inside character repository.Get.
+19/04/2017 15:24:51 : Inside default character constructor
+19/04/2017 15:24:51 : CharacterRepository.get : file c:\users\mgouzee\desktop\github folder of mika\rpg-api\rpg-api\rpg-api\app_data\characters\asecondone.xml
+19/04/2017 15:24:51 : Inside Character constructor with a character sheet
+19/04/2017 15:24:51 : Character name : AsecondOne
+19/04/2017 15:24:51 : player name : FOPlayer2
+19/04/2017 15:24:51 : Base Attr strength with value 0
+19/04/2017 15:24:51 : Base Attr perception with value 0
+19/04/2017 15:24:51 : Base Attr endurance with value 3
+19/04/2017 15:24:51 : Base Attr charism with value 1
+19/04/2017 15:24:51 : Base Attr intelligence with value 0
+19/04/2017 15:24:51 : Base Attr agility with value 0
+19/04/2017 15:24:51 : Base Attr luck with value 1
+19/04/2017 15:24:51 : Skill small guns with value 5
+19/04/2017 15:24:51 : Skill big guns with value 0
+19/04/2017 15:24:51 : Skill energy weapons with value 0
+19/04/2017 15:24:51 : Skill unarmed with value 30
+19/04/2017 15:24:51 : Skill melee weapons with value 20
+19/04/2017 15:24:51 : Skill throwing with value 0
+19/04/2017 15:24:51 : Skill first aid with value 6
+19/04/2017 15:24:51 : Skill doctor with value 5
+19/04/2017 15:24:51 : Skill sneak with value 5
+19/04/2017 15:24:51 : Skill lockpick with value 10
+19/04/2017 15:24:51 : Skill steal with value 0
+19/04/2017 15:24:51 : Skill traps with value 10
+19/04/2017 15:24:51 : Skill science with value 0
+19/04/2017 15:24:51 : Skill repair with value 0
+19/04/2017 15:24:51 : Skill pilot with value 0
+19/04/2017 15:24:51 : Skill speech with value 5
+19/04/2017 15:24:51 : Skill barter with value 4
+19/04/2017 15:24:51 : Skill gambling with value 5
+19/04/2017 15:24:51 : Skill outdoorsman with value 6
+19/04/2017 15:24:51 : Skill radiation resistance with value 0
+19/04/2017 15:24:51 : Skill poison resistance with value 0
+19/04/2017 15:24:51 : Skill damage resistance with value 0
+19/04/2017 15:24:51 : Skill electric resistance with value 0
+19/04/2017 15:24:51 : Stat action points with value 1
+19/04/2017 15:24:51 : Stat karma with value 0
+19/04/2017 15:24:51 : Stat armor class with value 0
+19/04/2017 15:24:51 : Stat carry weight with value 25
+19/04/2017 15:24:51 : Stat melee damage with value 1
+19/04/2017 15:24:51 : Stat sequence with value 0
+19/04/2017 15:24:51 : Stat healing rate with value 1
+19/04/2017 15:24:51 : spendpoint health points with value 21
+19/04/2017 15:24:51 : spendpoint wound limit with value 0
+19/04/2017 15:24:51 : spendpoint skill points with value 0
+19/04/2017 15:24:51 : spendpoint creation points with value 5
+19/04/2017 15:24:51 : Character Found! Expected AsecondOne, found AsecondOne
+19/04/2017 15:24:51 : Exiting characterDto.Controller
+19/04/2017 15:27:11 : Inside Repo Character Get All method
+19/04/2017 15:27:11 : Treating file : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\asecondone.xml
+19/04/2017 15:27:11 : Inside Character constructor with a character sheet
+19/04/2017 15:27:11 : Character name : AsecondOne
+19/04/2017 15:27:11 : player name : FOPlayer2
+19/04/2017 15:27:11 : Base Attr strength with value 0
+19/04/2017 15:27:11 : Base Attr perception with value 0
+19/04/2017 15:27:11 : Base Attr endurance with value 3
+19/04/2017 15:27:11 : Base Attr charism with value 1
+19/04/2017 15:27:11 : Base Attr intelligence with value 0
+19/04/2017 15:27:11 : Base Attr agility with value 0
+19/04/2017 15:27:11 : Base Attr luck with value 1
+19/04/2017 15:27:11 : Skill small guns with value 5
+19/04/2017 15:27:11 : Skill big guns with value 0
+19/04/2017 15:27:11 : Skill energy weapons with value 0
+19/04/2017 15:27:11 : Skill unarmed with value 30
+19/04/2017 15:27:11 : Skill melee weapons with value 20
+19/04/2017 15:27:11 : Skill throwing with value 0
+19/04/2017 15:27:11 : Skill first aid with value 6
+19/04/2017 15:27:11 : Skill doctor with value 5
+19/04/2017 15:27:11 : Skill sneak with value 5
+19/04/2017 15:27:11 : Skill lockpick with value 10
+19/04/2017 15:27:11 : Skill steal with value 0
+19/04/2017 15:27:11 : Skill traps with value 10
+19/04/2017 15:27:11 : Skill science with value 0
+19/04/2017 15:27:11 : Skill repair with value 0
+19/04/2017 15:27:11 : Skill pilot with value 0
+19/04/2017 15:27:11 : Skill speech with value 5
+19/04/2017 15:27:11 : Skill barter with value 4
+19/04/2017 15:27:11 : Skill gambling with value 5
+19/04/2017 15:27:11 : Skill outdoorsman with value 6
+19/04/2017 15:27:11 : Skill radiation resistance with value 0
+19/04/2017 15:27:11 : Skill poison resistance with value 0
+19/04/2017 15:27:11 : Skill damage resistance with value 0
+19/04/2017 15:27:11 : Skill electric resistance with value 0
+19/04/2017 15:27:11 : Stat action points with value 1
+19/04/2017 15:27:11 : Stat karma with value 0
+19/04/2017 15:27:11 : Stat armor class with value 0
+19/04/2017 15:27:11 : Stat carry weight with value 25
+19/04/2017 15:27:11 : Stat melee damage with value 1
+19/04/2017 15:27:11 : Stat sequence with value 0
+19/04/2017 15:27:11 : Stat healing rate with value 1
+19/04/2017 15:27:11 : spendpoint health points with value 21
+19/04/2017 15:27:11 : spendpoint wound limit with value 0
+19/04/2017 15:27:11 : spendpoint skill points with value 0
+19/04/2017 15:27:11 : spendpoint creation points with value 5
+19/04/2017 15:27:11 : Treating file : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\falloutcharacter.xml
+19/04/2017 15:27:11 : Inside Character constructor with a character sheet
+19/04/2017 15:27:11 : Character name : FalloutCharacter
+19/04/2017 15:27:11 : player name : FOP
+19/04/2017 15:27:11 : Base Attr strength with value 0
+19/04/2017 15:27:11 : Base Attr perception with value 0
+19/04/2017 15:27:11 : Base Attr endurance with value 0
+19/04/2017 15:27:11 : Base Attr charism with value 1
+19/04/2017 15:27:11 : Base Attr intelligence with value 3
+19/04/2017 15:27:11 : Base Attr agility with value 1
+19/04/2017 15:27:11 : Base Attr luck with value 0
+19/04/2017 15:27:11 : Skill small guns with value 9
+19/04/2017 15:27:11 : Skill big guns with value 2
+19/04/2017 15:27:11 : Skill energy weapons with value 2
+19/04/2017 15:27:11 : Skill unarmed with value 32
+19/04/2017 15:27:11 : Skill melee weapons with value 22
+19/04/2017 15:27:11 : Skill throwing with value 4
+19/04/2017 15:27:11 : Skill first aid with value 0
+19/04/2017 15:27:11 : Skill doctor with value 8
+19/04/2017 15:27:11 : Skill sneak with value 8
+19/04/2017 15:27:11 : Skill lockpick with value 11
+19/04/2017 15:27:11 : Skill steal with value 3
+19/04/2017 15:27:11 : Skill traps with value 11
+19/04/2017 15:27:11 : Skill science with value 12
+19/04/2017 15:27:11 : Skill repair with value 9
+19/04/2017 15:27:11 : Skill pilot with value 2
+19/04/2017 15:27:11 : Skill speech with value 5
+19/04/2017 15:27:11 : Skill barter with value 4
+19/04/2017 15:27:11 : Skill gambling with value 0
+19/04/2017 15:27:11 : Skill outdoorsman with value 6
+19/04/2017 15:27:11 : Skill radiation resistance with value 0
+19/04/2017 15:27:11 : Skill poison resistance with value 0
+19/04/2017 15:27:11 : Skill damage resistance with value 0
+19/04/2017 15:27:11 : Skill electric resistance with value 0
+19/04/2017 15:27:11 : Stat action points with value 5
+19/04/2017 15:27:11 : Stat karma with value 0
+19/04/2017 15:27:11 : Stat armor class with value 1
+19/04/2017 15:27:11 : Stat carry weight with value 25
+19/04/2017 15:27:11 : Stat melee damage with value 1
+19/04/2017 15:27:11 : Stat sequence with value 0
+19/04/2017 15:27:11 : Stat healing rate with value 4
+19/04/2017 15:27:11 : spendpoint health points with value 15
+19/04/2017 15:27:11 : spendpoint wound limit with value 0
+19/04/2017 15:27:11 : spendpoint skill points with value 0
+19/04/2017 15:27:11 : spendpoint creation points with value 5
+19/04/2017 15:27:11 : Treating file : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\testvalue.xml
+19/04/2017 15:27:11 : Inside Character constructor with a character sheet
+19/04/2017 15:27:11 : Character name : testValue
+19/04/2017 15:27:11 : player name : playerName
+19/04/2017 15:27:11 : Base Attr appearance with value 12
+19/04/2017 15:27:11 : Base Attr constitution with value 8
+19/04/2017 15:27:11 : Base Attr strength with value 4
+19/04/2017 15:27:11 : Base Attr dexterity with value 4
+19/04/2017 15:27:11 : Base Attr power with value 12
+19/04/2017 15:27:11 : Base Attr size with value 24
+19/04/2017 15:27:11 : Base Attr intelligence with value 12
+19/04/2017 15:27:11 : Base Attr education with value 25
+19/04/2017 15:27:11 : Skill art with value 5
+19/04/2017 15:27:11 : Skill artisanat with value 5
+19/04/2017 15:27:11 : Skill baratin with value 5
+19/04/2017 15:27:11 : Skill bibliotheque with value 5
+19/04/2017 15:27:11 : Skill comptabilite with value 10
+19/04/2017 15:27:11 : Skill concocter potion with value 1
+19/04/2017 15:27:11 : Skill conduire attelage with value 20
+19/04/2017 15:27:11 : Skill coup de pied with value 25
+19/04/2017 15:27:11 : Skill coup de poing with value 50
+19/04/2017 15:27:11 : Skill coup de tete with value 10
+19/04/2017 15:27:11 : Skill discretion with value 10
+19/04/2017 15:27:11 : Skill dissimulation with value 15
+19/04/2017 15:27:11 : Skill ecouter with value 25
+19/04/2017 15:27:11 : Skill ecrire une langue with value 1
+19/04/2017 15:27:11 : Skill esquiver with value 5
+19/04/2017 15:27:11 : Skill grimper with value 40
+19/04/2017 15:27:11 : Skill lancer with value 25
+19/04/2017 15:27:11 : Skill langue etrangere with value 1
+19/04/2017 15:27:11 : Skill langue natale with value 5
+19/04/2017 15:27:11 : Skill lutte with value 25
+19/04/2017 15:27:11 : Skill marchandage with value 5
+19/04/2017 15:27:11 : Skill monde naturel with value 10
+19/04/2017 15:27:11 : Skill monter a cheval with value 5
+19/04/2017 15:27:11 : Skill mythe de Cthulhu with value 0
+19/04/2017 15:27:11 : Skill nager with value 25
+19/04/2017 15:27:11 : Skill navigation with value 10
+19/04/2017 15:27:11 : Skill occultisme with value 5
+19/04/2017 15:27:11 : Skill persuasion with value 15
+19/04/2017 15:27:11 : Skill piloter bateau with value 1
+19/04/2017 15:27:11 : Skill premiers soins with value 30
+19/04/2017 15:27:11 : Skill reparer concevoir with value 20
+19/04/2017 15:27:11 : Skill royaume natal with value 20
+19/04/2017 15:27:11 : Skill royaumes etrangers with value 1
+19/04/2017 15:27:11 : Skill sagacite with value 5
+19/04/2017 15:27:11 : Skill sauter with value 25
+19/04/2017 15:27:11 : Skill science with value 1
+19/04/2017 15:27:11 : Skill se cacher with value 10
+19/04/2017 15:27:12 : Skill statut with value 15
+19/04/2017 15:27:12 : Skill suivre une piste with value 10
+19/04/2017 15:27:12 : Skill trouver objet cache with value 25
+19/04/2017 15:27:12 : Stat prestance with value 60
+19/04/2017 15:27:12 : Stat endurance with value 40
+19/04/2017 15:27:12 : Stat agility with value 20
+19/04/2017 15:27:12 : Stat brawl power with value 20
+19/04/2017 15:27:12 : Stat height with value 120
+19/04/2017 15:27:12 : Stat knowledge with value 125
+19/04/2017 15:27:12 : Stat idea with value 60
+19/04/2017 15:27:12 : Stat will power with value 60
+19/04/2017 15:27:12 : Stat sanity with value 60
+19/04/2017 15:27:12 : spendpoint health points with value 16
+19/04/2017 15:27:12 : spendpoint wound limit with value 8
+19/04/2017 15:27:12 : spendpoint magic points with value 12
+19/04/2017 15:27:12 : spendpoint Occupation skill points with value 500
+19/04/2017 15:27:12 : spendpoint Personal interest skill points with value 120
+19/04/2017 15:27:12 : Treating file : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\tom tom.xml
+19/04/2017 15:27:12 : Inside Character constructor with a character sheet
+19/04/2017 15:27:12 : Character name : Tom Tom
+19/04/2017 15:27:12 : player name : Luc le perdant
+19/04/2017 15:27:12 : Base Attr appearance with value 4
+19/04/2017 15:27:12 : Base Attr constitution with value 11
+19/04/2017 15:27:12 : Base Attr strength with value 10
+19/04/2017 15:27:12 : Base Attr dexterity with value 16
+19/04/2017 15:27:12 : Base Attr power with value 15
+19/04/2017 15:27:12 : Base Attr size with value 12
+19/04/2017 15:27:12 : Base Attr intelligence with value 15
+19/04/2017 15:27:12 : Base Attr education with value 18
+19/04/2017 15:27:12 : Skill art with value 5
+19/04/2017 15:27:12 : Skill artisanat with value 5
+19/04/2017 15:27:12 : Skill baratin with value 5
+19/04/2017 15:27:12 : Skill bibliotheque with value 5
+19/04/2017 15:27:12 : Skill comptabilite with value 10
+19/04/2017 15:27:12 : Skill concocter potion with value 1
+19/04/2017 15:27:12 : Skill conduire attelage with value 20
+19/04/2017 15:27:12 : Skill coup de pied with value 25
+19/04/2017 15:27:12 : Skill coup de poing with value 50
+19/04/2017 15:27:12 : Skill coup de tete with value 10
+19/04/2017 15:27:12 : Skill discretion with value 10
+19/04/2017 15:27:12 : Skill dissimulation with value 15
+19/04/2017 15:27:12 : Skill ecouter with value 25
+19/04/2017 15:27:12 : Skill ecrire une langue with value 1
+19/04/2017 15:27:12 : Skill esquiver with value 5
+19/04/2017 15:27:12 : Skill grimper with value 40
+19/04/2017 15:27:12 : Skill lancer with value 25
+19/04/2017 15:27:12 : Skill langue etrangere with value 1
+19/04/2017 15:27:12 : Skill langue natale with value 5
+19/04/2017 15:27:12 : Skill lutte with value 25
+19/04/2017 15:27:12 : Skill marchandage with value 5
+19/04/2017 15:27:12 : Skill monde naturel with value 10
+19/04/2017 15:27:12 : Skill monter a cheval with value 5
+19/04/2017 15:27:12 : Skill mythe de Cthulhu with value 0
+19/04/2017 15:27:12 : Skill nager with value 25
+19/04/2017 15:27:12 : Skill navigation with value 10
+19/04/2017 15:27:12 : Skill occultisme with value 5
+19/04/2017 15:27:12 : Skill persuasion with value 15
+19/04/2017 15:27:12 : Skill piloter bateau with value 1
+19/04/2017 15:27:12 : Skill premiers soins with value 30
+19/04/2017 15:27:12 : Skill reparer concevoir with value 20
+19/04/2017 15:27:12 : Skill royaume natal with value 20
+19/04/2017 15:27:12 : Skill royaumes etrangers with value 1
+19/04/2017 15:27:12 : Skill sagacite with value 5
+19/04/2017 15:27:12 : Skill sauter with value 25
+19/04/2017 15:27:12 : Skill science with value 1
+19/04/2017 15:27:12 : Skill se cacher with value 10
+19/04/2017 15:27:12 : Skill statut with value 15
+19/04/2017 15:27:12 : Skill suivre une piste with value 10
+19/04/2017 15:27:12 : Skill trouver objet cache with value 25
+19/04/2017 15:27:12 : Stat prestance with value 20
+19/04/2017 15:27:12 : Stat endurance with value 55
+19/04/2017 15:27:12 : Stat agility with value 80
+19/04/2017 15:27:12 : Stat brawl power with value 50
+19/04/2017 15:27:12 : Stat height with value 60
+19/04/2017 15:27:12 : Stat knowledge with value 90
+19/04/2017 15:27:12 : Stat idea with value 75
+19/04/2017 15:27:12 : Stat will power with value 75
+19/04/2017 15:27:12 : Stat sanity with value 75
+19/04/2017 15:27:12 : spendpoint health points with value 11
+19/04/2017 15:27:12 : spendpoint wound limit with value 5
+19/04/2017 15:27:12 : spendpoint magic points with value 15
+19/04/2017 15:27:12 : spendpoint Occupation skill points with value 360
+19/04/2017 15:27:12 : spendpoint Personal interest skill points with value 150
+19/04/2017 15:27:15 : Inside character repository.Get.
+19/04/2017 15:27:15 : Inside default character constructor
+19/04/2017 15:27:15 : CharacterRepository.get : file c:\users\mgouzee\desktop\github folder of mika\rpg-api\rpg-api\rpg-api\app_data\characters\asecondone.xml
+19/04/2017 15:27:15 : Inside Character constructor with a character sheet
+19/04/2017 15:27:15 : Character name : AsecondOne
+19/04/2017 15:27:15 : player name : FOPlayer2
+19/04/2017 15:27:15 : Base Attr strength with value 0
+19/04/2017 15:27:15 : Base Attr perception with value 0
+19/04/2017 15:27:15 : Base Attr endurance with value 3
+19/04/2017 15:27:15 : Base Attr charism with value 1
+19/04/2017 15:27:15 : Base Attr intelligence with value 0
+19/04/2017 15:27:15 : Base Attr agility with value 0
+19/04/2017 15:27:15 : Base Attr luck with value 1
+19/04/2017 15:27:15 : Skill small guns with value 5
+19/04/2017 15:27:15 : Skill big guns with value 0
+19/04/2017 15:27:15 : Skill energy weapons with value 0
+19/04/2017 15:27:15 : Skill unarmed with value 30
+19/04/2017 15:27:15 : Skill melee weapons with value 20
+19/04/2017 15:27:15 : Skill throwing with value 0
+19/04/2017 15:27:15 : Skill first aid with value 6
+19/04/2017 15:27:15 : Skill doctor with value 5
+19/04/2017 15:27:15 : Skill sneak with value 5
+19/04/2017 15:27:15 : Skill lockpick with value 10
+19/04/2017 15:27:15 : Skill steal with value 0
+19/04/2017 15:27:15 : Skill traps with value 10
+19/04/2017 15:27:15 : Skill science with value 0
+19/04/2017 15:27:15 : Skill repair with value 0
+19/04/2017 15:27:15 : Skill pilot with value 0
+19/04/2017 15:27:15 : Skill speech with value 5
+19/04/2017 15:27:15 : Skill barter with value 4
+19/04/2017 15:27:15 : Skill gambling with value 5
+19/04/2017 15:27:15 : Skill outdoorsman with value 6
+19/04/2017 15:27:15 : Skill radiation resistance with value 0
+19/04/2017 15:27:15 : Skill poison resistance with value 0
+19/04/2017 15:27:15 : Skill damage resistance with value 0
+19/04/2017 15:27:15 : Skill electric resistance with value 0
+19/04/2017 15:27:15 : Stat action points with value 1
+19/04/2017 15:27:15 : Stat karma with value 0
+19/04/2017 15:27:15 : Stat armor class with value 0
+19/04/2017 15:27:15 : Stat carry weight with value 25
+19/04/2017 15:27:15 : Stat melee damage with value 1
+19/04/2017 15:27:15 : Stat sequence with value 0
+19/04/2017 15:27:15 : Stat healing rate with value 1
+19/04/2017 15:27:15 : spendpoint health points with value 21
+19/04/2017 15:27:15 : spendpoint wound limit with value 0
+19/04/2017 15:27:15 : spendpoint skill points with value 0
+19/04/2017 15:27:15 : spendpoint creation points with value 5
+19/04/2017 15:27:15 : Character Found! Expected AsecondOne, found AsecondOne
+19/04/2017 15:27:18 : Inside Repo Character Get All method
+19/04/2017 15:27:18 : Treating file : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\asecondone.xml
+19/04/2017 15:27:18 : Inside Character constructor with a character sheet
+19/04/2017 15:27:18 : Character name : AsecondOne
+19/04/2017 15:27:18 : player name : FOPlayer2
+19/04/2017 15:27:18 : Base Attr strength with value 0
+19/04/2017 15:27:18 : Base Attr perception with value 0
+19/04/2017 15:27:18 : Base Attr endurance with value 3
+19/04/2017 15:27:18 : Base Attr charism with value 1
+19/04/2017 15:27:18 : Base Attr intelligence with value 0
+19/04/2017 15:27:18 : Base Attr agility with value 0
+19/04/2017 15:27:18 : Base Attr luck with value 1
+19/04/2017 15:27:18 : Skill small guns with value 5
+19/04/2017 15:27:18 : Skill big guns with value 0
+19/04/2017 15:27:18 : Skill energy weapons with value 0
+19/04/2017 15:27:18 : Skill unarmed with value 30
+19/04/2017 15:27:18 : Skill melee weapons with value 20
+19/04/2017 15:27:18 : Skill throwing with value 0
+19/04/2017 15:27:18 : Skill first aid with value 6
+19/04/2017 15:27:18 : Skill doctor with value 5
+19/04/2017 15:27:18 : Skill sneak with value 5
+19/04/2017 15:27:18 : Skill lockpick with value 10
+19/04/2017 15:27:18 : Skill steal with value 0
+19/04/2017 15:27:18 : Skill traps with value 10
+19/04/2017 15:27:18 : Skill science with value 0
+19/04/2017 15:27:18 : Skill repair with value 0
+19/04/2017 15:27:18 : Skill pilot with value 0
+19/04/2017 15:27:18 : Skill speech with value 5
+19/04/2017 15:27:18 : Skill barter with value 4
+19/04/2017 15:27:18 : Skill gambling with value 5
+19/04/2017 15:27:18 : Skill outdoorsman with value 6
+19/04/2017 15:27:18 : Skill radiation resistance with value 0
+19/04/2017 15:27:18 : Skill poison resistance with value 0
+19/04/2017 15:27:18 : Skill damage resistance with value 0
+19/04/2017 15:27:18 : Skill electric resistance with value 0
+19/04/2017 15:27:18 : Stat action points with value 1
+19/04/2017 15:27:18 : Stat karma with value 0
+19/04/2017 15:27:18 : Stat armor class with value 0
+19/04/2017 15:27:18 : Stat carry weight with value 25
+19/04/2017 15:27:18 : Stat melee damage with value 1
+19/04/2017 15:27:18 : Stat sequence with value 0
+19/04/2017 15:27:18 : Stat healing rate with value 1
+19/04/2017 15:27:18 : spendpoint health points with value 21
+19/04/2017 15:27:18 : spendpoint wound limit with value 0
+19/04/2017 15:27:18 : spendpoint skill points with value 0
+19/04/2017 15:27:18 : spendpoint creation points with value 5
+19/04/2017 15:27:18 : Treating file : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\falloutcharacter.xml
+19/04/2017 15:27:18 : Inside Character constructor with a character sheet
+19/04/2017 15:27:18 : Character name : FalloutCharacter
+19/04/2017 15:27:18 : player name : FOP
+19/04/2017 15:27:18 : Base Attr strength with value 0
+19/04/2017 15:27:18 : Base Attr perception with value 0
+19/04/2017 15:27:18 : Base Attr endurance with value 0
+19/04/2017 15:27:18 : Base Attr charism with value 1
+19/04/2017 15:27:18 : Base Attr intelligence with value 3
+19/04/2017 15:27:18 : Base Attr agility with value 1
+19/04/2017 15:27:18 : Base Attr luck with value 0
+19/04/2017 15:27:18 : Skill small guns with value 9
+19/04/2017 15:27:18 : Skill big guns with value 2
+19/04/2017 15:27:18 : Skill energy weapons with value 2
+19/04/2017 15:27:18 : Skill unarmed with value 32
+19/04/2017 15:27:18 : Skill melee weapons with value 22
+19/04/2017 15:27:18 : Skill throwing with value 4
+19/04/2017 15:27:18 : Skill first aid with value 0
+19/04/2017 15:27:18 : Skill doctor with value 8
+19/04/2017 15:27:18 : Skill sneak with value 8
+19/04/2017 15:27:18 : Skill lockpick with value 11
+19/04/2017 15:27:18 : Skill steal with value 3
+19/04/2017 15:27:18 : Skill traps with value 11
+19/04/2017 15:27:18 : Skill science with value 12
+19/04/2017 15:27:18 : Skill repair with value 9
+19/04/2017 15:27:18 : Skill pilot with value 2
+19/04/2017 15:27:18 : Skill speech with value 5
+19/04/2017 15:27:18 : Skill barter with value 4
+19/04/2017 15:27:18 : Skill gambling with value 0
+19/04/2017 15:27:18 : Skill outdoorsman with value 6
+19/04/2017 15:27:18 : Skill radiation resistance with value 0
+19/04/2017 15:27:18 : Skill poison resistance with value 0
+19/04/2017 15:27:18 : Skill damage resistance with value 0
+19/04/2017 15:27:18 : Skill electric resistance with value 0
+19/04/2017 15:27:18 : Stat action points with value 5
+19/04/2017 15:27:18 : Stat karma with value 0
+19/04/2017 15:27:18 : Stat armor class with value 1
+19/04/2017 15:27:18 : Stat carry weight with value 25
+19/04/2017 15:27:18 : Stat melee damage with value 1
+19/04/2017 15:27:18 : Stat sequence with value 0
+19/04/2017 15:27:18 : Stat healing rate with value 4
+19/04/2017 15:27:18 : spendpoint health points with value 15
+19/04/2017 15:27:18 : spendpoint wound limit with value 0
+19/04/2017 15:27:18 : spendpoint skill points with value 0
+19/04/2017 15:27:18 : spendpoint creation points with value 5
+19/04/2017 15:27:18 : Treating file : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\testvalue.xml
+19/04/2017 15:27:18 : Inside Character constructor with a character sheet
+19/04/2017 15:27:18 : Character name : testValue
+19/04/2017 15:27:18 : player name : playerName
+19/04/2017 15:27:18 : Base Attr appearance with value 12
+19/04/2017 15:27:18 : Base Attr constitution with value 8
+19/04/2017 15:27:18 : Base Attr strength with value 4
+19/04/2017 15:27:18 : Base Attr dexterity with value 4
+19/04/2017 15:27:18 : Base Attr power with value 12
+19/04/2017 15:27:18 : Base Attr size with value 24
+19/04/2017 15:27:18 : Base Attr intelligence with value 12
+19/04/2017 15:27:18 : Base Attr education with value 25
+19/04/2017 15:27:18 : Skill art with value 5
+19/04/2017 15:27:18 : Skill artisanat with value 5
+19/04/2017 15:27:18 : Skill baratin with value 5
+19/04/2017 15:27:18 : Skill bibliotheque with value 5
+19/04/2017 15:27:18 : Skill comptabilite with value 10
+19/04/2017 15:27:18 : Skill concocter potion with value 1
+19/04/2017 15:27:18 : Skill conduire attelage with value 20
+19/04/2017 15:27:18 : Skill coup de pied with value 25
+19/04/2017 15:27:18 : Skill coup de poing with value 50
+19/04/2017 15:27:18 : Skill coup de tete with value 10
+19/04/2017 15:27:18 : Skill discretion with value 10
+19/04/2017 15:27:18 : Skill dissimulation with value 15
+19/04/2017 15:27:18 : Skill ecouter with value 25
+19/04/2017 15:27:18 : Skill ecrire une langue with value 1
+19/04/2017 15:27:18 : Skill esquiver with value 5
+19/04/2017 15:27:18 : Skill grimper with value 40
+19/04/2017 15:27:18 : Skill lancer with value 25
+19/04/2017 15:27:18 : Skill langue etrangere with value 1
+19/04/2017 15:27:18 : Skill langue natale with value 5
+19/04/2017 15:27:18 : Skill lutte with value 25
+19/04/2017 15:27:18 : Skill marchandage with value 5
+19/04/2017 15:27:18 : Skill monde naturel with value 10
+19/04/2017 15:27:18 : Skill monter a cheval with value 5
+19/04/2017 15:27:18 : Skill mythe de Cthulhu with value 0
+19/04/2017 15:27:18 : Skill nager with value 25
+19/04/2017 15:27:18 : Skill navigation with value 10
+19/04/2017 15:27:18 : Skill occultisme with value 5
+19/04/2017 15:27:18 : Skill persuasion with value 15
+19/04/2017 15:27:18 : Skill piloter bateau with value 1
+19/04/2017 15:27:18 : Skill premiers soins with value 30
+19/04/2017 15:27:18 : Skill reparer concevoir with value 20
+19/04/2017 15:27:18 : Skill royaume natal with value 20
+19/04/2017 15:27:18 : Skill royaumes etrangers with value 1
+19/04/2017 15:27:18 : Skill sagacite with value 5
+19/04/2017 15:27:18 : Skill sauter with value 25
+19/04/2017 15:27:18 : Skill science with value 1
+19/04/2017 15:27:18 : Skill se cacher with value 10
+19/04/2017 15:27:18 : Skill statut with value 15
+19/04/2017 15:27:18 : Skill suivre une piste with value 10
+19/04/2017 15:27:18 : Skill trouver objet cache with value 25
+19/04/2017 15:27:18 : Stat prestance with value 60
+19/04/2017 15:27:18 : Stat endurance with value 40
+19/04/2017 15:27:18 : Stat agility with value 20
+19/04/2017 15:27:18 : Stat brawl power with value 20
+19/04/2017 15:27:18 : Stat height with value 120
+19/04/2017 15:27:18 : Stat knowledge with value 125
+19/04/2017 15:27:19 : Stat idea with value 60
+19/04/2017 15:27:19 : Stat will power with value 60
+19/04/2017 15:27:19 : Stat sanity with value 60
+19/04/2017 15:27:19 : spendpoint health points with value 16
+19/04/2017 15:27:19 : spendpoint wound limit with value 8
+19/04/2017 15:27:19 : spendpoint magic points with value 12
+19/04/2017 15:27:19 : spendpoint Occupation skill points with value 500
+19/04/2017 15:27:19 : spendpoint Personal interest skill points with value 120
+19/04/2017 15:27:19 : Treating file : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\tom tom.xml
+19/04/2017 15:27:19 : Inside Character constructor with a character sheet
+19/04/2017 15:27:19 : Character name : Tom Tom
+19/04/2017 15:27:19 : player name : Luc le perdant
+19/04/2017 15:27:19 : Base Attr appearance with value 4
+19/04/2017 15:27:19 : Base Attr constitution with value 11
+19/04/2017 15:27:19 : Base Attr strength with value 10
+19/04/2017 15:27:19 : Base Attr dexterity with value 16
+19/04/2017 15:27:19 : Base Attr power with value 15
+19/04/2017 15:27:19 : Base Attr size with value 12
+19/04/2017 15:27:19 : Base Attr intelligence with value 15
+19/04/2017 15:27:19 : Base Attr education with value 18
+19/04/2017 15:27:19 : Skill art with value 5
+19/04/2017 15:27:19 : Skill artisanat with value 5
+19/04/2017 15:27:19 : Skill baratin with value 5
+19/04/2017 15:27:19 : Skill bibliotheque with value 5
+19/04/2017 15:27:19 : Skill comptabilite with value 10
+19/04/2017 15:27:19 : Skill concocter potion with value 1
+19/04/2017 15:27:19 : Skill conduire attelage with value 20
+19/04/2017 15:27:19 : Skill coup de pied with value 25
+19/04/2017 15:27:19 : Skill coup de poing with value 50
+19/04/2017 15:27:19 : Skill coup de tete with value 10
+19/04/2017 15:27:19 : Skill discretion with value 10
+19/04/2017 15:27:19 : Skill dissimulation with value 15
+19/04/2017 15:27:19 : Skill ecouter with value 25
+19/04/2017 15:27:19 : Skill ecrire une langue with value 1
+19/04/2017 15:27:19 : Skill esquiver with value 5
+19/04/2017 15:27:19 : Skill grimper with value 40
+19/04/2017 15:27:19 : Skill lancer with value 25
+19/04/2017 15:27:19 : Skill langue etrangere with value 1
+19/04/2017 15:27:19 : Skill langue natale with value 5
+19/04/2017 15:27:19 : Skill lutte with value 25
+19/04/2017 15:27:19 : Skill marchandage with value 5
+19/04/2017 15:27:19 : Skill monde naturel with value 10
+19/04/2017 15:27:19 : Skill monter a cheval with value 5
+19/04/2017 15:27:19 : Skill mythe de Cthulhu with value 0
+19/04/2017 15:27:19 : Skill nager with value 25
+19/04/2017 15:27:19 : Skill navigation with value 10
+19/04/2017 15:27:19 : Skill occultisme with value 5
+19/04/2017 15:27:19 : Skill persuasion with value 15
+19/04/2017 15:27:19 : Skill piloter bateau with value 1
+19/04/2017 15:27:19 : Skill premiers soins with value 30
+19/04/2017 15:27:19 : Skill reparer concevoir with value 20
+19/04/2017 15:27:19 : Skill royaume natal with value 20
+19/04/2017 15:27:19 : Skill royaumes etrangers with value 1
+19/04/2017 15:27:19 : Skill sagacite with value 5
+19/04/2017 15:27:19 : Skill sauter with value 25
+19/04/2017 15:27:19 : Skill science with value 1
+19/04/2017 15:27:19 : Skill se cacher with value 10
+19/04/2017 15:27:19 : Skill statut with value 15
+19/04/2017 15:27:19 : Skill suivre une piste with value 10
+19/04/2017 15:27:19 : Skill trouver objet cache with value 25
+19/04/2017 15:27:19 : Stat prestance with value 20
+19/04/2017 15:27:19 : Stat endurance with value 55
+19/04/2017 15:27:19 : Stat agility with value 80
+19/04/2017 15:27:19 : Stat brawl power with value 50
+19/04/2017 15:27:19 : Stat height with value 60
+19/04/2017 15:27:19 : Stat knowledge with value 90
+19/04/2017 15:27:19 : Stat idea with value 75
+19/04/2017 15:27:19 : Stat will power with value 75
+19/04/2017 15:27:19 : Stat sanity with value 75
+19/04/2017 15:27:19 : spendpoint health points with value 11
+19/04/2017 15:27:19 : spendpoint wound limit with value 5
+19/04/2017 15:27:19 : spendpoint magic points with value 15
+19/04/2017 15:27:19 : spendpoint Occupation skill points with value 360
+19/04/2017 15:27:19 : spendpoint Personal interest skill points with value 150
+19/04/2017 15:51:25 : Inside Game Controller Get All.
+19/04/2017 15:51:25 : Exiting Controller
+19/04/2017 15:51:46 : Inside Repo Character Get All method
+19/04/2017 15:51:46 : Treating file : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\asecondone.xml
+19/04/2017 15:51:46 : Inside Character constructor with a character sheet
+19/04/2017 15:51:46 : Character name : AsecondOne
+19/04/2017 15:51:46 : player name : FOPlayer2
+19/04/2017 15:51:46 : Base Attr strength with value 0
+19/04/2017 15:51:46 : Base Attr perception with value 0
+19/04/2017 15:51:46 : Base Attr endurance with value 3
+19/04/2017 15:51:46 : Base Attr charism with value 1
+19/04/2017 15:51:46 : Base Attr intelligence with value 0
+19/04/2017 15:51:46 : Base Attr agility with value 0
+19/04/2017 15:51:46 : Base Attr luck with value 1
+19/04/2017 15:51:46 : Skill small guns with value 5
+19/04/2017 15:51:46 : Skill big guns with value 0
+19/04/2017 15:51:46 : Skill energy weapons with value 0
+19/04/2017 15:51:46 : Skill unarmed with value 30
+19/04/2017 15:51:46 : Skill melee weapons with value 20
+19/04/2017 15:51:46 : Skill throwing with value 0
+19/04/2017 15:51:46 : Skill first aid with value 6
+19/04/2017 15:51:46 : Skill doctor with value 5
+19/04/2017 15:51:46 : Skill sneak with value 5
+19/04/2017 15:51:46 : Skill lockpick with value 10
+19/04/2017 15:51:46 : Skill steal with value 0
+19/04/2017 15:51:46 : Skill traps with value 10
+19/04/2017 15:51:46 : Skill science with value 0
+19/04/2017 15:51:46 : Skill repair with value 0
+19/04/2017 15:51:46 : Skill pilot with value 0
+19/04/2017 15:51:46 : Skill speech with value 5
+19/04/2017 15:51:46 : Skill barter with value 4
+19/04/2017 15:51:46 : Skill gambling with value 5
+19/04/2017 15:51:46 : Skill outdoorsman with value 6
+19/04/2017 15:51:46 : Skill radiation resistance with value 0
+19/04/2017 15:51:46 : Skill poison resistance with value 0
+19/04/2017 15:51:46 : Skill damage resistance with value 0
+19/04/2017 15:51:46 : Skill electric resistance with value 0
+19/04/2017 15:51:46 : Stat action points with value 1
+19/04/2017 15:51:46 : Stat karma with value 0
+19/04/2017 15:51:46 : Stat armor class with value 0
+19/04/2017 15:51:46 : Stat carry weight with value 25
+19/04/2017 15:51:46 : Stat melee damage with value 1
+19/04/2017 15:51:47 : Stat sequence with value 0
+19/04/2017 15:51:47 : Stat healing rate with value 1
+19/04/2017 15:51:47 : spendpoint health points with value 21
+19/04/2017 15:51:47 : spendpoint wound limit with value 0
+19/04/2017 15:51:47 : spendpoint skill points with value 0
+19/04/2017 15:51:47 : spendpoint creation points with value 5
+19/04/2017 15:51:47 : Treating file : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\falloutcharacter.xml
+19/04/2017 15:51:47 : Inside Character constructor with a character sheet
+19/04/2017 15:51:47 : Character name : FalloutCharacter
+19/04/2017 15:51:47 : player name : FOP
+19/04/2017 15:51:47 : Base Attr strength with value 0
+19/04/2017 15:51:47 : Base Attr perception with value 0
+19/04/2017 15:51:47 : Base Attr endurance with value 0
+19/04/2017 15:51:47 : Base Attr charism with value 1
+19/04/2017 15:51:47 : Base Attr intelligence with value 3
+19/04/2017 15:51:47 : Base Attr agility with value 1
+19/04/2017 15:51:47 : Base Attr luck with value 0
+19/04/2017 15:51:47 : Skill small guns with value 9
+19/04/2017 15:51:47 : Skill big guns with value 2
+19/04/2017 15:51:47 : Skill energy weapons with value 2
+19/04/2017 15:51:47 : Skill unarmed with value 32
+19/04/2017 15:51:47 : Skill melee weapons with value 22
+19/04/2017 15:51:47 : Skill throwing with value 4
+19/04/2017 15:51:47 : Skill first aid with value 0
+19/04/2017 15:51:47 : Skill doctor with value 8
+19/04/2017 15:51:47 : Skill sneak with value 8
+19/04/2017 15:51:47 : Skill lockpick with value 11
+19/04/2017 15:51:47 : Skill steal with value 3
+19/04/2017 15:51:47 : Skill traps with value 11
+19/04/2017 15:51:47 : Skill science with value 12
+19/04/2017 15:51:47 : Skill repair with value 9
+19/04/2017 15:51:47 : Skill pilot with value 2
+19/04/2017 15:51:47 : Skill speech with value 5
+19/04/2017 15:51:47 : Skill barter with value 4
+19/04/2017 15:51:47 : Skill gambling with value 0
+19/04/2017 15:51:47 : Skill outdoorsman with value 6
+19/04/2017 15:51:47 : Skill radiation resistance with value 0
+19/04/2017 15:51:47 : Skill poison resistance with value 0
+19/04/2017 15:51:47 : Skill damage resistance with value 0
+19/04/2017 15:51:47 : Skill electric resistance with value 0
+19/04/2017 15:51:47 : Stat action points with value 5
+19/04/2017 15:51:47 : Stat karma with value 0
+19/04/2017 15:51:47 : Stat armor class with value 1
+19/04/2017 15:51:47 : Stat carry weight with value 25
+19/04/2017 15:51:47 : Stat melee damage with value 1
+19/04/2017 15:51:47 : Stat sequence with value 0
+19/04/2017 15:51:47 : Stat healing rate with value 4
+19/04/2017 15:51:47 : spendpoint health points with value 15
+19/04/2017 15:51:47 : spendpoint wound limit with value 0
+19/04/2017 15:51:47 : spendpoint skill points with value 0
+19/04/2017 15:51:47 : spendpoint creation points with value 5
+19/04/2017 15:51:47 : Treating file : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\testvalue.xml
+19/04/2017 15:51:47 : Inside Character constructor with a character sheet
+19/04/2017 15:51:47 : Character name : testValue
+19/04/2017 15:51:47 : player name : playerName
+19/04/2017 15:51:47 : Base Attr appearance with value 12
+19/04/2017 15:51:47 : Base Attr constitution with value 8
+19/04/2017 15:51:47 : Base Attr strength with value 4
+19/04/2017 15:51:47 : Base Attr dexterity with value 4
+19/04/2017 15:51:47 : Base Attr power with value 12
+19/04/2017 15:51:47 : Base Attr size with value 24
+19/04/2017 15:51:47 : Base Attr intelligence with value 12
+19/04/2017 15:51:47 : Base Attr education with value 25
+19/04/2017 15:51:47 : Skill art with value 5
+19/04/2017 15:51:47 : Skill artisanat with value 5
+19/04/2017 15:51:47 : Skill baratin with value 5
+19/04/2017 15:51:47 : Skill bibliotheque with value 5
+19/04/2017 15:51:47 : Skill comptabilite with value 10
+19/04/2017 15:51:47 : Skill concocter potion with value 1
+19/04/2017 15:51:47 : Skill conduire attelage with value 20
+19/04/2017 15:51:47 : Skill coup de pied with value 25
+19/04/2017 15:51:47 : Skill coup de poing with value 50
+19/04/2017 15:51:47 : Skill coup de tete with value 10
+19/04/2017 15:51:47 : Skill discretion with value 10
+19/04/2017 15:51:47 : Skill dissimulation with value 15
+19/04/2017 15:51:47 : Skill ecouter with value 25
+19/04/2017 15:51:47 : Skill ecrire une langue with value 1
+19/04/2017 15:51:47 : Skill esquiver with value 5
+19/04/2017 15:51:47 : Skill grimper with value 40
+19/04/2017 15:51:47 : Skill lancer with value 25
+19/04/2017 15:51:47 : Skill langue etrangere with value 1
+19/04/2017 15:51:47 : Skill langue natale with value 5
+19/04/2017 15:51:47 : Skill lutte with value 25
+19/04/2017 15:51:47 : Skill marchandage with value 5
+19/04/2017 15:51:47 : Skill monde naturel with value 10
+19/04/2017 15:51:47 : Skill monter a cheval with value 5
+19/04/2017 15:51:47 : Skill mythe de Cthulhu with value 0
+19/04/2017 15:51:47 : Skill nager with value 25
+19/04/2017 15:51:47 : Skill navigation with value 10
+19/04/2017 15:51:47 : Skill occultisme with value 5
+19/04/2017 15:51:47 : Skill persuasion with value 15
+19/04/2017 15:51:47 : Skill piloter bateau with value 1
+19/04/2017 15:51:47 : Skill premiers soins with value 30
+19/04/2017 15:51:47 : Skill reparer concevoir with value 20
+19/04/2017 15:51:47 : Skill royaume natal with value 20
+19/04/2017 15:51:47 : Skill royaumes etrangers with value 1
+19/04/2017 15:51:47 : Skill sagacite with value 5
+19/04/2017 15:51:47 : Skill sauter with value 25
+19/04/2017 15:51:47 : Skill science with value 1
+19/04/2017 15:51:47 : Skill se cacher with value 10
+19/04/2017 15:51:47 : Skill statut with value 15
+19/04/2017 15:51:47 : Skill suivre une piste with value 10
+19/04/2017 15:51:47 : Skill trouver objet cache with value 25
+19/04/2017 15:51:47 : Stat prestance with value 60
+19/04/2017 15:51:47 : Stat endurance with value 40
+19/04/2017 15:51:47 : Stat agility with value 20
+19/04/2017 15:51:47 : Stat brawl power with value 20
+19/04/2017 15:51:47 : Stat height with value 120
+19/04/2017 15:51:47 : Stat knowledge with value 125
+19/04/2017 15:51:47 : Stat idea with value 60
+19/04/2017 15:51:47 : Stat will power with value 60
+19/04/2017 15:51:47 : Stat sanity with value 60
+19/04/2017 15:51:47 : spendpoint health points with value 16
+19/04/2017 15:51:47 : spendpoint wound limit with value 8
+19/04/2017 15:51:47 : spendpoint magic points with value 12
+19/04/2017 15:51:47 : spendpoint Occupation skill points with value 500
+19/04/2017 15:51:47 : spendpoint Personal interest skill points with value 120
+19/04/2017 15:51:47 : Treating file : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\tom tom.xml
+19/04/2017 15:51:47 : Inside Character constructor with a character sheet
+19/04/2017 15:51:47 : Character name : Tom Tom
+19/04/2017 15:51:47 : player name : Luc le perdant
+19/04/2017 15:51:47 : Base Attr appearance with value 4
+19/04/2017 15:51:47 : Base Attr constitution with value 11
+19/04/2017 15:51:47 : Base Attr strength with value 10
+19/04/2017 15:51:47 : Base Attr dexterity with value 16
+19/04/2017 15:51:47 : Base Attr power with value 15
+19/04/2017 15:51:47 : Base Attr size with value 12
+19/04/2017 15:51:47 : Base Attr intelligence with value 15
+19/04/2017 15:51:47 : Base Attr education with value 18
+19/04/2017 15:51:47 : Skill art with value 5
+19/04/2017 15:51:47 : Skill artisanat with value 5
+19/04/2017 15:51:47 : Skill baratin with value 5
+19/04/2017 15:51:47 : Skill bibliotheque with value 5
+19/04/2017 15:51:47 : Skill comptabilite with value 10
+19/04/2017 15:51:47 : Skill concocter potion with value 1
+19/04/2017 15:51:47 : Skill conduire attelage with value 20
+19/04/2017 15:51:47 : Skill coup de pied with value 25
+19/04/2017 15:51:47 : Skill coup de poing with value 50
+19/04/2017 15:51:47 : Skill coup de tete with value 10
+19/04/2017 15:51:47 : Skill discretion with value 10
+19/04/2017 15:51:47 : Skill dissimulation with value 15
+19/04/2017 15:51:47 : Skill ecouter with value 25
+19/04/2017 15:51:47 : Skill ecrire une langue with value 1
+19/04/2017 15:51:47 : Skill esquiver with value 5
+19/04/2017 15:51:47 : Skill grimper with value 40
+19/04/2017 15:51:47 : Skill lancer with value 25
+19/04/2017 15:51:47 : Skill langue etrangere with value 1
+19/04/2017 15:51:47 : Skill langue natale with value 5
+19/04/2017 15:51:47 : Skill lutte with value 25
+19/04/2017 15:51:47 : Skill marchandage with value 5
+19/04/2017 15:51:47 : Skill monde naturel with value 10
+19/04/2017 15:51:47 : Skill monter a cheval with value 5
+19/04/2017 15:51:47 : Skill mythe de Cthulhu with value 0
+19/04/2017 15:51:47 : Skill nager with value 25
+19/04/2017 15:51:47 : Skill navigation with value 10
+19/04/2017 15:51:47 : Skill occultisme with value 5
+19/04/2017 15:51:47 : Skill persuasion with value 15
+19/04/2017 15:51:47 : Skill piloter bateau with value 1
+19/04/2017 15:51:47 : Skill premiers soins with value 30
+19/04/2017 15:51:47 : Skill reparer concevoir with value 20
+19/04/2017 15:51:47 : Skill royaume natal with value 20
+19/04/2017 15:51:47 : Skill royaumes etrangers with value 1
+19/04/2017 15:51:47 : Skill sagacite with value 5
+19/04/2017 15:51:47 : Skill sauter with value 25
+19/04/2017 15:51:47 : Skill science with value 1
+19/04/2017 15:51:47 : Skill se cacher with value 10
+19/04/2017 15:51:47 : Skill statut with value 15
+19/04/2017 15:51:47 : Skill suivre une piste with value 10
+19/04/2017 15:51:47 : Skill trouver objet cache with value 25
+19/04/2017 15:51:47 : Stat prestance with value 20
+19/04/2017 15:51:47 : Stat endurance with value 55
+19/04/2017 15:51:47 : Stat agility with value 80
+19/04/2017 15:51:47 : Stat brawl power with value 50
+19/04/2017 15:51:47 : Stat height with value 60
+19/04/2017 15:51:47 : Stat knowledge with value 90
+19/04/2017 15:51:47 : Stat idea with value 75
+19/04/2017 15:51:47 : Stat will power with value 75
+19/04/2017 15:51:47 : Stat sanity with value 75
+19/04/2017 15:51:47 : spendpoint health points with value 11
+19/04/2017 15:51:47 : spendpoint wound limit with value 5
+19/04/2017 15:51:47 : spendpoint magic points with value 15
+19/04/2017 15:51:47 : spendpoint Occupation skill points with value 360
+19/04/2017 15:51:47 : spendpoint Personal interest skill points with value 150
+19/04/2017 15:51:50 : Inside character repository.Get.
+19/04/2017 15:51:50 : Inside default character constructor
+19/04/2017 15:51:50 : CharacterRepository.get : file c:\users\mgouzee\desktop\github folder of mika\rpg-api\rpg-api\rpg-api\app_data\characters\asecondone.xml
+19/04/2017 15:51:50 : Inside Character constructor with a character sheet
+19/04/2017 15:51:50 : Character name : AsecondOne
+19/04/2017 15:51:50 : player name : FOPlayer2
+19/04/2017 15:51:50 : Base Attr strength with value 0
+19/04/2017 15:51:50 : Base Attr perception with value 0
+19/04/2017 15:51:50 : Base Attr endurance with value 3
+19/04/2017 15:51:50 : Base Attr charism with value 1
+19/04/2017 15:51:50 : Base Attr intelligence with value 0
+19/04/2017 15:51:50 : Base Attr agility with value 0
+19/04/2017 15:51:50 : Base Attr luck with value 1
+19/04/2017 15:51:50 : Skill small guns with value 5
+19/04/2017 15:51:50 : Skill big guns with value 0
+19/04/2017 15:51:50 : Skill energy weapons with value 0
+19/04/2017 15:51:50 : Skill unarmed with value 30
+19/04/2017 15:51:50 : Skill melee weapons with value 20
+19/04/2017 15:51:50 : Skill throwing with value 0
+19/04/2017 15:51:50 : Skill first aid with value 6
+19/04/2017 15:51:50 : Skill doctor with value 5
+19/04/2017 15:51:50 : Skill sneak with value 5
+19/04/2017 15:51:50 : Skill lockpick with value 10
+19/04/2017 15:51:50 : Skill steal with value 0
+19/04/2017 15:51:50 : Skill traps with value 10
+19/04/2017 15:51:50 : Skill science with value 0
+19/04/2017 15:51:50 : Skill repair with value 0
+19/04/2017 15:51:50 : Skill pilot with value 0
+19/04/2017 15:51:50 : Skill speech with value 5
+19/04/2017 15:51:50 : Skill barter with value 4
+19/04/2017 15:51:50 : Skill gambling with value 5
+19/04/2017 15:51:50 : Skill outdoorsman with value 6
+19/04/2017 15:51:50 : Skill radiation resistance with value 0
+19/04/2017 15:51:50 : Skill poison resistance with value 0
+19/04/2017 15:51:50 : Skill damage resistance with value 0
+19/04/2017 15:51:50 : Skill electric resistance with value 0
+19/04/2017 15:51:50 : Stat action points with value 1
+19/04/2017 15:51:50 : Stat karma with value 0
+19/04/2017 15:51:50 : Stat armor class with value 0
+19/04/2017 15:51:50 : Stat carry weight with value 25
+19/04/2017 15:51:50 : Stat melee damage with value 1
+19/04/2017 15:51:50 : Stat sequence with value 0
+19/04/2017 15:51:50 : Stat healing rate with value 1
+19/04/2017 15:51:50 : spendpoint health points with value 21
+19/04/2017 15:51:50 : spendpoint wound limit with value 0
+19/04/2017 15:51:50 : spendpoint skill points with value 0
+19/04/2017 15:51:50 : spendpoint creation points with value 5
+19/04/2017 15:51:50 : Character Found! Expected AsecondOne, found AsecondOne
+19/04/2017 15:52:09 : Inside character repository.Get.
+19/04/2017 15:52:09 : Inside default character constructor
+19/04/2017 15:52:09 : CharacterRepository.get : file c:\users\mgouzee\desktop\github folder of mika\rpg-api\rpg-api\rpg-api\app_data\characters\asecondone.xml
+19/04/2017 15:52:09 : Inside Character constructor with a character sheet
+19/04/2017 15:52:09 : Character name : AsecondOne
+19/04/2017 15:52:09 : player name : FOPlayer2
+19/04/2017 15:52:09 : Base Attr strength with value 0
+19/04/2017 15:52:09 : Base Attr perception with value 0
+19/04/2017 15:52:09 : Base Attr endurance with value 3
+19/04/2017 15:52:09 : Base Attr charism with value 1
+19/04/2017 15:52:09 : Base Attr intelligence with value 0
+19/04/2017 15:52:09 : Base Attr agility with value 0
+19/04/2017 15:52:09 : Base Attr luck with value 1
+19/04/2017 15:52:09 : Skill small guns with value 5
+19/04/2017 15:52:09 : Skill big guns with value 0
+19/04/2017 15:52:09 : Skill energy weapons with value 0
+19/04/2017 15:52:09 : Skill unarmed with value 30
+19/04/2017 15:52:09 : Skill melee weapons with value 20
+19/04/2017 15:52:09 : Skill throwing with value 0
+19/04/2017 15:52:09 : Skill first aid with value 6
+19/04/2017 15:52:09 : Skill doctor with value 5
+19/04/2017 15:52:09 : Skill sneak with value 5
+19/04/2017 15:52:09 : Skill lockpick with value 10
+19/04/2017 15:52:09 : Skill steal with value 0
+19/04/2017 15:52:09 : Skill traps with value 10
+19/04/2017 15:52:09 : Skill science with value 0
+19/04/2017 15:52:09 : Skill repair with value 0
+19/04/2017 15:52:09 : Skill pilot with value 0
+19/04/2017 15:52:09 : Skill speech with value 5
+19/04/2017 15:52:09 : Skill barter with value 4
+19/04/2017 15:52:09 : Skill gambling with value 5
+19/04/2017 15:52:09 : Skill outdoorsman with value 6
+19/04/2017 15:52:09 : Skill radiation resistance with value 0
+19/04/2017 15:52:09 : Skill poison resistance with value 0
+19/04/2017 15:52:09 : Skill damage resistance with value 0
+19/04/2017 15:52:09 : Skill electric resistance with value 0
+19/04/2017 15:52:09 : Stat action points with value 1
+19/04/2017 15:52:09 : Stat karma with value 0
+19/04/2017 15:52:09 : Stat armor class with value 0
+19/04/2017 15:52:09 : Stat carry weight with value 25
+19/04/2017 15:52:09 : Stat melee damage with value 1
+19/04/2017 15:52:09 : Stat sequence with value 0
+19/04/2017 15:52:09 : Stat healing rate with value 1
+19/04/2017 15:52:10 : spendpoint health points with value 21
+19/04/2017 15:52:10 : spendpoint wound limit with value 0
+19/04/2017 15:52:10 : spendpoint skill points with value 0
+19/04/2017 15:52:10 : spendpoint creation points with value 5
+19/04/2017 15:52:10 : Character Found! Expected AsecondOne, found AsecondOne
+19/04/2017 15:53:53 : Inside character repository.Get.
+19/04/2017 15:53:53 : Inside default character constructor
+19/04/2017 15:53:53 : CharacterRepository.get : file c:\users\mgouzee\desktop\github folder of mika\rpg-api\rpg-api\rpg-api\app_data\characters\asecondone.xml
+19/04/2017 15:53:53 : Inside Character constructor with a character sheet
+19/04/2017 15:53:53 : Character name : AsecondOne
+19/04/2017 15:53:53 : player name : FOPlayer2
+19/04/2017 15:53:53 : Base Attr strength with value 0
+19/04/2017 15:53:53 : Base Attr perception with value 0
+19/04/2017 15:53:53 : Base Attr endurance with value 3
+19/04/2017 15:53:53 : Base Attr charism with value 1
+19/04/2017 15:53:53 : Base Attr intelligence with value 0
+19/04/2017 15:53:53 : Base Attr agility with value 0
+19/04/2017 15:53:53 : Base Attr luck with value 1
+19/04/2017 15:53:53 : Skill small guns with value 5
+19/04/2017 15:53:53 : Skill big guns with value 0
+19/04/2017 15:53:53 : Skill energy weapons with value 0
+19/04/2017 15:53:53 : Skill unarmed with value 30
+19/04/2017 15:53:53 : Skill melee weapons with value 20
+19/04/2017 15:53:53 : Skill throwing with value 0
+19/04/2017 15:53:53 : Skill first aid with value 6
+19/04/2017 15:53:53 : Skill doctor with value 5
+19/04/2017 15:53:53 : Skill sneak with value 5
+19/04/2017 15:53:53 : Skill lockpick with value 10
+19/04/2017 15:53:53 : Skill steal with value 0
+19/04/2017 15:53:53 : Skill traps with value 10
+19/04/2017 15:53:53 : Skill science with value 0
+19/04/2017 15:53:53 : Skill repair with value 0
+19/04/2017 15:53:53 : Skill pilot with value 0
+19/04/2017 15:53:53 : Skill speech with value 5
+19/04/2017 15:53:53 : Skill barter with value 4
+19/04/2017 15:53:53 : Skill gambling with value 5
+19/04/2017 15:53:53 : Skill outdoorsman with value 6
+19/04/2017 15:53:53 : Skill radiation resistance with value 0
+19/04/2017 15:53:53 : Skill poison resistance with value 0
+19/04/2017 15:53:53 : Skill damage resistance with value 0
+19/04/2017 15:53:53 : Skill electric resistance with value 0
+19/04/2017 15:53:53 : Stat action points with value 1
+19/04/2017 15:53:53 : Stat karma with value 0
+19/04/2017 15:53:53 : Stat armor class with value 0
+19/04/2017 15:53:53 : Stat carry weight with value 25
+19/04/2017 15:53:53 : Stat melee damage with value 1
+19/04/2017 15:53:53 : Stat sequence with value 0
+19/04/2017 15:53:53 : Stat healing rate with value 1
+19/04/2017 15:53:53 : spendpoint health points with value 21
+19/04/2017 15:53:53 : spendpoint wound limit with value 0
+19/04/2017 15:53:53 : spendpoint skill points with value 0
+19/04/2017 15:53:53 : spendpoint creation points with value 5
+19/04/2017 15:53:53 : Character Found! Expected AsecondOne, found AsecondOne
+19/04/2017 15:53:59 : Inside Game Controller Get All.
+19/04/2017 15:53:59 : Exiting Controller
+19/04/2017 15:54:00 : Inside Repo Character Get All method
+19/04/2017 15:54:00 : Treating file : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\asecondone.xml
+19/04/2017 15:54:00 : Inside Character constructor with a character sheet
+19/04/2017 15:54:00 : Character name : AsecondOne
+19/04/2017 15:54:00 : player name : FOPlayer2
+19/04/2017 15:54:00 : Base Attr strength with value 0
+19/04/2017 15:54:00 : Base Attr perception with value 0
+19/04/2017 15:54:00 : Base Attr endurance with value 3
+19/04/2017 15:54:00 : Base Attr charism with value 1
+19/04/2017 15:54:00 : Base Attr intelligence with value 0
+19/04/2017 15:54:00 : Base Attr agility with value 0
+19/04/2017 15:54:00 : Base Attr luck with value 1
+19/04/2017 15:54:00 : Skill small guns with value 5
+19/04/2017 15:54:00 : Skill big guns with value 0
+19/04/2017 15:54:00 : Skill energy weapons with value 0
+19/04/2017 15:54:00 : Skill unarmed with value 30
+19/04/2017 15:54:00 : Skill melee weapons with value 20
+19/04/2017 15:54:00 : Skill throwing with value 0
+19/04/2017 15:54:00 : Skill first aid with value 6
+19/04/2017 15:54:00 : Skill doctor with value 5
+19/04/2017 15:54:00 : Skill sneak with value 5
+19/04/2017 15:54:00 : Skill lockpick with value 10
+19/04/2017 15:54:00 : Skill steal with value 0
+19/04/2017 15:54:00 : Skill traps with value 10
+19/04/2017 15:54:00 : Skill science with value 0
+19/04/2017 15:54:00 : Skill repair with value 0
+19/04/2017 15:54:00 : Skill pilot with value 0
+19/04/2017 15:54:00 : Skill speech with value 5
+19/04/2017 15:54:00 : Skill barter with value 4
+19/04/2017 15:54:00 : Skill gambling with value 5
+19/04/2017 15:54:00 : Skill outdoorsman with value 6
+19/04/2017 15:54:00 : Skill radiation resistance with value 0
+19/04/2017 15:54:00 : Skill poison resistance with value 0
+19/04/2017 15:54:00 : Skill damage resistance with value 0
+19/04/2017 15:54:00 : Skill electric resistance with value 0
+19/04/2017 15:54:00 : Stat action points with value 1
+19/04/2017 15:54:00 : Stat karma with value 0
+19/04/2017 15:54:00 : Stat armor class with value 0
+19/04/2017 15:54:00 : Stat carry weight with value 25
+19/04/2017 15:54:00 : Stat melee damage with value 1
+19/04/2017 15:54:00 : Stat sequence with value 0
+19/04/2017 15:54:00 : Stat healing rate with value 1
+19/04/2017 15:54:00 : spendpoint health points with value 21
+19/04/2017 15:54:00 : spendpoint wound limit with value 0
+19/04/2017 15:54:00 : spendpoint skill points with value 0
+19/04/2017 15:54:00 : spendpoint creation points with value 5
+19/04/2017 15:54:00 : Treating file : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\falloutcharacter.xml
+19/04/2017 15:54:00 : Inside Character constructor with a character sheet
+19/04/2017 15:54:00 : Character name : FalloutCharacter
+19/04/2017 15:54:00 : player name : FOP
+19/04/2017 15:54:00 : Base Attr strength with value 0
+19/04/2017 15:54:00 : Base Attr perception with value 0
+19/04/2017 15:54:00 : Base Attr endurance with value 0
+19/04/2017 15:54:00 : Base Attr charism with value 1
+19/04/2017 15:54:00 : Base Attr intelligence with value 3
+19/04/2017 15:54:00 : Base Attr agility with value 1
+19/04/2017 15:54:00 : Base Attr luck with value 0
+19/04/2017 15:54:00 : Skill small guns with value 9
+19/04/2017 15:54:00 : Skill big guns with value 2
+19/04/2017 15:54:00 : Skill energy weapons with value 2
+19/04/2017 15:54:01 : Skill unarmed with value 32
+19/04/2017 15:54:01 : Skill melee weapons with value 22
+19/04/2017 15:54:01 : Skill throwing with value 4
+19/04/2017 15:54:01 : Skill first aid with value 0
+19/04/2017 15:54:01 : Skill doctor with value 8
+19/04/2017 15:54:01 : Skill sneak with value 8
+19/04/2017 15:54:01 : Skill lockpick with value 11
+19/04/2017 15:54:01 : Skill steal with value 3
+19/04/2017 15:54:01 : Skill traps with value 11
+19/04/2017 15:54:01 : Skill science with value 12
+19/04/2017 15:54:01 : Skill repair with value 9
+19/04/2017 15:54:01 : Skill pilot with value 2
+19/04/2017 15:54:01 : Skill speech with value 5
+19/04/2017 15:54:01 : Skill barter with value 4
+19/04/2017 15:54:01 : Skill gambling with value 0
+19/04/2017 15:54:01 : Skill outdoorsman with value 6
+19/04/2017 15:54:01 : Skill radiation resistance with value 0
+19/04/2017 15:54:01 : Skill poison resistance with value 0
+19/04/2017 15:54:01 : Skill damage resistance with value 0
+19/04/2017 15:54:01 : Skill electric resistance with value 0
+19/04/2017 15:54:01 : Stat action points with value 5
+19/04/2017 15:54:01 : Stat karma with value 0
+19/04/2017 15:54:01 : Stat armor class with value 1
+19/04/2017 15:54:01 : Stat carry weight with value 25
+19/04/2017 15:54:01 : Stat melee damage with value 1
+19/04/2017 15:54:01 : Stat sequence with value 0
+19/04/2017 15:54:01 : Stat healing rate with value 4
+19/04/2017 15:54:01 : spendpoint health points with value 15
+19/04/2017 15:54:01 : spendpoint wound limit with value 0
+19/04/2017 15:54:01 : spendpoint skill points with value 0
+19/04/2017 15:54:01 : spendpoint creation points with value 5
+19/04/2017 15:54:01 : Treating file : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\testvalue.xml
+19/04/2017 15:54:01 : Inside Character constructor with a character sheet
+19/04/2017 15:54:01 : Character name : testValue
+19/04/2017 15:54:01 : player name : playerName
+19/04/2017 15:54:01 : Base Attr appearance with value 12
+19/04/2017 15:54:01 : Base Attr constitution with value 8
+19/04/2017 15:54:01 : Base Attr strength with value 4
+19/04/2017 15:54:01 : Base Attr dexterity with value 4
+19/04/2017 15:54:01 : Base Attr power with value 12
+19/04/2017 15:54:01 : Base Attr size with value 24
+19/04/2017 15:54:01 : Base Attr intelligence with value 12
+19/04/2017 15:54:01 : Base Attr education with value 25
+19/04/2017 15:54:01 : Skill art with value 5
+19/04/2017 15:54:01 : Skill artisanat with value 5
+19/04/2017 15:54:01 : Skill baratin with value 5
+19/04/2017 15:54:01 : Skill bibliotheque with value 5
+19/04/2017 15:54:01 : Skill comptabilite with value 10
+19/04/2017 15:54:01 : Skill concocter potion with value 1
+19/04/2017 15:54:01 : Skill conduire attelage with value 20
+19/04/2017 15:54:01 : Skill coup de pied with value 25
+19/04/2017 15:54:01 : Skill coup de poing with value 50
+19/04/2017 15:54:01 : Skill coup de tete with value 10
+19/04/2017 15:54:01 : Skill discretion with value 10
+19/04/2017 15:54:01 : Skill dissimulation with value 15
+19/04/2017 15:54:01 : Skill ecouter with value 25
+19/04/2017 15:54:01 : Skill ecrire une langue with value 1
+19/04/2017 15:54:01 : Skill esquiver with value 5
+19/04/2017 15:54:01 : Skill grimper with value 40
+19/04/2017 15:54:01 : Skill lancer with value 25
+19/04/2017 15:54:01 : Skill langue etrangere with value 1
+19/04/2017 15:54:01 : Skill langue natale with value 5
+19/04/2017 15:54:01 : Skill lutte with value 25
+19/04/2017 15:54:01 : Skill marchandage with value 5
+19/04/2017 15:54:01 : Skill monde naturel with value 10
+19/04/2017 15:54:01 : Skill monter a cheval with value 5
+19/04/2017 15:54:01 : Skill mythe de Cthulhu with value 0
+19/04/2017 15:54:01 : Skill nager with value 25
+19/04/2017 15:54:01 : Skill navigation with value 10
+19/04/2017 15:54:01 : Skill occultisme with value 5
+19/04/2017 15:54:01 : Skill persuasion with value 15
+19/04/2017 15:54:01 : Skill piloter bateau with value 1
+19/04/2017 15:54:01 : Skill premiers soins with value 30
+19/04/2017 15:54:01 : Skill reparer concevoir with value 20
+19/04/2017 15:54:01 : Skill royaume natal with value 20
+19/04/2017 15:54:01 : Skill royaumes etrangers with value 1
+19/04/2017 15:54:01 : Skill sagacite with value 5
+19/04/2017 15:54:01 : Skill sauter with value 25
+19/04/2017 15:54:01 : Skill science with value 1
+19/04/2017 15:54:01 : Skill se cacher with value 10
+19/04/2017 15:54:01 : Skill statut with value 15
+19/04/2017 15:54:01 : Skill suivre une piste with value 10
+19/04/2017 15:54:01 : Skill trouver objet cache with value 25
+19/04/2017 15:54:01 : Stat prestance with value 60
+19/04/2017 15:54:01 : Stat endurance with value 40
+19/04/2017 15:54:01 : Stat agility with value 20
+19/04/2017 15:54:01 : Stat brawl power with value 20
+19/04/2017 15:54:01 : Stat height with value 120
+19/04/2017 15:54:01 : Stat knowledge with value 125
+19/04/2017 15:54:01 : Stat idea with value 60
+19/04/2017 15:54:01 : Stat will power with value 60
+19/04/2017 15:54:01 : Stat sanity with value 60
+19/04/2017 15:54:01 : spendpoint health points with value 16
+19/04/2017 15:54:01 : spendpoint wound limit with value 8
+19/04/2017 15:54:01 : spendpoint magic points with value 12
+19/04/2017 15:54:01 : spendpoint Occupation skill points with value 500
+19/04/2017 15:54:01 : spendpoint Personal interest skill points with value 120
+19/04/2017 15:54:01 : Treating file : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\tom tom.xml
+19/04/2017 15:54:01 : Inside Character constructor with a character sheet
+19/04/2017 15:54:01 : Character name : Tom Tom
+19/04/2017 15:54:01 : player name : Luc le perdant
+19/04/2017 15:54:01 : Base Attr appearance with value 4
+19/04/2017 15:54:01 : Base Attr constitution with value 11
+19/04/2017 15:54:01 : Base Attr strength with value 10
+19/04/2017 15:54:01 : Base Attr dexterity with value 16
+19/04/2017 15:54:01 : Base Attr power with value 15
+19/04/2017 15:54:01 : Base Attr size with value 12
+19/04/2017 15:54:01 : Base Attr intelligence with value 15
+19/04/2017 15:54:01 : Base Attr education with value 18
+19/04/2017 15:54:01 : Skill art with value 5
+19/04/2017 15:54:01 : Skill artisanat with value 5
+19/04/2017 15:54:01 : Skill baratin with value 5
+19/04/2017 15:54:01 : Skill bibliotheque with value 5
+19/04/2017 15:54:01 : Skill comptabilite with value 10
+19/04/2017 15:54:01 : Skill concocter potion with value 1
+19/04/2017 15:54:01 : Skill conduire attelage with value 20
+19/04/2017 15:54:01 : Skill coup de pied with value 25
+19/04/2017 15:54:01 : Skill coup de poing with value 50
+19/04/2017 15:54:01 : Skill coup de tete with value 10
+19/04/2017 15:54:01 : Skill discretion with value 10
+19/04/2017 15:54:01 : Skill dissimulation with value 15
+19/04/2017 15:54:01 : Skill ecouter with value 25
+19/04/2017 15:54:01 : Skill ecrire une langue with value 1
+19/04/2017 15:54:01 : Skill esquiver with value 5
+19/04/2017 15:54:01 : Skill grimper with value 40
+19/04/2017 15:54:01 : Skill lancer with value 25
+19/04/2017 15:54:01 : Skill langue etrangere with value 1
+19/04/2017 15:54:01 : Skill langue natale with value 5
+19/04/2017 15:54:01 : Skill lutte with value 25
+19/04/2017 15:54:01 : Skill marchandage with value 5
+19/04/2017 15:54:01 : Skill monde naturel with value 10
+19/04/2017 15:54:01 : Skill monter a cheval with value 5
+19/04/2017 15:54:01 : Skill mythe de Cthulhu with value 0
+19/04/2017 15:54:01 : Skill nager with value 25
+19/04/2017 15:54:01 : Skill navigation with value 10
+19/04/2017 15:54:01 : Skill occultisme with value 5
+19/04/2017 15:54:01 : Skill persuasion with value 15
+19/04/2017 15:54:01 : Skill piloter bateau with value 1
+19/04/2017 15:54:01 : Skill premiers soins with value 30
+19/04/2017 15:54:01 : Skill reparer concevoir with value 20
+19/04/2017 15:54:01 : Skill royaume natal with value 20
+19/04/2017 15:54:01 : Skill royaumes etrangers with value 1
+19/04/2017 15:54:01 : Skill sagacite with value 5
+19/04/2017 15:54:01 : Skill sauter with value 25
+19/04/2017 15:54:01 : Skill science with value 1
+19/04/2017 15:54:01 : Skill se cacher with value 10
+19/04/2017 15:54:01 : Skill statut with value 15
+19/04/2017 15:54:01 : Skill suivre une piste with value 10
+19/04/2017 15:54:01 : Skill trouver objet cache with value 25
+19/04/2017 15:54:01 : Stat prestance with value 20
+19/04/2017 15:54:01 : Stat endurance with value 55
+19/04/2017 15:54:01 : Stat agility with value 80
+19/04/2017 15:54:01 : Stat brawl power with value 50
+19/04/2017 15:54:01 : Stat height with value 60
+19/04/2017 15:54:01 : Stat knowledge with value 90
+19/04/2017 15:54:01 : Stat idea with value 75
+19/04/2017 15:54:01 : Stat will power with value 75
+19/04/2017 15:54:01 : Stat sanity with value 75
+19/04/2017 15:54:01 : spendpoint health points with value 11
+19/04/2017 15:54:01 : spendpoint wound limit with value 5
+19/04/2017 15:54:01 : spendpoint magic points with value 15
+19/04/2017 15:54:01 : spendpoint Occupation skill points with value 360
+19/04/2017 15:54:01 : spendpoint Personal interest skill points with value 150
+19/04/2017 15:54:09 : Inside Repo Character Get All method
+19/04/2017 15:54:09 : Treating file : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\asecondone.xml
+19/04/2017 15:54:09 : Inside Character constructor with a character sheet
+19/04/2017 15:54:09 : Character name : AsecondOne
+19/04/2017 15:54:09 : player name : FOPlayer2
+19/04/2017 15:54:09 : Base Attr strength with value 0
+19/04/2017 15:54:09 : Base Attr perception with value 0
+19/04/2017 15:54:09 : Base Attr endurance with value 3
+19/04/2017 15:54:09 : Base Attr charism with value 1
+19/04/2017 15:54:09 : Base Attr intelligence with value 0
+19/04/2017 15:54:09 : Base Attr agility with value 0
+19/04/2017 15:54:09 : Base Attr luck with value 1
+19/04/2017 15:54:09 : Skill small guns with value 5
+19/04/2017 15:54:09 : Skill big guns with value 0
+19/04/2017 15:54:09 : Skill energy weapons with value 0
+19/04/2017 15:54:09 : Skill unarmed with value 30
+19/04/2017 15:54:09 : Skill melee weapons with value 20
+19/04/2017 15:54:09 : Skill throwing with value 0
+19/04/2017 15:54:09 : Skill first aid with value 6
+19/04/2017 15:54:09 : Skill doctor with value 5
+19/04/2017 15:54:09 : Skill sneak with value 5
+19/04/2017 15:54:09 : Skill lockpick with value 10
+19/04/2017 15:54:09 : Skill steal with value 0
+19/04/2017 15:54:09 : Skill traps with value 10
+19/04/2017 15:54:09 : Skill science with value 0
+19/04/2017 15:54:09 : Skill repair with value 0
+19/04/2017 15:54:09 : Skill pilot with value 0
+19/04/2017 15:54:09 : Skill speech with value 5
+19/04/2017 15:54:09 : Skill barter with value 4
+19/04/2017 15:54:09 : Skill gambling with value 5
+19/04/2017 15:54:09 : Skill outdoorsman with value 6
+19/04/2017 15:54:09 : Skill radiation resistance with value 0
+19/04/2017 15:54:09 : Skill poison resistance with value 0
+19/04/2017 15:54:09 : Skill damage resistance with value 0
+19/04/2017 15:54:09 : Skill electric resistance with value 0
+19/04/2017 15:54:09 : Stat action points with value 1
+19/04/2017 15:54:09 : Stat karma with value 0
+19/04/2017 15:54:09 : Stat armor class with value 0
+19/04/2017 15:54:09 : Stat carry weight with value 25
+19/04/2017 15:54:09 : Stat melee damage with value 1
+19/04/2017 15:54:09 : Stat sequence with value 0
+19/04/2017 15:54:09 : Stat healing rate with value 1
+19/04/2017 15:54:09 : spendpoint health points with value 21
+19/04/2017 15:54:09 : spendpoint wound limit with value 0
+19/04/2017 15:54:09 : spendpoint skill points with value 0
+19/04/2017 15:54:09 : spendpoint creation points with value 5
+19/04/2017 15:54:09 : Treating file : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\falloutcharacter.xml
+19/04/2017 15:54:09 : Inside Character constructor with a character sheet
+19/04/2017 15:54:09 : Character name : FalloutCharacter
+19/04/2017 15:54:09 : player name : FOP
+19/04/2017 15:54:10 : Base Attr strength with value 0
+19/04/2017 15:54:10 : Base Attr perception with value 0
+19/04/2017 15:54:10 : Base Attr endurance with value 0
+19/04/2017 15:54:10 : Base Attr charism with value 1
+19/04/2017 15:54:10 : Base Attr intelligence with value 3
+19/04/2017 15:54:10 : Base Attr agility with value 1
+19/04/2017 15:54:10 : Base Attr luck with value 0
+19/04/2017 15:54:10 : Skill small guns with value 9
+19/04/2017 15:54:10 : Skill big guns with value 2
+19/04/2017 15:54:10 : Skill energy weapons with value 2
+19/04/2017 15:54:10 : Skill unarmed with value 32
+19/04/2017 15:54:10 : Skill melee weapons with value 22
+19/04/2017 15:54:10 : Skill throwing with value 4
+19/04/2017 15:54:10 : Skill first aid with value 0
+19/04/2017 15:54:10 : Skill doctor with value 8
+19/04/2017 15:54:10 : Skill sneak with value 8
+19/04/2017 15:54:10 : Skill lockpick with value 11
+19/04/2017 15:54:10 : Skill steal with value 3
+19/04/2017 15:54:10 : Skill traps with value 11
+19/04/2017 15:54:10 : Skill science with value 12
+19/04/2017 15:54:10 : Skill repair with value 9
+19/04/2017 15:54:10 : Skill pilot with value 2
+19/04/2017 15:54:10 : Skill speech with value 5
+19/04/2017 15:54:10 : Skill barter with value 4
+19/04/2017 15:54:10 : Skill gambling with value 0
+19/04/2017 15:54:10 : Skill outdoorsman with value 6
+19/04/2017 15:54:10 : Skill radiation resistance with value 0
+19/04/2017 15:54:10 : Skill poison resistance with value 0
+19/04/2017 15:54:10 : Skill damage resistance with value 0
+19/04/2017 15:54:10 : Skill electric resistance with value 0
+19/04/2017 15:54:10 : Stat action points with value 5
+19/04/2017 15:54:10 : Stat karma with value 0
+19/04/2017 15:54:10 : Stat armor class with value 1
+19/04/2017 15:54:10 : Stat carry weight with value 25
+19/04/2017 15:54:10 : Stat melee damage with value 1
+19/04/2017 15:54:10 : Stat sequence with value 0
+19/04/2017 15:54:10 : Stat healing rate with value 4
+19/04/2017 15:54:10 : spendpoint health points with value 15
+19/04/2017 15:54:10 : spendpoint wound limit with value 0
+19/04/2017 15:54:10 : spendpoint skill points with value 0
+19/04/2017 15:54:10 : spendpoint creation points with value 5
+19/04/2017 15:54:10 : Treating file : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\testvalue.xml
+19/04/2017 15:54:10 : Inside Character constructor with a character sheet
+19/04/2017 15:54:10 : Character name : testValue
+19/04/2017 15:54:10 : player name : playerName
+19/04/2017 15:54:10 : Base Attr appearance with value 12
+19/04/2017 15:54:10 : Base Attr constitution with value 8
+19/04/2017 15:54:10 : Base Attr strength with value 4
+19/04/2017 15:54:10 : Base Attr dexterity with value 4
+19/04/2017 15:54:10 : Base Attr power with value 12
+19/04/2017 15:54:10 : Base Attr size with value 24
+19/04/2017 15:54:10 : Base Attr intelligence with value 12
+19/04/2017 15:54:10 : Base Attr education with value 25
+19/04/2017 15:54:10 : Skill art with value 5
+19/04/2017 15:54:10 : Skill artisanat with value 5
+19/04/2017 15:54:10 : Skill baratin with value 5
+19/04/2017 15:54:10 : Skill bibliotheque with value 5
+19/04/2017 15:54:10 : Skill comptabilite with value 10
+19/04/2017 15:54:10 : Skill concocter potion with value 1
+19/04/2017 15:54:10 : Skill conduire attelage with value 20
+19/04/2017 15:54:10 : Skill coup de pied with value 25
+19/04/2017 15:54:10 : Skill coup de poing with value 50
+19/04/2017 15:54:10 : Skill coup de tete with value 10
+19/04/2017 15:54:10 : Skill discretion with value 10
+19/04/2017 15:54:10 : Skill dissimulation with value 15
+19/04/2017 15:54:10 : Skill ecouter with value 25
+19/04/2017 15:54:10 : Skill ecrire une langue with value 1
+19/04/2017 15:54:10 : Skill esquiver with value 5
+19/04/2017 15:54:10 : Skill grimper with value 40
+19/04/2017 15:54:10 : Skill lancer with value 25
+19/04/2017 15:54:10 : Skill langue etrangere with value 1
+19/04/2017 15:54:10 : Skill langue natale with value 5
+19/04/2017 15:54:10 : Skill lutte with value 25
+19/04/2017 15:54:10 : Skill marchandage with value 5
+19/04/2017 15:54:10 : Skill monde naturel with value 10
+19/04/2017 15:54:10 : Skill monter a cheval with value 5
+19/04/2017 15:54:10 : Skill mythe de Cthulhu with value 0
+19/04/2017 15:54:10 : Skill nager with value 25
+19/04/2017 15:54:10 : Skill navigation with value 10
+19/04/2017 15:54:10 : Skill occultisme with value 5
+19/04/2017 15:54:10 : Skill persuasion with value 15
+19/04/2017 15:54:10 : Skill piloter bateau with value 1
+19/04/2017 15:54:10 : Skill premiers soins with value 30
+19/04/2017 15:54:10 : Skill reparer concevoir with value 20
+19/04/2017 15:54:10 : Skill royaume natal with value 20
+19/04/2017 15:54:10 : Skill royaumes etrangers with value 1
+19/04/2017 15:54:10 : Skill sagacite with value 5
+19/04/2017 15:54:10 : Skill sauter with value 25
+19/04/2017 15:54:10 : Skill science with value 1
+19/04/2017 15:54:10 : Skill se cacher with value 10
+19/04/2017 15:54:10 : Skill statut with value 15
+19/04/2017 15:54:10 : Skill suivre une piste with value 10
+19/04/2017 15:54:10 : Skill trouver objet cache with value 25
+19/04/2017 15:54:10 : Stat prestance with value 60
+19/04/2017 15:54:10 : Stat endurance with value 40
+19/04/2017 15:54:10 : Stat agility with value 20
+19/04/2017 15:54:10 : Stat brawl power with value 20
+19/04/2017 15:54:10 : Stat height with value 120
+19/04/2017 15:54:10 : Stat knowledge with value 125
+19/04/2017 15:54:10 : Stat idea with value 60
+19/04/2017 15:54:10 : Stat will power with value 60
+19/04/2017 15:54:10 : Stat sanity with value 60
+19/04/2017 15:54:10 : spendpoint health points with value 16
+19/04/2017 15:54:10 : spendpoint wound limit with value 8
+19/04/2017 15:54:10 : spendpoint magic points with value 12
+19/04/2017 15:54:10 : spendpoint Occupation skill points with value 500
+19/04/2017 15:54:10 : spendpoint Personal interest skill points with value 120
+19/04/2017 15:54:10 : Treating file : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\tom tom.xml
+19/04/2017 15:54:10 : Inside Character constructor with a character sheet
+19/04/2017 15:54:10 : Character name : Tom Tom
+19/04/2017 15:54:10 : player name : Luc le perdant
+19/04/2017 15:54:10 : Base Attr appearance with value 4
+19/04/2017 15:54:10 : Base Attr constitution with value 11
+19/04/2017 15:54:10 : Base Attr strength with value 10
+19/04/2017 15:54:10 : Base Attr dexterity with value 16
+19/04/2017 15:54:10 : Base Attr power with value 15
+19/04/2017 15:54:10 : Base Attr size with value 12
+19/04/2017 15:54:10 : Base Attr intelligence with value 15
+19/04/2017 15:54:10 : Base Attr education with value 18
+19/04/2017 15:54:10 : Skill art with value 5
+19/04/2017 15:54:10 : Skill artisanat with value 5
+19/04/2017 15:54:10 : Skill baratin with value 5
+19/04/2017 15:54:10 : Skill bibliotheque with value 5
+19/04/2017 15:54:10 : Skill comptabilite with value 10
+19/04/2017 15:54:10 : Skill concocter potion with value 1
+19/04/2017 15:54:10 : Skill conduire attelage with value 20
+19/04/2017 15:54:10 : Skill coup de pied with value 25
+19/04/2017 15:54:10 : Skill coup de poing with value 50
+19/04/2017 15:54:10 : Skill coup de tete with value 10
+19/04/2017 15:54:10 : Skill discretion with value 10
+19/04/2017 15:54:10 : Skill dissimulation with value 15
+19/04/2017 15:54:10 : Skill ecouter with value 25
+19/04/2017 15:54:10 : Skill ecrire une langue with value 1
+19/04/2017 15:54:10 : Skill esquiver with value 5
+19/04/2017 15:54:10 : Skill grimper with value 40
+19/04/2017 15:54:10 : Skill lancer with value 25
+19/04/2017 15:54:10 : Skill langue etrangere with value 1
+19/04/2017 15:54:10 : Skill langue natale with value 5
+19/04/2017 15:54:10 : Skill lutte with value 25
+19/04/2017 15:54:10 : Skill marchandage with value 5
+19/04/2017 15:54:10 : Skill monde naturel with value 10
+19/04/2017 15:54:10 : Skill monter a cheval with value 5
+19/04/2017 15:54:10 : Skill mythe de Cthulhu with value 0
+19/04/2017 15:54:10 : Skill nager with value 25
+19/04/2017 15:54:10 : Skill navigation with value 10
+19/04/2017 15:54:10 : Skill occultisme with value 5
+19/04/2017 15:54:10 : Skill persuasion with value 15
+19/04/2017 15:54:10 : Skill piloter bateau with value 1
+19/04/2017 15:54:10 : Skill premiers soins with value 30
+19/04/2017 15:54:10 : Skill reparer concevoir with value 20
+19/04/2017 15:54:10 : Skill royaume natal with value 20
+19/04/2017 15:54:10 : Skill royaumes etrangers with value 1
+19/04/2017 15:54:10 : Skill sagacite with value 5
+19/04/2017 15:54:10 : Skill sauter with value 25
+19/04/2017 15:54:10 : Skill science with value 1
+19/04/2017 15:54:10 : Skill se cacher with value 10
+19/04/2017 15:54:10 : Skill statut with value 15
+19/04/2017 15:54:10 : Skill suivre une piste with value 10
+19/04/2017 15:54:10 : Skill trouver objet cache with value 25
+19/04/2017 15:54:10 : Stat prestance with value 20
+19/04/2017 15:54:10 : Stat endurance with value 55
+19/04/2017 15:54:10 : Stat agility with value 80
+19/04/2017 15:54:10 : Stat brawl power with value 50
+19/04/2017 15:54:10 : Stat height with value 60
+19/04/2017 15:54:10 : Stat knowledge with value 90
+19/04/2017 15:54:10 : Stat idea with value 75
+19/04/2017 15:54:10 : Stat will power with value 75
+19/04/2017 15:54:10 : Stat sanity with value 75
+19/04/2017 15:54:10 : spendpoint health points with value 11
+19/04/2017 15:54:10 : spendpoint wound limit with value 5
+19/04/2017 15:54:10 : spendpoint magic points with value 15
+19/04/2017 15:54:10 : spendpoint Occupation skill points with value 360
+19/04/2017 15:54:10 : spendpoint Personal interest skill points with value 150
+19/04/2017 15:54:14 : Inside character repository.Get.
+19/04/2017 15:54:14 : Inside default character constructor
+19/04/2017 15:54:14 : CharacterRepository.get : file c:\users\mgouzee\desktop\github folder of mika\rpg-api\rpg-api\rpg-api\app_data\characters\asecondone.xml
+19/04/2017 15:54:14 : CharacterRepository.get : file c:\users\mgouzee\desktop\github folder of mika\rpg-api\rpg-api\rpg-api\app_data\characters\call_of_cthulhu_character_sheet.xml
+19/04/2017 15:54:14 : CharacterRepository.get : file c:\users\mgouzee\desktop\github folder of mika\rpg-api\rpg-api\rpg-api\app_data\characters\falloutcharacter.xml
+19/04/2017 15:54:14 : CharacterRepository.get : file c:\users\mgouzee\desktop\github folder of mika\rpg-api\rpg-api\rpg-api\app_data\characters\fallout_character_sheet.xml
+19/04/2017 15:54:14 : CharacterRepository.get : file c:\users\mgouzee\desktop\github folder of mika\rpg-api\rpg-api\rpg-api\app_data\characters\testvalue.xml
+19/04/2017 15:54:14 : Inside Character constructor with a character sheet
+19/04/2017 15:54:14 : Character name : testValue
+19/04/2017 15:54:14 : player name : playerName
+19/04/2017 15:54:14 : Base Attr appearance with value 12
+19/04/2017 15:54:14 : Base Attr constitution with value 8
+19/04/2017 15:54:14 : Base Attr strength with value 4
+19/04/2017 15:54:14 : Base Attr dexterity with value 4
+19/04/2017 15:54:14 : Base Attr power with value 12
+19/04/2017 15:54:14 : Base Attr size with value 24
+19/04/2017 15:54:14 : Base Attr intelligence with value 12
+19/04/2017 15:54:14 : Base Attr education with value 25
+19/04/2017 15:54:14 : Skill art with value 5
+19/04/2017 15:54:14 : Skill artisanat with value 5
+19/04/2017 15:54:14 : Skill baratin with value 5
+19/04/2017 15:54:14 : Skill bibliotheque with value 5
+19/04/2017 15:54:14 : Skill comptabilite with value 10
+19/04/2017 15:54:14 : Skill concocter potion with value 1
+19/04/2017 15:54:14 : Skill conduire attelage with value 20
+19/04/2017 15:54:14 : Skill coup de pied with value 25
+19/04/2017 15:54:14 : Skill coup de poing with value 50
+19/04/2017 15:54:14 : Skill coup de tete with value 10
+19/04/2017 15:54:14 : Skill discretion with value 10
+19/04/2017 15:54:14 : Skill dissimulation with value 15
+19/04/2017 15:54:14 : Skill ecouter with value 25
+19/04/2017 15:54:14 : Skill ecrire une langue with value 1
+19/04/2017 15:54:14 : Skill esquiver with value 5
+19/04/2017 15:54:14 : Skill grimper with value 40
+19/04/2017 15:54:14 : Skill lancer with value 25
+19/04/2017 15:54:14 : Skill langue etrangere with value 1
+19/04/2017 15:54:14 : Skill langue natale with value 5
+19/04/2017 15:54:14 : Skill lutte with value 25
+19/04/2017 15:54:14 : Skill marchandage with value 5
+19/04/2017 15:54:14 : Skill monde naturel with value 10
+19/04/2017 15:54:14 : Skill monter a cheval with value 5
+19/04/2017 15:54:14 : Skill mythe de Cthulhu with value 0
+19/04/2017 15:54:14 : Skill nager with value 25
+19/04/2017 15:54:14 : Skill navigation with value 10
+19/04/2017 15:54:14 : Skill occultisme with value 5
+19/04/2017 15:54:14 : Skill persuasion with value 15
+19/04/2017 15:54:14 : Skill piloter bateau with value 1
+19/04/2017 15:54:14 : Skill premiers soins with value 30
+19/04/2017 15:54:14 : Skill reparer concevoir with value 20
+19/04/2017 15:54:14 : Skill royaume natal with value 20
+19/04/2017 15:54:14 : Skill royaumes etrangers with value 1
+19/04/2017 15:54:14 : Skill sagacite with value 5
+19/04/2017 15:54:14 : Skill sauter with value 25
+19/04/2017 15:54:14 : Skill science with value 1
+19/04/2017 15:54:14 : Skill se cacher with value 10
+19/04/2017 15:54:14 : Skill statut with value 15
+19/04/2017 15:54:14 : Skill suivre une piste with value 10
+19/04/2017 15:54:14 : Skill trouver objet cache with value 25
+19/04/2017 15:54:14 : Stat prestance with value 60
+19/04/2017 15:54:14 : Stat endurance with value 40
+19/04/2017 15:54:14 : Stat agility with value 20
+19/04/2017 15:54:14 : Stat brawl power with value 20
+19/04/2017 15:54:14 : Stat height with value 120
+19/04/2017 15:54:14 : Stat knowledge with value 125
+19/04/2017 15:54:14 : Stat idea with value 60
+19/04/2017 15:54:14 : Stat will power with value 60
+19/04/2017 15:54:14 : Stat sanity with value 60
+19/04/2017 15:54:14 : spendpoint health points with value 16
+19/04/2017 15:54:14 : spendpoint wound limit with value 8
+19/04/2017 15:54:14 : spendpoint magic points with value 12
+19/04/2017 15:54:14 : spendpoint Occupation skill points with value 500
+19/04/2017 15:54:14 : spendpoint Personal interest skill points with value 120
+19/04/2017 15:54:14 : Character Found! Expected testValue, found testValue
+19/04/2017 15:54:20 : Inside Repo Character Get All method
+19/04/2017 15:54:20 : Treating file : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\asecondone.xml
+19/04/2017 15:54:20 : Inside Character constructor with a character sheet
+19/04/2017 15:54:20 : Character name : AsecondOne
+19/04/2017 15:54:20 : player name : FOPlayer2
+19/04/2017 15:54:20 : Base Attr strength with value 0
+19/04/2017 15:54:20 : Base Attr perception with value 0
+19/04/2017 15:54:20 : Base Attr endurance with value 3
+19/04/2017 15:54:20 : Base Attr charism with value 1
+19/04/2017 15:54:20 : Base Attr intelligence with value 0
+19/04/2017 15:54:20 : Base Attr agility with value 0
+19/04/2017 15:54:20 : Base Attr luck with value 1
+19/04/2017 15:54:20 : Skill small guns with value 5
+19/04/2017 15:54:20 : Skill big guns with value 0
+19/04/2017 15:54:20 : Skill energy weapons with value 0
+19/04/2017 15:54:20 : Skill unarmed with value 30
+19/04/2017 15:54:20 : Skill melee weapons with value 20
+19/04/2017 15:54:20 : Skill throwing with value 0
+19/04/2017 15:54:20 : Skill first aid with value 6
+19/04/2017 15:54:20 : Skill doctor with value 5
+19/04/2017 15:54:20 : Skill sneak with value 5
+19/04/2017 15:54:20 : Skill lockpick with value 10
+19/04/2017 15:54:20 : Skill steal with value 0
+19/04/2017 15:54:20 : Skill traps with value 10
+19/04/2017 15:54:20 : Skill science with value 0
+19/04/2017 15:54:20 : Skill repair with value 0
+19/04/2017 15:54:20 : Skill pilot with value 0
+19/04/2017 15:54:20 : Skill speech with value 5
+19/04/2017 15:54:20 : Skill barter with value 4
+19/04/2017 15:54:20 : Skill gambling with value 5
+19/04/2017 15:54:20 : Skill outdoorsman with value 6
+19/04/2017 15:54:20 : Skill radiation resistance with value 0
+19/04/2017 15:54:20 : Skill poison resistance with value 0
+19/04/2017 15:54:20 : Skill damage resistance with value 0
+19/04/2017 15:54:20 : Skill electric resistance with value 0
+19/04/2017 15:54:20 : Stat action points with value 1
+19/04/2017 15:54:20 : Stat karma with value 0
+19/04/2017 15:54:20 : Stat armor class with value 0
+19/04/2017 15:54:20 : Stat carry weight with value 25
+19/04/2017 15:54:20 : Stat melee damage with value 1
+19/04/2017 15:54:20 : Stat sequence with value 0
+19/04/2017 15:54:20 : Stat healing rate with value 1
+19/04/2017 15:54:20 : spendpoint health points with value 21
+19/04/2017 15:54:20 : spendpoint wound limit with value 0
+19/04/2017 15:54:20 : spendpoint skill points with value 0
+19/04/2017 15:54:20 : spendpoint creation points with value 5
+19/04/2017 15:54:20 : Treating file : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\falloutcharacter.xml
+19/04/2017 15:54:20 : Inside Character constructor with a character sheet
+19/04/2017 15:54:20 : Character name : FalloutCharacter
+19/04/2017 15:54:20 : player name : FOP
+19/04/2017 15:54:20 : Base Attr strength with value 0
+19/04/2017 15:54:20 : Base Attr perception with value 0
+19/04/2017 15:54:20 : Base Attr endurance with value 0
+19/04/2017 15:54:20 : Base Attr charism with value 1
+19/04/2017 15:54:20 : Base Attr intelligence with value 3
+19/04/2017 15:54:20 : Base Attr agility with value 1
+19/04/2017 15:54:20 : Base Attr luck with value 0
+19/04/2017 15:54:21 : Skill small guns with value 9
+19/04/2017 15:54:21 : Skill big guns with value 2
+19/04/2017 15:54:21 : Skill energy weapons with value 2
+19/04/2017 15:54:21 : Skill unarmed with value 32
+19/04/2017 15:54:21 : Skill melee weapons with value 22
+19/04/2017 15:54:21 : Skill throwing with value 4
+19/04/2017 15:54:21 : Skill first aid with value 0
+19/04/2017 15:54:21 : Skill doctor with value 8
+19/04/2017 15:54:21 : Skill sneak with value 8
+19/04/2017 15:54:21 : Skill lockpick with value 11
+19/04/2017 15:54:21 : Skill steal with value 3
+19/04/2017 15:54:21 : Skill traps with value 11
+19/04/2017 15:54:21 : Skill science with value 12
+19/04/2017 15:54:21 : Skill repair with value 9
+19/04/2017 15:54:21 : Skill pilot with value 2
+19/04/2017 15:54:21 : Skill speech with value 5
+19/04/2017 15:54:21 : Skill barter with value 4
+19/04/2017 15:54:21 : Skill gambling with value 0
+19/04/2017 15:54:21 : Skill outdoorsman with value 6
+19/04/2017 15:54:21 : Skill radiation resistance with value 0
+19/04/2017 15:54:21 : Skill poison resistance with value 0
+19/04/2017 15:54:21 : Skill damage resistance with value 0
+19/04/2017 15:54:21 : Skill electric resistance with value 0
+19/04/2017 15:54:21 : Stat action points with value 5
+19/04/2017 15:54:21 : Stat karma with value 0
+19/04/2017 15:54:21 : Stat armor class with value 1
+19/04/2017 15:54:21 : Stat carry weight with value 25
+19/04/2017 15:54:21 : Stat melee damage with value 1
+19/04/2017 15:54:21 : Stat sequence with value 0
+19/04/2017 15:54:21 : Stat healing rate with value 4
+19/04/2017 15:54:21 : spendpoint health points with value 15
+19/04/2017 15:54:21 : spendpoint wound limit with value 0
+19/04/2017 15:54:21 : spendpoint skill points with value 0
+19/04/2017 15:54:21 : spendpoint creation points with value 5
+19/04/2017 15:54:21 : Treating file : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\testvalue.xml
+19/04/2017 15:54:21 : Inside Character constructor with a character sheet
+19/04/2017 15:54:21 : Character name : testValue
+19/04/2017 15:54:21 : player name : playerName
+19/04/2017 15:54:21 : Base Attr appearance with value 12
+19/04/2017 15:54:21 : Base Attr constitution with value 8
+19/04/2017 15:54:21 : Base Attr strength with value 4
+19/04/2017 15:54:21 : Base Attr dexterity with value 4
+19/04/2017 15:54:21 : Base Attr power with value 12
+19/04/2017 15:54:21 : Base Attr size with value 24
+19/04/2017 15:54:21 : Base Attr intelligence with value 12
+19/04/2017 15:54:21 : Base Attr education with value 25
+19/04/2017 15:54:21 : Skill art with value 5
+19/04/2017 15:54:21 : Skill artisanat with value 5
+19/04/2017 15:54:21 : Skill baratin with value 5
+19/04/2017 15:54:21 : Skill bibliotheque with value 5
+19/04/2017 15:54:21 : Skill comptabilite with value 10
+19/04/2017 15:54:21 : Skill concocter potion with value 1
+19/04/2017 15:54:21 : Skill conduire attelage with value 20
+19/04/2017 15:54:21 : Skill coup de pied with value 25
+19/04/2017 15:54:21 : Skill coup de poing with value 50
+19/04/2017 15:54:21 : Skill coup de tete with value 10
+19/04/2017 15:54:21 : Skill discretion with value 10
+19/04/2017 15:54:21 : Skill dissimulation with value 15
+19/04/2017 15:54:21 : Skill ecouter with value 25
+19/04/2017 15:54:21 : Skill ecrire une langue with value 1
+19/04/2017 15:54:21 : Skill esquiver with value 5
+19/04/2017 15:54:21 : Skill grimper with value 40
+19/04/2017 15:54:21 : Skill lancer with value 25
+19/04/2017 15:54:21 : Skill langue etrangere with value 1
+19/04/2017 15:54:21 : Skill langue natale with value 5
+19/04/2017 15:54:21 : Skill lutte with value 25
+19/04/2017 15:54:21 : Skill marchandage with value 5
+19/04/2017 15:54:21 : Skill monde naturel with value 10
+19/04/2017 15:54:21 : Skill monter a cheval with value 5
+19/04/2017 15:54:21 : Skill mythe de Cthulhu with value 0
+19/04/2017 15:54:21 : Skill nager with value 25
+19/04/2017 15:54:21 : Skill navigation with value 10
+19/04/2017 15:54:21 : Skill occultisme with value 5
+19/04/2017 15:54:21 : Skill persuasion with value 15
+19/04/2017 15:54:21 : Skill piloter bateau with value 1
+19/04/2017 15:54:21 : Skill premiers soins with value 30
+19/04/2017 15:54:21 : Skill reparer concevoir with value 20
+19/04/2017 15:54:21 : Skill royaume natal with value 20
+19/04/2017 15:54:21 : Skill royaumes etrangers with value 1
+19/04/2017 15:54:21 : Skill sagacite with value 5
+19/04/2017 15:54:21 : Skill sauter with value 25
+19/04/2017 15:54:21 : Skill science with value 1
+19/04/2017 15:54:21 : Skill se cacher with value 10
+19/04/2017 15:54:21 : Skill statut with value 15
+19/04/2017 15:54:21 : Skill suivre une piste with value 10
+19/04/2017 15:54:21 : Skill trouver objet cache with value 25
+19/04/2017 15:54:21 : Stat prestance with value 60
+19/04/2017 15:54:21 : Stat endurance with value 40
+19/04/2017 15:54:21 : Stat agility with value 20
+19/04/2017 15:54:21 : Stat brawl power with value 20
+19/04/2017 15:54:21 : Stat height with value 120
+19/04/2017 15:54:21 : Stat knowledge with value 125
+19/04/2017 15:54:21 : Stat idea with value 60
+19/04/2017 15:54:21 : Stat will power with value 60
+19/04/2017 15:54:21 : Stat sanity with value 60
+19/04/2017 15:54:21 : spendpoint health points with value 16
+19/04/2017 15:54:21 : spendpoint wound limit with value 8
+19/04/2017 15:54:21 : spendpoint magic points with value 12
+19/04/2017 15:54:21 : spendpoint Occupation skill points with value 500
+19/04/2017 15:54:21 : spendpoint Personal interest skill points with value 120
+19/04/2017 15:54:21 : Treating file : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\tom tom.xml
+19/04/2017 15:54:21 : Inside Character constructor with a character sheet
+19/04/2017 15:54:21 : Character name : Tom Tom
+19/04/2017 15:54:21 : player name : Luc le perdant
+19/04/2017 15:54:21 : Base Attr appearance with value 4
+19/04/2017 15:54:21 : Base Attr constitution with value 11
+19/04/2017 15:54:21 : Base Attr strength with value 10
+19/04/2017 15:54:21 : Base Attr dexterity with value 16
+19/04/2017 15:54:21 : Base Attr power with value 15
+19/04/2017 15:54:21 : Base Attr size with value 12
+19/04/2017 15:54:21 : Base Attr intelligence with value 15
+19/04/2017 15:54:21 : Base Attr education with value 18
+19/04/2017 15:54:21 : Skill art with value 5
+19/04/2017 15:54:21 : Skill artisanat with value 5
+19/04/2017 15:54:21 : Skill baratin with value 5
+19/04/2017 15:54:21 : Skill bibliotheque with value 5
+19/04/2017 15:54:21 : Skill comptabilite with value 10
+19/04/2017 15:54:21 : Skill concocter potion with value 1
+19/04/2017 15:54:21 : Skill conduire attelage with value 20
+19/04/2017 15:54:21 : Skill coup de pied with value 25
+19/04/2017 15:54:21 : Skill coup de poing with value 50
+19/04/2017 15:54:21 : Skill coup de tete with value 10
+19/04/2017 15:54:21 : Skill discretion with value 10
+19/04/2017 15:54:21 : Skill dissimulation with value 15
+19/04/2017 15:54:21 : Skill ecouter with value 25
+19/04/2017 15:54:21 : Skill ecrire une langue with value 1
+19/04/2017 15:54:21 : Skill esquiver with value 5
+19/04/2017 15:54:21 : Skill grimper with value 40
+19/04/2017 15:54:21 : Skill lancer with value 25
+19/04/2017 15:54:21 : Skill langue etrangere with value 1
+19/04/2017 15:54:21 : Skill langue natale with value 5
+19/04/2017 15:54:21 : Skill lutte with value 25
+19/04/2017 15:54:21 : Skill marchandage with value 5
+19/04/2017 15:54:21 : Skill monde naturel with value 10
+19/04/2017 15:54:21 : Skill monter a cheval with value 5
+19/04/2017 15:54:21 : Skill mythe de Cthulhu with value 0
+19/04/2017 15:54:21 : Skill nager with value 25
+19/04/2017 15:54:21 : Skill navigation with value 10
+19/04/2017 15:54:21 : Skill occultisme with value 5
+19/04/2017 15:54:21 : Skill persuasion with value 15
+19/04/2017 15:54:21 : Skill piloter bateau with value 1
+19/04/2017 15:54:21 : Skill premiers soins with value 30
+19/04/2017 15:54:21 : Skill reparer concevoir with value 20
+19/04/2017 15:54:21 : Skill royaume natal with value 20
+19/04/2017 15:54:21 : Skill royaumes etrangers with value 1
+19/04/2017 15:54:21 : Skill sagacite with value 5
+19/04/2017 15:54:21 : Skill sauter with value 25
+19/04/2017 15:54:21 : Skill science with value 1
+19/04/2017 15:54:21 : Skill se cacher with value 10
+19/04/2017 15:54:21 : Skill statut with value 15
+19/04/2017 15:54:21 : Skill suivre une piste with value 10
+19/04/2017 15:54:21 : Skill trouver objet cache with value 25
+19/04/2017 15:54:21 : Stat prestance with value 20
+19/04/2017 15:54:21 : Stat endurance with value 55
+19/04/2017 15:54:21 : Stat agility with value 80
+19/04/2017 15:54:21 : Stat brawl power with value 50
+19/04/2017 15:54:21 : Stat height with value 60
+19/04/2017 15:54:21 : Stat knowledge with value 90
+19/04/2017 15:54:21 : Stat idea with value 75
+19/04/2017 15:54:21 : Stat will power with value 75
+19/04/2017 15:54:21 : Stat sanity with value 75
+19/04/2017 15:54:21 : spendpoint health points with value 11
+19/04/2017 15:54:21 : spendpoint wound limit with value 5
+19/04/2017 15:54:21 : spendpoint magic points with value 15
+19/04/2017 15:54:21 : spendpoint Occupation skill points with value 360
+19/04/2017 15:54:21 : spendpoint Personal interest skill points with value 150
+19/04/2017 15:54:22 : Inside character repository.Get.
+19/04/2017 15:54:22 : Inside default character constructor
+19/04/2017 15:54:22 : CharacterRepository.get : file c:\users\mgouzee\desktop\github folder of mika\rpg-api\rpg-api\rpg-api\app_data\characters\asecondone.xml
+19/04/2017 15:54:22 : Inside Character constructor with a character sheet
+19/04/2017 15:54:22 : Character name : AsecondOne
+19/04/2017 15:54:22 : player name : FOPlayer2
+19/04/2017 15:54:22 : Base Attr strength with value 0
+19/04/2017 15:54:22 : Base Attr perception with value 0
+19/04/2017 15:54:22 : Base Attr endurance with value 3
+19/04/2017 15:54:22 : Base Attr charism with value 1
+19/04/2017 15:54:22 : Base Attr intelligence with value 0
+19/04/2017 15:54:22 : Base Attr agility with value 0
+19/04/2017 15:54:22 : Base Attr luck with value 1
+19/04/2017 15:54:22 : Skill small guns with value 5
+19/04/2017 15:54:22 : Skill big guns with value 0
+19/04/2017 15:54:22 : Skill energy weapons with value 0
+19/04/2017 15:54:22 : Skill unarmed with value 30
+19/04/2017 15:54:22 : Skill melee weapons with value 20
+19/04/2017 15:54:22 : Skill throwing with value 0
+19/04/2017 15:54:22 : Skill first aid with value 6
+19/04/2017 15:54:22 : Skill doctor with value 5
+19/04/2017 15:54:22 : Skill sneak with value 5
+19/04/2017 15:54:22 : Skill lockpick with value 10
+19/04/2017 15:54:22 : Skill steal with value 0
+19/04/2017 15:54:22 : Skill traps with value 10
+19/04/2017 15:54:22 : Skill science with value 0
+19/04/2017 15:54:22 : Skill repair with value 0
+19/04/2017 15:54:22 : Skill pilot with value 0
+19/04/2017 15:54:22 : Skill speech with value 5
+19/04/2017 15:54:22 : Skill barter with value 4
+19/04/2017 15:54:22 : Skill gambling with value 5
+19/04/2017 15:54:22 : Skill outdoorsman with value 6
+19/04/2017 15:54:22 : Skill radiation resistance with value 0
+19/04/2017 15:54:22 : Skill poison resistance with value 0
+19/04/2017 15:54:22 : Skill damage resistance with value 0
+19/04/2017 15:54:22 : Skill electric resistance with value 0
+19/04/2017 15:54:22 : Stat action points with value 1
+19/04/2017 15:54:22 : Stat karma with value 0
+19/04/2017 15:54:22 : Stat armor class with value 0
+19/04/2017 15:54:22 : Stat carry weight with value 25
+19/04/2017 15:54:22 : Stat melee damage with value 1
+19/04/2017 15:54:22 : Stat sequence with value 0
+19/04/2017 15:54:22 : Stat healing rate with value 1
+19/04/2017 15:54:22 : spendpoint health points with value 21
+19/04/2017 15:54:22 : spendpoint wound limit with value 0
+19/04/2017 15:54:22 : spendpoint skill points with value 0
+19/04/2017 15:54:22 : spendpoint creation points with value 5
+19/04/2017 15:54:22 : Character Found! Expected AsecondOne, found AsecondOne
+19/04/2017 16:03:07 : Inside character repository.Get.
+19/04/2017 16:03:07 : Inside default character constructor
+19/04/2017 16:03:07 : CharacterRepository.get : file c:\users\mgouzee\desktop\github folder of mika\rpg-api\rpg-api\rpg-api\app_data\characters\asecondone.xml
+19/04/2017 16:03:07 : Inside Character constructor with a character sheet
+19/04/2017 16:03:07 : Character name : AsecondOne
+19/04/2017 16:03:07 : player name : FOPlayer2
+19/04/2017 16:03:07 : Base Attr strength with value 0
+19/04/2017 16:03:07 : Base Attr perception with value 0
+19/04/2017 16:03:07 : Base Attr endurance with value 3
+19/04/2017 16:03:07 : Base Attr charism with value 1
+19/04/2017 16:03:07 : Base Attr intelligence with value 0
+19/04/2017 16:03:07 : Base Attr agility with value 0
+19/04/2017 16:03:07 : Base Attr luck with value 1
+19/04/2017 16:03:07 : Skill small guns with value 5
+19/04/2017 16:03:07 : Skill big guns with value 0
+19/04/2017 16:03:07 : Skill energy weapons with value 0
+19/04/2017 16:03:07 : Skill unarmed with value 30
+19/04/2017 16:03:07 : Skill melee weapons with value 20
+19/04/2017 16:03:07 : Skill throwing with value 0
+19/04/2017 16:03:07 : Skill first aid with value 6
+19/04/2017 16:03:07 : Skill doctor with value 5
+19/04/2017 16:03:07 : Skill sneak with value 5
+19/04/2017 16:03:07 : Skill lockpick with value 10
+19/04/2017 16:03:07 : Skill steal with value 0
+19/04/2017 16:03:07 : Skill traps with value 10
+19/04/2017 16:03:07 : Skill science with value 0
+19/04/2017 16:03:07 : Skill repair with value 0
+19/04/2017 16:03:07 : Skill pilot with value 0
+19/04/2017 16:03:07 : Skill speech with value 5
+19/04/2017 16:03:07 : Skill barter with value 4
+19/04/2017 16:03:07 : Skill gambling with value 5
+19/04/2017 16:03:07 : Skill outdoorsman with value 6
+19/04/2017 16:03:07 : Skill radiation resistance with value 0
+19/04/2017 16:03:07 : Skill poison resistance with value 0
+19/04/2017 16:03:07 : Skill damage resistance with value 0
+19/04/2017 16:03:07 : Skill electric resistance with value 0
+19/04/2017 16:03:07 : Stat action points with value 1
+19/04/2017 16:03:07 : Stat karma with value 0
+19/04/2017 16:03:07 : Stat armor class with value 0
+19/04/2017 16:03:07 : Stat carry weight with value 25
+19/04/2017 16:03:07 : Stat melee damage with value 1
+19/04/2017 16:03:07 : Stat sequence with value 0
+19/04/2017 16:03:07 : Stat healing rate with value 1
+19/04/2017 16:03:07 : spendpoint health points with value 21
+19/04/2017 16:03:07 : spendpoint wound limit with value 0
+19/04/2017 16:03:07 : spendpoint skill points with value 0
+19/04/2017 16:03:07 : spendpoint creation points with value 5
+19/04/2017 16:03:07 : Character Found! Expected AsecondOne, found AsecondOne
+19/04/2017 16:23:15 : Inside Game Controller Get All.
+19/04/2017 16:23:15 : Exiting Controller
+19/04/2017 16:28:34 : Inside character repository.Get.
+19/04/2017 16:28:34 : Inside default character constructor
+19/04/2017 16:28:34 : CharacterRepository.get : file c:\users\mgouzee\desktop\github folder of mika\rpg-api\rpg-api\rpg-api\app_data\characters\asecondone.xml
+19/04/2017 16:28:34 : Inside Character constructor with a character sheet
+19/04/2017 16:28:34 : Character name : AsecondOne
+19/04/2017 16:28:34 : player name : FOPlayer2
+19/04/2017 16:28:34 : Base Attr strength with value 0
+19/04/2017 16:28:34 : Base Attr perception with value 0
+19/04/2017 16:28:35 : Base Attr endurance with value 3
+19/04/2017 16:28:35 : Base Attr charism with value 1
+19/04/2017 16:28:35 : Base Attr intelligence with value 0
+19/04/2017 16:28:35 : Base Attr agility with value 0
+19/04/2017 16:28:35 : Base Attr luck with value 1
+19/04/2017 16:28:35 : Skill small guns with value 5
+19/04/2017 16:28:35 : Skill big guns with value 0
+19/04/2017 16:28:35 : Skill energy weapons with value 0
+19/04/2017 16:28:35 : Skill unarmed with value 30
+19/04/2017 16:28:35 : Skill melee weapons with value 20
+19/04/2017 16:28:35 : Skill throwing with value 0
+19/04/2017 16:28:35 : Skill first aid with value 6
+19/04/2017 16:28:35 : Skill doctor with value 5
+19/04/2017 16:28:35 : Skill sneak with value 5
+19/04/2017 16:28:35 : Skill lockpick with value 10
+19/04/2017 16:28:35 : Skill steal with value 0
+19/04/2017 16:28:35 : Skill traps with value 10
+19/04/2017 16:28:35 : Skill science with value 0
+19/04/2017 16:28:35 : Skill repair with value 0
+19/04/2017 16:28:35 : Skill pilot with value 0
+19/04/2017 16:28:35 : Skill speech with value 5
+19/04/2017 16:28:35 : Skill barter with value 4
+19/04/2017 16:28:35 : Skill gambling with value 5
+19/04/2017 16:28:35 : Skill outdoorsman with value 6
+19/04/2017 16:28:35 : Skill radiation resistance with value 0
+19/04/2017 16:28:35 : Skill poison resistance with value 0
+19/04/2017 16:28:35 : Skill damage resistance with value 0
+19/04/2017 16:28:35 : Skill electric resistance with value 0
+19/04/2017 16:28:35 : Stat action points with value 1
+19/04/2017 16:28:35 : Stat karma with value 0
+19/04/2017 16:28:35 : Stat armor class with value 0
+19/04/2017 16:28:35 : Stat carry weight with value 25
+19/04/2017 16:28:35 : Stat melee damage with value 1
+19/04/2017 16:28:35 : Stat sequence with value 0
+19/04/2017 16:28:35 : Stat healing rate with value 1
+19/04/2017 16:28:35 : spendpoint health points with value 21
+19/04/2017 16:28:35 : spendpoint wound limit with value 0
+19/04/2017 16:28:35 : spendpoint skill points with value 0
+19/04/2017 16:28:35 : spendpoint creation points with value 5
+19/04/2017 16:28:35 : Character Found! Expected AsecondOne, found AsecondOne
+19/04/2017 17:42:29 : Inside character repository.Get.
+19/04/2017 17:42:30 : Inside default character constructor
+19/04/2017 17:42:30 : CharacterRepository.get : file c:\users\mgouzee\desktop\github folder of mika\rpg-api\rpg-api\rpg-api\app_data\characters\asecondone.xml
+19/04/2017 17:42:30 : Inside Character constructor with a character sheet
+19/04/2017 17:42:30 : Character name : AsecondOne
+19/04/2017 17:42:30 : player name : FOPlayer2
+19/04/2017 17:42:30 : Base Attr strength with value 0
+19/04/2017 17:42:30 : Base Attr perception with value 0
+19/04/2017 17:42:30 : Base Attr endurance with value 3
+19/04/2017 17:42:30 : Base Attr charism with value 1
+19/04/2017 17:42:30 : Base Attr intelligence with value 0
+19/04/2017 17:42:30 : Base Attr agility with value 0
+19/04/2017 17:42:30 : Base Attr luck with value 1
+19/04/2017 17:42:30 : Skill small guns with value 5
+19/04/2017 17:42:30 : Skill big guns with value 0
+19/04/2017 17:42:30 : Skill energy weapons with value 0
+19/04/2017 17:42:30 : Skill unarmed with value 30
+19/04/2017 17:42:30 : Skill melee weapons with value 20
+19/04/2017 17:42:30 : Skill throwing with value 0
+19/04/2017 17:42:30 : Skill first aid with value 6
+19/04/2017 17:42:30 : Skill doctor with value 5
+19/04/2017 17:42:30 : Skill sneak with value 5
+19/04/2017 17:42:30 : Skill lockpick with value 10
+19/04/2017 17:42:30 : Skill steal with value 0
+19/04/2017 17:42:30 : Skill traps with value 10
+19/04/2017 17:42:30 : Skill science with value 0
+19/04/2017 17:42:30 : Skill repair with value 0
+19/04/2017 17:42:30 : Skill pilot with value 0
+19/04/2017 17:42:30 : Skill speech with value 5
+19/04/2017 17:42:30 : Skill barter with value 4
+19/04/2017 17:42:30 : Skill gambling with value 5
+19/04/2017 17:42:30 : Skill outdoorsman with value 6
+19/04/2017 17:42:30 : Skill radiation resistance with value 0
+19/04/2017 17:42:30 : Skill poison resistance with value 0
+19/04/2017 17:42:30 : Skill damage resistance with value 0
+19/04/2017 17:42:30 : Skill electric resistance with value 0
+19/04/2017 17:42:30 : Stat action points with value 1
+19/04/2017 17:42:30 : Stat karma with value 0
+19/04/2017 17:42:30 : Stat armor class with value 0
+19/04/2017 17:42:30 : Stat carry weight with value 25
+19/04/2017 17:42:30 : Stat melee damage with value 1
+19/04/2017 17:42:30 : Stat sequence with value 0
+19/04/2017 17:42:30 : Stat healing rate with value 1
+19/04/2017 17:42:30 : spendpoint health points with value 21
+19/04/2017 17:42:30 : spendpoint wound limit with value 0
+19/04/2017 17:42:30 : spendpoint skill points with value 0
+19/04/2017 17:42:30 : spendpoint creation points with value 5
+19/04/2017 17:42:30 : Character Found! Expected AsecondOne, found AsecondOne
+19/04/2017 17:43:29 : Inside character repository.Get.
+19/04/2017 17:43:29 : Inside default character constructor
+19/04/2017 17:43:29 : CharacterRepository.get : file c:\users\mgouzee\desktop\github folder of mika\rpg-api\rpg-api\rpg-api\app_data\characters\asecondone.xml
+19/04/2017 17:43:29 : Inside Character constructor with a character sheet
+19/04/2017 17:43:29 : Character name : AsecondOne
+19/04/2017 17:43:29 : player name : FOPlayer2
+19/04/2017 17:43:29 : Base Attr strength with value 0
+19/04/2017 17:43:29 : Base Attr perception with value 0
+19/04/2017 17:43:29 : Base Attr endurance with value 3
+19/04/2017 17:43:29 : Base Attr charism with value 1
+19/04/2017 17:43:29 : Base Attr intelligence with value 0
+19/04/2017 17:43:29 : Base Attr agility with value 0
+19/04/2017 17:43:29 : Base Attr luck with value 1
+19/04/2017 17:43:29 : Skill small guns with value 5
+19/04/2017 17:43:29 : Skill big guns with value 0
+19/04/2017 17:43:29 : Skill energy weapons with value 0
+19/04/2017 17:43:29 : Skill unarmed with value 30
+19/04/2017 17:43:29 : Skill melee weapons with value 20
+19/04/2017 17:43:29 : Skill throwing with value 0
+19/04/2017 17:43:29 : Skill first aid with value 6
+19/04/2017 17:43:29 : Skill doctor with value 5
+19/04/2017 17:43:29 : Skill sneak with value 5
+19/04/2017 17:43:29 : Skill lockpick with value 10
+19/04/2017 17:43:29 : Skill steal with value 0
+19/04/2017 17:43:29 : Skill traps with value 10
+19/04/2017 17:43:29 : Skill science with value 0
+19/04/2017 17:43:29 : Skill repair with value 0
+19/04/2017 17:43:29 : Skill pilot with value 0
+19/04/2017 17:43:29 : Skill speech with value 5
+19/04/2017 17:43:29 : Skill barter with value 4
+19/04/2017 17:43:29 : Skill gambling with value 5
+19/04/2017 17:43:29 : Skill outdoorsman with value 6
+19/04/2017 17:43:29 : Skill radiation resistance with value 0
+19/04/2017 17:43:29 : Skill poison resistance with value 0
+19/04/2017 17:43:29 : Skill damage resistance with value 0
+19/04/2017 17:43:29 : Skill electric resistance with value 0
+19/04/2017 17:43:29 : Stat action points with value 1
+19/04/2017 17:43:29 : Stat karma with value 0
+19/04/2017 17:43:29 : Stat armor class with value 0
+19/04/2017 17:43:29 : Stat carry weight with value 25
+19/04/2017 17:43:29 : Stat melee damage with value 1
+19/04/2017 17:43:29 : Stat sequence with value 0
+19/04/2017 17:43:29 : Stat healing rate with value 1
+19/04/2017 17:43:29 : spendpoint health points with value 21
+19/04/2017 17:43:29 : spendpoint wound limit with value 0
+19/04/2017 17:43:29 : spendpoint skill points with value 0
+19/04/2017 17:43:29 : spendpoint creation points with value 5
+19/04/2017 17:43:29 : Character Found! Expected AsecondOne, found AsecondOne
+19/04/2017 17:43:51 : Inside character repository.Get.
+19/04/2017 17:43:51 : Inside default character constructor
+19/04/2017 17:43:51 : CharacterRepository.get : file c:\users\mgouzee\desktop\github folder of mika\rpg-api\rpg-api\rpg-api\app_data\characters\asecondone.xml
+19/04/2017 17:43:51 : Inside Character constructor with a character sheet
+19/04/2017 17:43:51 : Character name : AsecondOne
+19/04/2017 17:43:51 : player name : FOPlayer2
+19/04/2017 17:43:51 : Base Attr strength with value 0
+19/04/2017 17:43:52 : Base Attr perception with value 0
+19/04/2017 17:43:52 : Base Attr endurance with value 3
+19/04/2017 17:43:52 : Base Attr charism with value 1
+19/04/2017 17:43:52 : Base Attr intelligence with value 0
+19/04/2017 17:43:52 : Base Attr agility with value 0
+19/04/2017 17:43:52 : Base Attr luck with value 1
+19/04/2017 17:43:52 : Skill small guns with value 5
+19/04/2017 17:43:52 : Skill big guns with value 0
+19/04/2017 17:43:52 : Skill energy weapons with value 0
+19/04/2017 17:43:52 : Skill unarmed with value 30
+19/04/2017 17:43:52 : Skill melee weapons with value 20
+19/04/2017 17:43:52 : Skill throwing with value 0
+19/04/2017 17:43:52 : Skill first aid with value 6
+19/04/2017 17:43:52 : Skill doctor with value 5
+19/04/2017 17:43:52 : Skill sneak with value 5
+19/04/2017 17:43:52 : Skill lockpick with value 10
+19/04/2017 17:43:52 : Skill steal with value 0
+19/04/2017 17:43:52 : Skill traps with value 10
+19/04/2017 17:43:52 : Skill science with value 0
+19/04/2017 17:43:52 : Skill repair with value 0
+19/04/2017 17:43:52 : Skill pilot with value 0
+19/04/2017 17:43:52 : Skill speech with value 5
+19/04/2017 17:43:52 : Skill barter with value 4
+19/04/2017 17:43:52 : Skill gambling with value 5
+19/04/2017 17:43:52 : Skill outdoorsman with value 6
+19/04/2017 17:43:52 : Skill radiation resistance with value 0
+19/04/2017 17:43:52 : Skill poison resistance with value 0
+19/04/2017 17:43:52 : Skill damage resistance with value 0
+19/04/2017 17:43:52 : Skill electric resistance with value 0
+19/04/2017 17:43:52 : Stat action points with value 1
+19/04/2017 17:43:52 : Stat karma with value 0
+19/04/2017 17:43:52 : Stat armor class with value 0
+19/04/2017 17:43:52 : Stat carry weight with value 25
+19/04/2017 17:43:52 : Stat melee damage with value 1
+19/04/2017 17:43:52 : Stat sequence with value 0
+19/04/2017 17:43:52 : Stat healing rate with value 1
+19/04/2017 17:43:52 : spendpoint health points with value 21
+19/04/2017 17:43:52 : spendpoint wound limit with value 0
+19/04/2017 17:43:52 : spendpoint skill points with value 0
+19/04/2017 17:43:52 : spendpoint creation points with value 5
+19/04/2017 17:43:52 : Character Found! Expected AsecondOne, found AsecondOne
+20/04/2017 9:31:49 : Inside character repository.Get.
+20/04/2017 9:31:49 : Inside default character constructor
+20/04/2017 9:31:49 : CharacterRepository.get : file c:\users\mgouzee\desktop\github folder of mika\rpg-api\rpg-api\rpg-api\app_data\characters\asecondone.xml
+20/04/2017 9:31:49 : Inside Character constructor with a character sheet
+20/04/2017 9:31:49 : Character name : AsecondOne
+20/04/2017 9:31:49 : player name : FOPlayer2
+20/04/2017 9:31:49 : Base Attr strength with value 0
+20/04/2017 9:31:49 : Base Attr perception with value 0
+20/04/2017 9:31:49 : Base Attr endurance with value 3
+20/04/2017 9:31:49 : Base Attr charism with value 1
+20/04/2017 9:31:49 : Base Attr intelligence with value 0
+20/04/2017 9:31:49 : Base Attr agility with value 0
+20/04/2017 9:31:49 : Base Attr luck with value 1
+20/04/2017 9:31:49 : Skill small guns with value 5
+20/04/2017 9:31:49 : Skill big guns with value 0
+20/04/2017 9:31:49 : Skill energy weapons with value 0
+20/04/2017 9:31:49 : Skill unarmed with value 30
+20/04/2017 9:31:49 : Skill melee weapons with value 20
+20/04/2017 9:31:49 : Skill throwing with value 0
+20/04/2017 9:31:49 : Skill first aid with value 6
+20/04/2017 9:31:49 : Skill doctor with value 5
+20/04/2017 9:31:49 : Skill sneak with value 5
+20/04/2017 9:31:49 : Skill lockpick with value 10
+20/04/2017 9:31:49 : Skill steal with value 0
+20/04/2017 9:31:49 : Skill traps with value 10
+20/04/2017 9:31:49 : Skill science with value 0
+20/04/2017 9:31:49 : Skill repair with value 0
+20/04/2017 9:31:49 : Skill pilot with value 0
+20/04/2017 9:31:49 : Skill speech with value 5
+20/04/2017 9:31:49 : Skill barter with value 4
+20/04/2017 9:31:49 : Skill gambling with value 5
+20/04/2017 9:31:49 : Skill outdoorsman with value 6
+20/04/2017 9:31:49 : Skill radiation resistance with value 0
+20/04/2017 9:31:49 : Skill poison resistance with value 0
+20/04/2017 9:31:49 : Skill damage resistance with value 0
+20/04/2017 9:31:50 : Skill electric resistance with value 0
+20/04/2017 9:31:50 : Stat action points with value 1
+20/04/2017 9:31:50 : Stat karma with value 0
+20/04/2017 9:31:50 : Stat armor class with value 0
+20/04/2017 9:31:50 : Stat carry weight with value 25
+20/04/2017 9:31:50 : Stat melee damage with value 1
+20/04/2017 9:31:50 : Stat sequence with value 0
+20/04/2017 9:31:50 : Stat healing rate with value 1
+20/04/2017 9:31:50 : spendpoint health points with value 21
+20/04/2017 9:31:50 : spendpoint wound limit with value 0
+20/04/2017 9:31:50 : spendpoint skill points with value 0
+20/04/2017 9:31:50 : spendpoint creation points with value 5
+20/04/2017 9:31:50 : Character Found! Expected AsecondOne, found AsecondOne
+20/04/2017 9:36:09 : Inside character repository.Get.
+20/04/2017 9:36:09 : Inside default character constructor
+20/04/2017 9:36:09 : CharacterRepository.get : file c:\users\mgouzee\desktop\github folder of mika\rpg-api\rpg-api\rpg-api\app_data\characters\asecondone.xml
+20/04/2017 9:36:09 : Inside Character constructor with a character sheet
+20/04/2017 9:36:09 : Character name : AsecondOne
+20/04/2017 9:36:09 : player name : FOPlayer2
+20/04/2017 9:36:09 : Base Attr strength with value 0
+20/04/2017 9:36:09 : Base Attr perception with value 0
+20/04/2017 9:36:09 : Base Attr endurance with value 3
+20/04/2017 9:36:09 : Base Attr charism with value 1
+20/04/2017 9:36:09 : Base Attr intelligence with value 0
+20/04/2017 9:36:09 : Base Attr agility with value 0
+20/04/2017 9:36:09 : Base Attr luck with value 1
+20/04/2017 9:36:09 : Skill small guns with value 5
+20/04/2017 9:36:09 : Skill big guns with value 0
+20/04/2017 9:36:09 : Skill energy weapons with value 0
+20/04/2017 9:36:09 : Skill unarmed with value 30
+20/04/2017 9:36:09 : Skill melee weapons with value 20
+20/04/2017 9:36:09 : Skill throwing with value 0
+20/04/2017 9:36:09 : Skill first aid with value 6
+20/04/2017 9:36:09 : Skill doctor with value 5
+20/04/2017 9:36:09 : Skill sneak with value 5
+20/04/2017 9:36:09 : Skill lockpick with value 10
+20/04/2017 9:36:10 : Skill steal with value 0
+20/04/2017 9:36:10 : Skill traps with value 10
+20/04/2017 9:36:10 : Skill science with value 0
+20/04/2017 9:36:10 : Skill repair with value 0
+20/04/2017 9:36:10 : Skill pilot with value 0
+20/04/2017 9:36:10 : Skill speech with value 5
+20/04/2017 9:36:10 : Skill barter with value 4
+20/04/2017 9:36:10 : Skill gambling with value 5
+20/04/2017 9:36:10 : Skill outdoorsman with value 6
+20/04/2017 9:36:10 : Skill radiation resistance with value 0
+20/04/2017 9:36:10 : Skill poison resistance with value 0
+20/04/2017 9:36:10 : Skill damage resistance with value 0
+20/04/2017 9:36:10 : Skill electric resistance with value 0
+20/04/2017 9:36:10 : Stat action points with value 1
+20/04/2017 9:36:10 : Stat karma with value 0
+20/04/2017 9:36:10 : Stat armor class with value 0
+20/04/2017 9:36:10 : Stat carry weight with value 25
+20/04/2017 9:36:10 : Stat melee damage with value 1
+20/04/2017 9:36:10 : Stat sequence with value 0
+20/04/2017 9:36:10 : Stat healing rate with value 1
+20/04/2017 9:36:10 : spendpoint health points with value 21
+20/04/2017 9:36:10 : spendpoint wound limit with value 0
+20/04/2017 9:36:10 : spendpoint skill points with value 0
+20/04/2017 9:36:10 : spendpoint creation points with value 5
+20/04/2017 9:36:10 : Character Found! Expected AsecondOne, found AsecondOne
+20/04/2017 9:37:09 : Inside character repository.Get.
+20/04/2017 9:37:09 : Inside default character constructor
+20/04/2017 9:37:09 : CharacterRepository.get : file c:\users\mgouzee\desktop\github folder of mika\rpg-api\rpg-api\rpg-api\app_data\characters\asecondone.xml
+20/04/2017 9:37:09 : Inside Character constructor with a character sheet
+20/04/2017 9:37:09 : Character name : AsecondOne
+20/04/2017 9:37:09 : player name : FOPlayer2
+20/04/2017 9:37:09 : Base Attr strength with value 0
+20/04/2017 9:37:09 : Base Attr perception with value 0
+20/04/2017 9:37:09 : Base Attr endurance with value 3
+20/04/2017 9:37:09 : Base Attr charism with value 1
+20/04/2017 9:37:09 : Base Attr intelligence with value 0
+20/04/2017 9:37:09 : Base Attr agility with value 0
+20/04/2017 9:37:09 : Base Attr luck with value 1
+20/04/2017 9:37:09 : Skill small guns with value 5
+20/04/2017 9:37:09 : Skill big guns with value 0
+20/04/2017 9:37:09 : Skill energy weapons with value 0
+20/04/2017 9:37:10 : Skill unarmed with value 30
+20/04/2017 9:37:10 : Skill melee weapons with value 20
+20/04/2017 9:37:10 : Skill throwing with value 0
+20/04/2017 9:37:10 : Skill first aid with value 6
+20/04/2017 9:37:10 : Skill doctor with value 5
+20/04/2017 9:37:10 : Skill sneak with value 5
+20/04/2017 9:37:10 : Skill lockpick with value 10
+20/04/2017 9:37:10 : Skill steal with value 0
+20/04/2017 9:37:10 : Skill traps with value 10
+20/04/2017 9:37:10 : Skill science with value 0
+20/04/2017 9:37:10 : Skill repair with value 0
+20/04/2017 9:37:10 : Skill pilot with value 0
+20/04/2017 9:37:10 : Skill speech with value 5
+20/04/2017 9:37:10 : Skill barter with value 4
+20/04/2017 9:37:10 : Skill gambling with value 5
+20/04/2017 9:37:10 : Skill outdoorsman with value 6
+20/04/2017 9:37:10 : Skill radiation resistance with value 0
+20/04/2017 9:37:10 : Skill poison resistance with value 0
+20/04/2017 9:37:10 : Skill damage resistance with value 0
+20/04/2017 9:37:10 : Skill electric resistance with value 0
+20/04/2017 9:37:10 : Stat action points with value 1
+20/04/2017 9:37:10 : Stat karma with value 0
+20/04/2017 9:37:10 : Stat armor class with value 0
+20/04/2017 9:37:10 : Stat carry weight with value 25
+20/04/2017 9:37:10 : Stat melee damage with value 1
+20/04/2017 9:37:10 : Stat sequence with value 0
+20/04/2017 9:37:10 : Stat healing rate with value 1
+20/04/2017 9:37:10 : spendpoint health points with value 21
+20/04/2017 9:37:10 : spendpoint wound limit with value 0
+20/04/2017 9:37:10 : spendpoint skill points with value 0
+20/04/2017 9:37:10 : spendpoint creation points with value 5
+20/04/2017 9:37:10 : Character Found! Expected AsecondOne, found AsecondOne
+20/04/2017 9:37:19 : Inside character repository.Get.
+20/04/2017 9:37:19 : Inside default character constructor
+20/04/2017 9:37:19 : CharacterRepository.get : file c:\users\mgouzee\desktop\github folder of mika\rpg-api\rpg-api\rpg-api\app_data\characters\asecondone.xml
+20/04/2017 9:37:19 : Inside Character constructor with a character sheet
+20/04/2017 9:37:19 : Character name : AsecondOne
+20/04/2017 9:37:19 : player name : FOPlayer2
+20/04/2017 9:37:19 : Base Attr strength with value 0
+20/04/2017 9:37:19 : Base Attr perception with value 0
+20/04/2017 9:37:19 : Base Attr endurance with value 3
+20/04/2017 9:37:19 : Base Attr charism with value 1
+20/04/2017 9:37:19 : Base Attr intelligence with value 0
+20/04/2017 9:37:19 : Base Attr agility with value 0
+20/04/2017 9:37:19 : Base Attr luck with value 1
+20/04/2017 9:37:19 : Skill small guns with value 5
+20/04/2017 9:37:19 : Skill big guns with value 0
+20/04/2017 9:37:19 : Skill energy weapons with value 0
+20/04/2017 9:37:19 : Skill unarmed with value 30
+20/04/2017 9:37:19 : Skill melee weapons with value 20
+20/04/2017 9:37:19 : Skill throwing with value 0
+20/04/2017 9:37:19 : Skill first aid with value 6
+20/04/2017 9:37:19 : Skill doctor with value 5
+20/04/2017 9:37:19 : Skill sneak with value 5
+20/04/2017 9:37:19 : Skill lockpick with value 10
+20/04/2017 9:37:19 : Skill steal with value 0
+20/04/2017 9:37:19 : Skill traps with value 10
+20/04/2017 9:37:19 : Skill science with value 0
+20/04/2017 9:37:19 : Skill repair with value 0
+20/04/2017 9:37:19 : Skill pilot with value 0
+20/04/2017 9:37:19 : Skill speech with value 5
+20/04/2017 9:37:19 : Skill barter with value 4
+20/04/2017 9:37:19 : Skill gambling with value 5
+20/04/2017 9:37:19 : Skill outdoorsman with value 6
+20/04/2017 9:37:19 : Skill radiation resistance with value 0
+20/04/2017 9:37:19 : Skill poison resistance with value 0
+20/04/2017 9:37:19 : Skill damage resistance with value 0
+20/04/2017 9:37:19 : Skill electric resistance with value 0
+20/04/2017 9:37:19 : Stat action points with value 1
+20/04/2017 9:37:19 : Stat karma with value 0
+20/04/2017 9:37:19 : Stat armor class with value 0
+20/04/2017 9:37:19 : Stat carry weight with value 25
+20/04/2017 9:37:19 : Stat melee damage with value 1
+20/04/2017 9:37:19 : Stat sequence with value 0
+20/04/2017 9:37:19 : Stat healing rate with value 1
+20/04/2017 9:37:20 : spendpoint health points with value 21
+20/04/2017 9:37:20 : spendpoint wound limit with value 0
+20/04/2017 9:37:20 : spendpoint skill points with value 0
+20/04/2017 9:37:20 : spendpoint creation points with value 5
+20/04/2017 9:37:20 : Character Found! Expected AsecondOne, found AsecondOne
+20/04/2017 9:40:04 : Inside character repository.Get.
+20/04/2017 9:40:04 : Inside default character constructor
+20/04/2017 9:40:04 : CharacterRepository.get : file c:\users\mgouzee\desktop\github folder of mika\rpg-api\rpg-api\rpg-api\app_data\characters\asecondone.xml
+20/04/2017 9:40:04 : Inside Character constructor with a character sheet
+20/04/2017 9:40:04 : Character name : AsecondOne
+20/04/2017 9:40:04 : player name : FOPlayer2
+20/04/2017 9:40:04 : Base Attr strength with value 0
+20/04/2017 9:40:04 : Base Attr perception with value 0
+20/04/2017 9:40:04 : Base Attr endurance with value 3
+20/04/2017 9:40:04 : Base Attr charism with value 1
+20/04/2017 9:40:04 : Base Attr intelligence with value 0
+20/04/2017 9:40:04 : Base Attr agility with value 0
+20/04/2017 9:40:04 : Base Attr luck with value 1
+20/04/2017 9:40:04 : Skill small guns with value 5
+20/04/2017 9:40:04 : Skill big guns with value 0
+20/04/2017 9:40:04 : Skill energy weapons with value 0
+20/04/2017 9:40:04 : Skill unarmed with value 30
+20/04/2017 9:40:04 : Skill melee weapons with value 20
+20/04/2017 9:40:04 : Skill throwing with value 0
+20/04/2017 9:40:04 : Skill first aid with value 6
+20/04/2017 9:40:04 : Skill doctor with value 5
+20/04/2017 9:40:04 : Skill sneak with value 5
+20/04/2017 9:40:04 : Skill lockpick with value 10
+20/04/2017 9:40:04 : Skill steal with value 0
+20/04/2017 9:40:04 : Skill traps with value 10
+20/04/2017 9:40:04 : Skill science with value 0
+20/04/2017 9:40:04 : Skill repair with value 0
+20/04/2017 9:40:04 : Skill pilot with value 0
+20/04/2017 9:40:04 : Skill speech with value 5
+20/04/2017 9:40:04 : Skill barter with value 4
+20/04/2017 9:40:04 : Skill gambling with value 5
+20/04/2017 9:40:04 : Skill outdoorsman with value 6
+20/04/2017 9:40:04 : Skill radiation resistance with value 0
+20/04/2017 9:40:04 : Skill poison resistance with value 0
+20/04/2017 9:40:04 : Skill damage resistance with value 0
+20/04/2017 9:40:04 : Skill electric resistance with value 0
+20/04/2017 9:40:04 : Stat action points with value 1
+20/04/2017 9:40:04 : Stat karma with value 0
+20/04/2017 9:40:04 : Stat armor class with value 0
+20/04/2017 9:40:04 : Stat carry weight with value 25
+20/04/2017 9:40:04 : Stat melee damage with value 1
+20/04/2017 9:40:04 : Stat sequence with value 0
+20/04/2017 9:40:04 : Stat healing rate with value 1
+20/04/2017 9:40:04 : spendpoint health points with value 21
+20/04/2017 9:40:04 : spendpoint wound limit with value 0
+20/04/2017 9:40:04 : spendpoint skill points with value 0
+20/04/2017 9:40:04 : spendpoint creation points with value 5
+20/04/2017 9:40:04 : Character Found! Expected AsecondOne, found AsecondOne
+20/04/2017 9:41:27 : Inside character repository.Get.
+20/04/2017 9:41:27 : Inside default character constructor
+20/04/2017 9:41:27 : CharacterRepository.get : file c:\users\mgouzee\desktop\github folder of mika\rpg-api\rpg-api\rpg-api\app_data\characters\asecondone.xml
+20/04/2017 9:41:27 : Inside Character constructor with a character sheet
+20/04/2017 9:41:27 : Character name : AsecondOne
+20/04/2017 9:41:27 : player name : FOPlayer2
+20/04/2017 9:41:27 : Base Attr strength with value 0
+20/04/2017 9:41:27 : Base Attr perception with value 0
+20/04/2017 9:41:27 : Base Attr endurance with value 3
+20/04/2017 9:41:27 : Base Attr charism with value 1
+20/04/2017 9:41:27 : Base Attr intelligence with value 0
+20/04/2017 9:41:27 : Base Attr agility with value 0
+20/04/2017 9:41:27 : Base Attr luck with value 1
+20/04/2017 9:41:27 : Skill small guns with value 5
+20/04/2017 9:41:27 : Skill big guns with value 0
+20/04/2017 9:41:27 : Skill energy weapons with value 0
+20/04/2017 9:41:27 : Skill unarmed with value 30
+20/04/2017 9:41:27 : Skill melee weapons with value 20
+20/04/2017 9:41:27 : Skill throwing with value 0
+20/04/2017 9:41:27 : Skill first aid with value 6
+20/04/2017 9:41:27 : Skill doctor with value 5
+20/04/2017 9:41:27 : Skill sneak with value 5
+20/04/2017 9:41:27 : Skill lockpick with value 10
+20/04/2017 9:41:27 : Skill steal with value 0
+20/04/2017 9:41:27 : Skill traps with value 10
+20/04/2017 9:41:27 : Skill science with value 0
+20/04/2017 9:41:28 : Skill repair with value 0
+20/04/2017 9:41:28 : Skill pilot with value 0
+20/04/2017 9:41:28 : Skill speech with value 5
+20/04/2017 9:41:28 : Skill barter with value 4
+20/04/2017 9:41:28 : Skill gambling with value 5
+20/04/2017 9:41:28 : Skill outdoorsman with value 6
+20/04/2017 9:41:28 : Skill radiation resistance with value 0
+20/04/2017 9:41:28 : Skill poison resistance with value 0
+20/04/2017 9:41:28 : Skill damage resistance with value 0
+20/04/2017 9:41:28 : Skill electric resistance with value 0
+20/04/2017 9:41:28 : Stat action points with value 1
+20/04/2017 9:41:28 : Stat karma with value 0
+20/04/2017 9:41:28 : Stat armor class with value 0
+20/04/2017 9:41:28 : Stat carry weight with value 25
+20/04/2017 9:41:28 : Stat melee damage with value 1
+20/04/2017 9:41:28 : Stat sequence with value 0
+20/04/2017 9:41:28 : Stat healing rate with value 1
+20/04/2017 9:41:28 : spendpoint health points with value 21
+20/04/2017 9:41:28 : spendpoint wound limit with value 0
+20/04/2017 9:41:28 : spendpoint skill points with value 0
+20/04/2017 9:41:28 : spendpoint creation points with value 5
+20/04/2017 9:41:28 : Character Found! Expected AsecondOne, found AsecondOne
+20/04/2017 9:47:16 : Inside character repository.Get.
+20/04/2017 9:47:16 : Inside default character constructor
+20/04/2017 9:47:16 : CharacterRepository.get : file c:\users\mgouzee\desktop\github folder of mika\rpg-api\rpg-api\rpg-api\app_data\characters\asecondone.xml
+20/04/2017 9:47:16 : Inside Character constructor with a character sheet
+20/04/2017 9:47:16 : Character name : AsecondOne
+20/04/2017 9:47:16 : player name : FOPlayer2
+20/04/2017 9:47:16 : Base Attr strength with value 0
+20/04/2017 9:47:16 : Base Attr perception with value 0
+20/04/2017 9:47:16 : Base Attr endurance with value 3
+20/04/2017 9:47:16 : Base Attr charism with value 1
+20/04/2017 9:47:17 : Base Attr intelligence with value 0
+20/04/2017 9:47:17 : Base Attr agility with value 0
+20/04/2017 9:47:17 : Base Attr luck with value 1
+20/04/2017 9:47:17 : Skill small guns with value 5
+20/04/2017 9:47:17 : Skill big guns with value 0
+20/04/2017 9:47:17 : Skill energy weapons with value 0
+20/04/2017 9:47:17 : Skill unarmed with value 30
+20/04/2017 9:47:17 : Skill melee weapons with value 20
+20/04/2017 9:47:17 : Skill throwing with value 0
+20/04/2017 9:47:17 : Skill first aid with value 6
+20/04/2017 9:47:17 : Skill doctor with value 5
+20/04/2017 9:47:17 : Skill sneak with value 5
+20/04/2017 9:47:17 : Skill lockpick with value 10
+20/04/2017 9:47:17 : Skill steal with value 0
+20/04/2017 9:47:17 : Skill traps with value 10
+20/04/2017 9:47:17 : Skill science with value 0
+20/04/2017 9:47:17 : Skill repair with value 0
+20/04/2017 9:47:17 : Skill pilot with value 0
+20/04/2017 9:47:17 : Skill speech with value 5
+20/04/2017 9:47:17 : Skill barter with value 4
+20/04/2017 9:47:17 : Skill gambling with value 5
+20/04/2017 9:47:17 : Skill outdoorsman with value 6
+20/04/2017 9:47:17 : Skill radiation resistance with value 0
+20/04/2017 9:47:17 : Skill poison resistance with value 0
+20/04/2017 9:47:17 : Skill damage resistance with value 0
+20/04/2017 9:47:17 : Skill electric resistance with value 0
+20/04/2017 9:47:17 : Stat action points with value 1
+20/04/2017 9:47:17 : Stat karma with value 0
+20/04/2017 9:47:17 : Stat armor class with value 0
+20/04/2017 9:47:17 : Stat carry weight with value 25
+20/04/2017 9:47:17 : Stat melee damage with value 1
+20/04/2017 9:47:17 : Stat sequence with value 0
+20/04/2017 9:47:17 : Stat healing rate with value 1
+20/04/2017 9:47:17 : spendpoint health points with value 21
+20/04/2017 9:47:17 : spendpoint wound limit with value 0
+20/04/2017 9:47:17 : spendpoint skill points with value 0
+20/04/2017 9:47:17 : spendpoint creation points with value 5
+20/04/2017 9:47:17 : Character Found! Expected AsecondOne, found AsecondOne
+20/04/2017 9:50:51 : Inside character repository.Get.
+20/04/2017 9:50:51 : Inside default character constructor
+20/04/2017 9:50:51 : CharacterRepository.get : file c:\users\mgouzee\desktop\github folder of mika\rpg-api\rpg-api\rpg-api\app_data\characters\asecondone.xml
+20/04/2017 9:50:51 : Inside Character constructor with a character sheet
+20/04/2017 9:50:51 : Character name : AsecondOne
+20/04/2017 9:50:51 : player name : FOPlayer2
+20/04/2017 9:50:51 : Base Attr strength with value 0
+20/04/2017 9:50:51 : Base Attr perception with value 0
+20/04/2017 9:50:51 : Base Attr endurance with value 3
+20/04/2017 9:50:51 : Base Attr charism with value 1
+20/04/2017 9:50:51 : Base Attr intelligence with value 0
+20/04/2017 9:50:51 : Base Attr agility with value 0
+20/04/2017 9:50:51 : Base Attr luck with value 1
+20/04/2017 9:50:51 : Skill small guns with value 5
+20/04/2017 9:50:51 : Skill big guns with value 0
+20/04/2017 9:50:51 : Skill energy weapons with value 0
+20/04/2017 9:50:51 : Skill unarmed with value 30
+20/04/2017 9:50:51 : Skill melee weapons with value 20
+20/04/2017 9:50:51 : Skill throwing with value 0
+20/04/2017 9:50:51 : Skill first aid with value 6
+20/04/2017 9:50:51 : Skill doctor with value 5
+20/04/2017 9:50:51 : Skill sneak with value 5
+20/04/2017 9:50:51 : Skill lockpick with value 10
+20/04/2017 9:50:51 : Skill steal with value 0
+20/04/2017 9:50:51 : Skill traps with value 10
+20/04/2017 9:50:51 : Skill science with value 0
+20/04/2017 9:50:51 : Skill repair with value 0
+20/04/2017 9:50:51 : Skill pilot with value 0
+20/04/2017 9:50:51 : Skill speech with value 5
+20/04/2017 9:50:51 : Skill barter with value 4
+20/04/2017 9:50:51 : Skill gambling with value 5
+20/04/2017 9:50:51 : Skill outdoorsman with value 6
+20/04/2017 9:50:51 : Skill radiation resistance with value 0
+20/04/2017 9:50:51 : Skill poison resistance with value 0
+20/04/2017 9:50:51 : Skill damage resistance with value 0
+20/04/2017 9:50:51 : Skill electric resistance with value 0
+20/04/2017 9:50:51 : Stat action points with value 1
+20/04/2017 9:50:51 : Stat karma with value 0
+20/04/2017 9:50:51 : Stat armor class with value 0
+20/04/2017 9:50:51 : Stat carry weight with value 25
+20/04/2017 9:50:51 : Stat melee damage with value 1
+20/04/2017 9:50:51 : Stat sequence with value 0
+20/04/2017 9:50:51 : Stat healing rate with value 1
+20/04/2017 9:50:51 : spendpoint health points with value 21
+20/04/2017 9:50:51 : spendpoint wound limit with value 0
+20/04/2017 9:50:51 : spendpoint skill points with value 0
+20/04/2017 9:50:51 : spendpoint creation points with value 5
+20/04/2017 9:50:51 : Character Found! Expected AsecondOne, found AsecondOne
+20/04/2017 9:51:10 : Inside character repository.Get.
+20/04/2017 9:51:10 : Inside default character constructor
+20/04/2017 9:51:10 : CharacterRepository.get : file c:\users\mgouzee\desktop\github folder of mika\rpg-api\rpg-api\rpg-api\app_data\characters\asecondone.xml
+20/04/2017 9:51:10 : Inside Character constructor with a character sheet
+20/04/2017 9:51:10 : Character name : AsecondOne
+20/04/2017 9:51:10 : player name : FOPlayer2
+20/04/2017 9:51:10 : Base Attr strength with value 0
+20/04/2017 9:51:10 : Base Attr perception with value 0
+20/04/2017 9:51:10 : Base Attr endurance with value 3
+20/04/2017 9:51:10 : Base Attr charism with value 1
+20/04/2017 9:51:10 : Base Attr intelligence with value 0
+20/04/2017 9:51:10 : Base Attr agility with value 0
+20/04/2017 9:51:10 : Base Attr luck with value 1
+20/04/2017 9:51:10 : Skill small guns with value 5
+20/04/2017 9:51:10 : Skill big guns with value 0
+20/04/2017 9:51:10 : Skill energy weapons with value 0
+20/04/2017 9:51:10 : Skill unarmed with value 30
+20/04/2017 9:51:10 : Skill melee weapons with value 20
+20/04/2017 9:51:10 : Skill throwing with value 0
+20/04/2017 9:51:10 : Skill first aid with value 6
+20/04/2017 9:51:10 : Skill doctor with value 5
+20/04/2017 9:51:10 : Skill sneak with value 5
+20/04/2017 9:51:10 : Skill lockpick with value 10
+20/04/2017 9:51:10 : Skill steal with value 0
+20/04/2017 9:51:10 : Skill traps with value 10
+20/04/2017 9:51:10 : Skill science with value 0
+20/04/2017 9:51:10 : Skill repair with value 0
+20/04/2017 9:51:10 : Skill pilot with value 0
+20/04/2017 9:51:10 : Skill speech with value 5
+20/04/2017 9:51:10 : Skill barter with value 4
+20/04/2017 9:51:10 : Skill gambling with value 5
+20/04/2017 9:51:10 : Skill outdoorsman with value 6
+20/04/2017 9:51:10 : Skill radiation resistance with value 0
+20/04/2017 9:51:10 : Skill poison resistance with value 0
+20/04/2017 9:51:10 : Skill damage resistance with value 0
+20/04/2017 9:51:10 : Skill electric resistance with value 0
+20/04/2017 9:51:10 : Stat action points with value 1
+20/04/2017 9:51:10 : Stat karma with value 0
+20/04/2017 9:51:10 : Stat armor class with value 0
+20/04/2017 9:51:10 : Stat carry weight with value 25
+20/04/2017 9:51:11 : Stat melee damage with value 1
+20/04/2017 9:51:11 : Stat sequence with value 0
+20/04/2017 9:51:11 : Stat healing rate with value 1
+20/04/2017 9:51:11 : spendpoint health points with value 21
+20/04/2017 9:51:11 : spendpoint wound limit with value 0
+20/04/2017 9:51:11 : spendpoint skill points with value 0
+20/04/2017 9:51:11 : spendpoint creation points with value 5
+20/04/2017 9:51:11 : Character Found! Expected AsecondOne, found AsecondOne
