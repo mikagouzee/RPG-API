@@ -10,6 +10,7 @@ namespace RPG_API.Models.Caracteristic
     {
         int value { get; set; }
         int max { get; set; }
+
         string name { get; set; }
 
         void Increment();

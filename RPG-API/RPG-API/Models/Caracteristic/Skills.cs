@@ -11,6 +11,9 @@ namespace RPG_API.Models.Caracteristic
         public int value { get; set; }
         public string name { get; set; }
 
+        //required to keep track of points spent in the skill
+        public int baseValue { get; set; }
+
 
         public Skills()
         {
@@ -22,6 +25,7 @@ namespace RPG_API.Models.Caracteristic
             this.name = name;
             this.max = max;
             this.value = 0;
+            this.baseValue = 0;
         }
 
         public Skills(string myName, int myMax, int myValue)
@@ -29,6 +33,7 @@ namespace RPG_API.Models.Caracteristic
             this.max = myMax;
             this.value = myValue;
             this.name = myName;
+            this.baseValue = myValue;
         }
 
         public void Increment()
@@ -59,6 +64,16 @@ namespace RPG_API.Models.Caracteristic
                 skillPoint++;
             }
             return skillPoint;
+        }
+        
+        public int GetNumberOfPointSpent()
+        {
+            return this.value - this.baseValue;
+        }
+
+        public void setBasevalue(int val)
+        {
+            this.baseValue = val;
         }
 
     }

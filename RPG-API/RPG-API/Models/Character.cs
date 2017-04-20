@@ -222,8 +222,6 @@ namespace RPG_API.Models
             mon_perso.stats = mon_perso.game.Stats;
             mon_perso.spendPoints = mon_perso.game.SpendPoints;
 
-            //TODO : Change this if game is chosen instead than hardcoded
-            // This will set the stats of the perso, according to the value of his base attributes, as defined in COC Rules
             this.metier = (Profession)this.game.professions.Where(p => p.name == "mendiant").FirstOrDefault();
             this.careerName = this.metier == null ? "Trouffion" : this.metier.name;
             logger.Log(String.Format("Metier : {0}", metier));
@@ -287,13 +285,13 @@ namespace RPG_API.Models
             if (myGame == null)
                 logger.Log("No Game found in Character creation. An error might happen.");
 
-            this.game = myGame;
-            this.baseAttr = myGame.BaseAttributes;
-            this.skills = myGame.Skills;
-            this.stats = myGame.Stats;
+            this.game        = myGame;
+            this.baseAttr    = myGame.BaseAttributes;
+            this.skills      = myGame.Skills;
+            this.stats       = myGame.Stats;
             this.spendPoints = myGame.SpendPoints;
-            this.metier = (Profession)this.game.professions.Where(p => p.name == "mendiant").FirstOrDefault();
-            this.careerName = this.metier == null? "Trouffion" : this.metier.name;
+            this.metier      = (Profession)this.game.professions.Where(p => p.name == "mendiant").FirstOrDefault();
+            this.careerName  = this.metier == null? "Trouffion" : this.metier.name;
 
             // This might be reworked
             //foreach (BaseAttributes battr in this.baseAttr)

@@ -1,4 +1,5 @@
 ﻿using RPG_API.Models;
+using RPG_API.Models.DTO.Character_DTO;
 using RPG_API.Models.Games;
 using RPG_API.Utils;
 using System;
@@ -12,7 +13,7 @@ namespace RPG_API.Repository
 {
     public class CharacterRepository
     {
-        Logger logger = new Logger();
+        private Logger logger = new Logger();
 
         //GET ALL
         public IEnumerable<Character> Get()
@@ -88,14 +89,14 @@ namespace RPG_API.Repository
         {
             logger.Log("Inside character repository.Update.");
             SheetFiller sFiller = new SheetFiller();
-
             // This might be reworked
             string mypath = ConfigurationManager.AppSettings["path"];
             string path = System.Web.HttpContext.Current.Server.MapPath(mypath);
 
-            // Save existing version in "backup" sub-folder
+            
             try
             {
+                // Save existing version in "backup" sub-folder
                 sFiller.backUpCharacter(monPerso, path);
 
                 // Record the new values
@@ -182,6 +183,37 @@ namespace RPG_API.Repository
             catch(Exception ex)
             {
                 logger.Log(String.Format("Error in repo.Create character : {0}", ex.Message));
+                throw ex;
+            }
+        }
+
+        public void Create(Character_DTO hero_DTO)
+        {
+            string game_name = hero_DTO.gameName.Replace(" ", "");
+
+            // Use reflexion to create a game from it's name. 
+            Type CAType = Type.GetType("RPG_API.Models.Games." + game_name);
+            IGame my_game = Activator.CreateInstance(CAType) as IGame;
+
+            try
+            {
+                Character created_character = new Character(my_game);
+
+                if (hero_DTO.characterName != null)
+                    created_character.characterName = hero_DTO.characterName;
+
+                if (hero_DTO.playerName != null)
+                    created_character.playerName = hero_DTO.playerName;
+
+                if (hero_DTO.baseAttr != null && hero_DTO.baseAttr.Count == created_character.baseAttr.Count)
+                    created_character.baseAttr = hero_DTO.baseAttr;
+
+                SheetMaker sMaker = new SheetMaker();
+                sMaker.makeSheet(created_character);
+            }
+            catch(Exception ex)
+            {
+                logger.Log(String.Format("Error in repo.Create Character with DTO : {0}", ex.Message));
                 throw ex;
             }
         }
