@@ -25,19 +25,8 @@ namespace RPG_API.Controllers
                 return NotFound();
             }
 
-            string game_name = myCharac.gameName.Replace(" ", "");
-
-            // Use reflexion to create a game from it's name. 
-            Type CAType = Type.GetType("RPG_API.Models.Games." + game_name);
-            IGame my_game = Activator.CreateInstance(CAType) as IGame;
-
-            repo.Create(my_game, myCharac.characterName, myCharac.playerName);
+            repo.CreateWithDTO(myCharac);
             Character created_character = repo.Get(myCharac.characterName);
-            //created_character.baseAttr = myCharac.baseAttr;
-            //created_character.game.rules.setStats(created_character);
-            //created_character.game.rules.setSpendablePoints(created_character);
-            //created_character.game.rules.setSkills(created_character);
-
 
             logger.Log("Exiting characterDto.Controller");
             return Ok(created_character);

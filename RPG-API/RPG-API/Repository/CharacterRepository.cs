@@ -187,6 +187,41 @@ namespace RPG_API.Repository
             }
         }
 
+        public void CreateWithDTO(Character_DTO myHeroDTO)
+        {
+            logger.Log("Inside character repository createWithDto");
+            logger.Log(String.Format("Character : {0}", myHeroDTO));
+
+            try
+            {
+                string game_name = myHeroDTO.gameName.Replace(" ", "");
+                Type CAType = Type.GetType("RPG_API.Models.Games." + game_name);
+                IGame my_game = Activator.CreateInstance(CAType) as IGame;
+                logger.Log(String.Format("We will create the character with game {0}", my_game));
+
+
+                //We create a character based on the game
+                Character myHero = new Character(my_game);
+                myHero.characterName = myHeroDTO.characterName;
+                myHero.playerName = myHeroDTO.playerName;
+                myHero.baseAttr = myHeroDTO.baseAttr;
+
+                myHero.game.rules.setStats(myHero);
+                myHero.game.rules.setSpendablePoints(myHero);
+                myHero.game.rules.setSkills(myHero);
+
+                SheetMaker sMaker = new SheetMaker();
+                sMaker.makeSheet(myHero);
+
+            }
+            catch(Exception ex)
+            {
+                logger.Log(String.Format("Error in character repository create with DTO : {0}", ex.Message));
+                throw ex;
+            }
+
+        }
+
         public void Create(Character_DTO hero_DTO)
         {
             string game_name = hero_DTO.gameName.Replace(" ", "");

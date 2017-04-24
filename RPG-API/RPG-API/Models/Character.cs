@@ -227,7 +227,7 @@ namespace RPG_API.Models
             logger.Log(String.Format("Metier : {0}", metier));
             logger.Log(String.Format("Career : {0}", careerName));
 
-            IGameRule rules = new CallOfCthulhuRules();
+            IGameRule rules = mon_perso.game.rules;
             try
             {
                 rules.setStats(mon_perso);
