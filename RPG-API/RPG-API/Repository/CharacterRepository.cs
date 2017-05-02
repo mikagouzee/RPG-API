@@ -69,7 +69,7 @@ namespace RPG_API.Repository
                     if (file == path + name.ToLower() + ".xml")
                     {
                         searched_character = new Character(file);
-                        logger.Log(String.Format("Character Found! Expected {1}, found {0}", searched_character.characterName, name));
+                        logger.Log(String.Format("Character Found! Expected {1}, found {0}. Returning character.", searched_character.characterName, name));
                         return searched_character;
                     }
                 }
@@ -93,6 +93,8 @@ namespace RPG_API.Repository
             string mypath = ConfigurationManager.AppSettings["path"];
             string path = System.Web.HttpContext.Current.Server.MapPath(mypath);
 
+            Game game = monPerso.game;
+            newVersion.game = game;
             
             try
             {
@@ -166,7 +168,7 @@ namespace RPG_API.Repository
         }
 
         // This is the "ultimate" creator.
-        public void Create(IGame myGame, string mycharacterName, string myplayerName)
+        public void Create(Game myGame, string mycharacterName, string myplayerName)
         {
             logger.Log("Inside character repository.Create ultimate.");
             logger.Log(String.Format("Game : {0}, characterName: {1}, playerName : {2}", myGame, mycharacterName, myplayerName));
@@ -190,14 +192,13 @@ namespace RPG_API.Repository
         public void CreateWithDTO(Character_DTO myHeroDTO)
         {
             logger.Log("Inside character repository createWithDto");
-            logger.Log(String.Format("Character : {0}", myHeroDTO));
+            logger.Log(String.Format("Character : {0}", myHeroDTO.characterName));
 
             try
             {
                 string game_name = myHeroDTO.gameName.Replace(" ", "");
-                Type CAType = Type.GetType("RPG_API.Models.Games." + game_name);
-                IGame my_game = Activator.CreateInstance(CAType) as IGame;
-                logger.Log(String.Format("We will create the character with game {0}", my_game));
+                Game my_game = new Game(game_name);
+                logger.Log(String.Format("We will create the character with game {0}", my_game.name));
 
 
                 //We create a character based on the game
@@ -225,10 +226,7 @@ namespace RPG_API.Repository
         public void Create(Character_DTO hero_DTO)
         {
             string game_name = hero_DTO.gameName.Replace(" ", "");
-
-            // Use reflexion to create a game from it's name. 
-            Type CAType = Type.GetType("RPG_API.Models.Games." + game_name);
-            IGame my_game = Activator.CreateInstance(CAType) as IGame;
+            Game my_game = new Game(game_name);
 
             try
             {

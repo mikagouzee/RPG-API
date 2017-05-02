@@ -8,18 +8,9 @@ using System.Web;
 
 namespace RPG_API.Models.Games
 {
-    public class Fallout : IGame
+    public class Fallout : Game
     {
-        public string name { get; set; }
-        public List<BaseAttributes> BaseAttributes { get; set; }
-        public List<Stats> Stats { get; set; }
-        public List<Skills> Skills { get; set; }
-        public List<spendpoints> SpendPoints { get; set; }
-
-        public List<ICareer> professions { get; set; }
-
-        public IGameRule rules { get; set; }
-
+ 
         public Fallout()
         {
             this.name = "Fallout";
@@ -28,7 +19,7 @@ namespace RPG_API.Models.Games
             this.Skills = new List<Skills>();
             this.SpendPoints = new List<spendpoints>();
 
-            this.professions = new List<ICareer>();
+            this.professions = new List<Profession>();
             this.rules = new FalloutRules();
 
             //GAME BASE ATTRIBUTES
@@ -133,28 +124,27 @@ namespace RPG_API.Models.Games
             this.Skills.Add(electricResist);
             #endregion
 
-
             //GAME CAREERS
             #region game careers
-            ICareer fighter = new Profession("fighter");
+            Profession fighter = new Profession("fighter");
             fighter.jobSkills.Add(smallGuns);
             fighter.jobSkills.Add(bigGuns);
             fighter.jobSkills.Add(firstAid);
             this.professions.Add(fighter);
 
-            ICareer wanderer = new Profession("wanderer");
+            Profession wanderer = new Profession("wanderer");
             wanderer.jobSkills.Add(outdoorsman);
             wanderer.jobSkills.Add(firstAid);
             wanderer.jobSkills.Add(repair);
             this.professions.Add(wanderer);
 
-            ICareer merchant = new Profession("merchant");
+            Profession merchant = new Profession("merchant");
             merchant.jobSkills.Add(barter);
             merchant.jobSkills.Add(gambling);
             merchant.jobSkills.Add(speech);
             this.professions.Add(merchant);
 
-            ICareer mendiant = new Profession("mendiant");
+            Profession mendiant = new Profession("mendiant");
             mendiant.jobSkills.Add(sneak);
             mendiant.jobSkills.Add(barter);
             mendiant.jobSkills.Add(steal);

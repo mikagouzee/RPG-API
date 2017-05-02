@@ -16,8 +16,8 @@ namespace RPG_API.Models.Games
         List<Stats> Stats { get; set; }
         List<Skills> Skills { get; set; }
         List<spendpoints> SpendPoints { get; set; }
-        List<ICareer> professions { get; set; }
+        List<Profession> professions { get; set; }
 
-        IGameRule rules { get; set; }
+        GameRule rules { get; set; }
     }
 }

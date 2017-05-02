@@ -1,42 +1,43 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <character_sheet>
   <infos>
-    <name>Tom Tom</name>
-    <player_name>Luc le perdant</player_name>
-    <career>mendiant</career>
+    <name>wtever</name>
+    <player_name>Larry</player_name>
+    <career>
+    </career>
     <campaign />
     <game>Call Of Cthulhu</game>
   </infos>
   <base_attributes>
-    <appearance>4</appearance>
-    <constitution>11</constitution>
-    <strength>10</strength>
-    <dexterity>16</dexterity>
-    <power>15</power>
-    <size>12</size>
-    <intelligence>15</intelligence>
-    <education>18</education>
+    <appearance>11</appearance>
+    <constitution>14</constitution>
+    <strength>17</strength>
+    <dexterity>10</dexterity>
+    <power>7</power>
+    <size>17</size>
+    <intelligence>14</intelligence>
+    <education>15</education>
   </base_attributes>
   <stats>
-    <prestance>20</prestance>
-    <endurance>55</endurance>
-    <agility>80</agility>
-    <brawl_power>50</brawl_power>
-    <height>60</height>
-    <knowledge>90</knowledge>
-    <idea>75</idea>
-    <will_power>75</will_power>
-    <sanity>75</sanity>
+    <prestance>55</prestance>
+    <endurance>70</endurance>
+    <agility>50</agility>
+    <brawl_power>85</brawl_power>
+    <height>85</height>
+    <knowledge>75</knowledge>
+    <idea>70</idea>
+    <will_power>35</will_power>
+    <sanity>35</sanity>
   </stats>
   <spendable_points>
-    <health_points>11</health_points>
-    <wound_limit>5</wound_limit>
-    <magic_points>15</magic_points>
-    <occupation_skill_points>360</occupation_skill_points>
-    <personal_interest_skill_points>133</personal_interest_skill_points>
+    <health_points>15</health_points>
+    <wound_limit>7</wound_limit>
+    <magic_points>7</magic_points>
+    <occupation_skill_points>300</occupation_skill_points>
+    <personal_interest_skill_points>140</personal_interest_skill_points>
   </spendable_points>
   <skills>
-    <art>22</art>
+    <art>5</art>
     <artisanat>5</artisanat>
     <baratin>5</baratin>
     <bibliotheque>5</bibliotheque>

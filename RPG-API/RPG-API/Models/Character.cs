@@ -18,7 +18,8 @@ namespace RPG_API.Models
         // Infos
         public string characterName { get; set; }
         public string playerName { get; set; }
-        public IGame game { get; set; }
+        public Game game { get; set; }
+        //public IGame game { get; set; }
         public Profession metier { get; set; }
         public string careerName { get; set; }
 
@@ -54,9 +55,10 @@ namespace RPG_API.Models
             playerName = "Toby Determined";
         }
         
-        public Character(IGame game)
+
+        public Character(Game game)
         {
-            logger.Log(String.Format("Inside Character constructor with parameter game : {0} ", game));
+            logger.Log(String.Format("Inside Character constructor with parameter game : {0} ", game.name));
             var mon_perso = this;
 
             mon_perso.characterName = "New Character";
@@ -215,6 +217,7 @@ namespace RPG_API.Models
             //mon_perso.skills.Add(trouverObjetCache);
             #endregion
             #endregion
+
             mon_perso.game = game;
 
             mon_perso.baseAttr = mon_perso.game.BaseAttributes;
@@ -276,7 +279,7 @@ namespace RPG_API.Models
 
         // This constructor takes a game in parameter.
         // This will allow us to use the same framework for multiple games.
-        public Character(IGame myGame, string mycharacterName, string myplayerName) 
+        public Character(Game myGame, string mycharacterName, string myplayerName) 
         {
             logger.Log(String.Format("Inside ultimate character constructor : game {0}, characterName {1} and playerName {2}", myGame, mycharacterName, myplayerName));
             this.characterName = mycharacterName;
@@ -330,9 +333,8 @@ namespace RPG_API.Models
             // INFOS
             // We will have the same difficulty for Game and for Profession : create an instance from the name.
             string gameName = xmlDoc.SelectSingleNode("/character_sheet/infos/game").InnerText;
-            Type CAType = Type.GetType("RPG_API.Models.Games." + gameName.Replace(" ", ""));
-            this.game = Activator.CreateInstance(CAType) as IGame;
-            
+            this.game = new Game(gameName);
+
             // as the professions are created inside the game, we can't use reflexion.
             string metierName = xmlDoc.SelectSingleNode("/character_sheet/infos/career").InnerText;
             this.metier = (Profession)this.game.professions.Where(p => p.name == metierName).FirstOrDefault();

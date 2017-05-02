@@ -12,6 +12,11 @@ namespace RPG_API.Models.Careers
         public List<Skills> jobSkills { get; set; }
         //public IGame game{ get; set; }
 
+        public Profession()
+        {
+
+        }
+
         public Profession(string name)
         {
             this.name = name;

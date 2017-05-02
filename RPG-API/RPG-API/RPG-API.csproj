@@ -174,8 +174,10 @@
     <Compile Include="Models\DTO\Character_DTO\Character_DTO.cs" />
     <Compile Include="Models\GameRules\CallOfCthulhuRules.cs" />
     <Compile Include="Models\GameRules\FalloutRules.cs" />
+    <Compile Include="Models\GameRules\GameRule.cs" />
     <Compile Include="Models\GameRules\IGameRule.cs" />
     <Compile Include="Models\Games\CallOfCthulhu.cs" />
+    <Compile Include="Models\Games\Game.cs" />
     <Compile Include="Models\Games\Fallout.cs" />
     <Compile Include="Models\Games\IGame.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

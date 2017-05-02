@@ -30,6 +30,7 @@ namespace RPG_API.Utils
                 myPath += myCharac.characterName.ToLower() + ".xml";
 
                 saveFile(myPath);
+                logger.Log("Exiting backup character");
             }
         }
 
@@ -77,15 +78,19 @@ namespace RPG_API.Utils
             XmlDocument myDoc = FindSheet(myCharac, myPath);
 
             // We fill the information section : name, campaign, game etc.
+            logger.Log(String.Format("Name Node"));
             var nameNode = myDoc.SelectSingleNode("/character_sheet/infos/name");
             nameNode.InnerText = myCharac.characterName;
 
+            logger.Log(String.Format("Player Name Node"));
             var playerNameNode = myDoc.SelectSingleNode("/character_sheet/infos/player_name");
             playerNameNode.InnerText = myCharac.playerName;
 
+            logger.Log(String.Format("Game Node"));
             var gameNode = myDoc.SelectSingleNode("/character_sheet/infos/game");
             gameNode.InnerText = myCharac.game.name.ToString();
 
+            logger.Log(String.Format("Career Node"));
             var careerNode = myDoc.SelectSingleNode("/character_sheet/infos/career");
             //careerNode.InnerText = myCharac.metier.name;
             careerNode.InnerText = myCharac.careerName;

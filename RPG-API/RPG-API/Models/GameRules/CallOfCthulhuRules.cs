@@ -8,11 +8,17 @@ using System.Web;
 
 namespace RPG_API.Models.GameRules
 {
-    public class CallOfCthulhuRules : IGameRule
+    public class CallOfCthulhuRules : GameRule
     {
         private Logger logger = new Logger();
 
-        public void setStats(Character myCharac)
+        //EMPTY CONSTRUCTOR
+        public CallOfCthulhuRules()
+        {
+
+        }
+
+        public override void setStats(Character myCharac)
         {
             #region before
             //Stats prestance = new Stats("prestance", 90, mon_perso.baseAttr.Where(b => b.name == "appearance").FirstOrDefault().value * 5);
@@ -51,7 +57,7 @@ namespace RPG_API.Models.GameRules
             }
         }
 
-        public void setSpendablePoints(Character myCharac)
+        public override void setSpendablePoints(Character myCharac)
         {
             #region before
             //spendpoints healthPoints = new spendpoints("health points", 18, (
@@ -91,7 +97,7 @@ namespace RPG_API.Models.GameRules
             }
         }
 
-        public void setBaseAttr(Character myCharac)
+        public override void setBaseAttr(Character myCharac)
         {
             logger.Log("Inside CoCRules.setBaseAttr");
 
@@ -113,7 +119,7 @@ namespace RPG_API.Models.GameRules
             }
         }
 
-        public void setSkills(Character myCharac)
+        public override void setSkills(Character myCharac)
         {
             //basic skills value are set in the game's definition
 

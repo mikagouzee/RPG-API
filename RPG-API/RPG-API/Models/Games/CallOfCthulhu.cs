@@ -8,18 +8,8 @@ using System.Web;
 
 namespace RPG_API.Models.Games
 {
-    public class CallOfCthulhu : IGame
+    public class CallOfCthulhu : Game
     {
-        public string name { get; set; }
-        public List<BaseAttributes> BaseAttributes { get; set; }
-        public List<Stats> Stats { get; set; }
-        public List<Skills> Skills { get; set; }
-        public List<spendpoints> SpendPoints { get; set; }
-
-        public List<ICareer> professions { get; set; }
-
-        public IGameRule rules { get; set; }
-
         public CallOfCthulhu()
         {
             this.name = "Call Of Cthulhu";
@@ -28,7 +18,7 @@ namespace RPG_API.Models.Games
             this.Skills = new List<Skills>();
             this.SpendPoints = new List<spendpoints>();
 
-            this.professions = new List<ICareer>();
+            this.professions = new List<Profession>();
 
             this.rules = new CallOfCthulhuRules();
 
@@ -179,7 +169,7 @@ namespace RPG_API.Models.Games
 
             //GAME CAREERS
             #region game careers
-            ICareer artisan = new Profession("artisan");
+            Profession artisan = new Profession("artisan");
             artisan.jobSkills.Add(baratin);
             artisan.jobSkills.Add(marchandage);
             artisan.jobSkills.Add(mondeNaturel);
@@ -188,7 +178,7 @@ namespace RPG_API.Models.Games
             artisan.jobSkills.Add(statut);
             this.professions.Add(artisan);
 
-            ICareer clerc = new Profession("clerc");
+            Profession clerc = new Profession("clerc");
             clerc.jobSkills.Add(bibliotheque);
             clerc.jobSkills.Add(langueEtrangere);
             clerc.jobSkills.Add(persuasion);
@@ -197,7 +187,7 @@ namespace RPG_API.Models.Games
             clerc.jobSkills.Add(ecrireUneLangue);
             this.professions.Add(clerc);
 
-            ICareer ermite = new Profession("ermite");
+            Profession ermite = new Profession("ermite");
             ermite.jobSkills.Add(mondeNaturel);
             ermite.jobSkills.Add(occultisme);
             ermite.jobSkills.Add(persuasion);
@@ -208,7 +198,7 @@ namespace RPG_API.Models.Games
             ermite.jobSkills.Add(ecouter);
             this.professions.Add(ermite);
 
-            ICareer erudit = new Profession("erudit");
+            Profession erudit = new Profession("erudit");
             erudit.jobSkills.Add(bibliotheque);
             erudit.jobSkills.Add(ecrireUneLangue);
             erudit.jobSkills.Add(persuasion);
@@ -217,7 +207,7 @@ namespace RPG_API.Models.Games
             erudit.jobSkills.Add(statut);
             this.professions.Add(erudit);
 
-            ICareer fermier = new Profession("fermier");
+            Profession fermier = new Profession("fermier");
             fermier.jobSkills.Add(artisanat);
             fermier.jobSkills.Add(conduireAttelage);
             fermier.jobSkills.Add(ecouter);
@@ -226,7 +216,7 @@ namespace RPG_API.Models.Games
             fermier.jobSkills.Add(suivrePiste);
             this.professions.Add(fermier);
 
-            ICareer forestier = new Profession("forestier");
+            Profession forestier = new Profession("forestier");
             forestier.jobSkills.Add(artisanat);
             forestier.jobSkills.Add(lancer);
             forestier.jobSkills.Add(mondeNaturel);
@@ -239,7 +229,7 @@ namespace RPG_API.Models.Games
             forestier.jobSkills.Add(ecouter);
             this.professions.Add(forestier);
 
-            ICareer garde = new Profession("garde");
+            Profession garde = new Profession("garde");
             garde.jobSkills.Add(coupDePoing);
             garde.jobSkills.Add(coupDePied);
             garde.jobSkills.Add(coupDeTete);
@@ -252,7 +242,7 @@ namespace RPG_API.Models.Games
             garde.jobSkills.Add(ecouter);
             this.professions.Add(garde);
 
-            ICareer guerisseur = new Profession("guerisseur");
+            Profession guerisseur = new Profession("guerisseur");
             guerisseur.jobSkills.Add(concocterPotion);
             guerisseur.jobSkills.Add(mondeNaturel);
             guerisseur.jobSkills.Add(occultisme);
@@ -262,7 +252,7 @@ namespace RPG_API.Models.Games
             guerisseur.jobSkills.Add(ecouter);
             this.professions.Add(guerisseur);
 
-            ICareer marchand = new Profession("marchand");
+            Profession marchand = new Profession("marchand");
             marchand.jobSkills.Add(baratin);
             marchand.jobSkills.Add(conduireAttelage);
             marchand.jobSkills.Add(langueEtrangere);
@@ -272,7 +262,7 @@ namespace RPG_API.Models.Games
             marchand.jobSkills.Add(sagacite);
             this.professions.Add(marchand);
 
-            ICareer menestrel = new Profession("menestrel");
+            Profession menestrel = new Profession("menestrel");
             menestrel.jobSkills.Add(art);
             menestrel.jobSkills.Add(baratin);
             menestrel.jobSkills.Add(marchandage);
@@ -281,7 +271,7 @@ namespace RPG_API.Models.Games
             menestrel.jobSkills.Add(sagacite);
             this.professions.Add(menestrel);
 
-            ICareer marin = new Profession("marin");
+            Profession marin = new Profession("marin");
             marin.jobSkills.Add(baratin);
             marin.jobSkills.Add(grimper);
             marin.jobSkills.Add(mondeNaturel);
@@ -290,7 +280,7 @@ namespace RPG_API.Models.Games
             marin.jobSkills.Add(royaumesEtrangers);
             this.professions.Add(marin);
 
-            ICareer mendiant = new Profession("mendiant");
+            Profession mendiant = new Profession("mendiant");
             mendiant.jobSkills.Add(baratin);
             mendiant.jobSkills.Add(dissimulation);
             mendiant.jobSkills.Add(marchandage);
@@ -299,7 +289,7 @@ namespace RPG_API.Models.Games
             mendiant.jobSkills.Add(trouverObjetCache);
             this.professions.Add(mendiant);
 
-            ICareer moine = new Profession("moine");
+            Profession moine = new Profession("moine");
             moine.jobSkills.Add(art);
             moine.jobSkills.Add(bibliotheque);
             moine.jobSkills.Add(ecouter);
@@ -308,7 +298,7 @@ namespace RPG_API.Models.Games
             moine.jobSkills.Add(occultisme);
             this.professions.Add(moine);
 
-            ICareer negociant = new Profession("negociant");
+            Profession negociant = new Profession("negociant");
             negociant.jobSkills.Add(baratin);
             negociant.jobSkills.Add(comptabilite);
             negociant.jobSkills.Add(ecrireUneLangue);
@@ -318,7 +308,7 @@ namespace RPG_API.Models.Games
             negociant.jobSkills.Add(royaumeNatal);
             this.professions.Add(negociant);
 
-            ICareer pelerin = new Profession("pelerin");
+            Profession pelerin = new Profession("pelerin");
             pelerin.jobSkills.Add(discretion);
             pelerin.jobSkills.Add(marchandage);
             pelerin.jobSkills.Add(mondeNaturel);
@@ -326,7 +316,7 @@ namespace RPG_API.Models.Games
             pelerin.jobSkills.Add(royaumeNatal);
             this.professions.Add(pelerin);
 
-            ICareer pretre = new Profession("pretre");
+            Profession pretre = new Profession("pretre");
             pretre.jobSkills.Add(baratin);
             pretre.jobSkills.Add(langueEtrangere);
             pretre.jobSkills.Add(occultisme);
@@ -335,7 +325,7 @@ namespace RPG_API.Models.Games
             pretre.jobSkills.Add(statut);
             this.professions.Add(pretre);
 
-            ICareer sergent = new Profession("sergent");
+            Profession sergent = new Profession("sergent");
             sergent.jobSkills.Add(baratin);
             sergent.jobSkills.Add(discretion);
             sergent.jobSkills.Add(marchandage);
@@ -344,7 +334,7 @@ namespace RPG_API.Models.Games
             sergent.jobSkills.Add(trouverObjetCache);
             this.professions.Add(sergent);
 
-            ICareer serviteur = new Profession("serviteur");
+            Profession serviteur = new Profession("serviteur");
             serviteur.jobSkills.Add(artisanat);
             serviteur.jobSkills.Add(baratin);
             serviteur.jobSkills.Add(discretion);

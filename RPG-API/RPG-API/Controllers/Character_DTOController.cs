@@ -18,7 +18,7 @@ namespace RPG_API.Controllers
         [Route("api/create")]
         public IHttpActionResult Post(Character_DTO myCharac)
         {
-            logger.Log("Inside characterDto.controller");
+            logger.Log("Inside characterDto.controller post method.");
             if(myCharac == null)
             {
                 logger.Log("Character Not found");

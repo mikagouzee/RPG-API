@@ -8,11 +8,17 @@ using System.Web;
 
 namespace RPG_API.Models.GameRules
 {
-    public class FalloutRules : IGameRule
+    public class FalloutRules : GameRule
     {
         private Logger logger = new Logger();
 
-        public void setStats(Character myCharac)
+        //EMPTY CONSTRUCTOR
+        public FalloutRules()
+        {
+
+        }
+
+        public override void setStats(Character myCharac)
         {
             //if (!(myCharac.game is Fallout))
             //{
@@ -107,7 +113,7 @@ namespace RPG_API.Models.GameRules
             logger.Log("Exiting setStats");
         }
 
-        public void setSpendablePoints(Character myCharac)
+        public override void setSpendablePoints(Character myCharac)
         {
             //healthpoints, woundlimit, skillpoints
             logger.Log("Inside FalloutRules.setSpendablePoints");
@@ -125,7 +131,7 @@ namespace RPG_API.Models.GameRules
         }
 
         // Is this needed? we might use "mean value"... 
-        public void setSkills(Character myCharac)
+        public override void setSkills(Character myCharac)
         {
             //if (!(myCharac.game is Fallout))
             //{
@@ -170,9 +176,8 @@ namespace RPG_API.Models.GameRules
 
         }
 
-
         //TO DO : REWORK THIS
-        public void setBaseAttr(Character myCharac)
+        public override void setBaseAttr(Character myCharac)
         {
             logger.Log("Inside FalloutRules.setBaseAttr");
             Random r = new Random();

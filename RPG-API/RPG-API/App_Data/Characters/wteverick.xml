@@ -1,42 +1,42 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <character_sheet>
   <infos>
-    <name>Tom Tom</name>
-    <player_name>Luc le perdant</player_name>
+    <name>wteverick</name>
+    <player_name>larry</player_name>
     <career>mendiant</career>
     <campaign />
     <game>Call Of Cthulhu</game>
   </infos>
   <base_attributes>
-    <appearance>4</appearance>
+    <appearance>15</appearance>
     <constitution>11</constitution>
-    <strength>10</strength>
-    <dexterity>16</dexterity>
-    <power>15</power>
-    <size>12</size>
-    <intelligence>15</intelligence>
-    <education>18</education>
+    <strength>3</strength>
+    <dexterity>13</dexterity>
+    <power>7</power>
+    <size>7</size>
+    <intelligence>14</intelligence>
+    <education>10</education>
   </base_attributes>
   <stats>
-    <prestance>20</prestance>
+    <prestance>75</prestance>
     <endurance>55</endurance>
-    <agility>80</agility>
-    <brawl_power>50</brawl_power>
-    <height>60</height>
-    <knowledge>90</knowledge>
-    <idea>75</idea>
-    <will_power>75</will_power>
-    <sanity>75</sanity>
+    <agility>65</agility>
+    <brawl_power>15</brawl_power>
+    <height>35</height>
+    <knowledge>50</knowledge>
+    <idea>70</idea>
+    <will_power>35</will_power>
+    <sanity>35</sanity>
   </stats>
   <spendable_points>
-    <health_points>11</health_points>
-    <wound_limit>5</wound_limit>
-    <magic_points>15</magic_points>
-    <occupation_skill_points>360</occupation_skill_points>
-    <personal_interest_skill_points>133</personal_interest_skill_points>
+    <health_points>9</health_points>
+    <wound_limit>4</wound_limit>
+    <magic_points>7</magic_points>
+    <occupation_skill_points>200</occupation_skill_points>
+    <personal_interest_skill_points>140</personal_interest_skill_points>
   </spendable_points>
   <skills>
-    <art>22</art>
+    <art>5</art>
     <artisanat>5</artisanat>
     <baratin>5</baratin>
     <bibliotheque>5</bibliotheque>
