@@ -227,7 +227,6 @@ namespace RPG_API.Models
 
             this.metier = (Profession)this.game.professions.Where(p => p.name == "mendiant").FirstOrDefault();
             this.careerName = this.metier == null ? "Trouffion" : this.metier.name;
-            logger.Log(String.Format("Metier : {0}", metier));
             logger.Log(String.Format("Career : {0}", careerName));
 
             IGameRule rules = mon_perso.game.rules;
@@ -352,7 +351,7 @@ namespace RPG_API.Models
                 {
                     var nodeContent = (xmlDoc.SelectSingleNode("/character_sheet/base_attributes/" + battr.name.Replace(" ", "_").ToLower()).InnerText);
                     battr.value = setValue(nodeContent);
-                    logger.Log(String.Format("Base Attr {0} with value {1}", battr.name, battr.value));
+                    //logger.Log(String.Format("Base Attr {0} with value {1}", battr.name, battr.value));
                 }
 
                 foreach (ICaracteristic skill in this.skills)
@@ -360,7 +359,7 @@ namespace RPG_API.Models
                     string skillName = skill.name.Replace(" ", "_");
                     var nodeContent = xmlDoc.SelectSingleNode("/character_sheet/skills/" + skillName.ToLower()).InnerText;
                     skill.value = setValue(nodeContent);
-                    logger.Log(String.Format("Skill {0} with value {1}", skill.name, skill.value));
+                    //logger.Log(String.Format("Skill {0} with value {1}", skill.name, skill.value));
                 }
 
                 foreach (ICaracteristic stat in this.stats)
@@ -371,7 +370,7 @@ namespace RPG_API.Models
 
                     stat.value = setValue(nodeContent);
                     //stat.value = Convert.ToInt32(xmlDoc.SelectSingleNode("/character_sheet/stats/" + statName.ToLower()).InnerText);
-                    logger.Log(String.Format("Stat {0} with value {1}", stat.name, stat.value));
+                    //logger.Log(String.Format("Stat {0} with value {1}", stat.name, stat.value));
                 }
 
                 foreach (ICaracteristic sPoint in this.spendPoints)
@@ -384,7 +383,7 @@ namespace RPG_API.Models
 
                     sPoint.value = setValue(nodeContent);
 
-                    logger.Log(String.Format("spendpoint {0} with value {1}", sPoint.name, sPoint.value));
+                    //logger.Log(String.Format("spendpoint {0} with value {1}", sPoint.name, sPoint.value));
                 }
             }
             catch(Exception ex)

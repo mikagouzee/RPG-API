@@ -78,22 +78,22 @@ namespace RPG_API.Utils
             XmlDocument myDoc = FindSheet(myCharac, myPath);
 
             // We fill the information section : name, campaign, game etc.
-            logger.Log(String.Format("Name Node"));
+            logger.Log(String.Format("Name Node : {0}", myCharac.characterName));
             var nameNode = myDoc.SelectSingleNode("/character_sheet/infos/name");
             nameNode.InnerText = myCharac.characterName;
 
-            logger.Log(String.Format("Player Name Node"));
+            logger.Log(String.Format("Player Name Node : {0}", myCharac.playerName));
             var playerNameNode = myDoc.SelectSingleNode("/character_sheet/infos/player_name");
             playerNameNode.InnerText = myCharac.playerName;
 
-            logger.Log(String.Format("Game Node"));
+            logger.Log(String.Format("Game Node : {0}", myCharac.game.name));
             var gameNode = myDoc.SelectSingleNode("/character_sheet/infos/game");
             gameNode.InnerText = myCharac.game.name.ToString();
 
-            logger.Log(String.Format("Career Node"));
+            logger.Log(String.Format("Career Node : {0}", myCharac.metier.name));
             var careerNode = myDoc.SelectSingleNode("/character_sheet/infos/career");
             //careerNode.InnerText = myCharac.metier.name;
-            careerNode.InnerText = myCharac.careerName;
+            careerNode.InnerText = myCharac.metier.name;
 
             // Now we save the file as an xml.
             string path = myPath + myCharac.characterName.ToLower() + ".xml";
@@ -187,6 +187,7 @@ namespace RPG_API.Utils
             logger.Log("Inside save file");
             myDoc.Save(myPath);
             logger.Log("file saved");
+            logger.Log(Environment.NewLine);
         }
     }
 }

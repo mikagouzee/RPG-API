@@ -49,7 +49,7 @@ namespace RPG_API.Utils
                 myWriter.WriteStartElement("base_attributes");
                 foreach (ICaracteristic battr in myGame.BaseAttributes)
                 {
-                    logger.Log(String.Format("base attribute : {0}", battr.name));
+                    //logger.Log(String.Format("base attribute : {0}", battr.name));
                     myWriter.WriteStartElement(battr.name.Replace(" ","_").ToLower());
                     myWriter.WriteEndElement();
                 }
@@ -59,7 +59,7 @@ namespace RPG_API.Utils
                 myWriter.WriteStartElement("stats");
                 foreach (ICaracteristic stat in myGame.Stats)
                 {
-                    logger.Log(String.Format("Stat : {0}", stat.name));
+                    //logger.Log(String.Format("Stat : {0}", stat.name));
                     myWriter.WriteStartElement(stat.name.Replace(" ", "_").ToLower());
                     myWriter.WriteEndElement();
                 }
@@ -69,7 +69,7 @@ namespace RPG_API.Utils
                 myWriter.WriteStartElement("spendable_points");
                 foreach (ICaracteristic sPoint in myGame.SpendPoints)
                 {
-                    logger.Log(String.Format("SpendPoint : {0}", sPoint.name));
+                    //logger.Log(String.Format("SpendPoint : {0}", sPoint.name));
                     myWriter.WriteStartElement(sPoint.name.Replace(" ", "_").ToLower());
                     myWriter.WriteEndElement();
                 }
@@ -79,7 +79,7 @@ namespace RPG_API.Utils
                 myWriter.WriteStartElement("skills");
                 foreach (ICaracteristic skill in myGame.Skills)
                 {
-                    logger.Log(String.Format("skill : {0}", skill.name));
+                    //logger.Log(String.Format("skill : {0}", skill.name));
                     myWriter.WriteStartElement(skill.name.Replace(" ", "_").ToLower());
                     myWriter.WriteEndElement();
                 }

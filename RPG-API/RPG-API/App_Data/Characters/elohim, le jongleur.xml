@@ -1,39 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <character_sheet>
   <infos>
-    <name>cocCharTest</name>
-    <player_name>playerTest</player_name>
+    <name>Elohim, le jongleur</name>
+    <player_name>meujeu</player_name>
     <career>mendiant</career>
     <campaign />
     <game>Call Of Cthulhu</game>
   </infos>
   <base_attributes>
-    <appearance>2</appearance>
-    <constitution>5</constitution>
-    <strength>11</strength>
-    <dexterity>7</dexterity>
-    <power>15</power>
-    <size>2</size>
-    <intelligence>18</intelligence>
-    <education>21</education>
+    <appearance>7</appearance>
+    <constitution>11</constitution>
+    <strength>8</strength>
+    <dexterity>14</dexterity>
+    <power>8</power>
+    <size>11</size>
+    <intelligence>8</intelligence>
+    <education>24</education>
   </base_attributes>
   <stats>
-    <prestance>10</prestance>
-    <endurance>25</endurance>
-    <agility>35</agility>
-    <brawl_power>55</brawl_power>
-    <height>10</height>
-    <knowledge>105</knowledge>
-    <idea>90</idea>
-    <will_power>75</will_power>
-    <sanity>75</sanity>
+    <prestance>35</prestance>
+    <endurance>55</endurance>
+    <agility>70</agility>
+    <brawl_power>40</brawl_power>
+    <height>55</height>
+    <knowledge>120</knowledge>
+    <idea>40</idea>
+    <will_power>40</will_power>
+    <sanity>40</sanity>
   </stats>
   <spendable_points>
-    <health_points>3</health_points>
-    <wound_limit>1</wound_limit>
-    <magic_points>15</magic_points>
-    <occupation_skill_points>420</occupation_skill_points>
-    <personal_interest_skill_points>180</personal_interest_skill_points>
+    <health_points>11</health_points>
+    <wound_limit>5</wound_limit>
+    <magic_points>8</magic_points>
+    <occupation_skill_points>480</occupation_skill_points>
+    <personal_interest_skill_points>80</personal_interest_skill_points>
   </spendable_points>
   <skills>
     <art>5</art>

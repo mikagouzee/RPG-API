@@ -203,8 +203,18 @@ namespace RPG_API.Repository
 
                 //We create a character based on the game
                 Character myHero = new Character(my_game);
+                logger.Log(String.Format("We will replace some values of the character with those of the DTO : {0}, {1}, {2}", myHeroDTO.characterName, myHeroDTO.playerName, myHeroDTO.metier.name));
                 myHero.characterName = myHeroDTO.characterName;
+                logger.Log(String.Format("New character name: {0}", myHero.characterName));
+
                 myHero.playerName = myHeroDTO.playerName;
+                logger.Log(String.Format("New player name: {0}", myHero.playerName));
+
+                myHero.metier = myHeroDTO.metier;
+                logger.Log(String.Format("New metier: {0}", myHero.metier.name));
+
+                myHero.careerName = myHeroDTO.metier.name;
+
                 myHero.baseAttr = myHeroDTO.baseAttr;
 
                 myHero.game.rules.setStats(myHero);

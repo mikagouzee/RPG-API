@@ -1,0 +1,163 @@
+﻿2/05/2017 15:32:44 : Inside Character Dto Empty Builder
+2/05/2017 15:32:45 : Inside characterDto.controller post method.
+2/05/2017 15:32:45 : Inside character repository createWithDto
+2/05/2017 15:32:45 : Character : Baveux le Troll
+2/05/2017 15:32:45 : Inside game constructor with args CallOfCthulhu
+2/05/2017 15:32:45 : Inside empty game constructor
+2/05/2017 15:32:45 : We created game : Call Of Cthulhu
+2/05/2017 15:32:45 : We will create the character with game Call Of Cthulhu
+2/05/2017 15:32:45 : Inside Character constructor with parameter game : Call Of Cthulhu 
+2/05/2017 15:32:45 : Metier : RPG_API.Models.Careers.Profession
+2/05/2017 15:32:45 : Career : mendiant
+2/05/2017 15:32:45 : Inside CoCrules setStats
+2/05/2017 15:32:45 : Inside CocRules setSpendablePoints
+2/05/2017 15:32:45 : Inside CoCRules.setBaseAttr
+2/05/2017 15:32:45 : Inside CoCRules.setSkills : nothing to do
+2/05/2017 15:32:45 : We will replace some values of the character with those of the DTO : Baveux le Troll, meujeu, mendiant
+2/05/2017 15:32:45 : Inside CoCrules setStats
+2/05/2017 15:32:45 : Inside CocRules setSpendablePoints
+2/05/2017 15:32:45 : Inside CoCRules.setSkills : nothing to do
+2/05/2017 15:32:45 : Inside sheetMaker.makeSheet with path C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\
+2/05/2017 15:32:45 : Inside SheetWriter.CreateSheet.
+2/05/2017 15:32:45 : game : RPG_API.Models.Games.Game
+2/05/2017 15:32:45 : The sheet will be written at : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\call_of_cthulhu_character_sheet.xml
+2/05/2017 15:32:45 : base attribute : appearance
+2/05/2017 15:32:45 : base attribute : constitution
+2/05/2017 15:32:45 : base attribute : strength
+2/05/2017 15:32:45 : base attribute : dexterity
+2/05/2017 15:32:45 : base attribute : power
+2/05/2017 15:32:45 : base attribute : size
+2/05/2017 15:32:45 : base attribute : intelligence
+2/05/2017 15:32:45 : base attribute : education
+2/05/2017 15:32:45 : Stat : prestance
+2/05/2017 15:32:45 : Stat : endurance
+2/05/2017 15:32:45 : Stat : agility
+2/05/2017 15:32:45 : Stat : brawl power
+2/05/2017 15:32:45 : Stat : height
+2/05/2017 15:32:45 : Stat : knowledge
+2/05/2017 15:32:45 : Stat : idea
+2/05/2017 15:32:45 : Stat : will power
+2/05/2017 15:32:45 : Stat : sanity
+2/05/2017 15:32:45 : SpendPoint : health points
+2/05/2017 15:32:45 : SpendPoint : wound limit
+2/05/2017 15:32:45 : SpendPoint : magic points
+2/05/2017 15:32:45 : SpendPoint : Occupation skill points
+2/05/2017 15:32:45 : SpendPoint : Personal interest skill points
+2/05/2017 15:32:45 : skill : art
+2/05/2017 15:32:45 : skill : artisanat
+2/05/2017 15:32:45 : skill : baratin
+2/05/2017 15:32:45 : skill : bibliotheque
+2/05/2017 15:32:45 : skill : comptabilite
+2/05/2017 15:32:45 : skill : concocter potion
+2/05/2017 15:32:45 : skill : conduire attelage
+2/05/2017 15:32:45 : skill : coup de pied
+2/05/2017 15:32:45 : skill : coup de poing
+2/05/2017 15:32:45 : skill : coup de tete
+2/05/2017 15:32:45 : skill : discretion
+2/05/2017 15:32:45 : skill : dissimulation
+2/05/2017 15:32:45 : skill : ecouter
+2/05/2017 15:32:45 : skill : ecrire une langue
+2/05/2017 15:32:45 : skill : esquiver
+2/05/2017 15:32:45 : skill : grimper
+2/05/2017 15:32:45 : skill : lancer
+2/05/2017 15:32:45 : skill : langue etrangere
+2/05/2017 15:32:45 : skill : langue natale
+2/05/2017 15:32:45 : skill : lutte
+2/05/2017 15:32:45 : skill : marchandage
+2/05/2017 15:32:45 : skill : monde naturel
+2/05/2017 15:32:45 : skill : monter a cheval
+2/05/2017 15:32:45 : skill : mythe de Cthulhu
+2/05/2017 15:32:45 : skill : nager
+2/05/2017 15:32:45 : skill : navigation
+2/05/2017 15:32:45 : skill : occultisme
+2/05/2017 15:32:45 : skill : persuasion
+2/05/2017 15:32:45 : skill : piloter bateau
+2/05/2017 15:32:45 : skill : premiers soins
+2/05/2017 15:32:45 : skill : reparer concevoir
+2/05/2017 15:32:45 : skill : royaume natal
+2/05/2017 15:32:45 : skill : royaumes etrangers
+2/05/2017 15:32:45 : skill : sagacite
+2/05/2017 15:32:45 : skill : sauter
+2/05/2017 15:32:45 : skill : science
+2/05/2017 15:32:45 : skill : se cacher
+2/05/2017 15:32:45 : skill : statut
+2/05/2017 15:32:45 : skill : suivre une piste
+2/05/2017 15:32:45 : skill : trouver objet cache
+2/05/2017 15:32:45 : Ending document.
+2/05/2017 15:32:46 : Inside fill Infos withs args : character RPG_API.Models.Character , path C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\
+2/05/2017 15:32:46 : Inside FindSheet for character Baveux le Troll
+2/05/2017 15:32:46 : Inside Check If Charac Exists
+2/05/2017 15:32:46 : Treating file : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\call_of_cthulhu_character_sheet.xml
+2/05/2017 15:32:46 : Treating file : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\elohim, le jongleur.xml
+2/05/2017 15:32:46 : Treating file : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\falloutcharacter.xml
+2/05/2017 15:32:46 : Treating file : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\fallout_character_sheet.xml
+2/05/2017 15:32:46 : Treating file : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\kerrick le geant.xml
+2/05/2017 15:32:46 : Treating file : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\thalim, médecin de bataille.xml
+2/05/2017 15:32:46 : Treating file : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\warrior_base.xml
+2/05/2017 15:32:46 : Exiting Check If Charac Exists
+2/05/2017 15:32:46 : Exiting findsheet
+2/05/2017 15:32:46 : Name Node : Baveux le Troll
+2/05/2017 15:32:46 : Player Name Node : meujeu
+2/05/2017 15:32:46 : Game Node : Call Of Cthulhu
+2/05/2017 15:32:46 : Career Node : mendiant
+2/05/2017 15:32:46 : Exiting fill infos
+2/05/2017 15:32:46 : Inside save file
+2/05/2017 15:32:46 : file saved
+2/05/2017 15:32:46 : 
+
+2/05/2017 15:32:46 : Inside fill base attr
+2/05/2017 15:32:46 : Inside FindSheet for character Baveux le Troll
+2/05/2017 15:32:46 : Inside Check If Charac Exists
+2/05/2017 15:32:46 : Treating file : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\baveux le troll.xml
+2/05/2017 15:32:46 : Character Found!
+2/05/2017 15:32:46 : Exiting findsheet
+2/05/2017 15:32:46 : Exiting fill base attr
+2/05/2017 15:32:46 : Inside save file
+2/05/2017 15:32:46 : file saved
+2/05/2017 15:32:46 : 
+
+2/05/2017 15:32:46 : Inside Fill Stat
+2/05/2017 15:32:46 : Inside FindSheet for character Baveux le Troll
+2/05/2017 15:32:46 : Inside Check If Charac Exists
+2/05/2017 15:32:46 : Treating file : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\baveux le troll.xml
+2/05/2017 15:32:46 : Character Found!
+2/05/2017 15:32:46 : Exiting findsheet
+2/05/2017 15:32:46 : Exiting fill Stat
+2/05/2017 15:32:46 : Inside save file
+2/05/2017 15:32:46 : file saved
+2/05/2017 15:32:46 : 
+
+2/05/2017 15:32:46 : Inside fill Spendable points
+2/05/2017 15:32:46 : Inside FindSheet for character Baveux le Troll
+2/05/2017 15:32:46 : Inside Check If Charac Exists
+2/05/2017 15:32:46 : Treating file : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\baveux le troll.xml
+2/05/2017 15:32:46 : Character Found!
+2/05/2017 15:32:46 : Exiting findsheet
+2/05/2017 15:32:46 : Exiting fill spendable points
+2/05/2017 15:32:46 : Inside save file
+2/05/2017 15:32:46 : file saved
+2/05/2017 15:32:46 : 
+
+2/05/2017 15:32:46 : Inside fillSkills
+2/05/2017 15:32:46 : Inside FindSheet for character Baveux le Troll
+2/05/2017 15:32:46 : Inside Check If Charac Exists
+2/05/2017 15:32:46 : Treating file : C:\Users\mgouzee\Desktop\GITHUB FOLDER OF MIKA\RPG-API\RPG-API\RPG-API\App_Data\Characters\baveux le troll.xml
+2/05/2017 15:32:46 : Character Found!
+2/05/2017 15:32:46 : Exiting findsheet
+2/05/2017 15:32:46 : Exiting fillSkills
+2/05/2017 15:32:46 : Inside save file
+2/05/2017 15:32:46 : file saved
+2/05/2017 15:32:46 : 
+
+2/05/2017 15:32:46 : MakeSheet finished
+2/05/2017 15:32:46 : Inside character repository.Get.
+2/05/2017 15:32:46 : Inside default character constructor
+2/05/2017 15:32:46 : CharacterRepository.get : file c:\users\mgouzee\desktop\github folder of mika\rpg-api\rpg-api\rpg-api\app_data\characters\baveux le troll.xml
+2/05/2017 15:32:46 : Inside Character constructor with a character sheet
+2/05/2017 15:32:46 : Character name : Baveux le Troll
+2/05/2017 15:32:46 : player name : meujeu
+2/05/2017 15:32:46 : Inside game constructor with args Call Of Cthulhu
+2/05/2017 15:32:46 : Inside empty game constructor
+2/05/2017 15:32:46 : We created game : Call Of Cthulhu
+2/05/2017 15:32:47 : Character Found! Expected Baveux le Troll, found Baveux le Troll. Returning character.
+2/05/2017 15:32:47 : Exiting characterDto.Controller
