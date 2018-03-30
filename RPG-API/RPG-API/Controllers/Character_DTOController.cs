@@ -27,5 +27,19 @@ namespace RPG_API.Controllers
             logger.Log("Exiting characterDto.Controller");
             return Ok(created_character);
         }
+
+        //[Route("api/update")]
+        //public IHttpActionResult Put(Character_DTO aCharac)
+        //{
+        //    if (!ModelState.IsValid)
+        //        return BadRequest();
+
+        //    repo.Update(new Character(aCharac));
+
+        //    Character updated = repo.Get(aCharac.CharacterName);
+        //    logger.Log("Exiting characterDto.Controller");
+        //    return Ok(updated);
+        //}
+
     }
 }

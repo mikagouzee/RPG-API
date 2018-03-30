@@ -69,13 +69,11 @@ namespace RPG_API.Controllers
             if (!ModelState.IsValid)
                 return BadRequest();
 
-            var currentVersion = repo.Get(newVersion.CharacterName);
-            if (currentVersion == null)
-                return NotFound();
+            repo.Update(newVersion);
 
-            repo.Update(currentVersion, newVersion);
-
-            return NotFound();
+            Character updated = repo.Get(newVersion.CharacterName);
+            logger.Log("Exiting characterDto.Controller");
+            return Ok(updated);
         }
 
         // DELETE: api/Character/5

@@ -83,9 +83,17 @@ namespace RPG_API.Repository
 
         //UPDATE
         // TODO : ADD ADMIN RIGHTS ONLY
-        public void Update(Character monPerso, Character newVersion)
+        public void Update(Character newVersion)
         {
             logger.Log("Inside character repository.Update.");
+
+            var monPerso = Get(newVersion.CharacterName);
+            if (monPerso == null)
+                return;
+
+            if (monPerso.GameName != newVersion.GameName)
+                return;
+
             SheetFiller sFiller = new SheetFiller();
             // This might be reworked
             string mypath = ConfigurationManager.AppSettings["path"];

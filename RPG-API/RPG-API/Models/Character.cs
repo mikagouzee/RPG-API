@@ -1,5 +1,6 @@
 ﻿using RPG_API.Models.Caracteristic;
 using RPG_API.Models.Careers;
+using RPG_API.Models.DTO.Character_DTO;
 using RPG_API.Models.GameRules;
 using RPG_API.Models.Games;
 using RPG_API.Utils;
@@ -118,6 +119,7 @@ namespace RPG_API.Models
 
             this.CharacterName = xmlDoc.SelectSingleNode("/character_sheet/infos/name").InnerText;
             this.PlayerName = xmlDoc.SelectSingleNode("/character_sheet/infos/player_name").InnerText;
+            this.GameName = xmlDoc.SelectSingleNode("/character_sheet/infos/game").InnerText;
             logger.Log(String.Format("Character name : {0}", this.CharacterName));
             logger.Log(String.Format("player name : {0}", this.PlayerName));
 
@@ -175,6 +177,18 @@ namespace RPG_API.Models
                 logger.Log(String.Format("Error in Character constructor : {0}", ex.Message));
                 throw ex;
             }
+        }
+
+        public Character(Character_DTO aCharac)
+        {
+
+            var game = Game.GetaGame(aCharac.GameName);
+
+            new Character(aCharac.CharacterName, aCharac.PlayerName);
+
+            Metier = String.IsNullOrEmpty(aCharac.Metier) ?
+                (Profession)Game.GetaGame(GameName).professions.Find(a => a.name == "mendiant") :
+                (Profession)Game.GetaGame(GameName).professions.Find(a => a.name == aCharac.Metier);
         }
 
         public void SetCaracteristic(List<ICaracteristic> caracteristics)

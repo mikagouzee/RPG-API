@@ -33,6 +33,9 @@ namespace RPG_API.Models.Games
 
         public static Game GetaGame(string name)
         {
+            if (String.IsNullOrEmpty(name))
+                name = "Fallout";
+
             string game_name = name.Replace(" ", "");
             Type CAType = Type.GetType("RPG_API.Models.Games." + game_name);
 

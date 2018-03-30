@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<character_sheet>
+  <infos>
+    <name>Will Change</name>
+    <player_name>meujeu</player_name>
+    <career>wanderer</career>
+    <campaign />
+    <game>Fallout</game>
+  </infos>
+  <base_attributes>
+    <strength>7</strength>
+    <perception>9</perception>
+    <endurance>4</endurance>
+    <charism>5</charism>
+    <intelligence>5</intelligence>
+    <agility>7</agility>
+    <luck>6</luck>
+  </base_attributes>
+  <stats>
+    <action_points>8</action_points>
+    <karma>0</karma>
+    <armor_class>7</armor_class>
+    <carry_weight>125</carry_weight>
+    <melee_damage>1</melee_damage>
+    <sequence>18</sequence>
+    <healing_rate>1</healing_rate>
+  </stats>
+  <spendable_points>
+    <health_points>27</health_points>
+    <wound_limit>0</wound_limit>
+    <skill_points>0</skill_points>
+    <creation_points>35</creation_points>
+  </spendable_points>
+  <skills>
+    <small_guns>33</small_guns>
+    <big_guns>14</big_guns>
+    <energy_weapons>14</energy_weapons>
+    <unarmed>52</unarmed>
+    <melee_weapons>42</melee_weapons>
+    <throwing>28</throwing>
+    <first_aid>46</first_aid>
+    <doctor>19</doctor>
+    <sneak>26</sneak>
+    <lockpick>26</lockpick>
+    <steal>21</steal>
+    <traps>26</traps>
+    <science>20</science>
+    <repair>35</repair>
+    <pilot>32</pilot>
+    <speech>25</speech>
+    <barter>20</barter>
+    <gambling>5</gambling>
+    <outdoorsman>90</outdoorsman>
+    <radiation_resistance>0</radiation_resistance>
+    <poison_resistance>0</poison_resistance>
+    <damage_resistance>0</damage_resistance>
+    <electric_resistance>0</electric_resistance>
+  </skills>
+</character_sheet>
