@@ -1,16 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 
 namespace RPG_API.Models.Caracteristic
 {
     public class BaseAttributes : ICaracteristic
     {
-        public int max { get; set; }
-        public int value { get; set; }
-        public string name { get; set; }
-        Random r = new Random();
+        public int Max { get; set; }
+        public int Value { get; set; }
+        public string Name { get; set; }
+        private Random r = new Random();
 
         public BaseAttributes()
         {
@@ -19,33 +16,37 @@ namespace RPG_API.Models.Caracteristic
 
         public BaseAttributes(string name, int max)
         {
-            this.name = name;
-            this.max = max;
-            this.value = 0;
+            Name = name;
+            Max = max;
+            Value = 0;
         }
 
         public BaseAttributes(int myMax, int myValue, string myName)
         {
-            this.max = myMax;
-            this.value = myValue;
-            this.name = myName;
+            Max = myMax;
+            Value = myValue;
+            Name = myName;
         }
 
         public void Increment()
         {
-            if (!(this.value >= this.max))
+            if (!(Value >= Max))
             {
-                this.value++;
+                Value++;
             }
         }
 
         public void Decrement()
         {
-            if (!(this.value <= 0))
+            if (!(Value <= 0))
             {
-                this.value--;
+                Value--;
             }
         }
 
+        public bool Validate()
+        {
+            return (Value <= Max);
+        }
     }
 }

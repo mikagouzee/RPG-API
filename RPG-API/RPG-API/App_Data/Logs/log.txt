@@ -2338,3 +2338,1705 @@
 2/05/2017 16:11:00 : We created game : Call Of Cthulhu
 2/05/2017 16:11:00 : Character Found! Expected Kelarian l'assassin, found Kelarian l'assassin. Returning character.
 2/05/2017 16:11:00 : Returning searched character to front.
+29-03-18 07:50:42 : Inside Characte Controller.GetAll
+29-03-18 07:50:42 : Inside Repo Character Get All method
+29-03-18 07:50:42 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\cendres la sorcière.xml
+29-03-18 07:50:42 : Inside Character constructor with a character sheet
+29-03-18 07:50:42 : Character name : Cendres la Sorcière
+29-03-18 07:50:42 : player name : meujeu
+29-03-18 07:50:42 : Inside game constructor with args Call Of Cthulhu
+29-03-18 07:50:42 : Inside empty game constructor
+29-03-18 07:50:42 : We created game : Call Of Cthulhu
+29-03-18 07:50:42 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\elohim, le jongleur.xml
+29-03-18 07:50:42 : Inside Character constructor with a character sheet
+29-03-18 07:50:42 : Character name : Elohim, le jongleur
+29-03-18 07:50:42 : player name : meujeu
+29-03-18 07:50:42 : Inside game constructor with args Call Of Cthulhu
+29-03-18 07:50:42 : Inside empty game constructor
+29-03-18 07:50:42 : We created game : Call Of Cthulhu
+29-03-18 07:50:42 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\falloutcharacter.xml
+29-03-18 07:50:42 : Inside Character constructor with a character sheet
+29-03-18 07:50:42 : Character name : FalloutCharacter
+29-03-18 07:50:42 : player name : FOP
+29-03-18 07:50:42 : Inside game constructor with args Fallout
+29-03-18 07:50:42 : Inside empty game constructor
+29-03-18 07:50:42 : We created game : Fallout
+29-03-18 07:50:42 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\kelarian l'assassin.xml
+29-03-18 07:50:42 : Inside Character constructor with a character sheet
+29-03-18 07:50:42 : Character name : Kelarian l'assassin
+29-03-18 07:50:42 : player name : meujeu
+29-03-18 07:50:42 : Inside game constructor with args Call Of Cthulhu
+29-03-18 07:50:42 : Inside empty game constructor
+29-03-18 07:50:42 : We created game : Call Of Cthulhu
+29-03-18 07:50:42 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\kerrick le geant.xml
+29-03-18 07:50:42 : Inside Character constructor with a character sheet
+29-03-18 07:50:42 : Character name : Kerrick le Geant
+29-03-18 07:50:42 : player name : meujeu
+29-03-18 07:50:42 : Inside game constructor with args Call Of Cthulhu
+29-03-18 07:50:42 : Inside empty game constructor
+29-03-18 07:50:42 : We created game : Call Of Cthulhu
+29-03-18 07:50:42 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\moktar pas'd'bol.xml
+29-03-18 07:50:42 : Inside Character constructor with a character sheet
+29-03-18 07:50:42 : Character name : Moktar Pas'd'bol
+29-03-18 07:50:42 : player name : meujeu
+29-03-18 07:50:42 : Inside game constructor with args Call Of Cthulhu
+29-03-18 07:50:42 : Inside empty game constructor
+29-03-18 07:50:42 : We created game : Call Of Cthulhu
+29-03-18 07:50:42 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\thalim, médecin de bataille.xml
+29-03-18 07:50:42 : Inside Character constructor with a character sheet
+29-03-18 07:50:42 : Character name : Thalim, médecin de bataille
+29-03-18 07:50:42 : player name : meujeu
+29-03-18 07:50:42 : Inside game constructor with args Call Of Cthulhu
+29-03-18 07:50:42 : Inside empty game constructor
+29-03-18 07:50:42 : We created game : Call Of Cthulhu
+29-03-18 07:50:42 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\warrior_base.xml
+29-03-18 07:50:42 : Inside Character constructor with a character sheet
+29-03-18 07:50:42 : Character name : Warrior_Base
+29-03-18 07:50:42 : player name : meujeu
+29-03-18 07:50:42 : Inside game constructor with args Call Of Cthulhu
+29-03-18 07:50:42 : Inside empty game constructor
+29-03-18 07:50:42 : We created game : Call Of Cthulhu
+29-03-18 07:51:35 : Inside characterController.get
+29-03-18 07:51:35 : Inside character repository.Get.
+29-03-18 07:51:35 : Inside default character constructor
+29-03-18 07:51:35 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\call_of_cthulhu_character_sheet.xml
+29-03-18 07:51:35 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\cendres la sorcière.xml
+29-03-18 07:51:35 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\elohim, le jongleur.xml
+29-03-18 07:51:35 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\falloutcharacter.xml
+29-03-18 07:51:35 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\fallout_character_sheet.xml
+29-03-18 07:51:35 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\kelarian l'assassin.xml
+29-03-18 07:51:35 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\kerrick le geant.xml
+29-03-18 07:51:35 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\moktar pas'd'bol.xml
+29-03-18 07:51:35 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\thalim, médecin de bataille.xml
+29-03-18 07:51:35 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\warrior_base.xml
+29-03-18 07:51:35 : Nothing found...
+29-03-18 07:51:35 : Returning searched character to front.
+29-03-18 07:51:46 : Inside Characte Controller.GetAll
+29-03-18 07:51:46 : Inside Repo Character Get All method
+29-03-18 07:51:46 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\cendres la sorcière.xml
+29-03-18 07:51:46 : Inside Character constructor with a character sheet
+29-03-18 07:51:46 : Character name : Cendres la Sorcière
+29-03-18 07:51:46 : player name : meujeu
+29-03-18 07:51:46 : Inside game constructor with args Call Of Cthulhu
+29-03-18 07:51:46 : Inside empty game constructor
+29-03-18 07:51:46 : We created game : Call Of Cthulhu
+29-03-18 07:51:46 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\elohim, le jongleur.xml
+29-03-18 07:51:46 : Inside Character constructor with a character sheet
+29-03-18 07:51:46 : Character name : Elohim, le jongleur
+29-03-18 07:51:46 : player name : meujeu
+29-03-18 07:51:46 : Inside game constructor with args Call Of Cthulhu
+29-03-18 07:51:46 : Inside empty game constructor
+29-03-18 07:51:46 : We created game : Call Of Cthulhu
+29-03-18 07:51:46 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\falloutcharacter.xml
+29-03-18 07:51:46 : Inside Character constructor with a character sheet
+29-03-18 07:51:46 : Character name : FalloutCharacter
+29-03-18 07:51:46 : player name : FOP
+29-03-18 07:51:46 : Inside game constructor with args Fallout
+29-03-18 07:51:46 : Inside empty game constructor
+29-03-18 07:51:46 : We created game : Fallout
+29-03-18 07:51:46 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\kelarian l'assassin.xml
+29-03-18 07:51:46 : Inside Character constructor with a character sheet
+29-03-18 07:51:46 : Character name : Kelarian l'assassin
+29-03-18 07:51:46 : player name : meujeu
+29-03-18 07:51:46 : Inside game constructor with args Call Of Cthulhu
+29-03-18 07:51:46 : Inside empty game constructor
+29-03-18 07:51:46 : We created game : Call Of Cthulhu
+29-03-18 07:51:46 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\kerrick le geant.xml
+29-03-18 07:51:46 : Inside Character constructor with a character sheet
+29-03-18 07:51:46 : Character name : Kerrick le Geant
+29-03-18 07:51:46 : player name : meujeu
+29-03-18 07:51:46 : Inside game constructor with args Call Of Cthulhu
+29-03-18 07:51:46 : Inside empty game constructor
+29-03-18 07:51:46 : We created game : Call Of Cthulhu
+29-03-18 07:51:46 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\moktar pas'd'bol.xml
+29-03-18 07:51:46 : Inside Character constructor with a character sheet
+29-03-18 07:51:46 : Character name : Moktar Pas'd'bol
+29-03-18 07:51:46 : player name : meujeu
+29-03-18 07:51:46 : Inside game constructor with args Call Of Cthulhu
+29-03-18 07:51:46 : Inside empty game constructor
+29-03-18 07:51:46 : We created game : Call Of Cthulhu
+29-03-18 07:51:46 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\thalim, médecin de bataille.xml
+29-03-18 07:51:46 : Inside Character constructor with a character sheet
+29-03-18 07:51:46 : Character name : Thalim, médecin de bataille
+29-03-18 07:51:46 : player name : meujeu
+29-03-18 07:51:46 : Inside game constructor with args Call Of Cthulhu
+29-03-18 07:51:46 : Inside empty game constructor
+29-03-18 07:51:46 : We created game : Call Of Cthulhu
+29-03-18 07:51:46 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\warrior_base.xml
+29-03-18 07:51:46 : Inside Character constructor with a character sheet
+29-03-18 07:51:46 : Character name : Warrior_Base
+29-03-18 07:51:46 : player name : meujeu
+29-03-18 07:51:46 : Inside game constructor with args Call Of Cthulhu
+29-03-18 07:51:46 : Inside empty game constructor
+29-03-18 07:51:46 : We created game : Call Of Cthulhu
+29-03-18 08:34:03 : Inside characterController.get
+29-03-18 08:34:03 : Inside character repository.Get.
+29-03-18 08:34:03 : Inside default character constructor
+29-03-18 08:34:03 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\call_of_cthulhu_character_sheet.xml
+29-03-18 08:34:03 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\cendres la sorcière.xml
+29-03-18 08:34:03 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\elohim, le jongleur.xml
+29-03-18 08:34:03 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\falloutcharacter.xml
+29-03-18 08:34:03 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\fallout_character_sheet.xml
+29-03-18 08:34:03 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\kelarian l'assassin.xml
+29-03-18 08:34:03 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\kerrick le geant.xml
+29-03-18 08:34:03 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\moktar pas'd'bol.xml
+29-03-18 08:34:03 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\thalim, médecin de bataille.xml
+29-03-18 08:34:03 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\warrior_base.xml
+29-03-18 08:34:03 : Nothing found...
+29-03-18 08:34:03 : Returning searched character to front.
+29-03-18 08:34:09 : Inside characterController.get
+29-03-18 08:34:09 : Inside character repository.Get.
+29-03-18 08:34:09 : Inside default character constructor
+29-03-18 08:34:09 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\call_of_cthulhu_character_sheet.xml
+29-03-18 08:34:09 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\cendres la sorcière.xml
+29-03-18 08:34:09 : Inside Character constructor with a character sheet
+29-03-18 08:34:09 : Character name : Cendres la Sorcière
+29-03-18 08:34:09 : player name : meujeu
+29-03-18 08:34:09 : Inside game constructor with args Call Of Cthulhu
+29-03-18 08:34:09 : Inside empty game constructor
+29-03-18 08:34:09 : We created game : Call Of Cthulhu
+29-03-18 08:34:09 : Character Found! Expected cendres la sorcière, found Cendres la Sorcière. Returning character.
+29-03-18 08:34:09 : Returning searched character to front.
+29-03-18 13:11:10 : Inside Characte Controller.GetAll
+29-03-18 13:11:10 : Inside Repo Character Get All method
+29-03-18 13:11:10 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\cendres la sorcière.xml
+29-03-18 13:11:10 : Inside Character constructor with a character sheet
+29-03-18 13:11:10 : Character name : Cendres la Sorcière
+29-03-18 13:11:10 : player name : meujeu
+29-03-18 13:11:10 : Inside game constructor with args Call Of Cthulhu
+29-03-18 13:11:10 : Inside empty game constructor
+29-03-18 13:11:10 : We created game : Call Of Cthulhu
+29-03-18 13:11:10 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\elohim, le jongleur.xml
+29-03-18 13:11:10 : Inside Character constructor with a character sheet
+29-03-18 13:11:10 : Character name : Elohim, le jongleur
+29-03-18 13:11:10 : player name : meujeu
+29-03-18 13:11:10 : Inside game constructor with args Call Of Cthulhu
+29-03-18 13:11:10 : Inside empty game constructor
+29-03-18 13:11:10 : We created game : Call Of Cthulhu
+29-03-18 13:11:10 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\falloutcharacter.xml
+29-03-18 13:11:10 : Inside Character constructor with a character sheet
+29-03-18 13:11:10 : Character name : FalloutCharacter
+29-03-18 13:11:10 : player name : FOP
+29-03-18 13:11:10 : Inside game constructor with args Fallout
+29-03-18 13:11:10 : Inside empty game constructor
+29-03-18 13:11:10 : We created game : Fallout
+29-03-18 13:11:10 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\kelarian l'assassin.xml
+29-03-18 13:11:10 : Inside Character constructor with a character sheet
+29-03-18 13:11:10 : Character name : Kelarian l'assassin
+29-03-18 13:11:10 : player name : meujeu
+29-03-18 13:11:10 : Inside game constructor with args Call Of Cthulhu
+29-03-18 13:11:10 : Inside empty game constructor
+29-03-18 13:11:10 : We created game : Call Of Cthulhu
+29-03-18 13:11:10 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\kerrick le geant.xml
+29-03-18 13:11:10 : Inside Character constructor with a character sheet
+29-03-18 13:11:10 : Character name : Kerrick le Geant
+29-03-18 13:11:10 : player name : meujeu
+29-03-18 13:11:10 : Inside game constructor with args Call Of Cthulhu
+29-03-18 13:11:10 : Inside empty game constructor
+29-03-18 13:11:10 : We created game : Call Of Cthulhu
+29-03-18 13:11:10 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\moktar pas'd'bol.xml
+29-03-18 13:11:10 : Inside Character constructor with a character sheet
+29-03-18 13:11:10 : Character name : Moktar Pas'd'bol
+29-03-18 13:11:10 : player name : meujeu
+29-03-18 13:11:10 : Inside game constructor with args Call Of Cthulhu
+29-03-18 13:11:10 : Inside empty game constructor
+29-03-18 13:11:10 : We created game : Call Of Cthulhu
+29-03-18 13:11:10 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\thalim, médecin de bataille.xml
+29-03-18 13:11:10 : Inside Character constructor with a character sheet
+29-03-18 13:11:10 : Character name : Thalim, médecin de bataille
+29-03-18 13:11:10 : player name : meujeu
+29-03-18 13:11:10 : Inside game constructor with args Call Of Cthulhu
+29-03-18 13:11:10 : Inside empty game constructor
+29-03-18 13:11:10 : We created game : Call Of Cthulhu
+29-03-18 13:11:10 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\warrior_base.xml
+29-03-18 13:11:10 : Inside Character constructor with a character sheet
+29-03-18 13:11:10 : Character name : Warrior_Base
+29-03-18 13:11:10 : player name : meujeu
+29-03-18 13:11:10 : Inside game constructor with args Call Of Cthulhu
+29-03-18 13:11:10 : Inside empty game constructor
+29-03-18 13:11:10 : We created game : Call Of Cthulhu
+29-03-18 13:47:45 : Inside Character Dto Empty Builder
+29-03-18 13:47:45 : Inside character repository createWithDto
+29-03-18 13:47:45 : Character : TestJson
+29-03-18 13:47:45 : Error in character repository create with DTO : Object reference not set to an instance of an object.
+29-03-18 13:48:25 : Inside Character Dto Empty Builder
+29-03-18 13:48:25 : Inside character repository createWithDto
+29-03-18 13:48:25 : Character : TestJson
+29-03-18 13:48:25 : Inside game constructor with args fallout
+29-03-18 13:48:25 : Error in character repository create with DTO : Value cannot be null.
+Parameter name: type
+29-03-18 13:57:34 : Inside Character Dto Empty Builder
+29-03-18 13:57:34 : Inside character repository createWithDto
+29-03-18 13:57:34 : Character : TestJson
+29-03-18 13:57:34 : Inside game constructor with args fallout
+29-03-18 13:57:34 : Error in character repository create with DTO : Value cannot be null.
+Parameter name: type
+29-03-18 13:58:21 : Inside Character Dto Empty Builder
+29-03-18 13:58:25 : Inside character repository createWithDto
+29-03-18 13:58:26 : Character : TestJson
+29-03-18 13:58:33 : Inside game constructor with args fallout
+29-03-18 13:58:45 : Error in character repository create with DTO : Value cannot be null.
+Parameter name: type
+29-03-18 13:58:50 : Inside Character Dto Empty Builder
+29-03-18 13:58:54 : Inside character repository createWithDto
+29-03-18 13:58:55 : Character : TestJson
+29-03-18 13:59:18 : Inside Character Dto Empty Builder
+29-03-18 13:59:28 : Inside character repository createWithDto
+29-03-18 13:59:29 : Character : TestJson
+29-03-18 13:59:37 : Inside game constructor with args fallout
+29-03-18 13:59:41 : Error in character repository create with DTO : Value cannot be null.
+Parameter name: type
+29-03-18 13:59:58 : Inside Character Dto Empty Builder
+29-03-18 14:00:03 : Inside character repository createWithDto
+29-03-18 14:00:04 : Character : TestJson
+29-03-18 14:00:05 : Inside game constructor with args Fallout
+29-03-18 14:00:05 : Inside empty game constructor
+29-03-18 14:00:05 : We created game : Fallout
+29-03-18 14:00:09 : Inside Character constructor with parameter game : Fallout 
+29-03-18 14:00:09 : Inside ultimate character constructor : game RPG_API.Models.Games.Game, characterName New Character and playerName Toby Determined
+29-03-18 14:00:09 : Inside FalloutRules.setBaseAttr
+29-03-18 14:00:09 : Exiting setBaseAttr
+29-03-18 14:00:09 : Inside FalloutRules.SetStat.
+29-03-18 14:00:09 : Inside FalloutRules.setSpendablePoints
+29-03-18 14:00:09 : Exiting setSpendablePoints
+29-03-18 14:00:09 : Inside FalloutRules.setSkills
+29-03-18 14:00:09 : Exiting setSkills
+29-03-18 14:00:35 : Error in character repository create with DTO : Object reference not set to an instance of an object.
+29-03-18 14:29:43 : Inside Character Dto Empty Builder
+29-03-18 14:29:47 : Inside character repository createWithDto
+29-03-18 14:29:47 : Character : TestJson
+29-03-18 14:29:50 : Inside game constructor with args Fallout
+29-03-18 14:29:50 : Inside empty game constructor
+29-03-18 14:29:50 : We created game : Fallout
+29-03-18 14:29:50 : Inside Character constructor with parameter game : Fallout 
+29-03-18 14:29:50 : Inside ultimate character constructor : game RPG_API.Models.Games.Game, characterName New Character and playerName Toby Determined
+29-03-18 14:29:50 : Inside FalloutRules.setBaseAttr
+29-03-18 14:29:50 : Exiting setBaseAttr
+29-03-18 14:29:50 : Inside FalloutRules.SetStat.
+29-03-18 14:29:50 : Error in Character Creation : Object reference not set to an instance of an object. 
+29-03-18 14:33:27 : Inside Character Dto Empty Builder
+29-03-18 14:33:33 : Inside character repository createWithDto
+29-03-18 14:33:33 : Character : TestJson
+29-03-18 14:33:34 : Inside game constructor with args Fallout
+29-03-18 14:33:34 : Inside empty game constructor
+29-03-18 14:33:34 : We created game : Fallout
+29-03-18 14:33:35 : Inside Character constructor with parameter game : Fallout 
+29-03-18 14:33:35 : Inside ultimate character constructor : game RPG_API.Models.Games.Game, characterName New Character and playerName Toby Determined
+29-03-18 14:33:35 : Inside FalloutRules.setBaseAttr
+29-03-18 14:33:35 : Exiting setBaseAttr
+29-03-18 14:33:35 : Inside FalloutRules.SetStat.
+29-03-18 14:33:35 : Error in Character Creation : Object reference not set to an instance of an object. 
+29-03-18 14:35:25 : Inside Character Dto Empty Builder
+29-03-18 14:35:31 : Inside character repository createWithDto
+29-03-18 14:35:31 : Character : TestJson
+29-03-18 14:35:33 : Inside game constructor with args Fallout
+29-03-18 14:35:33 : Inside empty game constructor
+29-03-18 14:35:33 : We created game : Fallout
+29-03-18 14:35:33 : Inside Character constructor with parameter game : Fallout 
+29-03-18 14:35:33 : Inside ultimate character constructor : game RPG_API.Models.Games.Game, characterName New Character and playerName Toby Determined
+29-03-18 14:35:33 : Inside FalloutRules.setBaseAttr
+29-03-18 14:35:33 : Exiting setBaseAttr
+29-03-18 14:35:33 : Inside FalloutRules.SetStat.
+29-03-18 14:35:33 : Error in Character Creation : Object reference not set to an instance of an object. 
+29-03-18 14:35:46 : Inside FalloutRules.SetStat.
+29-03-18 14:35:49 : Error in character repository create with DTO : Object reference not set to an instance of an object.
+29-03-18 14:48:34 : Inside Character Dto Empty Builder
+29-03-18 14:48:38 : Inside character repository createWithDto
+29-03-18 14:48:39 : Character : TestJson
+29-03-18 14:48:39 : Inside game constructor with args Fallout
+29-03-18 14:48:39 : Inside empty game constructor
+29-03-18 14:48:39 : We created game : Fallout
+29-03-18 14:48:39 : Inside Character constructor with parameter game : Fallout 
+29-03-18 14:48:39 : Inside ultimate character constructor : game RPG_API.Models.Games.Game, characterName New Character and playerName Toby Determined
+29-03-18 14:48:39 : Inside FalloutRules.setBaseAttr
+29-03-18 14:48:39 : Exiting setBaseAttr
+29-03-18 14:48:42 : Inside FalloutRules.SetStat.
+29-03-18 14:50:24 : Inside Character Dto Empty Builder
+29-03-18 14:50:29 : Inside character repository createWithDto
+29-03-18 14:50:30 : Character : TestJson
+29-03-18 14:50:32 : Inside game constructor with args Fallout
+29-03-18 14:50:32 : Inside empty game constructor
+29-03-18 14:50:32 : We created game : Fallout
+29-03-18 14:50:33 : Inside Character constructor with parameter game : Fallout 
+29-03-18 14:50:33 : Inside ultimate character constructor : game RPG_API.Models.Games.Game, characterName New Character and playerName Toby Determined
+29-03-18 14:50:33 : Inside FalloutRules.setBaseAttr
+29-03-18 14:50:33 : Exiting setBaseAttr
+29-03-18 14:50:48 : Inside Character Dto Empty Builder
+29-03-18 14:50:52 : Inside character repository createWithDto
+29-03-18 14:50:53 : Character : TestJson
+29-03-18 14:50:56 : Inside game constructor with args Fallout
+29-03-18 14:50:56 : Inside empty game constructor
+29-03-18 14:50:56 : We created game : Fallout
+29-03-18 14:50:59 : Inside Character constructor with parameter game : Fallout 
+29-03-18 14:50:59 : Inside ultimate character constructor : game RPG_API.Models.Games.Game, characterName New Character and playerName Toby Determined
+29-03-18 14:50:59 : Inside FalloutRules.setBaseAttr
+29-03-18 14:50:59 : Exiting setBaseAttr
+29-03-18 14:52:04 : Inside Character Dto Empty Builder
+29-03-18 14:52:11 : Inside character repository createWithDto
+29-03-18 14:52:11 : Character : TestJson
+29-03-18 14:52:12 : Inside game constructor with args Fallout
+29-03-18 14:52:12 : Inside empty game constructor
+29-03-18 14:52:12 : We created game : Fallout
+29-03-18 14:52:13 : Inside Character constructor with parameter game : Fallout 
+29-03-18 14:52:18 : Inside ultimate character constructor : game RPG_API.Models.Games.Game, characterName New Character and playerName Toby Determined
+29-03-18 14:54:02 : Inside Character Dto Empty Builder
+29-03-18 14:54:10 : Inside character repository createWithDto
+29-03-18 14:54:10 : Character : TestJson
+29-03-18 14:54:11 : Inside game constructor with args Fallout
+29-03-18 14:54:11 : Inside empty game constructor
+29-03-18 14:54:11 : We created game : Fallout
+29-03-18 14:54:44 : Inside ultimate character constructor : game RPG_API.Models.Games.Game, characterName TestJson and playerName john cena
+29-03-18 15:04:47 : Inside Character Dto Empty Builder
+29-03-18 15:04:52 : Inside character repository createWithDto
+29-03-18 15:04:52 : Character : TestJson
+29-03-18 15:04:54 : Inside game constructor with args Fallout
+29-03-18 15:04:54 : Inside empty game constructor
+29-03-18 15:04:54 : We created game : Fallout
+29-03-18 15:04:56 : Inside ultimate character constructor : game RPG_API.Models.Games.Game, characterName TestJson and playerName john cena
+29-03-18 15:05:39 : Inside Character Dto Empty Builder
+29-03-18 15:05:42 : Inside character repository createWithDto
+29-03-18 15:05:42 : Character : TestJson
+29-03-18 15:05:43 : Inside game constructor with args Fallout
+29-03-18 15:05:43 : Inside empty game constructor
+29-03-18 15:06:02 : We created game : Fallout
+29-03-18 15:48:23 : Inside Character Dto Empty Builder
+29-03-18 15:48:29 : Inside character repository createWithDto
+29-03-18 15:48:30 : Character : mytest
+29-03-18 15:48:30 : Inside empty game constructor
+29-03-18 15:48:50 : Inside ultimate character constructor : game RPG_API.Models.Games.Fallout, characterName mytest and playerName meujeu
+29-03-18 15:48:50 : Inside FalloutRules.setBaseAttr
+29-03-18 15:48:50 : Exiting setBaseAttr
+29-03-18 15:48:51 : Inside FalloutRules.SetStat.
+29-03-18 15:48:51 : Error in Character Creation : Object reference not set to an instance of an object. 
+29-03-18 15:49:11 : Inside FalloutRules.SetStat.
+29-03-18 15:49:11 : Error in character repository create with DTO : Object reference not set to an instance of an object.
+29-03-18 15:52:59 : Inside Character Dto Empty Builder
+29-03-18 15:53:01 : Inside character repository createWithDto
+29-03-18 15:53:02 : Character : mytest
+29-03-18 15:53:04 : Inside empty game constructor
+29-03-18 15:53:36 : Inside ultimate character constructor : game RPG_API.Models.Games.Fallout, characterName mytest and playerName meujeu
+29-03-18 15:53:38 : Inside FalloutRules.setBaseAttr
+29-03-18 15:53:38 : Exiting setBaseAttr
+29-03-18 15:53:38 : Inside FalloutRules.SetStat.
+29-03-18 15:53:38 : Error in Character Creation : Object reference not set to an instance of an object. 
+29-03-18 15:53:39 : Inside FalloutRules.SetStat.
+29-03-18 15:53:39 : Error in character repository create with DTO : Object reference not set to an instance of an object.
+29-03-18 15:57:37 : Inside Character Dto Empty Builder
+29-03-18 15:57:42 : Inside character repository createWithDto
+29-03-18 15:57:42 : Character : mytest
+29-03-18 15:57:42 : Inside empty game constructor
+29-03-18 15:58:34 : Inside ultimate character constructor : game RPG_API.Models.Games.Fallout, characterName mytest and playerName meujeu
+29-03-18 15:59:35 : Inside FalloutRules.setBaseAttr
+29-03-18 15:59:35 : Exiting setBaseAttr
+29-03-18 15:59:38 : Inside FalloutRules.SetStat.
+29-03-18 15:59:43 : Error in Character Creation : Object reference not set to an instance of an object. 
+29-03-18 15:59:44 : Inside FalloutRules.SetStat.
+29-03-18 15:59:44 : Error in character repository create with DTO : Object reference not set to an instance of an object.
+29-03-18 16:02:00 : Inside Character Dto Empty Builder
+29-03-18 16:02:02 : Inside character repository createWithDto
+29-03-18 16:02:02 : Character : mytest
+29-03-18 16:02:02 : Inside empty game constructor
+29-03-18 16:02:08 : Inside ultimate character constructor : game RPG_API.Models.Games.Fallout, characterName mytest and playerName meujeu
+29-03-18 16:02:15 : Inside FalloutRules.setBaseAttr
+29-03-18 16:02:15 : Exiting setBaseAttr
+29-03-18 16:02:16 : Inside FalloutRules.SetStat.
+29-03-18 16:02:16 : Error in Character Creation : Object reference not set to an instance of an object. 
+29-03-18 16:02:17 : Inside FalloutRules.SetStat.
+29-03-18 16:02:17 : Error in character repository create with DTO : Object reference not set to an instance of an object.
+30-03-18 07:32:53 : Inside Character Dto Empty Builder
+30-03-18 07:33:12 : Inside character repository createWithDto
+30-03-18 07:33:12 : Character : mytest
+30-03-18 07:33:12 : Inside empty game constructor
+30-03-18 07:42:29 : Inside Character Dto Empty Builder
+30-03-18 07:42:34 : Inside character repository createWithDto
+30-03-18 07:42:34 : Character : mytest
+30-03-18 07:42:36 : Inside empty game constructor
+30-03-18 09:23:40 : Inside Character Dto Empty Builder
+30-03-18 09:23:45 : Inside character repository createWithDto
+30-03-18 09:23:45 : Character : mytest
+30-03-18 09:23:46 : Inside empty game constructor
+30-03-18 09:23:59 : Inside ultimate character constructor : game RPG_API.Models.Games.Fallout, characterName mytest and playerName meujeu
+30-03-18 09:24:01 : Inside FalloutRules.setBaseAttr
+30-03-18 09:24:01 : Exiting setBaseAttr
+30-03-18 09:24:02 : Inside FalloutRules.SetStat.
+30-03-18 09:24:02 : Inside FalloutRules.setSpendablePoints
+30-03-18 09:24:02 : Exiting setSpendablePoints
+30-03-18 09:24:02 : Inside FalloutRules.setSkills
+30-03-18 09:24:02 : Exiting setSkills
+30-03-18 09:24:03 : Inside FalloutRules.SetStat.
+30-03-18 09:24:03 : Inside FalloutRules.setSpendablePoints
+30-03-18 09:24:03 : Exiting setSpendablePoints
+30-03-18 09:24:03 : Inside FalloutRules.setSkills
+30-03-18 09:24:03 : Exiting setSkills
+30-03-18 09:24:03 : Inside sheetMaker.makeSheet with path C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\
+30-03-18 09:24:03 : Inside SheetWriter.CreateSheet.
+30-03-18 09:24:03 : game : RPG_API.Models.Games.Fallout
+30-03-18 09:24:03 : The sheet will be written at : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\fallout_character_sheet.xml
+30-03-18 09:24:03 : Ending document.
+30-03-18 09:24:03 : Inside fill Infos withs args : character RPG_API.Models.Character , path C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\
+30-03-18 09:24:03 : Inside FindSheet for character mytest
+30-03-18 09:24:03 : Inside Check If Charac Exists
+30-03-18 09:24:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\call_of_cthulhu_character_sheet.xml
+30-03-18 09:24:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\cendres la sorcière.xml
+30-03-18 09:24:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\elohim, le jongleur.xml
+30-03-18 09:24:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\falloutcharacter.xml
+30-03-18 09:24:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\fallout_character_sheet.xml
+30-03-18 09:24:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\kelarian l'assassin.xml
+30-03-18 09:24:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\kerrick le geant.xml
+30-03-18 09:24:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\moktar pas'd'bol.xml
+30-03-18 09:24:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\thalim, médecin de bataille.xml
+30-03-18 09:24:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\warrior_base.xml
+30-03-18 09:24:03 : Exiting Check If Charac Exists
+30-03-18 09:24:03 : Exiting findsheet
+30-03-18 09:24:03 : Name Node : mytest
+30-03-18 09:24:03 : Player Name Node : meujeu
+30-03-18 09:24:03 : Game Node : Fallout
+30-03-18 09:24:03 : Career Node : mendiant
+30-03-18 09:24:03 : Exiting fill infos
+30-03-18 09:24:03 : Inside save file
+30-03-18 09:24:03 : file saved
+30-03-18 09:24:03 : 
+
+30-03-18 09:24:03 : Inside fill base attr
+30-03-18 09:24:03 : Inside FindSheet for character mytest
+30-03-18 09:24:03 : Inside Check If Charac Exists
+30-03-18 09:24:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\call_of_cthulhu_character_sheet.xml
+30-03-18 09:24:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\cendres la sorcière.xml
+30-03-18 09:24:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\elohim, le jongleur.xml
+30-03-18 09:24:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\falloutcharacter.xml
+30-03-18 09:24:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\fallout_character_sheet.xml
+30-03-18 09:24:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\kelarian l'assassin.xml
+30-03-18 09:24:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\kerrick le geant.xml
+30-03-18 09:24:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\moktar pas'd'bol.xml
+30-03-18 09:24:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\mytest.xml
+30-03-18 09:24:03 : Character Found!
+30-03-18 09:24:03 : Exiting findsheet
+30-03-18 09:24:03 : Exiting fill base attr
+30-03-18 09:24:03 : Inside save file
+30-03-18 09:24:03 : file saved
+30-03-18 09:24:03 : 
+
+30-03-18 09:24:03 : Inside Fill Stat
+30-03-18 09:24:03 : Inside FindSheet for character mytest
+30-03-18 09:24:03 : Inside Check If Charac Exists
+30-03-18 09:24:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\call_of_cthulhu_character_sheet.xml
+30-03-18 09:24:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\cendres la sorcière.xml
+30-03-18 09:24:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\elohim, le jongleur.xml
+30-03-18 09:24:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\falloutcharacter.xml
+30-03-18 09:24:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\fallout_character_sheet.xml
+30-03-18 09:24:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\kelarian l'assassin.xml
+30-03-18 09:24:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\kerrick le geant.xml
+30-03-18 09:24:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\moktar pas'd'bol.xml
+30-03-18 09:24:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\mytest.xml
+30-03-18 09:24:03 : Character Found!
+30-03-18 09:24:03 : Exiting findsheet
+30-03-18 09:24:03 : Exiting fill Stat
+30-03-18 09:24:03 : Inside save file
+30-03-18 09:24:03 : file saved
+30-03-18 09:24:03 : 
+
+30-03-18 09:24:03 : Inside fill Spendable points
+30-03-18 09:24:03 : Inside FindSheet for character mytest
+30-03-18 09:24:03 : Inside Check If Charac Exists
+30-03-18 09:24:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\call_of_cthulhu_character_sheet.xml
+30-03-18 09:24:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\cendres la sorcière.xml
+30-03-18 09:24:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\elohim, le jongleur.xml
+30-03-18 09:24:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\falloutcharacter.xml
+30-03-18 09:24:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\fallout_character_sheet.xml
+30-03-18 09:24:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\kelarian l'assassin.xml
+30-03-18 09:24:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\kerrick le geant.xml
+30-03-18 09:24:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\moktar pas'd'bol.xml
+30-03-18 09:24:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\mytest.xml
+30-03-18 09:24:03 : Character Found!
+30-03-18 09:24:03 : Exiting findsheet
+30-03-18 09:24:03 : Exiting fill spendable points
+30-03-18 09:24:03 : Inside save file
+30-03-18 09:24:03 : file saved
+30-03-18 09:24:03 : 
+
+30-03-18 09:24:03 : Inside fillSkills
+30-03-18 09:24:03 : Inside FindSheet for character mytest
+30-03-18 09:24:03 : Inside Check If Charac Exists
+30-03-18 09:24:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\call_of_cthulhu_character_sheet.xml
+30-03-18 09:24:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\cendres la sorcière.xml
+30-03-18 09:24:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\elohim, le jongleur.xml
+30-03-18 09:24:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\falloutcharacter.xml
+30-03-18 09:24:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\fallout_character_sheet.xml
+30-03-18 09:24:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\kelarian l'assassin.xml
+30-03-18 09:24:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\kerrick le geant.xml
+30-03-18 09:24:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\moktar pas'd'bol.xml
+30-03-18 09:24:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\mytest.xml
+30-03-18 09:24:03 : Character Found!
+30-03-18 09:24:03 : Exiting findsheet
+30-03-18 09:24:03 : Exiting fillSkills
+30-03-18 09:24:03 : Inside save file
+30-03-18 09:24:03 : file saved
+30-03-18 09:24:03 : 
+
+30-03-18 09:24:03 : MakeSheet finished
+30-03-18 09:24:03 : Inside character repository.Get.
+30-03-18 09:24:03 : Inside default character constructor
+30-03-18 09:24:03 : Inside Character constructor with args characterName New Character and playerName Toby Determined
+30-03-18 09:24:03 : Inside empty game constructor
+30-03-18 09:24:04 : Inside ultimate character constructor : game RPG_API.Models.Games.Fallout, characterName New Character and playerName Toby Determined
+30-03-18 09:24:06 : Inside FalloutRules.setBaseAttr
+30-03-18 09:24:06 : Exiting setBaseAttr
+30-03-18 09:24:06 : Inside FalloutRules.SetStat.
+30-03-18 09:24:06 : Inside FalloutRules.setSpendablePoints
+30-03-18 09:24:06 : Exiting setSpendablePoints
+30-03-18 09:24:06 : Inside FalloutRules.setSkills
+30-03-18 09:24:06 : Exiting setSkills
+30-03-18 09:24:06 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\call_of_cthulhu_character_sheet.xml
+30-03-18 09:24:06 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\cendres la sorcière.xml
+30-03-18 09:24:06 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\elohim, le jongleur.xml
+30-03-18 09:24:06 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\falloutcharacter.xml
+30-03-18 09:24:06 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\fallout_character_sheet.xml
+30-03-18 09:24:06 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\kelarian l'assassin.xml
+30-03-18 09:24:06 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\kerrick le geant.xml
+30-03-18 09:24:06 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\moktar pas'd'bol.xml
+30-03-18 09:24:06 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\mytest.xml
+30-03-18 09:24:06 : Inside Character constructor with a character sheet
+30-03-18 09:24:06 : Character name : mytest
+30-03-18 09:24:06 : player name : meujeu
+30-03-18 09:24:06 : Inside empty game constructor
+30-03-18 09:24:08 : Character Found! Expected mytest, found mytest. Returning character.
+30-03-18 09:24:08 : Exiting characterDto.Controller
+30-03-18 09:25:43 : Inside Character Dto Empty Builder
+30-03-18 09:25:43 : Inside character repository createWithDto
+30-03-18 09:25:43 : Character : mytest
+30-03-18 09:25:43 : Inside empty game constructor
+30-03-18 09:25:43 : Inside ultimate character constructor : game RPG_API.Models.Games.Fallout, characterName mytest and playerName meujeu
+30-03-18 09:25:49 : Inside FalloutRules.setBaseAttr
+30-03-18 09:26:06 : Exiting setBaseAttr
+30-03-18 09:26:06 : Inside FalloutRules.SetStat.
+30-03-18 09:26:06 : Inside FalloutRules.setSpendablePoints
+30-03-18 09:26:06 : Exiting setSpendablePoints
+30-03-18 09:26:06 : Inside FalloutRules.setSkills
+30-03-18 09:26:06 : Exiting setSkills
+30-03-18 09:26:06 : Inside FalloutRules.SetStat.
+30-03-18 09:26:06 : Inside FalloutRules.setSpendablePoints
+30-03-18 09:26:06 : Exiting setSpendablePoints
+30-03-18 09:26:06 : Inside FalloutRules.setSkills
+30-03-18 09:26:06 : Exiting setSkills
+30-03-18 09:26:06 : Inside sheetMaker.makeSheet with path C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\
+30-03-18 09:26:06 : Inside SheetWriter.CreateSheet.
+30-03-18 09:26:06 : game : RPG_API.Models.Games.Fallout
+30-03-18 09:26:06 : The sheet will be written at : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\fallout_character_sheet.xml
+30-03-18 09:26:06 : Ending document.
+30-03-18 09:26:06 : Inside fill Infos withs args : character RPG_API.Models.Character , path C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\
+30-03-18 09:26:06 : Inside FindSheet for character mytest
+30-03-18 09:26:06 : Inside Check If Charac Exists
+30-03-18 09:26:06 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\call_of_cthulhu_character_sheet.xml
+30-03-18 09:26:06 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\cendres la sorcière.xml
+30-03-18 09:26:06 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\elohim, le jongleur.xml
+30-03-18 09:26:06 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\falloutcharacter.xml
+30-03-18 09:26:06 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\fallout_character_sheet.xml
+30-03-18 09:26:06 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\kelarian l'assassin.xml
+30-03-18 09:26:06 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\kerrick le geant.xml
+30-03-18 09:26:06 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\moktar pas'd'bol.xml
+30-03-18 09:26:06 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\mytest.xml
+30-03-18 09:26:06 : Character Found!
+30-03-18 09:26:06 : Exiting findsheet
+30-03-18 09:26:06 : Name Node : mytest
+30-03-18 09:26:06 : Player Name Node : meujeu
+30-03-18 09:26:06 : Game Node : Fallout
+30-03-18 09:26:06 : Career Node : mendiant
+30-03-18 09:26:06 : Exiting fill infos
+30-03-18 09:26:06 : Inside save file
+30-03-18 09:26:06 : file saved
+30-03-18 09:26:06 : 
+
+30-03-18 09:26:06 : Inside fill base attr
+30-03-18 09:26:06 : Inside FindSheet for character mytest
+30-03-18 09:26:06 : Inside Check If Charac Exists
+30-03-18 09:26:06 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\call_of_cthulhu_character_sheet.xml
+30-03-18 09:26:06 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\cendres la sorcière.xml
+30-03-18 09:26:06 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\elohim, le jongleur.xml
+30-03-18 09:26:06 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\falloutcharacter.xml
+30-03-18 09:26:06 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\fallout_character_sheet.xml
+30-03-18 09:26:06 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\kelarian l'assassin.xml
+30-03-18 09:26:06 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\kerrick le geant.xml
+30-03-18 09:26:06 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\moktar pas'd'bol.xml
+30-03-18 09:26:06 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\mytest.xml
+30-03-18 09:26:06 : Character Found!
+30-03-18 09:26:06 : Exiting findsheet
+30-03-18 09:26:06 : Exiting fill base attr
+30-03-18 09:26:06 : Inside save file
+30-03-18 09:26:06 : file saved
+30-03-18 09:26:06 : 
+
+30-03-18 09:26:06 : Inside Fill Stat
+30-03-18 09:26:06 : Inside FindSheet for character mytest
+30-03-18 09:26:06 : Inside Check If Charac Exists
+30-03-18 09:26:06 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\call_of_cthulhu_character_sheet.xml
+30-03-18 09:26:06 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\cendres la sorcière.xml
+30-03-18 09:26:06 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\elohim, le jongleur.xml
+30-03-18 09:26:06 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\falloutcharacter.xml
+30-03-18 09:26:06 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\fallout_character_sheet.xml
+30-03-18 09:26:06 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\kelarian l'assassin.xml
+30-03-18 09:26:06 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\kerrick le geant.xml
+30-03-18 09:26:06 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\moktar pas'd'bol.xml
+30-03-18 09:26:06 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\mytest.xml
+30-03-18 09:26:06 : Character Found!
+30-03-18 09:26:06 : Exiting findsheet
+30-03-18 09:26:06 : Exiting fill Stat
+30-03-18 09:26:06 : Inside save file
+30-03-18 09:26:06 : file saved
+30-03-18 09:26:06 : 
+
+30-03-18 09:26:06 : Inside fill Spendable points
+30-03-18 09:26:06 : Inside FindSheet for character mytest
+30-03-18 09:26:06 : Inside Check If Charac Exists
+30-03-18 09:26:06 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\call_of_cthulhu_character_sheet.xml
+30-03-18 09:26:06 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\cendres la sorcière.xml
+30-03-18 09:26:06 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\elohim, le jongleur.xml
+30-03-18 09:26:06 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\falloutcharacter.xml
+30-03-18 09:26:06 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\fallout_character_sheet.xml
+30-03-18 09:26:06 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\kelarian l'assassin.xml
+30-03-18 09:26:06 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\kerrick le geant.xml
+30-03-18 09:26:06 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\moktar pas'd'bol.xml
+30-03-18 09:26:06 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\mytest.xml
+30-03-18 09:26:06 : Character Found!
+30-03-18 09:26:06 : Exiting findsheet
+30-03-18 09:26:06 : Exiting fill spendable points
+30-03-18 09:26:06 : Inside save file
+30-03-18 09:26:06 : file saved
+30-03-18 09:26:06 : 
+
+30-03-18 09:26:06 : Inside fillSkills
+30-03-18 09:26:06 : Inside FindSheet for character mytest
+30-03-18 09:26:06 : Inside Check If Charac Exists
+30-03-18 09:26:06 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\call_of_cthulhu_character_sheet.xml
+30-03-18 09:26:06 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\cendres la sorcière.xml
+30-03-18 09:26:06 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\elohim, le jongleur.xml
+30-03-18 09:26:06 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\falloutcharacter.xml
+30-03-18 09:26:06 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\fallout_character_sheet.xml
+30-03-18 09:26:06 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\kelarian l'assassin.xml
+30-03-18 09:26:06 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\kerrick le geant.xml
+30-03-18 09:26:06 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\moktar pas'd'bol.xml
+30-03-18 09:26:06 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\mytest.xml
+30-03-18 09:26:06 : Character Found!
+30-03-18 09:26:06 : Exiting findsheet
+30-03-18 09:26:06 : Exiting fillSkills
+30-03-18 09:26:06 : Inside save file
+30-03-18 09:26:06 : file saved
+30-03-18 09:26:06 : 
+
+30-03-18 09:26:06 : MakeSheet finished
+30-03-18 09:26:06 : Inside character repository.Get.
+30-03-18 09:26:06 : Inside default character constructor
+30-03-18 09:26:06 : Inside Character constructor with args characterName New Character and playerName Toby Determined
+30-03-18 09:26:06 : Inside empty game constructor
+30-03-18 09:26:06 : Inside ultimate character constructor : game RPG_API.Models.Games.Fallout, characterName New Character and playerName Toby Determined
+30-03-18 09:26:11 : Inside FalloutRules.setBaseAttr
+30-03-18 09:26:11 : Exiting setBaseAttr
+30-03-18 09:26:11 : Inside FalloutRules.SetStat.
+30-03-18 09:26:11 : Inside FalloutRules.setSpendablePoints
+30-03-18 09:26:11 : Exiting setSpendablePoints
+30-03-18 09:26:11 : Inside FalloutRules.setSkills
+30-03-18 09:26:11 : Exiting setSkills
+30-03-18 09:26:11 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\call_of_cthulhu_character_sheet.xml
+30-03-18 09:26:11 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\cendres la sorcière.xml
+30-03-18 09:26:11 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\elohim, le jongleur.xml
+30-03-18 09:26:11 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\falloutcharacter.xml
+30-03-18 09:26:11 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\fallout_character_sheet.xml
+30-03-18 09:26:11 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\kelarian l'assassin.xml
+30-03-18 09:26:11 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\kerrick le geant.xml
+30-03-18 09:26:11 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\moktar pas'd'bol.xml
+30-03-18 09:26:11 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\mytest.xml
+30-03-18 09:26:11 : Inside Character constructor with a character sheet
+30-03-18 09:26:11 : Character name : mytest
+30-03-18 09:26:11 : player name : meujeu
+30-03-18 09:26:11 : Inside empty game constructor
+30-03-18 09:26:11 : Character Found! Expected mytest, found mytest. Returning character.
+30-03-18 09:26:11 : Exiting characterDto.Controller
+30-03-18 09:28:06 : Inside characterController.get
+30-03-18 09:28:06 : Inside character repository.Get.
+30-03-18 09:28:06 : Inside default character constructor
+30-03-18 09:28:06 : Inside Character constructor with args characterName New Character and playerName Toby Determined
+30-03-18 09:28:06 : Inside empty game constructor
+30-03-18 09:28:06 : Inside ultimate character constructor : game RPG_API.Models.Games.Fallout, characterName New Character and playerName Toby Determined
+30-03-18 09:28:09 : Inside FalloutRules.setBaseAttr
+30-03-18 09:28:09 : Exiting setBaseAttr
+30-03-18 09:28:09 : Inside FalloutRules.SetStat.
+30-03-18 09:28:09 : Inside FalloutRules.setSpendablePoints
+30-03-18 09:28:09 : Exiting setSpendablePoints
+30-03-18 09:28:09 : Inside FalloutRules.setSkills
+30-03-18 09:28:09 : Exiting setSkills
+30-03-18 09:28:09 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\call_of_cthulhu_character_sheet.xml
+30-03-18 09:28:09 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\cendres la sorcière.xml
+30-03-18 09:28:09 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\elohim, le jongleur.xml
+30-03-18 09:28:09 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\falloutcharacter.xml
+30-03-18 09:28:09 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\fallout_character_sheet.xml
+30-03-18 09:28:09 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\kelarian l'assassin.xml
+30-03-18 09:28:09 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\kerrick le geant.xml
+30-03-18 09:28:09 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\moktar pas'd'bol.xml
+30-03-18 09:28:09 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\mytest.xml
+30-03-18 09:28:09 : Inside Character constructor with a character sheet
+30-03-18 09:28:09 : Character name : mytest
+30-03-18 09:28:09 : player name : meujeu
+30-03-18 09:28:09 : Inside empty game constructor
+30-03-18 09:28:09 : Character Found! Expected mytest, found mytest. Returning character.
+30-03-18 09:28:09 : Returning searched character to front.
+30-03-18 09:29:36 : Inside Character Dto Empty Builder
+30-03-18 09:29:37 : Inside character repository createWithDto
+30-03-18 09:29:37 : Character : mytest
+30-03-18 09:29:37 : Inside empty game constructor
+30-03-18 09:29:37 : Inside ultimate character constructor : game RPG_API.Models.Games.Fallout, characterName mytest and playerName meujeu
+30-03-18 09:29:41 : Inside FalloutRules.setBaseAttr
+30-03-18 09:30:05 : Exiting setBaseAttr
+30-03-18 09:30:05 : Inside FalloutRules.SetStat.
+30-03-18 09:30:05 : Inside FalloutRules.setSpendablePoints
+30-03-18 09:30:05 : Exiting setSpendablePoints
+30-03-18 09:30:05 : Inside FalloutRules.setSkills
+30-03-18 09:30:05 : Exiting setSkills
+30-03-18 09:30:05 : Inside FalloutRules.SetStat.
+30-03-18 09:30:05 : Inside FalloutRules.setSpendablePoints
+30-03-18 09:30:05 : Exiting setSpendablePoints
+30-03-18 09:30:05 : Inside FalloutRules.setSkills
+30-03-18 09:30:05 : Exiting setSkills
+30-03-18 09:30:05 : Inside sheetMaker.makeSheet with path C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\
+30-03-18 09:30:05 : Inside SheetWriter.CreateSheet.
+30-03-18 09:30:05 : game : RPG_API.Models.Games.Fallout
+30-03-18 09:30:05 : The sheet will be written at : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\fallout_character_sheet.xml
+30-03-18 09:30:05 : Ending document.
+30-03-18 09:30:05 : Inside fill Infos withs args : character RPG_API.Models.Character , path C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\
+30-03-18 09:30:05 : Inside FindSheet for character mytest
+30-03-18 09:30:05 : Inside Check If Charac Exists
+30-03-18 09:30:05 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\call_of_cthulhu_character_sheet.xml
+30-03-18 09:30:05 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\cendres la sorcière.xml
+30-03-18 09:30:05 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\elohim, le jongleur.xml
+30-03-18 09:30:05 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\falloutcharacter.xml
+30-03-18 09:30:05 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\fallout_character_sheet.xml
+30-03-18 09:30:05 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\kelarian l'assassin.xml
+30-03-18 09:30:05 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\kerrick le geant.xml
+30-03-18 09:30:05 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\moktar pas'd'bol.xml
+30-03-18 09:30:05 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\mytest.xml
+30-03-18 09:30:05 : Character Found!
+30-03-18 09:30:05 : Exiting findsheet
+30-03-18 09:30:05 : Name Node : mytest
+30-03-18 09:30:05 : Player Name Node : meujeu
+30-03-18 09:30:05 : Game Node : Fallout
+30-03-18 09:30:05 : Career Node : mendiant
+30-03-18 09:30:05 : Exiting fill infos
+30-03-18 09:30:05 : Inside save file
+30-03-18 09:30:05 : file saved
+30-03-18 09:30:05 : 
+
+30-03-18 09:30:05 : Inside fill base attr
+30-03-18 09:30:05 : Inside FindSheet for character mytest
+30-03-18 09:30:05 : Inside Check If Charac Exists
+30-03-18 09:30:05 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\call_of_cthulhu_character_sheet.xml
+30-03-18 09:30:05 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\cendres la sorcière.xml
+30-03-18 09:30:05 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\elohim, le jongleur.xml
+30-03-18 09:30:05 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\falloutcharacter.xml
+30-03-18 09:30:05 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\fallout_character_sheet.xml
+30-03-18 09:30:05 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\kelarian l'assassin.xml
+30-03-18 09:30:05 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\kerrick le geant.xml
+30-03-18 09:30:05 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\moktar pas'd'bol.xml
+30-03-18 09:30:05 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\mytest.xml
+30-03-18 09:30:05 : Character Found!
+30-03-18 09:30:05 : Exiting findsheet
+30-03-18 09:30:05 : Exiting fill base attr
+30-03-18 09:30:05 : Inside save file
+30-03-18 09:30:05 : file saved
+30-03-18 09:30:05 : 
+
+30-03-18 09:30:05 : Inside Fill Stat
+30-03-18 09:30:05 : Inside FindSheet for character mytest
+30-03-18 09:30:05 : Inside Check If Charac Exists
+30-03-18 09:30:05 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\call_of_cthulhu_character_sheet.xml
+30-03-18 09:30:05 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\cendres la sorcière.xml
+30-03-18 09:30:05 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\elohim, le jongleur.xml
+30-03-18 09:30:05 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\falloutcharacter.xml
+30-03-18 09:30:05 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\fallout_character_sheet.xml
+30-03-18 09:30:05 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\kelarian l'assassin.xml
+30-03-18 09:30:05 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\kerrick le geant.xml
+30-03-18 09:30:05 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\moktar pas'd'bol.xml
+30-03-18 09:30:05 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\mytest.xml
+30-03-18 09:30:05 : Character Found!
+30-03-18 09:30:05 : Exiting findsheet
+30-03-18 09:30:05 : Exiting fill Stat
+30-03-18 09:30:05 : Inside save file
+30-03-18 09:30:05 : file saved
+30-03-18 09:30:05 : 
+
+30-03-18 09:30:05 : Inside fill Spendable points
+30-03-18 09:30:05 : Inside FindSheet for character mytest
+30-03-18 09:30:05 : Inside Check If Charac Exists
+30-03-18 09:30:05 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\call_of_cthulhu_character_sheet.xml
+30-03-18 09:30:05 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\cendres la sorcière.xml
+30-03-18 09:30:05 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\elohim, le jongleur.xml
+30-03-18 09:30:05 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\falloutcharacter.xml
+30-03-18 09:30:05 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\fallout_character_sheet.xml
+30-03-18 09:30:05 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\kelarian l'assassin.xml
+30-03-18 09:30:05 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\kerrick le geant.xml
+30-03-18 09:30:05 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\moktar pas'd'bol.xml
+30-03-18 09:30:05 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\mytest.xml
+30-03-18 09:30:05 : Character Found!
+30-03-18 09:30:05 : Exiting findsheet
+30-03-18 09:30:05 : Exiting fill spendable points
+30-03-18 09:30:05 : Inside save file
+30-03-18 09:30:05 : file saved
+30-03-18 09:30:05 : 
+
+30-03-18 09:30:05 : Inside fillSkills
+30-03-18 09:30:05 : Inside FindSheet for character mytest
+30-03-18 09:30:05 : Inside Check If Charac Exists
+30-03-18 09:30:05 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\call_of_cthulhu_character_sheet.xml
+30-03-18 09:30:05 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\cendres la sorcière.xml
+30-03-18 09:30:05 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\elohim, le jongleur.xml
+30-03-18 09:30:05 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\falloutcharacter.xml
+30-03-18 09:30:05 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\fallout_character_sheet.xml
+30-03-18 09:30:05 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\kelarian l'assassin.xml
+30-03-18 09:30:05 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\kerrick le geant.xml
+30-03-18 09:30:05 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\moktar pas'd'bol.xml
+30-03-18 09:30:05 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\mytest.xml
+30-03-18 09:30:05 : Character Found!
+30-03-18 09:30:05 : Exiting findsheet
+30-03-18 09:30:05 : Exiting fillSkills
+30-03-18 09:30:05 : Inside save file
+30-03-18 09:30:05 : file saved
+30-03-18 09:30:05 : 
+
+30-03-18 09:30:05 : MakeSheet finished
+30-03-18 09:30:05 : Inside character repository.Get.
+30-03-18 09:30:05 : Inside default character constructor
+30-03-18 09:30:05 : Inside Character constructor with args characterName New Character and playerName Toby Determined
+30-03-18 09:30:05 : Inside empty game constructor
+30-03-18 09:30:05 : Inside ultimate character constructor : game RPG_API.Models.Games.Fallout, characterName New Character and playerName Toby Determined
+30-03-18 09:30:07 : Inside FalloutRules.setBaseAttr
+30-03-18 09:30:07 : Exiting setBaseAttr
+30-03-18 09:30:07 : Inside FalloutRules.SetStat.
+30-03-18 09:30:07 : Inside FalloutRules.setSpendablePoints
+30-03-18 09:30:07 : Exiting setSpendablePoints
+30-03-18 09:30:07 : Inside FalloutRules.setSkills
+30-03-18 09:30:07 : Exiting setSkills
+30-03-18 09:30:07 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\call_of_cthulhu_character_sheet.xml
+30-03-18 09:30:07 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\cendres la sorcière.xml
+30-03-18 09:30:07 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\elohim, le jongleur.xml
+30-03-18 09:30:07 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\falloutcharacter.xml
+30-03-18 09:30:07 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\fallout_character_sheet.xml
+30-03-18 09:30:07 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\kelarian l'assassin.xml
+30-03-18 09:30:07 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\kerrick le geant.xml
+30-03-18 09:30:07 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\moktar pas'd'bol.xml
+30-03-18 09:30:07 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\mytest.xml
+30-03-18 09:30:07 : Inside Character constructor with a character sheet
+30-03-18 09:30:07 : Character name : mytest
+30-03-18 09:30:07 : player name : meujeu
+30-03-18 09:30:07 : Inside empty game constructor
+30-03-18 09:30:07 : Character Found! Expected mytest, found mytest. Returning character.
+30-03-18 09:30:07 : Exiting characterDto.Controller
+30-03-18 10:06:06 : Inside Character Dto Empty Builder
+30-03-18 10:06:06 : Inside character repository createWithDto
+30-03-18 10:06:06 : Character : Father Hoggs of the New Christians
+30-03-18 10:06:06 : Inside empty game constructor
+30-03-18 10:06:06 : Inside ultimate character constructor : game RPG_API.Models.Games.Fallout, characterName Father Hoggs of the New Christians and playerName meujeu
+30-03-18 10:06:12 : Inside FalloutRules.setBaseAttr
+30-03-18 10:06:12 : Exiting setBaseAttr
+30-03-18 10:06:12 : Inside FalloutRules.SetStat.
+30-03-18 10:06:12 : Inside FalloutRules.setSpendablePoints
+30-03-18 10:06:12 : Exiting setSpendablePoints
+30-03-18 10:06:12 : Inside FalloutRules.setSkills
+30-03-18 10:06:12 : Exiting setSkills
+30-03-18 10:06:12 : Inside FalloutRules.SetStat.
+30-03-18 10:06:12 : Inside FalloutRules.setSpendablePoints
+30-03-18 10:06:12 : Exiting setSpendablePoints
+30-03-18 10:06:12 : Inside FalloutRules.setSkills
+30-03-18 10:06:12 : Exiting setSkills
+30-03-18 10:06:12 : Inside sheetMaker.makeSheet with path C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\
+30-03-18 10:06:12 : Inside SheetWriter.CreateSheet.
+30-03-18 10:06:12 : game : RPG_API.Models.Games.Fallout
+30-03-18 10:06:12 : The sheet will be written at : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\fallout_character_sheet.xml
+30-03-18 10:06:12 : Ending document.
+30-03-18 10:06:12 : Inside fill Infos withs args : character RPG_API.Models.Character , path C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\
+30-03-18 10:06:12 : Inside FindSheet for character Father Hoggs of the New Christians
+30-03-18 10:06:12 : Inside Check If Charac Exists
+30-03-18 10:06:12 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\call_of_cthulhu_character_sheet.xml
+30-03-18 10:06:12 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\cendres la sorcière.xml
+30-03-18 10:06:12 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\elohim, le jongleur.xml
+30-03-18 10:06:12 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\falloutcharacter.xml
+30-03-18 10:06:12 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\fallout_character_sheet.xml
+30-03-18 10:06:12 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\kelarian l'assassin.xml
+30-03-18 10:06:12 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\kerrick le geant.xml
+30-03-18 10:06:12 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\moktar pas'd'bol.xml
+30-03-18 10:06:12 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\mytest.xml
+30-03-18 10:06:12 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\thalim, médecin de bataille.xml
+30-03-18 10:06:12 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\warrior_base.xml
+30-03-18 10:06:12 : Exiting Check If Charac Exists
+30-03-18 10:06:12 : Exiting findsheet
+30-03-18 10:06:12 : Name Node : Father Hoggs of the New Christians
+30-03-18 10:06:12 : Player Name Node : meujeu
+30-03-18 10:06:12 : Game Node : Fallout
+30-03-18 10:06:12 : Career Node : mendiant
+30-03-18 10:06:12 : Exiting fill infos
+30-03-18 10:06:12 : Inside save file
+30-03-18 10:06:12 : file saved
+30-03-18 10:06:12 : 
+
+30-03-18 10:06:12 : Inside fill base attr
+30-03-18 10:06:12 : Inside FindSheet for character Father Hoggs of the New Christians
+30-03-18 10:06:12 : Inside Check If Charac Exists
+30-03-18 10:06:12 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\call_of_cthulhu_character_sheet.xml
+30-03-18 10:06:12 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\cendres la sorcière.xml
+30-03-18 10:06:12 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\elohim, le jongleur.xml
+30-03-18 10:06:12 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\falloutcharacter.xml
+30-03-18 10:06:12 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\fallout_character_sheet.xml
+30-03-18 10:06:12 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\father hoggs of the new christians.xml
+30-03-18 10:06:12 : Character Found!
+30-03-18 10:06:12 : Exiting findsheet
+30-03-18 10:06:12 : Exiting fill base attr
+30-03-18 10:06:12 : Inside save file
+30-03-18 10:06:12 : file saved
+30-03-18 10:06:12 : 
+
+30-03-18 10:06:12 : Inside Fill Stat
+30-03-18 10:06:12 : Inside FindSheet for character Father Hoggs of the New Christians
+30-03-18 10:06:12 : Inside Check If Charac Exists
+30-03-18 10:06:12 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\call_of_cthulhu_character_sheet.xml
+30-03-18 10:06:12 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\cendres la sorcière.xml
+30-03-18 10:06:12 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\elohim, le jongleur.xml
+30-03-18 10:06:12 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\falloutcharacter.xml
+30-03-18 10:06:12 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\fallout_character_sheet.xml
+30-03-18 10:06:12 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\father hoggs of the new christians.xml
+30-03-18 10:06:12 : Character Found!
+30-03-18 10:06:12 : Exiting findsheet
+30-03-18 10:06:12 : Exiting fill Stat
+30-03-18 10:06:12 : Inside save file
+30-03-18 10:06:12 : file saved
+30-03-18 10:06:12 : 
+
+30-03-18 10:06:12 : Inside fill Spendable points
+30-03-18 10:06:12 : Inside FindSheet for character Father Hoggs of the New Christians
+30-03-18 10:06:12 : Inside Check If Charac Exists
+30-03-18 10:06:12 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\call_of_cthulhu_character_sheet.xml
+30-03-18 10:06:12 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\cendres la sorcière.xml
+30-03-18 10:06:12 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\elohim, le jongleur.xml
+30-03-18 10:06:12 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\falloutcharacter.xml
+30-03-18 10:06:12 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\fallout_character_sheet.xml
+30-03-18 10:06:12 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\father hoggs of the new christians.xml
+30-03-18 10:06:12 : Character Found!
+30-03-18 10:06:12 : Exiting findsheet
+30-03-18 10:06:12 : Exiting fill spendable points
+30-03-18 10:06:12 : Inside save file
+30-03-18 10:06:12 : file saved
+30-03-18 10:06:12 : 
+
+30-03-18 10:06:12 : Inside fillSkills
+30-03-18 10:06:12 : Inside FindSheet for character Father Hoggs of the New Christians
+30-03-18 10:06:12 : Inside Check If Charac Exists
+30-03-18 10:06:12 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\call_of_cthulhu_character_sheet.xml
+30-03-18 10:06:12 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\cendres la sorcière.xml
+30-03-18 10:06:12 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\elohim, le jongleur.xml
+30-03-18 10:06:12 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\falloutcharacter.xml
+30-03-18 10:06:12 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\fallout_character_sheet.xml
+30-03-18 10:06:12 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\father hoggs of the new christians.xml
+30-03-18 10:06:12 : Character Found!
+30-03-18 10:06:12 : Exiting findsheet
+30-03-18 10:06:12 : Exiting fillSkills
+30-03-18 10:06:12 : Inside save file
+30-03-18 10:06:12 : file saved
+30-03-18 10:06:12 : 
+
+30-03-18 10:06:12 : MakeSheet finished
+30-03-18 10:06:12 : Inside character repository.Get.
+30-03-18 10:06:12 : Inside default character constructor
+30-03-18 10:06:12 : Inside Character constructor with args characterName New Character and playerName Toby Determined
+30-03-18 10:06:12 : Inside empty game constructor
+30-03-18 10:06:12 : Inside ultimate character constructor : game RPG_API.Models.Games.Fallout, characterName New Character and playerName Toby Determined
+30-03-18 10:06:19 : Inside FalloutRules.setBaseAttr
+30-03-18 10:06:19 : Exiting setBaseAttr
+30-03-18 10:06:19 : Inside FalloutRules.SetStat.
+30-03-18 10:06:19 : Inside FalloutRules.setSpendablePoints
+30-03-18 10:06:19 : Exiting setSpendablePoints
+30-03-18 10:06:19 : Inside FalloutRules.setSkills
+30-03-18 10:06:19 : Exiting setSkills
+30-03-18 10:06:19 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\call_of_cthulhu_character_sheet.xml
+30-03-18 10:06:19 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\cendres la sorcière.xml
+30-03-18 10:06:19 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\elohim, le jongleur.xml
+30-03-18 10:06:19 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\falloutcharacter.xml
+30-03-18 10:06:19 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\fallout_character_sheet.xml
+30-03-18 10:06:19 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\father hoggs of the new christians.xml
+30-03-18 10:06:19 : Inside Character constructor with a character sheet
+30-03-18 10:06:19 : Character name : Father Hoggs of the New Christians
+30-03-18 10:06:19 : player name : meujeu
+30-03-18 10:06:19 : Inside empty game constructor
+30-03-18 10:06:19 : Character Found! Expected Father Hoggs of the New Christians, found Father Hoggs of the New Christians. Returning character.
+30-03-18 10:06:19 : Exiting characterDto.Controller
+30-03-18 10:10:32 : Inside Character Dto Empty Builder
+30-03-18 10:10:32 : Inside character repository createWithDto
+30-03-18 10:10:32 : Character : Father Hoggs of the New Christians
+30-03-18 10:10:32 : Inside empty game constructor
+30-03-18 10:10:32 : Inside ultimate character constructor : game RPG_API.Models.Games.Fallout, characterName Father Hoggs of the New Christians and playerName meujeu
+30-03-18 10:10:32 : Inside FalloutRules.setBaseAttr
+30-03-18 10:10:32 : Exiting setBaseAttr
+30-03-18 10:10:32 : Inside FalloutRules.SetStat.
+30-03-18 10:10:32 : Inside FalloutRules.setSpendablePoints
+30-03-18 10:10:32 : Exiting setSpendablePoints
+30-03-18 10:10:32 : Inside FalloutRules.setSkills
+30-03-18 10:10:32 : Exiting setSkills
+30-03-18 10:10:32 : Inside FalloutRules.SetStat.
+30-03-18 10:10:32 : Inside FalloutRules.setSpendablePoints
+30-03-18 10:10:32 : Exiting setSpendablePoints
+30-03-18 10:10:32 : Inside FalloutRules.setSkills
+30-03-18 10:10:32 : Exiting setSkills
+30-03-18 10:10:32 : Inside sheetMaker.makeSheet with path C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\
+30-03-18 10:10:32 : Inside SheetWriter.CreateSheet.
+30-03-18 10:10:32 : game : RPG_API.Models.Games.Fallout
+30-03-18 10:10:32 : The sheet will be written at : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\fallout_character_sheet.xml
+30-03-18 10:10:32 : Ending document.
+30-03-18 10:10:32 : Inside fill Infos withs args : character RPG_API.Models.Character , path C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\
+30-03-18 10:10:32 : Inside FindSheet for character Father Hoggs of the New Christians
+30-03-18 10:10:32 : Inside Check If Charac Exists
+30-03-18 10:10:32 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\call_of_cthulhu_character_sheet.xml
+30-03-18 10:10:32 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\cendres la sorcière.xml
+30-03-18 10:10:32 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\elohim, le jongleur.xml
+30-03-18 10:10:32 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\falloutcharacter.xml
+30-03-18 10:10:32 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\fallout_character_sheet.xml
+30-03-18 10:10:32 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\kelarian l'assassin.xml
+30-03-18 10:10:32 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\kerrick le geant.xml
+30-03-18 10:10:32 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\moktar pas'd'bol.xml
+30-03-18 10:10:32 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\thalim, médecin de bataille.xml
+30-03-18 10:10:32 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\warrior_base.xml
+30-03-18 10:10:32 : Exiting Check If Charac Exists
+30-03-18 10:10:32 : Exiting findsheet
+30-03-18 10:10:32 : Name Node : Father Hoggs of the New Christians
+30-03-18 10:10:32 : Player Name Node : meujeu
+30-03-18 10:10:32 : Game Node : Fallout
+30-03-18 10:10:32 : Career Node : mendiant
+30-03-18 10:10:32 : Exiting fill infos
+30-03-18 10:10:32 : Inside save file
+30-03-18 10:10:32 : file saved
+30-03-18 10:10:32 : 
+
+30-03-18 10:10:32 : Inside fill base attr
+30-03-18 10:10:32 : Inside FindSheet for character Father Hoggs of the New Christians
+30-03-18 10:10:32 : Inside Check If Charac Exists
+30-03-18 10:10:32 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\call_of_cthulhu_character_sheet.xml
+30-03-18 10:10:32 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\cendres la sorcière.xml
+30-03-18 10:10:32 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\elohim, le jongleur.xml
+30-03-18 10:10:32 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\falloutcharacter.xml
+30-03-18 10:10:32 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\fallout_character_sheet.xml
+30-03-18 10:10:32 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\father hoggs of the new christians.xml
+30-03-18 10:10:32 : Character Found!
+30-03-18 10:10:32 : Exiting findsheet
+30-03-18 10:10:32 : Exiting fill base attr
+30-03-18 10:10:32 : Inside save file
+30-03-18 10:10:32 : file saved
+30-03-18 10:10:32 : 
+
+30-03-18 10:10:32 : Inside Fill Stat
+30-03-18 10:10:32 : Inside FindSheet for character Father Hoggs of the New Christians
+30-03-18 10:10:32 : Inside Check If Charac Exists
+30-03-18 10:10:32 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\call_of_cthulhu_character_sheet.xml
+30-03-18 10:10:32 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\cendres la sorcière.xml
+30-03-18 10:10:32 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\elohim, le jongleur.xml
+30-03-18 10:10:32 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\falloutcharacter.xml
+30-03-18 10:10:32 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\fallout_character_sheet.xml
+30-03-18 10:10:32 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\father hoggs of the new christians.xml
+30-03-18 10:10:32 : Character Found!
+30-03-18 10:10:32 : Exiting findsheet
+30-03-18 10:10:32 : Exiting fill Stat
+30-03-18 10:10:32 : Inside save file
+30-03-18 10:10:32 : file saved
+30-03-18 10:10:32 : 
+
+30-03-18 10:10:32 : Inside fill Spendable points
+30-03-18 10:10:32 : Inside FindSheet for character Father Hoggs of the New Christians
+30-03-18 10:10:32 : Inside Check If Charac Exists
+30-03-18 10:10:32 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\call_of_cthulhu_character_sheet.xml
+30-03-18 10:10:32 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\cendres la sorcière.xml
+30-03-18 10:10:32 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\elohim, le jongleur.xml
+30-03-18 10:10:32 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\falloutcharacter.xml
+30-03-18 10:10:32 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\fallout_character_sheet.xml
+30-03-18 10:10:32 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\father hoggs of the new christians.xml
+30-03-18 10:10:32 : Character Found!
+30-03-18 10:10:32 : Exiting findsheet
+30-03-18 10:10:32 : Exiting fill spendable points
+30-03-18 10:10:32 : Inside save file
+30-03-18 10:10:32 : file saved
+30-03-18 10:10:32 : 
+
+30-03-18 10:10:32 : Inside fillSkills
+30-03-18 10:10:32 : Inside FindSheet for character Father Hoggs of the New Christians
+30-03-18 10:10:32 : Inside Check If Charac Exists
+30-03-18 10:10:32 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\call_of_cthulhu_character_sheet.xml
+30-03-18 10:10:32 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\cendres la sorcière.xml
+30-03-18 10:10:32 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\elohim, le jongleur.xml
+30-03-18 10:10:32 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\falloutcharacter.xml
+30-03-18 10:10:32 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\fallout_character_sheet.xml
+30-03-18 10:10:32 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\father hoggs of the new christians.xml
+30-03-18 10:10:32 : Character Found!
+30-03-18 10:10:32 : Exiting findsheet
+30-03-18 10:10:32 : Exiting fillSkills
+30-03-18 10:10:32 : Inside save file
+30-03-18 10:10:32 : file saved
+30-03-18 10:10:32 : 
+
+30-03-18 10:10:32 : MakeSheet finished
+30-03-18 10:10:32 : Inside character repository.Get.
+30-03-18 10:10:32 : Inside default character constructor
+30-03-18 10:10:32 : Inside Character constructor with args characterName New Character and playerName Toby Determined
+30-03-18 10:10:32 : Inside empty game constructor
+30-03-18 10:10:32 : Inside ultimate character constructor : game RPG_API.Models.Games.Fallout, characterName New Character and playerName Toby Determined
+30-03-18 10:10:32 : Inside FalloutRules.setBaseAttr
+30-03-18 10:10:32 : Exiting setBaseAttr
+30-03-18 10:10:32 : Inside FalloutRules.SetStat.
+30-03-18 10:10:32 : Inside FalloutRules.setSpendablePoints
+30-03-18 10:10:32 : Exiting setSpendablePoints
+30-03-18 10:10:32 : Inside FalloutRules.setSkills
+30-03-18 10:10:32 : Exiting setSkills
+30-03-18 10:10:32 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\call_of_cthulhu_character_sheet.xml
+30-03-18 10:10:32 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\cendres la sorcière.xml
+30-03-18 10:10:32 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\elohim, le jongleur.xml
+30-03-18 10:10:32 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\falloutcharacter.xml
+30-03-18 10:10:32 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\fallout_character_sheet.xml
+30-03-18 10:10:32 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\father hoggs of the new christians.xml
+30-03-18 10:10:32 : Inside Character constructor with a character sheet
+30-03-18 10:10:32 : Character name : Father Hoggs of the New Christians
+30-03-18 10:10:32 : player name : meujeu
+30-03-18 10:10:32 : Inside empty game constructor
+30-03-18 10:10:32 : Character Found! Expected Father Hoggs of the New Christians, found Father Hoggs of the New Christians. Returning character.
+30-03-18 10:10:32 : Exiting characterDto.Controller
+30-03-18 10:11:03 : Inside Character Dto Empty Builder
+30-03-18 10:11:03 : Inside character repository createWithDto
+30-03-18 10:11:03 : Character : Father Hoggs of the New Christians
+30-03-18 10:11:03 : Inside empty game constructor
+30-03-18 10:11:03 : Inside ultimate character constructor : game RPG_API.Models.Games.Fallout, characterName Father Hoggs of the New Christians and playerName meujeu
+30-03-18 10:11:03 : Inside FalloutRules.setBaseAttr
+30-03-18 10:11:03 : Exiting setBaseAttr
+30-03-18 10:11:03 : Inside FalloutRules.SetStat.
+30-03-18 10:11:03 : Inside FalloutRules.setSpendablePoints
+30-03-18 10:11:03 : Exiting setSpendablePoints
+30-03-18 10:11:03 : Inside FalloutRules.setSkills
+30-03-18 10:11:03 : Exiting setSkills
+30-03-18 10:11:03 : Inside FalloutRules.SetStat.
+30-03-18 10:11:03 : Inside FalloutRules.setSpendablePoints
+30-03-18 10:11:03 : Exiting setSpendablePoints
+30-03-18 10:11:03 : Inside FalloutRules.setSkills
+30-03-18 10:11:03 : Exiting setSkills
+30-03-18 10:11:03 : Inside sheetMaker.makeSheet with path C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\
+30-03-18 10:11:03 : Inside SheetWriter.CreateSheet.
+30-03-18 10:11:03 : game : RPG_API.Models.Games.Fallout
+30-03-18 10:11:03 : The sheet will be written at : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\fallout_character_sheet.xml
+30-03-18 10:11:03 : Ending document.
+30-03-18 10:11:03 : Inside fill Infos withs args : character RPG_API.Models.Character , path C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\
+30-03-18 10:11:03 : Inside FindSheet for character Father Hoggs of the New Christians
+30-03-18 10:11:03 : Inside Check If Charac Exists
+30-03-18 10:11:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\call_of_cthulhu_character_sheet.xml
+30-03-18 10:11:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\cendres la sorcière.xml
+30-03-18 10:11:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\elohim, le jongleur.xml
+30-03-18 10:11:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\falloutcharacter.xml
+30-03-18 10:11:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\fallout_character_sheet.xml
+30-03-18 10:11:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\kelarian l'assassin.xml
+30-03-18 10:11:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\kerrick le geant.xml
+30-03-18 10:11:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\moktar pas'd'bol.xml
+30-03-18 10:11:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\thalim, médecin de bataille.xml
+30-03-18 10:11:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\warrior_base.xml
+30-03-18 10:11:03 : Exiting Check If Charac Exists
+30-03-18 10:11:03 : Exiting findsheet
+30-03-18 10:11:03 : Name Node : Father Hoggs of the New Christians
+30-03-18 10:11:03 : Player Name Node : meujeu
+30-03-18 10:11:03 : Game Node : Fallout
+30-03-18 10:11:03 : Career Node : 
+30-03-18 10:11:03 : Exiting fill infos
+30-03-18 10:11:03 : Inside save file
+30-03-18 10:11:03 : file saved
+30-03-18 10:11:03 : 
+
+30-03-18 10:11:03 : Inside fill base attr
+30-03-18 10:11:03 : Inside FindSheet for character Father Hoggs of the New Christians
+30-03-18 10:11:03 : Inside Check If Charac Exists
+30-03-18 10:11:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\call_of_cthulhu_character_sheet.xml
+30-03-18 10:11:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\cendres la sorcière.xml
+30-03-18 10:11:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\elohim, le jongleur.xml
+30-03-18 10:11:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\falloutcharacter.xml
+30-03-18 10:11:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\fallout_character_sheet.xml
+30-03-18 10:11:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\father hoggs of the new christians.xml
+30-03-18 10:11:03 : Character Found!
+30-03-18 10:11:03 : Exiting findsheet
+30-03-18 10:11:03 : Exiting fill base attr
+30-03-18 10:11:03 : Inside save file
+30-03-18 10:11:03 : file saved
+30-03-18 10:11:03 : 
+
+30-03-18 10:11:03 : Inside Fill Stat
+30-03-18 10:11:03 : Inside FindSheet for character Father Hoggs of the New Christians
+30-03-18 10:11:03 : Inside Check If Charac Exists
+30-03-18 10:11:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\call_of_cthulhu_character_sheet.xml
+30-03-18 10:11:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\cendres la sorcière.xml
+30-03-18 10:11:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\elohim, le jongleur.xml
+30-03-18 10:11:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\falloutcharacter.xml
+30-03-18 10:11:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\fallout_character_sheet.xml
+30-03-18 10:11:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\father hoggs of the new christians.xml
+30-03-18 10:11:03 : Character Found!
+30-03-18 10:11:03 : Exiting findsheet
+30-03-18 10:11:03 : Exiting fill Stat
+30-03-18 10:11:03 : Inside save file
+30-03-18 10:11:03 : file saved
+30-03-18 10:11:03 : 
+
+30-03-18 10:11:03 : Inside fill Spendable points
+30-03-18 10:11:03 : Inside FindSheet for character Father Hoggs of the New Christians
+30-03-18 10:11:03 : Inside Check If Charac Exists
+30-03-18 10:11:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\call_of_cthulhu_character_sheet.xml
+30-03-18 10:11:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\cendres la sorcière.xml
+30-03-18 10:11:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\elohim, le jongleur.xml
+30-03-18 10:11:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\falloutcharacter.xml
+30-03-18 10:11:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\fallout_character_sheet.xml
+30-03-18 10:11:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\father hoggs of the new christians.xml
+30-03-18 10:11:03 : Character Found!
+30-03-18 10:11:03 : Exiting findsheet
+30-03-18 10:11:03 : Exiting fill spendable points
+30-03-18 10:11:03 : Inside save file
+30-03-18 10:11:03 : file saved
+30-03-18 10:11:03 : 
+
+30-03-18 10:11:03 : Inside fillSkills
+30-03-18 10:11:03 : Inside FindSheet for character Father Hoggs of the New Christians
+30-03-18 10:11:03 : Inside Check If Charac Exists
+30-03-18 10:11:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\call_of_cthulhu_character_sheet.xml
+30-03-18 10:11:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\cendres la sorcière.xml
+30-03-18 10:11:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\elohim, le jongleur.xml
+30-03-18 10:11:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\falloutcharacter.xml
+30-03-18 10:11:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\fallout_character_sheet.xml
+30-03-18 10:11:03 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\father hoggs of the new christians.xml
+30-03-18 10:11:03 : Character Found!
+30-03-18 10:11:03 : Exiting findsheet
+30-03-18 10:11:03 : Exiting fillSkills
+30-03-18 10:11:03 : Inside save file
+30-03-18 10:11:03 : file saved
+30-03-18 10:11:03 : 
+
+30-03-18 10:11:03 : MakeSheet finished
+30-03-18 10:11:03 : Inside character repository.Get.
+30-03-18 10:11:03 : Inside default character constructor
+30-03-18 10:11:03 : Inside Character constructor with args characterName New Character and playerName Toby Determined
+30-03-18 10:11:03 : Inside empty game constructor
+30-03-18 10:11:03 : Inside ultimate character constructor : game RPG_API.Models.Games.Fallout, characterName New Character and playerName Toby Determined
+30-03-18 10:11:03 : Inside FalloutRules.setBaseAttr
+30-03-18 10:11:03 : Exiting setBaseAttr
+30-03-18 10:11:03 : Inside FalloutRules.SetStat.
+30-03-18 10:11:03 : Inside FalloutRules.setSpendablePoints
+30-03-18 10:11:03 : Exiting setSpendablePoints
+30-03-18 10:11:03 : Inside FalloutRules.setSkills
+30-03-18 10:11:03 : Exiting setSkills
+30-03-18 10:11:03 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\call_of_cthulhu_character_sheet.xml
+30-03-18 10:11:03 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\cendres la sorcière.xml
+30-03-18 10:11:03 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\elohim, le jongleur.xml
+30-03-18 10:11:03 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\falloutcharacter.xml
+30-03-18 10:11:03 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\fallout_character_sheet.xml
+30-03-18 10:11:03 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\father hoggs of the new christians.xml
+30-03-18 10:11:03 : Inside Character constructor with a character sheet
+30-03-18 10:11:03 : Character name : Father Hoggs of the New Christians
+30-03-18 10:11:03 : player name : meujeu
+30-03-18 10:11:03 : Inside empty game constructor
+30-03-18 10:11:03 : Character Found! Expected Father Hoggs of the New Christians, found Father Hoggs of the New Christians. Returning character.
+30-03-18 10:11:03 : Exiting characterDto.Controller
+30-03-18 10:13:56 : Inside Character Dto Empty Builder
+30-03-18 10:13:56 : Inside character repository createWithDto
+30-03-18 10:13:56 : Character : Father Hoggs of the New Christians
+30-03-18 10:13:56 : Inside empty game constructor
+30-03-18 10:13:56 : Inside ultimate character constructor : game RPG_API.Models.Games.Fallout, characterName Father Hoggs of the New Christians and playerName meujeu
+30-03-18 10:13:56 : Inside FalloutRules.setBaseAttr
+30-03-18 10:13:56 : Exiting setBaseAttr
+30-03-18 10:13:56 : Inside FalloutRules.SetStat.
+30-03-18 10:13:56 : Inside FalloutRules.setSpendablePoints
+30-03-18 10:13:56 : Exiting setSpendablePoints
+30-03-18 10:13:56 : Inside FalloutRules.setSkills
+30-03-18 10:13:56 : Exiting setSkills
+30-03-18 10:13:56 : Inside FalloutRules.SetStat.
+30-03-18 10:13:56 : Inside FalloutRules.setSpendablePoints
+30-03-18 10:13:56 : Exiting setSpendablePoints
+30-03-18 10:13:56 : Inside FalloutRules.setSkills
+30-03-18 10:13:56 : Exiting setSkills
+30-03-18 10:13:56 : Inside sheetMaker.makeSheet with path C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\
+30-03-18 10:13:56 : Inside SheetWriter.CreateSheet.
+30-03-18 10:13:56 : game : RPG_API.Models.Games.Fallout
+30-03-18 10:13:56 : The sheet will be written at : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\fallout_character_sheet.xml
+30-03-18 10:13:56 : Ending document.
+30-03-18 10:13:56 : Inside fill Infos withs args : character RPG_API.Models.Character , path C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\
+30-03-18 10:13:56 : Inside FindSheet for character Father Hoggs of the New Christians
+30-03-18 10:13:56 : Inside Check If Charac Exists
+30-03-18 10:13:56 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\call_of_cthulhu_character_sheet.xml
+30-03-18 10:13:56 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\cendres la sorcière.xml
+30-03-18 10:13:56 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\elohim, le jongleur.xml
+30-03-18 10:13:56 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\falloutcharacter.xml
+30-03-18 10:13:56 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\fallout_character_sheet.xml
+30-03-18 10:13:56 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\father hoggs of the new christians.xml
+30-03-18 10:13:56 : Character Found!
+30-03-18 10:13:56 : Exiting findsheet
+30-03-18 10:13:56 : Name Node : Father Hoggs of the New Christians
+30-03-18 10:13:56 : Player Name Node : meujeu
+30-03-18 10:13:56 : Game Node : Fallout
+30-03-18 10:13:56 : Career Node : fighter
+30-03-18 10:13:56 : Exiting fill infos
+30-03-18 10:13:56 : Inside save file
+30-03-18 10:13:56 : file saved
+30-03-18 10:13:56 : 
+
+30-03-18 10:13:56 : Inside fill base attr
+30-03-18 10:13:56 : Inside FindSheet for character Father Hoggs of the New Christians
+30-03-18 10:13:56 : Inside Check If Charac Exists
+30-03-18 10:13:56 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\call_of_cthulhu_character_sheet.xml
+30-03-18 10:13:56 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\cendres la sorcière.xml
+30-03-18 10:13:56 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\elohim, le jongleur.xml
+30-03-18 10:13:56 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\falloutcharacter.xml
+30-03-18 10:13:56 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\fallout_character_sheet.xml
+30-03-18 10:13:56 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\father hoggs of the new christians.xml
+30-03-18 10:13:56 : Character Found!
+30-03-18 10:13:56 : Exiting findsheet
+30-03-18 10:13:56 : Exiting fill base attr
+30-03-18 10:13:56 : Inside save file
+30-03-18 10:13:56 : file saved
+30-03-18 10:13:56 : 
+
+30-03-18 10:13:56 : Inside Fill Stat
+30-03-18 10:13:56 : Inside FindSheet for character Father Hoggs of the New Christians
+30-03-18 10:13:56 : Inside Check If Charac Exists
+30-03-18 10:13:56 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\call_of_cthulhu_character_sheet.xml
+30-03-18 10:13:56 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\cendres la sorcière.xml
+30-03-18 10:13:56 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\elohim, le jongleur.xml
+30-03-18 10:13:56 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\falloutcharacter.xml
+30-03-18 10:13:56 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\fallout_character_sheet.xml
+30-03-18 10:13:56 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\father hoggs of the new christians.xml
+30-03-18 10:13:56 : Character Found!
+30-03-18 10:13:56 : Exiting findsheet
+30-03-18 10:13:56 : Exiting fill Stat
+30-03-18 10:13:56 : Inside save file
+30-03-18 10:13:56 : file saved
+30-03-18 10:13:56 : 
+
+30-03-18 10:13:56 : Inside fill Spendable points
+30-03-18 10:13:56 : Inside FindSheet for character Father Hoggs of the New Christians
+30-03-18 10:13:56 : Inside Check If Charac Exists
+30-03-18 10:13:56 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\call_of_cthulhu_character_sheet.xml
+30-03-18 10:13:56 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\cendres la sorcière.xml
+30-03-18 10:13:56 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\elohim, le jongleur.xml
+30-03-18 10:13:56 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\falloutcharacter.xml
+30-03-18 10:13:56 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\fallout_character_sheet.xml
+30-03-18 10:13:56 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\father hoggs of the new christians.xml
+30-03-18 10:13:56 : Character Found!
+30-03-18 10:13:56 : Exiting findsheet
+30-03-18 10:13:56 : Exiting fill spendable points
+30-03-18 10:13:56 : Inside save file
+30-03-18 10:13:56 : file saved
+30-03-18 10:13:56 : 
+
+30-03-18 10:13:56 : Inside fillSkills
+30-03-18 10:13:56 : Inside FindSheet for character Father Hoggs of the New Christians
+30-03-18 10:13:56 : Inside Check If Charac Exists
+30-03-18 10:13:56 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\call_of_cthulhu_character_sheet.xml
+30-03-18 10:13:56 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\cendres la sorcière.xml
+30-03-18 10:13:56 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\elohim, le jongleur.xml
+30-03-18 10:13:56 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\falloutcharacter.xml
+30-03-18 10:13:56 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\fallout_character_sheet.xml
+30-03-18 10:13:56 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\father hoggs of the new christians.xml
+30-03-18 10:13:56 : Character Found!
+30-03-18 10:13:56 : Exiting findsheet
+30-03-18 10:13:56 : Exiting fillSkills
+30-03-18 10:13:56 : Inside save file
+30-03-18 10:13:56 : file saved
+30-03-18 10:13:56 : 
+
+30-03-18 10:13:56 : MakeSheet finished
+30-03-18 10:13:56 : Inside character repository.Get.
+30-03-18 10:13:56 : Inside default character constructor
+30-03-18 10:13:56 : Inside Character constructor with args characterName New Character and playerName Toby Determined
+30-03-18 10:13:56 : Inside empty game constructor
+30-03-18 10:13:56 : Inside ultimate character constructor : game RPG_API.Models.Games.Fallout, characterName New Character and playerName Toby Determined
+30-03-18 10:13:56 : Inside FalloutRules.setBaseAttr
+30-03-18 10:13:56 : Exiting setBaseAttr
+30-03-18 10:13:56 : Inside FalloutRules.SetStat.
+30-03-18 10:13:56 : Inside FalloutRules.setSpendablePoints
+30-03-18 10:13:56 : Exiting setSpendablePoints
+30-03-18 10:13:56 : Inside FalloutRules.setSkills
+30-03-18 10:13:56 : Exiting setSkills
+30-03-18 10:13:56 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\call_of_cthulhu_character_sheet.xml
+30-03-18 10:13:56 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\cendres la sorcière.xml
+30-03-18 10:13:56 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\elohim, le jongleur.xml
+30-03-18 10:13:56 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\falloutcharacter.xml
+30-03-18 10:13:56 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\fallout_character_sheet.xml
+30-03-18 10:13:56 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\father hoggs of the new christians.xml
+30-03-18 10:13:56 : Inside Character constructor with a character sheet
+30-03-18 10:13:56 : Character name : Father Hoggs of the New Christians
+30-03-18 10:13:56 : player name : meujeu
+30-03-18 10:13:56 : Inside empty game constructor
+30-03-18 10:13:56 : Character Found! Expected Father Hoggs of the New Christians, found Father Hoggs of the New Christians. Returning character.
+30-03-18 10:13:56 : Exiting characterDto.Controller
+30-03-18 10:20:46 : Inside Character Dto Empty Builder
+30-03-18 10:20:46 : Inside character repository createWithDto
+30-03-18 10:20:46 : Character : Father Hoggs of the new christian
+30-03-18 10:20:46 : Inside empty game constructor
+30-03-18 10:20:46 : Inside ultimate character constructor : game RPG_API.Models.Games.Fallout, characterName Father Hoggs of the new christian and playerName meujeu
+30-03-18 10:20:46 : Inside FalloutRules.setBaseAttr
+30-03-18 10:20:46 : Exiting setBaseAttr
+30-03-18 10:20:46 : Inside FalloutRules.SetStat.
+30-03-18 10:20:46 : Inside FalloutRules.setSpendablePoints
+30-03-18 10:20:46 : Exiting setSpendablePoints
+30-03-18 10:20:46 : Inside FalloutRules.setSkills
+30-03-18 10:20:46 : Exiting setSkills
+30-03-18 10:20:46 : Inside FalloutRules.SetStat.
+30-03-18 10:20:46 : Inside FalloutRules.setSpendablePoints
+30-03-18 10:20:46 : Exiting setSpendablePoints
+30-03-18 10:20:46 : Inside FalloutRules.setSkills
+30-03-18 10:20:46 : Exiting setSkills
+30-03-18 10:20:46 : Inside sheetMaker.makeSheet with path C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\
+30-03-18 10:20:46 : Inside SheetWriter.CreateSheet.
+30-03-18 10:20:46 : game : RPG_API.Models.Games.Fallout
+30-03-18 10:20:46 : The sheet will be written at : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\fallout_character_sheet.xml
+30-03-18 10:20:46 : Ending document.
+30-03-18 10:20:46 : Inside fill Infos withs args : character RPG_API.Models.Character , path C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\
+30-03-18 10:20:46 : Inside FindSheet for character Father Hoggs of the new christian
+30-03-18 10:20:46 : Inside Check If Charac Exists
+30-03-18 10:20:46 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\call_of_cthulhu_character_sheet.xml
+30-03-18 10:20:46 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\cendres la sorcière.xml
+30-03-18 10:20:46 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\elohim, le jongleur.xml
+30-03-18 10:20:46 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\falloutcharacter.xml
+30-03-18 10:20:46 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\fallout_character_sheet.xml
+30-03-18 10:20:46 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\kelarian l'assassin.xml
+30-03-18 10:20:46 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\kerrick le geant.xml
+30-03-18 10:20:46 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\moktar pas'd'bol.xml
+30-03-18 10:20:46 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\thalim, médecin de bataille.xml
+30-03-18 10:20:46 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\warrior_base.xml
+30-03-18 10:20:46 : Exiting Check If Charac Exists
+30-03-18 10:20:46 : Exiting findsheet
+30-03-18 10:20:46 : Name Node : Father Hoggs of the new christian
+30-03-18 10:20:46 : Player Name Node : meujeu
+30-03-18 10:20:46 : Game Node : Fallout
+30-03-18 10:20:46 : Career Node : fighter
+30-03-18 10:20:46 : Exiting fill infos
+30-03-18 10:20:46 : Inside save file
+30-03-18 10:20:46 : file saved
+30-03-18 10:20:46 : 
+
+30-03-18 10:20:46 : Inside fill base attr
+30-03-18 10:20:46 : Inside FindSheet for character Father Hoggs of the new christian
+30-03-18 10:20:46 : Inside Check If Charac Exists
+30-03-18 10:20:46 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\call_of_cthulhu_character_sheet.xml
+30-03-18 10:20:46 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\cendres la sorcière.xml
+30-03-18 10:20:46 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\elohim, le jongleur.xml
+30-03-18 10:20:46 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\falloutcharacter.xml
+30-03-18 10:20:46 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\fallout_character_sheet.xml
+30-03-18 10:20:46 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\father hoggs of the new christian.xml
+30-03-18 10:20:46 : Character Found!
+30-03-18 10:20:46 : Exiting findsheet
+30-03-18 10:20:46 : Exiting fill base attr
+30-03-18 10:20:46 : Inside save file
+30-03-18 10:20:46 : file saved
+30-03-18 10:20:46 : 
+
+30-03-18 10:20:46 : Inside Fill Stat
+30-03-18 10:20:46 : Inside FindSheet for character Father Hoggs of the new christian
+30-03-18 10:20:46 : Inside Check If Charac Exists
+30-03-18 10:20:46 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\call_of_cthulhu_character_sheet.xml
+30-03-18 10:20:46 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\cendres la sorcière.xml
+30-03-18 10:20:46 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\elohim, le jongleur.xml
+30-03-18 10:20:46 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\falloutcharacter.xml
+30-03-18 10:20:46 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\fallout_character_sheet.xml
+30-03-18 10:20:46 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\father hoggs of the new christian.xml
+30-03-18 10:20:46 : Character Found!
+30-03-18 10:20:46 : Exiting findsheet
+30-03-18 10:20:46 : Exiting fill Stat
+30-03-18 10:20:46 : Inside save file
+30-03-18 10:20:46 : file saved
+30-03-18 10:20:46 : 
+
+30-03-18 10:20:46 : Inside fill Spendable points
+30-03-18 10:20:46 : Inside FindSheet for character Father Hoggs of the new christian
+30-03-18 10:20:46 : Inside Check If Charac Exists
+30-03-18 10:20:46 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\call_of_cthulhu_character_sheet.xml
+30-03-18 10:20:46 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\cendres la sorcière.xml
+30-03-18 10:20:46 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\elohim, le jongleur.xml
+30-03-18 10:20:46 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\falloutcharacter.xml
+30-03-18 10:20:46 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\fallout_character_sheet.xml
+30-03-18 10:20:46 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\father hoggs of the new christian.xml
+30-03-18 10:20:46 : Character Found!
+30-03-18 10:20:46 : Exiting findsheet
+30-03-18 10:20:46 : Exiting fill spendable points
+30-03-18 10:20:46 : Inside save file
+30-03-18 10:20:46 : file saved
+30-03-18 10:20:46 : 
+
+30-03-18 10:20:46 : Inside fillSkills
+30-03-18 10:20:46 : Inside FindSheet for character Father Hoggs of the new christian
+30-03-18 10:20:46 : Inside Check If Charac Exists
+30-03-18 10:20:46 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\call_of_cthulhu_character_sheet.xml
+30-03-18 10:20:46 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\cendres la sorcière.xml
+30-03-18 10:20:46 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\elohim, le jongleur.xml
+30-03-18 10:20:46 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\falloutcharacter.xml
+30-03-18 10:20:46 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\fallout_character_sheet.xml
+30-03-18 10:20:46 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\father hoggs of the new christian.xml
+30-03-18 10:20:46 : Character Found!
+30-03-18 10:20:46 : Exiting findsheet
+30-03-18 10:20:46 : Exiting fillSkills
+30-03-18 10:20:46 : Inside save file
+30-03-18 10:20:46 : file saved
+30-03-18 10:20:46 : 
+
+30-03-18 10:20:46 : MakeSheet finished
+30-03-18 10:20:46 : Inside character repository.Get.
+30-03-18 10:20:46 : Inside default character constructor
+30-03-18 10:20:46 : Inside Character constructor with args characterName New Character and playerName Toby Determined
+30-03-18 10:20:46 : Inside empty game constructor
+30-03-18 10:20:46 : Inside ultimate character constructor : game RPG_API.Models.Games.Fallout, characterName New Character and playerName Toby Determined
+30-03-18 10:20:46 : Inside FalloutRules.setBaseAttr
+30-03-18 10:20:46 : Exiting setBaseAttr
+30-03-18 10:20:46 : Inside FalloutRules.SetStat.
+30-03-18 10:20:46 : Inside FalloutRules.setSpendablePoints
+30-03-18 10:20:46 : Exiting setSpendablePoints
+30-03-18 10:20:46 : Inside FalloutRules.setSkills
+30-03-18 10:20:46 : Exiting setSkills
+30-03-18 10:20:46 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\call_of_cthulhu_character_sheet.xml
+30-03-18 10:20:46 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\cendres la sorcière.xml
+30-03-18 10:20:46 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\elohim, le jongleur.xml
+30-03-18 10:20:46 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\falloutcharacter.xml
+30-03-18 10:20:46 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\fallout_character_sheet.xml
+30-03-18 10:20:46 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\father hoggs of the new christian.xml
+30-03-18 10:20:46 : Inside Character constructor with a character sheet
+30-03-18 10:20:46 : Character name : Father Hoggs of the new christian
+30-03-18 10:20:46 : player name : meujeu
+30-03-18 10:20:46 : Inside empty game constructor
+30-03-18 10:20:46 : Character Found! Expected Father Hoggs of the new christian, found Father Hoggs of the new christian. Returning character.
+30-03-18 10:20:46 : Exiting characterDto.Controller
+30-03-18 10:22:23 : Inside Character Dto Empty Builder
+30-03-18 10:22:23 : Inside character repository createWithDto
+30-03-18 10:22:23 : Character : Father Owen of the New Christians
+30-03-18 10:22:23 : Inside empty game constructor
+30-03-18 10:22:23 : Inside ultimate character constructor : game RPG_API.Models.Games.Fallout, characterName Father Owen of the New Christians and playerName meujeu
+30-03-18 10:22:23 : Inside FalloutRules.setBaseAttr
+30-03-18 10:22:23 : Exiting setBaseAttr
+30-03-18 10:22:23 : Inside FalloutRules.SetStat.
+30-03-18 10:22:23 : Inside FalloutRules.setSpendablePoints
+30-03-18 10:22:23 : Exiting setSpendablePoints
+30-03-18 10:22:23 : Inside FalloutRules.setSkills
+30-03-18 10:22:23 : Exiting setSkills
+30-03-18 10:22:23 : Inside FalloutRules.SetStat.
+30-03-18 10:22:23 : Inside FalloutRules.setSpendablePoints
+30-03-18 10:22:23 : Exiting setSpendablePoints
+30-03-18 10:22:23 : Inside FalloutRules.setSkills
+30-03-18 10:22:23 : Exiting setSkills
+30-03-18 10:22:23 : Inside sheetMaker.makeSheet with path C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\
+30-03-18 10:22:23 : Inside SheetWriter.CreateSheet.
+30-03-18 10:22:23 : game : RPG_API.Models.Games.Fallout
+30-03-18 10:22:23 : The sheet will be written at : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\fallout_character_sheet.xml
+30-03-18 10:22:23 : Ending document.
+30-03-18 10:22:23 : Inside fill Infos withs args : character RPG_API.Models.Character , path C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\
+30-03-18 10:22:23 : Inside FindSheet for character Father Owen of the New Christians
+30-03-18 10:22:23 : Inside Check If Charac Exists
+30-03-18 10:22:23 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\call_of_cthulhu_character_sheet.xml
+30-03-18 10:22:23 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\cendres la sorcière.xml
+30-03-18 10:22:23 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\elohim, le jongleur.xml
+30-03-18 10:22:23 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\falloutcharacter.xml
+30-03-18 10:22:23 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\fallout_character_sheet.xml
+30-03-18 10:22:23 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\father hoggs of the new christian.xml
+30-03-18 10:22:23 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\kelarian l'assassin.xml
+30-03-18 10:22:23 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\kerrick le geant.xml
+30-03-18 10:22:23 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\moktar pas'd'bol.xml
+30-03-18 10:22:23 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\thalim, médecin de bataille.xml
+30-03-18 10:22:23 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\warrior_base.xml
+30-03-18 10:22:23 : Exiting Check If Charac Exists
+30-03-18 10:22:23 : Exiting findsheet
+30-03-18 10:22:23 : Name Node : Father Owen of the New Christians
+30-03-18 10:22:23 : Player Name Node : meujeu
+30-03-18 10:22:23 : Game Node : Fallout
+30-03-18 10:22:23 : Career Node : merchant
+30-03-18 10:22:23 : Exiting fill infos
+30-03-18 10:22:23 : Inside save file
+30-03-18 10:22:23 : file saved
+30-03-18 10:22:23 : 
+
+30-03-18 10:22:23 : Inside fill base attr
+30-03-18 10:22:23 : Inside FindSheet for character Father Owen of the New Christians
+30-03-18 10:22:23 : Inside Check If Charac Exists
+30-03-18 10:22:23 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\call_of_cthulhu_character_sheet.xml
+30-03-18 10:22:23 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\cendres la sorcière.xml
+30-03-18 10:22:23 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\elohim, le jongleur.xml
+30-03-18 10:22:23 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\falloutcharacter.xml
+30-03-18 10:22:23 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\fallout_character_sheet.xml
+30-03-18 10:22:23 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\father hoggs of the new christian.xml
+30-03-18 10:22:23 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\father owen of the new christians.xml
+30-03-18 10:22:23 : Character Found!
+30-03-18 10:22:23 : Exiting findsheet
+30-03-18 10:22:23 : Exiting fill base attr
+30-03-18 10:22:23 : Inside save file
+30-03-18 10:22:23 : file saved
+30-03-18 10:22:23 : 
+
+30-03-18 10:22:23 : Inside Fill Stat
+30-03-18 10:22:23 : Inside FindSheet for character Father Owen of the New Christians
+30-03-18 10:22:23 : Inside Check If Charac Exists
+30-03-18 10:22:23 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\call_of_cthulhu_character_sheet.xml
+30-03-18 10:22:23 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\cendres la sorcière.xml
+30-03-18 10:22:23 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\elohim, le jongleur.xml
+30-03-18 10:22:23 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\falloutcharacter.xml
+30-03-18 10:22:23 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\fallout_character_sheet.xml
+30-03-18 10:22:23 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\father hoggs of the new christian.xml
+30-03-18 10:22:23 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\father owen of the new christians.xml
+30-03-18 10:22:23 : Character Found!
+30-03-18 10:22:23 : Exiting findsheet
+30-03-18 10:22:23 : Exiting fill Stat
+30-03-18 10:22:23 : Inside save file
+30-03-18 10:22:23 : file saved
+30-03-18 10:22:23 : 
+
+30-03-18 10:22:23 : Inside fill Spendable points
+30-03-18 10:22:23 : Inside FindSheet for character Father Owen of the New Christians
+30-03-18 10:22:23 : Inside Check If Charac Exists
+30-03-18 10:22:23 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\call_of_cthulhu_character_sheet.xml
+30-03-18 10:22:23 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\cendres la sorcière.xml
+30-03-18 10:22:23 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\elohim, le jongleur.xml
+30-03-18 10:22:23 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\falloutcharacter.xml
+30-03-18 10:22:23 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\fallout_character_sheet.xml
+30-03-18 10:22:23 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\father hoggs of the new christian.xml
+30-03-18 10:22:23 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\father owen of the new christians.xml
+30-03-18 10:22:23 : Character Found!
+30-03-18 10:22:23 : Exiting findsheet
+30-03-18 10:22:23 : Exiting fill spendable points
+30-03-18 10:22:23 : Inside save file
+30-03-18 10:22:23 : file saved
+30-03-18 10:22:23 : 
+
+30-03-18 10:22:23 : Inside fillSkills
+30-03-18 10:22:23 : Inside FindSheet for character Father Owen of the New Christians
+30-03-18 10:22:23 : Inside Check If Charac Exists
+30-03-18 10:22:23 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\call_of_cthulhu_character_sheet.xml
+30-03-18 10:22:23 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\cendres la sorcière.xml
+30-03-18 10:22:23 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\elohim, le jongleur.xml
+30-03-18 10:22:23 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\falloutcharacter.xml
+30-03-18 10:22:23 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\fallout_character_sheet.xml
+30-03-18 10:22:23 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\father hoggs of the new christian.xml
+30-03-18 10:22:23 : Treating file : C:\Users\mgouzee\Desktop\rpg-api\RPG-API\RPG-API\App_Data\Characters\father owen of the new christians.xml
+30-03-18 10:22:23 : Character Found!
+30-03-18 10:22:23 : Exiting findsheet
+30-03-18 10:22:23 : Exiting fillSkills
+30-03-18 10:22:23 : Inside save file
+30-03-18 10:22:23 : file saved
+30-03-18 10:22:23 : 
+
+30-03-18 10:22:23 : MakeSheet finished
+30-03-18 10:22:23 : Inside character repository.Get.
+30-03-18 10:22:23 : Inside default character constructor
+30-03-18 10:22:23 : Inside Character constructor with args characterName New Character and playerName Toby Determined
+30-03-18 10:22:23 : Inside empty game constructor
+30-03-18 10:22:23 : Inside ultimate character constructor : game RPG_API.Models.Games.Fallout, characterName New Character and playerName Toby Determined
+30-03-18 10:22:23 : Inside FalloutRules.setBaseAttr
+30-03-18 10:22:23 : Exiting setBaseAttr
+30-03-18 10:22:23 : Inside FalloutRules.SetStat.
+30-03-18 10:22:23 : Inside FalloutRules.setSpendablePoints
+30-03-18 10:22:23 : Exiting setSpendablePoints
+30-03-18 10:22:23 : Inside FalloutRules.setSkills
+30-03-18 10:22:23 : Exiting setSkills
+30-03-18 10:22:23 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\call_of_cthulhu_character_sheet.xml
+30-03-18 10:22:23 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\cendres la sorcière.xml
+30-03-18 10:22:23 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\elohim, le jongleur.xml
+30-03-18 10:22:23 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\falloutcharacter.xml
+30-03-18 10:22:23 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\fallout_character_sheet.xml
+30-03-18 10:22:23 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\father hoggs of the new christian.xml
+30-03-18 10:22:23 : CharacterRepository.get : file c:\users\mgouzee\desktop\rpg-api\rpg-api\rpg-api\app_data\characters\father owen of the new christians.xml
+30-03-18 10:22:23 : Inside Character constructor with a character sheet
+30-03-18 10:22:23 : Character name : Father Owen of the New Christians
+30-03-18 10:22:23 : player name : meujeu
+30-03-18 10:22:23 : Inside empty game constructor
+30-03-18 10:22:23 : Character Found! Expected Father Owen of the New Christians, found Father Owen of the New Christians. Returning character.
+30-03-18 10:22:23 : Exiting characterDto.Controller

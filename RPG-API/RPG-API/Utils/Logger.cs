@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.IO;
+using System.Web;
 
 namespace RPG_API.Utils
 {
@@ -15,8 +13,7 @@ namespace RPG_API.Utils
             using (StreamWriter file = new StreamWriter(@logFile, true))
             {
                 file.WriteLine(DateTime.Now.ToString() + " : " + description);
-            }     
+            }
         }
-
     }
 }

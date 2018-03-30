@@ -1,6 +1,0 @@
-namespace RPG_API.Areas.HelpPage.ModelDescriptions
-{
-    public class SimpleTypeModelDescription : ModelDescription
-    {
-    }
-}

@@ -3,8 +3,6 @@ using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.IO;
-using System.Linq;
-using System.Web;
 using System.Xml;
 
 namespace RPG_API.Repository
@@ -12,7 +10,7 @@ namespace RPG_API.Repository
     public class GameRepository
     {
         public IEnumerable<IGame> Get()
-         {
+        {
             List<IGame> myGames = new List<IGame>();
             // This might be reworked.
             // We get the Game sheets in app_data and create games from that.
@@ -22,7 +20,7 @@ namespace RPG_API.Repository
 
             foreach (var file in myFiles)
             {
-               if (file == path + "Games.xml")
+                if (file == path + "Games.xml")
                 {
                     var xmlDoc = new XmlDocument();
                     xmlDoc.Load(file);
@@ -43,13 +41,11 @@ namespace RPG_API.Repository
             return myGames;
         }
 
-
         public IGame Get(string name)
         {
             string mypath = ConfigurationManager.AppSettings["game_path"];
             string path = System.Web.HttpContext.Current.Server.MapPath(mypath);
             var myFiles = Directory.GetFiles(@path);
-
 
             string gameName = name.Replace(" ", "");
 
@@ -58,7 +54,5 @@ namespace RPG_API.Repository
 
             return Game;
         }
-
-
     }
 }

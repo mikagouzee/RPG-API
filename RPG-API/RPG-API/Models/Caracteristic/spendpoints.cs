@@ -1,49 +1,49 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-
-namespace RPG_API.Models.Caracteristic
+﻿namespace RPG_API.Models.Caracteristic
 {
-    public class spendpoints : ICaracteristic
+    public class Spendpoints : ICaracteristic
     {
-        public int max { get; set; }
-        public int value { get; set; }
-        public string name { get; set; }
+        public int Max { get; set; }
+        public int Value { get; set; }
+        public string Name { get; set; }
 
-        public spendpoints()
+        public Spendpoints()
         {
-
         }
 
-        public spendpoints(string name, int max)
+        public Spendpoints(string name, int max)
         {
-            this.name = name;
-            this.max = max;
-            this.value = 0;
+            Name = name;
+            Max = max;
+            Value = 0;
         }
 
-        public spendpoints(string myName, int myMax, int myValue)
+        public Spendpoints(string myName, int myMax, int myValue)
         {
-            this.max = myMax;
-            this.value = myValue;
-            this.name = myName;
+            Max = myMax;
+            Value = myValue;
+            Name = myName;
         }
 
         public void Increment()
         {
-            if (!(this.value >= this.max))
+            if (!(this.Value >= this.Max))
             {
-                this.value++;
+                this.Value++;
             }
         }
 
         public void Decrement()
         {
-            if (!(this.value <= 0))
+            if (!(this.Value <= 0))
             {
-                this.value--;
+                this.Value--;
             }
         }
+
+        public bool Validate()
+        {
+            return (Value <= Max);
+        }
+
     }
 }

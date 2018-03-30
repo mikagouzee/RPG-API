@@ -1,19 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace RPG_API.Models.Caracteristic
+﻿namespace RPG_API.Models.Caracteristic
 {
     public interface ICaracteristic
     {
-        int value { get; set; }
-        int max { get; set; }
+        int Value { get; set; }
+        int Max { get; set; }
 
-        string name { get; set; }
+        string Name { get; set; }
 
         void Increment();
+
         void Decrement();
+
+        bool Validate();
     }
 }

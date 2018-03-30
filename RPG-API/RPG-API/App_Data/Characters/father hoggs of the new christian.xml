@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<character_sheet>
+  <infos>
+    <name>Father Hoggs of the new christian</name>
+    <player_name>meujeu</player_name>
+    <career>fighter</career>
+    <campaign />
+    <game>Fallout</game>
+  </infos>
+  <base_attributes>
+    <strength>8</strength>
+    <perception>5</perception>
+    <endurance>7</endurance>
+    <charism>2</charism>
+    <intelligence>4</intelligence>
+    <agility>8</agility>
+    <luck>1</luck>
+  </base_attributes>
+  <stats>
+    <action_points>9</action_points>
+    <karma>0</karma>
+    <armor_class>8</armor_class>
+    <carry_weight>225</carry_weight>
+    <melee_damage>3</melee_damage>
+    <sequence>10</sequence>
+    <healing_rate>2</healing_rate>
+  </stats>
+  <spendable_points>
+    <health_points>37</health_points>
+    <wound_limit>0</wound_limit>
+    <skill_points>0</skill_points>
+    <creation_points>35</creation_points>
+  </spendable_points>
+  <skills>
+    <small_guns>57</small_guns>
+    <big_guns>36</big_guns>
+    <energy_weapons>16</energy_weapons>
+    <unarmed>62</unarmed>
+    <melee_weapons>52</melee_weapons>
+    <throwing>32</throwing>
+    <first_aid>44</first_aid>
+    <doctor>14</doctor>
+    <sneak>29</sneak>
+    <lockpick>23</lockpick>
+    <steal>24</steal>
+    <traps>23</traps>
+    <science>16</science>
+    <repair>12</repair>
+    <pilot>26</pilot>
+    <speech>10</speech>
+    <barter>8</barter>
+    <gambling>5</gambling>
+    <outdoorsman>22</outdoorsman>
+    <radiation_resistance>0</radiation_resistance>
+    <poison_resistance>0</poison_resistance>
+    <damage_resistance>0</damage_resistance>
+    <electric_resistance>0</electric_resistance>
+  </skills>
+</character_sheet>

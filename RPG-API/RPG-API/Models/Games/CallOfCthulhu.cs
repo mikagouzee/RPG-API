@@ -1,10 +1,7 @@
 ﻿using RPG_API.Models.Caracteristic;
 using RPG_API.Models.Careers;
 using RPG_API.Models.GameRules;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 
 namespace RPG_API.Models.Games
 {
@@ -12,18 +9,20 @@ namespace RPG_API.Models.Games
     {
         public CallOfCthulhu()
         {
-            this.name = "Call Of Cthulhu";
+            this.Name = "Call Of Cthulhu";
             this.BaseAttributes = new List<BaseAttributes>();
             this.Stats = new List<Stats>();
             this.Skills = new List<Skills>();
-            this.SpendPoints = new List<spendpoints>();
+            this.SpendPoints = new List<Spendpoints>();
 
             this.professions = new List<Profession>();
 
             this.rules = new CallOfCthulhuRules();
 
             //GAME BASE ATTRIBUTES
+
             #region baseAttributes
+
             BaseAttributes appearance = new BaseAttributes("appearance", 18);
             BaseAttributes constitution = new BaseAttributes("constitution", 18);
             BaseAttributes strength = new BaseAttributes("strength", 18);
@@ -41,10 +40,13 @@ namespace RPG_API.Models.Games
             this.BaseAttributes.Add(size);
             this.BaseAttributes.Add(intelligence);
             this.BaseAttributes.Add(education);
-            #endregion
+
+            #endregion baseAttributes
 
             //GAME STATS
+
             #region game stats
+
             Stats prestance = new Stats("prestance", 90);
             Stats endurance = new Stats("endurance", 90);
             Stats agility = new Stats("agility", 90);
@@ -64,25 +66,31 @@ namespace RPG_API.Models.Games
             this.Stats.Add(idea);
             this.Stats.Add(willpower);
             this.Stats.Add(sanity);
-            #endregion
+
+            #endregion game stats
 
             //Game Spendable points
+
             #region spendable points
-            spendpoints healthPoints = new spendpoints("health points", 18);
-            spendpoints woundLimit = new spendpoints("wound limit", 9);
-            spendpoints magicPoints = new spendpoints("magic points", 18);
-            spendpoints occupationSkillPoints = new spendpoints("Occupation skill points", 480);
-            spendpoints personalInterestSkillPoints = new spendpoints("Personal interest skill points", 180);
+
+            Spendpoints healthPoints = new Spendpoints("health points", 18);
+            Spendpoints woundLimit = new Spendpoints("wound limit", 9);
+            Spendpoints magicPoints = new Spendpoints("magic points", 18);
+            Spendpoints occupationSkillPoints = new Spendpoints("Occupation skill points", 480);
+            Spendpoints personalInterestSkillPoints = new Spendpoints("Personal interest skill points", 180);
 
             this.SpendPoints.Add(healthPoints);
             this.SpendPoints.Add(woundLimit);
             this.SpendPoints.Add(magicPoints);
             this.SpendPoints.Add(occupationSkillPoints);
             this.SpendPoints.Add(personalInterestSkillPoints);
-            #endregion
+
+            #endregion spendable points
 
             //GAME SKILLS
+
             #region gameSkills
+
             Skills art = new Skills("art", 100, 5);
             Skills artisanat = new Skills("artisanat", 100, 5);
             Skills baratin = new Skills("baratin", 100, 5);
@@ -165,10 +173,12 @@ namespace RPG_API.Models.Games
             this.Skills.Add(suivrePiste);
             this.Skills.Add(trouverObjetCache);
 
-            #endregion
+            #endregion gameSkills
 
             //GAME CAREERS
+
             #region game careers
+
             Profession artisan = new Profession("artisan");
             artisan.jobSkills.Add(baratin);
             artisan.jobSkills.Add(marchandage);
@@ -343,8 +353,8 @@ namespace RPG_API.Models.Games
             serviteur.jobSkills.Add(trouverObjetCache);
             this.professions.Add(serviteur);
 
-            #endregion
-
+            #endregion game careers
         }
-    }
+
+     }
 }

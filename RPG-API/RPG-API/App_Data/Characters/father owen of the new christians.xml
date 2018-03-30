@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<character_sheet>
+  <infos>
+    <name>Father Owen of the New Christians</name>
+    <player_name>meujeu</player_name>
+    <career>merchant</career>
+    <campaign />
+    <game>Fallout</game>
+  </infos>
+  <base_attributes>
+    <strength>4</strength>
+    <perception>8</perception>
+    <endurance>2</endurance>
+    <charism>9</charism>
+    <intelligence>6</intelligence>
+    <agility>5</agility>
+    <luck>1</luck>
+  </base_attributes>
+  <stats>
+    <action_points>7</action_points>
+    <karma>0</karma>
+    <armor_class>5</armor_class>
+    <carry_weight>125</carry_weight>
+    <melee_damage>1</melee_damage>
+    <sequence>16</sequence>
+    <healing_rate>1</healing_rate>
+  </stats>
+  <spendable_points>
+    <health_points>23</health_points>
+    <wound_limit>0</wound_limit>
+    <skill_points>0</skill_points>
+    <creation_points>35</creation_points>
+  </spendable_points>
+  <skills>
+    <small_guns>25</small_guns>
+    <big_guns>10</big_guns>
+    <energy_weapons>10</energy_weapons>
+    <unarmed>48</unarmed>
+    <melee_weapons>38</melee_weapons>
+    <throwing>20</throwing>
+    <first_aid>20</first_aid>
+    <doctor>19</doctor>
+    <sneak>20</sneak>
+    <lockpick>23</lockpick>
+    <steal>15</steal>
+    <traps>23</traps>
+    <science>24</science>
+    <repair>18</repair>
+    <pilot>26</pilot>
+    <speech>65</speech>
+    <barter>56</barter>
+    <gambling>25</gambling>
+    <outdoorsman>16</outdoorsman>
+    <radiation_resistance>0</radiation_resistance>
+    <poison_resistance>0</poison_resistance>
+    <damage_resistance>0</damage_resistance>
+    <electric_resistance>0</electric_resistance>
+  </skills>
+</character_sheet>

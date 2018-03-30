@@ -1,10 +1,7 @@
 ﻿using RPG_API.Models.Caracteristic;
-using RPG_API.Models.Games;
 using RPG_API.Utils;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Web;
 
 namespace RPG_API.Models.GameRules
 {
@@ -15,12 +12,12 @@ namespace RPG_API.Models.GameRules
         //EMPTY CONSTRUCTOR
         public CallOfCthulhuRules()
         {
-
         }
 
-        public override void setStats(Character myCharac)
+        public override void SetStats(Character myCharac)
         {
             #region before
+
             //Stats prestance = new Stats("prestance", 90, mon_perso.baseAttr.Where(b => b.name == "appearance").FirstOrDefault().value * 5);
             //Stats endurance = new Stats("endurance", 90, mon_perso.baseAttr.Where(b => b.name == "constitution").FirstOrDefault().value * 5);
             //Stats agility = new Stats("agility", 90, mon_perso.baseAttr.Where(b => b.name == "dexterity").FirstOrDefault().value * 5);
@@ -35,31 +32,34 @@ namespace RPG_API.Models.GameRules
             //{
             //    return;
             //}
-            #endregion
+
+            #endregion before
+
             logger.Log("Inside CoCrules setStats");
 
             try
             {
-                myCharac.stats.Where(s => s.name == "prestance").FirstOrDefault().value = myCharac.baseAttr.Where(b => b.name == "appearance").FirstOrDefault().value * 5;
-                myCharac.stats.Where(s => s.name == "endurance").FirstOrDefault().value = myCharac.baseAttr.Where(b => b.name == "constitution").FirstOrDefault().value * 5;
-                myCharac.stats.Where(s => s.name == "agility").FirstOrDefault().value = myCharac.baseAttr.Where(b => b.name == "dexterity").FirstOrDefault().value * 5;
-                myCharac.stats.Where(s => s.name == "brawl power").FirstOrDefault().value = myCharac.baseAttr.Where(b => b.name == "strength").FirstOrDefault().value * 5;
-                myCharac.stats.Where(s => s.name == "height").FirstOrDefault().value = myCharac.baseAttr.Where(b => b.name == "size").FirstOrDefault().value * 5;
-                myCharac.stats.Where(s => s.name == "knowledge").FirstOrDefault().value = myCharac.baseAttr.Where(b => b.name == "education").FirstOrDefault().value * 5;
-                myCharac.stats.Where(s => s.name == "idea").FirstOrDefault().value = myCharac.baseAttr.Where(b => b.name == "intelligence").FirstOrDefault().value * 5;
-                myCharac.stats.Where(s => s.name == "will power").FirstOrDefault().value = myCharac.baseAttr.Where(b => b.name == "power").FirstOrDefault().value * 5;
-                myCharac.stats.Where(s => s.name == "sanity").FirstOrDefault().value = myCharac.baseAttr.Where(b => b.name == "power").FirstOrDefault().value * 5;
+                myCharac.Stats.Where(s => s.Name == "prestance").FirstOrDefault().Value = myCharac.BaseAttr.Where(b => b.Name == "appearance").FirstOrDefault().Value * 5;
+                myCharac.Stats.Where(s => s.Name == "endurance").FirstOrDefault().Value = myCharac.BaseAttr.Where(b => b.Name == "constitution").FirstOrDefault().Value * 5;
+                myCharac.Stats.Where(s => s.Name == "agility").FirstOrDefault().Value = myCharac.BaseAttr.Where(b => b.Name == "dexterity").FirstOrDefault().Value * 5;
+                myCharac.Stats.Where(s => s.Name == "brawl power").FirstOrDefault().Value = myCharac.BaseAttr.Where(b => b.Name == "strength").FirstOrDefault().Value * 5;
+                myCharac.Stats.Where(s => s.Name == "height").FirstOrDefault().Value = myCharac.BaseAttr.Where(b => b.Name == "size").FirstOrDefault().Value * 5;
+                myCharac.Stats.Where(s => s.Name == "knowledge").FirstOrDefault().Value = myCharac.BaseAttr.Where(b => b.Name == "education").FirstOrDefault().Value * 5;
+                myCharac.Stats.Where(s => s.Name == "idea").FirstOrDefault().Value = myCharac.BaseAttr.Where(b => b.Name == "intelligence").FirstOrDefault().Value * 5;
+                myCharac.Stats.Where(s => s.Name == "will power").FirstOrDefault().Value = myCharac.BaseAttr.Where(b => b.Name == "power").FirstOrDefault().Value * 5;
+                myCharac.Stats.Where(s => s.Name == "sanity").FirstOrDefault().Value = myCharac.BaseAttr.Where(b => b.Name == "power").FirstOrDefault().Value * 5;
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 logger.Log(String.Format("Error in cocRules.setStats : {0}", ex.Message));
                 throw ex;
             }
         }
 
-        public override void setSpendablePoints(Character myCharac)
+        public override void SetSpendablePoints(Character myCharac)
         {
             #region before
+
             //spendpoints healthPoints = new spendpoints("health points", 18, (
             //    (mon_perso.baseAttr.Where(b => b.name == "constitution").FirstOrDefault().value
             //    )
@@ -76,56 +76,63 @@ namespace RPG_API.Models.GameRules
             //{
             //    return;
             //}
-            #endregion
+
+            #endregion before
+
             logger.Log("Inside CocRules setSpendablePoints");
             try
             {
-                myCharac.spendPoints.Where(s => s.name == "health points").FirstOrDefault().value =
-                    (myCharac.baseAttr.Where(b => b.name == "constitution").FirstOrDefault().value +
-                    myCharac.baseAttr.Where(b => b.name == "size").FirstOrDefault().value)
+                myCharac.SpendPoints.Where(s => s.Name == "health points").FirstOrDefault().Value =
+                    (myCharac.BaseAttr.Where(b => b.Name == "constitution").FirstOrDefault().Value +
+                    myCharac.BaseAttr.Where(b => b.Name == "size").FirstOrDefault().Value)
                     / 2;
 
-                myCharac.spendPoints.Where(s => s.name == "wound limit").FirstOrDefault().value = myCharac.spendPoints.Where(s => s.name == "health points").FirstOrDefault().value / 2;
-                myCharac.spendPoints.Where(s => s.name == "magic points").FirstOrDefault().value = myCharac.baseAttr.Where(b => b.name == "power").FirstOrDefault().value;
-                myCharac.spendPoints.Where(s => s.name == "Occupation skill points").FirstOrDefault().value = myCharac.baseAttr.Where(b => b.name == "education").FirstOrDefault().value * 20;
-                myCharac.spendPoints.Where(s => s.name == "Personal interest skill points").FirstOrDefault().value = myCharac.baseAttr.Where(b => b.name == "intelligence").FirstOrDefault().value * 10;
+                myCharac.SpendPoints.Where(s => s.Name == "wound limit").FirstOrDefault().Value = myCharac.SpendPoints.Where(s => s.Name == "health points").FirstOrDefault().Value / 2;
+                myCharac.SpendPoints.Where(s => s.Name == "magic points").FirstOrDefault().Value = myCharac.BaseAttr.Where(b => b.Name == "power").FirstOrDefault().Value;
+                myCharac.SpendPoints.Where(s => s.Name == "Occupation skill points").FirstOrDefault().Value = myCharac.BaseAttr.Where(b => b.Name == "education").FirstOrDefault().Value * 20;
+                myCharac.SpendPoints.Where(s => s.Name == "Personal interest skill points").FirstOrDefault().Value = myCharac.BaseAttr.Where(b => b.Name == "intelligence").FirstOrDefault().Value * 10;
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 logger.Log(String.Format("Error in cocRules.setSpendablePoints : {0}", ex.Message));
                 throw ex;
             }
         }
 
-        public override void setBaseAttr(Character myCharac)
+        public override void SetBaseAttr(Character myCharac)
         {
             logger.Log("Inside CoCRules.setBaseAttr");
 
             Random r = new Random();
             try
             {
-                foreach (BaseAttributes batr in myCharac.baseAttr)
+                foreach (BaseAttributes batr in myCharac.BaseAttr)
                 {
-                    batr.value = r.Next(3, batr.max + 1);
+                    batr.Value = r.Next(3, batr.Max + 1);
 
-                    if (batr.name == "size" || batr.name == "intelligence" || batr.name == "education")
-                        batr.value += 6;
+                    if (batr.Name == "size" || batr.Name == "intelligence" || batr.Name == "education")
+                        batr.Value += 6;
                 }
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 logger.Log(String.Format("Error in setBaseAttr : {0}", ex.Message));
                 throw ex;
             }
         }
 
-        public override void setSkills(Character myCharac)
+        public override void SetSkills(Character myCharac)
         {
             //basic skills value are set in the game's definition
 
             //to do : log "skill set"
             logger.Log("Inside CoCRules.setSkills : nothing to do");
-            return;
+            
+        }
+
+        public override void SetCareerSkills(Character myCharac)
+        {
+            logger.Log("Inside CoCRules.setCareerSkills : nothing to do");
         }
     }
 }

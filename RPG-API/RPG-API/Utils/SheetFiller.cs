@@ -1,19 +1,16 @@
 ﻿using RPG_API.Models;
 using RPG_API.Models.Caracteristic;
 using System;
-using System.Collections.Generic;
 using System.Configuration;
 using System.IO;
-using System.Linq;
-using System.Web;
 using System.Xml;
 
 namespace RPG_API.Utils
 {
     public class SheetFiller
     {
-        XmlDocument myDoc;
-        Logger logger = new Logger();
+        private XmlDocument myDoc;
+        private Logger logger = new Logger();
 
         // Used to save older sheet before changing them, in case there's a trouble
         public void backUpCharacter(Character myCharac, string myPath)
@@ -21,15 +18,15 @@ namespace RPG_API.Utils
             logger.Log("Inside BackUpCharacter");
             myDoc = new XmlDocument();
 
-            if (CheckIfCharacterAlreadyExists(myCharac.characterName.ToLower()))
+            if (CheckIfCharacterAlreadyExists(myCharac.CharacterName.ToLower()))
             {
-                logger.Log(String.Format("Found Character with name {0}", myCharac.characterName));
-                myDoc.Load(myPath + myCharac.characterName.ToLower() + ".xml");
+                logger.Log(String.Format("Found Character with name {0}", myCharac.CharacterName));
+                myDoc.Load(myPath + myCharac.CharacterName.ToLower() + ".xml");
 
                 myPath += "backup\\";
-                myPath += myCharac.characterName.ToLower() + ".xml";
+                myPath += myCharac.CharacterName.ToLower() + ".xml";
 
-                saveFile(myPath);
+                SaveFile(myPath);
                 logger.Log("Exiting backup character");
             }
         }
@@ -37,13 +34,13 @@ namespace RPG_API.Utils
         // Used to find the good sheet
         public XmlDocument FindSheet(Character myCharac, string myPath)
         {
-            logger.Log(String.Format("Inside FindSheet for character {0}", myCharac.characterName));
+            logger.Log(String.Format("Inside FindSheet for character {0}", myCharac.CharacterName));
             myDoc = new XmlDocument();
 
-            if (CheckIfCharacterAlreadyExists(myCharac.characterName.ToLower()))
-                myDoc.Load(myPath + myCharac.characterName.ToLower() + ".xml");
+            if (CheckIfCharacterAlreadyExists(myCharac.CharacterName.ToLower()))
+                myDoc.Load(myPath + myCharac.CharacterName.ToLower() + ".xml");
             else
-                myDoc.Load(myPath + myCharac.game.name.Replace(" ", "_").ToLower() + "_character_sheet.xml");
+                myDoc.Load(myPath + myCharac.GameName.Replace(" ", "_").ToLower() + "_character_sheet.xml");
 
             logger.Log("Exiting findsheet");
             return myDoc;
@@ -72,117 +69,112 @@ namespace RPG_API.Utils
             return false;
         }
 
-        public void fillInfos(Character myCharac, string myPath)
+        public void FillInfos(Character myCharac, string myPath)
         {
-            logger.Log(String.Format("Inside fill Infos withs args : character {0} , path {1}", myCharac, myPath)); 
+            logger.Log(String.Format("Inside fill Infos withs args : character {0} , path {1}", myCharac, myPath));
             XmlDocument myDoc = FindSheet(myCharac, myPath);
 
             // We fill the information section : name, campaign, game etc.
-            logger.Log(String.Format("Name Node : {0}", myCharac.characterName));
+            logger.Log(String.Format("Name Node : {0}", myCharac.CharacterName));
             var nameNode = myDoc.SelectSingleNode("/character_sheet/infos/name");
-            nameNode.InnerText = myCharac.characterName;
+            nameNode.InnerText = myCharac.CharacterName;
 
-            logger.Log(String.Format("Player Name Node : {0}", myCharac.playerName));
+            logger.Log(String.Format("Player Name Node : {0}", myCharac.PlayerName));
             var playerNameNode = myDoc.SelectSingleNode("/character_sheet/infos/player_name");
-            playerNameNode.InnerText = myCharac.playerName;
+            playerNameNode.InnerText = myCharac.PlayerName;
 
-            logger.Log(String.Format("Game Node : {0}", myCharac.game.name));
+            logger.Log(String.Format("Game Node : {0}", myCharac.GameName));
             var gameNode = myDoc.SelectSingleNode("/character_sheet/infos/game");
-            gameNode.InnerText = myCharac.game.name.ToString();
+            gameNode.InnerText = myCharac.GameName.ToString();
 
-            logger.Log(String.Format("Career Node : {0}", myCharac.metier.name));
+            logger.Log(String.Format("Career Node : {0}", myCharac.Metier.name));
             var careerNode = myDoc.SelectSingleNode("/character_sheet/infos/career");
-            //careerNode.InnerText = myCharac.metier.name;
-            careerNode.InnerText = myCharac.metier.name;
+            careerNode.InnerText = myCharac.Metier.name;
 
             // Now we save the file as an xml.
-            string path = myPath + myCharac.characterName.ToLower() + ".xml";
+            string path = myPath + myCharac.CharacterName.ToLower() + ".xml";
             logger.Log("Exiting fill infos");
-            saveFile(path);
+            SaveFile(path);
         }
-     
-        public void fillBaseAttributes(Character myCharac, string myPath)
+
+        public void FillBaseAttributes(Character myCharac, string myPath)
         {
             logger.Log("Inside fill base attr");
             XmlDocument myDoc = FindSheet(myCharac, myPath);
 
-            foreach (ICaracteristic battr in myCharac.baseAttr)
+            foreach (ICaracteristic battr in myCharac.BaseAttr)
             {
-                var currentNode = myDoc.SelectSingleNode("/character_sheet/base_attributes/" + battr.name.Replace(" ", "_").ToLower());
-                currentNode.InnerText = battr.value.ToString();
+                var currentNode = myDoc.SelectSingleNode("/character_sheet/base_attributes/" + battr.Name.Replace(" ", "_").ToLower());
+                currentNode.InnerText = battr.Value.ToString();
             }
-            string path = myPath + myCharac.characterName.ToLower() + ".xml";
+            string path = myPath + myCharac.CharacterName.ToLower() + ".xml";
 
             logger.Log("Exiting fill base attr");
-            saveFile(path);
+            SaveFile(path);
         }
 
-        public void fillStats(Character myCharac, string myPath)
+        public void FillStats(Character myCharac, string myPath)
         {
             logger.Log("Inside Fill Stat");
             XmlDocument myDoc = FindSheet(myCharac, myPath);
 
-            foreach (ICaracteristic stat in myCharac.stats)
+            foreach (ICaracteristic stat in myCharac.Stats)
             {
-                var currentNode = myDoc.SelectSingleNode("/character_sheet/stats/" + stat.name.Replace(" ", "_").ToLower());
-                currentNode.InnerText = stat.value.ToString();
+                var currentNode = myDoc.SelectSingleNode("/character_sheet/stats/" + stat.Name.Replace(" ", "_").ToLower());
+                currentNode.InnerText = stat.Value.ToString();
             }
-            string path = myPath + myCharac.characterName.ToLower() + ".xml";
+            string path = myPath + myCharac.CharacterName.ToLower() + ".xml";
             logger.Log("Exiting fill Stat");
-            saveFile(path);
+            SaveFile(path);
         }
 
-        public void fillSpendablePoints(Character myCharac, string myPath)
+        public void FillSpendablePoints(Character myCharac, string myPath)
         {
             logger.Log("Inside fill Spendable points");
             XmlDocument myDoc = FindSheet(myCharac, myPath);
 
-            foreach (ICaracteristic sPoint in myCharac.spendPoints)
+            foreach (ICaracteristic sPoint in myCharac.SpendPoints)
             {
-                var currentNode = myDoc.SelectSingleNode("/character_sheet/spendable_points/" + sPoint.name.Replace(" ", "_").ToLower());
-                currentNode.InnerText = sPoint.value.ToString();
+                var currentNode = myDoc.SelectSingleNode("/character_sheet/spendable_points/" + sPoint.Name.Replace(" ", "_").ToLower());
+                currentNode.InnerText = sPoint.Value.ToString();
             }
 
-            string path = myPath + myCharac.characterName.ToLower() + ".xml";
+            string path = myPath + myCharac.CharacterName.ToLower() + ".xml";
             logger.Log("Exiting fill spendable points");
-            saveFile(path);
+            SaveFile(path);
         }
 
-        public void fillSkills(Character myCharac, string myPath)
+        public void FillSkills(Character myCharac, string myPath)
         {
             logger.Log("Inside fillSkills");
             XmlDocument myDoc = FindSheet(myCharac, myPath);
 
-            foreach (ICaracteristic skill in myCharac.skills)
+            foreach (ICaracteristic skill in myCharac.Skills)
             {
-                var currentNode = myDoc.SelectSingleNode("/character_sheet/skills/" + skill.name.Replace(" ", "_").ToLower());
-                currentNode.InnerText = skill.value.ToString();
+                var currentNode = myDoc.SelectSingleNode("/character_sheet/skills/" + skill.Name.Replace(" ", "_").ToLower());
+                currentNode.InnerText = skill.Value.ToString();
             }
 
-            string path = myPath + myCharac.characterName.ToLower() + ".xml";
+            string path = myPath + myCharac.CharacterName.ToLower() + ".xml";
             logger.Log("Exiting fillSkills");
-            saveFile(path);
+            SaveFile(path);
         }
 
-
-
-
         // Fill the whole sheet at once.
-        public void fillSheet(Character myCharac, string myPath)
+        public void FillSheet(Character myCharac, string myPath)
         {
             logger.Log("Inside fill Sheet");
             XmlDocument myDoc = FindSheet(myCharac, myPath);
 
-            fillBaseAttributes(myCharac, myPath);
-            fillStats(myCharac, myPath);
-            fillSkills(myCharac, myPath);
-            fillSpendablePoints(myCharac, myPath);
+            FillBaseAttributes(myCharac, myPath);
+            FillStats(myCharac, myPath);
+            FillSkills(myCharac, myPath);
+            FillSpendablePoints(myCharac, myPath);
             logger.Log("Exiting fill Sheet");
         }
 
-
         //SAVE FILE
-        public void saveFile(string myPath)
+        public void SaveFile(string myPath)
         {
             logger.Log("Inside save file");
             myDoc.Save(myPath);

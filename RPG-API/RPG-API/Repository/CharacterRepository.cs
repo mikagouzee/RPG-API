@@ -1,4 +1,5 @@
 ﻿using RPG_API.Models;
+using RPG_API.Models.Careers;
 using RPG_API.Models.DTO.Character_DTO;
 using RPG_API.Models.Games;
 using RPG_API.Utils;
@@ -6,8 +7,6 @@ using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.IO;
-using System.Linq;
-using System.Web;
 
 namespace RPG_API.Repository
 {
@@ -47,7 +46,6 @@ namespace RPG_API.Repository
                 logger.Log(String.Format("Error in Get All method from Character Repo : {0}", ex.Message));
                 throw ex;
             }
-
         }
 
         //GET ONE
@@ -69,14 +67,14 @@ namespace RPG_API.Repository
                     if (file == path + name.ToLower() + ".xml")
                     {
                         searched_character = new Character(file);
-                        logger.Log(String.Format("Character Found! Expected {1}, found {0}. Returning character.", searched_character.characterName, name));
+                        logger.Log(String.Format("Character Found! Expected {1}, found {0}. Returning character.", searched_character.CharacterName, name));
                         return searched_character;
                     }
                 }
                 logger.Log("Nothing found...");
                 return searched_character;
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 logger.Log("CharacterRepository.get : " + ex.Message);
                 throw ex;
@@ -93,27 +91,22 @@ namespace RPG_API.Repository
             string mypath = ConfigurationManager.AppSettings["path"];
             string path = System.Web.HttpContext.Current.Server.MapPath(mypath);
 
-            Game game = monPerso.game;
-            newVersion.game = game;
-            
+            // Save existing version in "backup" sub-folder
+            sFiller.backUpCharacter(monPerso, path);
+
             try
             {
-                // Save existing version in "backup" sub-folder
-                sFiller.backUpCharacter(monPerso, path);
+                UpdateSkills(monPerso, newVersion);
+                UpdateStats(monPerso, newVersion);
+                UpdateBaseAttr(monPerso, newVersion);
+                UpdateSpendPoints(monPerso, newVersion);
 
-                // Record the new values
-                sFiller.fillInfos(newVersion, path);
-                sFiller.fillBaseAttributes(newVersion, path);
-                sFiller.fillStats(newVersion, path);
-                sFiller.fillSpendablePoints(newVersion, path);
-                sFiller.fillSkills(newVersion, path);
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 logger.Log(String.Format("Error in Repo.update character : {0}", ex.Message));
                 throw ex;
             }
-
         }
 
         //UPDATE SKILLS ONLY
@@ -126,45 +119,85 @@ namespace RPG_API.Repository
             string mypath = ConfigurationManager.AppSettings["path"];
             string path = System.Web.HttpContext.Current.Server.MapPath(mypath);
 
-            // Save existing version in "backup" sub-folder
-            sFiller.backUpCharacter(monPerso, path);
+            bool sanCheck = true;
+            
+            foreach (var skill in newVersion.Skills)
+            {
+                sanCheck = skill.Validate();
+            }
+            if (!sanCheck)
+                return;
 
             // Record the new values
-            sFiller.fillSkills(newVersion, path);
-            sFiller.fillSpendablePoints(newVersion, path);
+            sFiller.FillSkills(newVersion, path);
+            sFiller.FillSpendablePoints(newVersion, path);
+            
         }
 
-        //CREATE
-        //TODO : ADD 'MACHINE' RIGHTS ONLY
-        public void Create(string characterName, string playerName)
+        public void UpdateStats(Character monPerso, Character newVersion)
         {
-            logger.Log("Inside character repository.Create.");
+            logger.Log("Inside character repository.UpdateSkills.");
+            SheetFiller sFiller = new SheetFiller();
+
             // This might be reworked
-            //string mypath = ConfigurationManager.AppSettings["path"];
-            //string path = System.Web.HttpContext.Current.Server.MapPath(mypath);
+            string mypath = ConfigurationManager.AppSettings["path"];
+            string path = System.Web.HttpContext.Current.Server.MapPath(mypath);
 
-            // Use a basic constructor.
-            Character myCharacter = new Character(characterName, playerName);
+            bool sanCheck = true;
 
-            SheetMaker sMaker = new SheetMaker();
-            sMaker.makeSheet(myCharacter);
+            foreach (var stat in newVersion.Stats)
+            {
+                sanCheck = stat.Validate();
+            }
+            if (!sanCheck)
+                return;
 
-            #region before test of sheetmaker
-            //// Creates a character_sheet for Cthulhu Game. 
-            //// It's the default for dev purposes.
-            //SheetWriter sWriter = new SheetWriter();
+            // Record the new values
+            sFiller.FillStats(newVersion, path);
+        }
 
-            //// We know the game will be Cthulhu, so we pass a hardcoded path
-            //sWriter.CreateSheet(myCharacter.game, "cthulhu_character_sheet");
+        public void UpdateBaseAttr(Character monPerso, Character newVersion)
+        {
+            logger.Log("Inside character repository.UpdateSkills.");
+            SheetFiller sFiller = new SheetFiller();
 
-            //// Filler will be used to record values of character in sheet.
-            //SheetFiller sFiller = new SheetFiller();
-            //sFiller.fillInfos(myCharacter, path);
-            //sFiller.fillBaseAttributes(myCharacter, path);
-            //sFiller.fillStats(myCharacter, path);
-            //sFiller.fillSpendablePoints(myCharacter, path);
-            //sFiller.fillSkills(myCharacter, path);
-            #endregion
+            // This might be reworked
+            string mypath = ConfigurationManager.AppSettings["path"];
+            string path = System.Web.HttpContext.Current.Server.MapPath(mypath);
+
+            bool sanCheck = true;
+
+            foreach (var battr in newVersion.BaseAttr)
+            {
+                sanCheck = battr.Validate();
+            }
+            if (!sanCheck)
+                return;
+
+            // Record the new values
+            sFiller.FillBaseAttributes(newVersion, path);
+        }
+
+        public void UpdateSpendPoints(Character monPerso, Character newVersion)
+        {
+            logger.Log("Inside character repository.UpdateSkills.");
+            SheetFiller sFiller = new SheetFiller();
+
+            // This might be reworked
+            string mypath = ConfigurationManager.AppSettings["path"];
+            string path = System.Web.HttpContext.Current.Server.MapPath(mypath);
+
+            bool sanCheck = true;
+
+            foreach (var sPoint in newVersion.SpendPoints)
+            {
+                sanCheck = sPoint.Validate();
+            }
+            if (!sanCheck)
+                return;
+
+            // Record the new values
+            sFiller.FillSpendablePoints(newVersion, path);
         }
 
         // This is the "ultimate" creator.
@@ -180,9 +213,9 @@ namespace RPG_API.Repository
 
                 // This will create a generic character sheet using the name of the game and its caracteristic lists.
                 SheetMaker sMaker = new SheetMaker();
-                sMaker.makeSheet(myHero);
+                sMaker.makeSheet(myHero, myGame);
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 logger.Log(String.Format("Error in repo.Create character : {0}", ex.Message));
                 throw ex;
@@ -192,75 +225,47 @@ namespace RPG_API.Repository
         public void CreateWithDTO(Character_DTO myHeroDTO)
         {
             logger.Log("Inside character repository createWithDto");
-            logger.Log(String.Format("Character : {0}", myHeroDTO.characterName));
+            logger.Log(String.Format("Character : {0}", myHeroDTO.CharacterName));
 
             try
             {
-                string game_name = myHeroDTO.gameName.Replace(" ", "");
-                Game my_game = new Game(game_name);
-                logger.Log(String.Format("We will create the character with game {0}", my_game.name));
+                string game_name = myHeroDTO.GameName.Replace(" ", "");
 
+                if (string.IsNullOrEmpty(game_name)) game_name = "Fallout";
 
-                //We create a character based on the game
-                Character myHero = new Character(my_game);
-                logger.Log(String.Format("We will replace some values of the character with those of the DTO : {0}, {1}, {2}", myHeroDTO.characterName, myHeroDTO.playerName, myHeroDTO.metier.name));
-                myHero.characterName = myHeroDTO.characterName;
-                logger.Log(String.Format("New character name: {0}", myHero.characterName));
+                Game my_game = Game.GetaGame(game_name);
+                Character myHero = new Character(my_game, myHeroDTO.CharacterName, myHeroDTO.PlayerName);
 
-                myHero.playerName = myHeroDTO.playerName;
-                logger.Log(String.Format("New player name: {0}", myHero.playerName));
+                myHero.CharacterName = string.IsNullOrEmpty(myHeroDTO.CharacterName) ? "Toby Determined" : myHeroDTO.CharacterName ;
+                myHero.PlayerName = string.IsNullOrEmpty(myHeroDTO.PlayerName) ? "Meujeu" : myHeroDTO.PlayerName;
+                if (!string.IsNullOrEmpty(myHeroDTO.Metier))
+                {
+                    myHero.Metier = (Profession)my_game.professions.Find(p => p.name == myHeroDTO.Metier);
+                }
+                else
+                {
+                    myHero.Metier = (Profession)my_game.professions.Find(p => p.name == "mendiant");
+                }
 
-                myHero.metier = myHeroDTO.metier;
-                logger.Log(String.Format("New metier: {0}", myHero.metier.name));
+                myHero.CareerName = myHero.Metier.name;
 
-                myHero.careerName = myHeroDTO.metier.name;
+                //to do : change to allow creation of a character with chosen base attr
+                myHero.BaseAttr = my_game.BaseAttributes;
 
-                myHero.baseAttr = myHeroDTO.baseAttr;
-
-                myHero.game.rules.setStats(myHero);
-                myHero.game.rules.setSpendablePoints(myHero);
-                myHero.game.rules.setSkills(myHero);
+                my_game.rules.SetStats(myHero);
+                my_game.rules.SetSpendablePoints(myHero);
+                my_game.rules.SetSkills(myHero);
+                my_game.rules.SetCareerSkills(myHero);
 
                 SheetMaker sMaker = new SheetMaker();
-                sMaker.makeSheet(myHero);
-
+                sMaker.makeSheet(myHero, my_game);
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 logger.Log(String.Format("Error in character repository create with DTO : {0}", ex.Message));
-                throw ex;
-            }
-
-        }
-
-        public void Create(Character_DTO hero_DTO)
-        {
-            string game_name = hero_DTO.gameName.Replace(" ", "");
-            Game my_game = new Game(game_name);
-
-            try
-            {
-                Character created_character = new Character(my_game);
-
-                if (hero_DTO.characterName != null)
-                    created_character.characterName = hero_DTO.characterName;
-
-                if (hero_DTO.playerName != null)
-                    created_character.playerName = hero_DTO.playerName;
-
-                if (hero_DTO.baseAttr != null && hero_DTO.baseAttr.Count == created_character.baseAttr.Count)
-                    created_character.baseAttr = hero_DTO.baseAttr;
-
-                SheetMaker sMaker = new SheetMaker();
-                sMaker.makeSheet(created_character);
-            }
-            catch(Exception ex)
-            {
-                logger.Log(String.Format("Error in repo.Create Character with DTO : {0}", ex.Message));
                 throw ex;
             }
         }
 
     }
-
 }

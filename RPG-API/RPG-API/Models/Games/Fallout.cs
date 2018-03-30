@@ -1,29 +1,27 @@
 ﻿using RPG_API.Models.Caracteristic;
 using RPG_API.Models.Careers;
 using RPG_API.Models.GameRules;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 
 namespace RPG_API.Models.Games
 {
     public class Fallout : Game
     {
- 
         public Fallout()
         {
-            this.name = "Fallout";
-            this.BaseAttributes = new List<BaseAttributes>();
-            this.Stats = new List<Stats>();
-            this.Skills = new List<Skills>();
-            this.SpendPoints = new List<spendpoints>();
+            Name = "Fallout";
+            BaseAttributes = new List<BaseAttributes>();
+            Stats = new List<Stats>();
+            Skills = new List<Skills>();
+            SpendPoints = new List<Spendpoints>();
 
-            this.professions = new List<Profession>();
-            this.rules = new FalloutRules();
+            professions = new List<Profession>();
+            rules = new FalloutRules();
 
             //GAME BASE ATTRIBUTES
+
             #region baseAttributes
+
             BaseAttributes strength = new BaseAttributes("strength", 10);
             BaseAttributes perception = new BaseAttributes("perception", 10);
             BaseAttributes endurance = new BaseAttributes("endurance", 10);
@@ -39,10 +37,13 @@ namespace RPG_API.Models.Games
             this.BaseAttributes.Add(intelligence);
             this.BaseAttributes.Add(agility);
             this.BaseAttributes.Add(luck);
-            #endregion
+
+            #endregion baseAttributes
 
             //GAME STATS
+
             #region game stats
+
             Stats actionPoints = new Stats("action points", 100);
             Stats karma = new Stats("karma", 100);
             Stats armorClass = new Stats("armor class", 100);
@@ -58,46 +59,53 @@ namespace RPG_API.Models.Games
             this.Stats.Add(meleeDamage);
             this.Stats.Add(sequence);
             this.Stats.Add(healingRate);
-            #endregion 
+            #endregion game stats
+
+
 
             //Game Spendable points
+
             #region spendable points
-            spendpoints healthPoints = new spendpoints("health points", 100);
-            spendpoints woundLimit = new spendpoints("wound limit", 100);
-            spendpoints skillPoints = new spendpoints("skill points", 100);
-            spendpoints creationPoints = new spendpoints("creation points", 5, 5);
+
+            Spendpoints healthPoints = new Spendpoints("health points", 100);
+            Spendpoints woundLimit = new Spendpoints("wound limit", 100);
+            Spendpoints skillPoints = new Spendpoints("skill points", 100);
+            Spendpoints creationPoints = new Spendpoints("creation points", 5, 35);
 
             this.SpendPoints.Add(healthPoints);
             this.SpendPoints.Add(woundLimit);
             this.SpendPoints.Add(skillPoints);
             this.SpendPoints.Add(creationPoints);
-            #endregion
+
+            #endregion spendable points
 
             //GAME SKILLS
+
             #region game skills
-            Skills smallGuns       = new Skills("small guns", 100, 25);
-            Skills bigGuns         = new Skills("big guns", 100, 10);
-            Skills energyWeapons   = new Skills("energy weapons", 100, 10);
-            Skills unarmed         = new Skills("unarmed", 100, 50);
-            Skills meleeWeapon     = new Skills("melee weapons", 100, 40);
-            Skills throwing        = new Skills("throwing", 100, 20);
-            Skills firstAid        = new Skills("first aid", 100, 20);
-            Skills doctor          = new Skills("doctor", 100, 15);
-            Skills sneak           = new Skills("sneak", 100, 20);
-            Skills lockpick        = new Skills("lockpick", 100, 20);
-            Skills steal           = new Skills("steal", 100, 15);
-            Skills traps           = new Skills("traps", 100, 20);
-            Skills science         = new Skills("science", 100, 20);
-            Skills repair          = new Skills("repair", 100, 15);
-            Skills pilot           = new Skills("pilot", 100, 20);
-            Skills speech          = new Skills("speech", 100, 35);
-            Skills barter          = new Skills("barter", 100, 20);
-            Skills gambling        = new Skills("gambling", 100, 25);
-            Skills outdoorsman     = new Skills("outdoorsman", 100, 20);
+
+            Skills smallGuns = new Skills("small guns", 100, 25);
+            Skills bigGuns = new Skills("big guns", 100, 10);
+            Skills energyWeapons = new Skills("energy weapons", 100, 10);
+            Skills unarmed = new Skills("unarmed", 100, 50);
+            Skills meleeWeapon = new Skills("melee weapons", 100, 40);
+            Skills throwing = new Skills("throwing", 100, 20);
+            Skills firstAid = new Skills("first aid", 100, 20);
+            Skills doctor = new Skills("doctor", 100, 15);
+            Skills sneak = new Skills("sneak", 100, 20);
+            Skills lockpick = new Skills("lockpick", 100, 20);
+            Skills steal = new Skills("steal", 100, 15);
+            Skills traps = new Skills("traps", 100, 20);
+            Skills science = new Skills("science", 100, 20);
+            Skills repair = new Skills("repair", 100, 15);
+            Skills pilot = new Skills("pilot", 100, 20);
+            Skills speech = new Skills("speech", 100, 35);
+            Skills barter = new Skills("barter", 100, 20);
+            Skills gambling = new Skills("gambling", 100, 25);
+            Skills outdoorsman = new Skills("outdoorsman", 100, 20);
             Skills radiationResist = new Skills("radiation resistance", 100, 0);
-            Skills poisonResist    = new Skills("poison resistance", 100, 0);
-            Skills damageResist    = new Skills("damage resistance", 100, 0);
-            Skills electricResist  = new Skills("electric resistance", 100, 0);
+            Skills poisonResist = new Skills("poison resistance", 100, 0);
+            Skills damageResist = new Skills("damage resistance", 100, 0);
+            Skills electricResist = new Skills("electric resistance", 100, 0);
 
             this.Skills.Add(smallGuns);
             this.Skills.Add(bigGuns);
@@ -122,10 +130,13 @@ namespace RPG_API.Models.Games
             this.Skills.Add(poisonResist);
             this.Skills.Add(damageResist);
             this.Skills.Add(electricResist);
-            #endregion
+
+            #endregion game skills
 
             //GAME CAREERS
+
             #region game careers
+
             Profession fighter = new Profession("fighter");
             fighter.jobSkills.Add(smallGuns);
             fighter.jobSkills.Add(bigGuns);
@@ -150,8 +161,8 @@ namespace RPG_API.Models.Games
             mendiant.jobSkills.Add(steal);
             this.professions.Add(mendiant);
 
-
-            #endregion
+            #endregion game careers
         }
+
     }
 }

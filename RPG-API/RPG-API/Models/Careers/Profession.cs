@@ -1,8 +1,5 @@
 ﻿using RPG_API.Models.Caracteristic;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 
 namespace RPG_API.Models.Careers
 {
@@ -14,7 +11,6 @@ namespace RPG_API.Models.Careers
 
         public Profession()
         {
-
         }
 
         public Profession(string name)
